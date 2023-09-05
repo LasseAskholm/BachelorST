@@ -16,6 +16,12 @@ import fire
 import torch
 from datasets import load_dataset
 import pandas as pd
+
+import accelerate
+print("Accel version:")
+print (accelerate.__version__)
+import bitsandbytes
+print(bitsandbytes.__version__)
  
 import matplotlib.pyplot as plt
 import matplotlib as mpl
