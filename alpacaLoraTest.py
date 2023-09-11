@@ -17,12 +17,6 @@ import torch
 from datasets import load_dataset
 import pandas as pd
 
-import accelerate
-print("Accel version:")
-print (accelerate.__version__)
-import bitsandbytes
-print(bitsandbytes.__version__)
- 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
@@ -42,12 +36,13 @@ BASE_MODEL = "decapoda-research/llama-7b-hf"
 
 model = LlamaForCausalLM.from_pretrained(
     BASE_MODEL,
-    load_in_8bit=True,
     torch_dtype=torch.float16,
+    load_in_8bit=True,
     device_map="auto",
+    offload_folder="offload"    
 )
  
-tokenizer = LlamaTokenizer.from_pretrained(BASE_MODEL)
+tokenizer = LlamaTokenizer.from_pretrained(BASE_MODEL,legacy=False)
  
 tokenizer.pad_token_id = (
     0  # unk. we want this to be different from the eos token
