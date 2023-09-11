@@ -14,13 +14,14 @@ from peft import (
 
 import fire
 import torch
-from datasets import load_dataset
+from datasets import load_dataset, Dataset
 import pandas as pd
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
 from pylab import rcParams
+
 
 print (torch.cuda.is_available())
 
@@ -29,8 +30,6 @@ sns.set(rc={'figure.dpi':100})
 sns.set(style='white', palette='muted', font_scale=1.2)
  
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
-
 
 BASE_MODEL = "decapoda-research/llama-7b-hf"
 
@@ -48,3 +47,6 @@ tokenizer.pad_token_id = (
     0  # unk. we want this to be different from the eos token
 )
 tokenizer.padding_side = "left"
+
+
+    
