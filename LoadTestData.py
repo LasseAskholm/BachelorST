@@ -34,20 +34,17 @@ def json_to_ner_dataset(json_data):
 
     return df
 
-# Example usage:
-json_data = [
-    {
-        "_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-0-17-Organisation",
-        "begin": 0,
-        "end": 17,
-        "type": "Organisation",
-        "value": "The United States",
-        "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6",
-        "confidence": 0.98
-    }
-]
-with open ('C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json') as file:
-    json_data=json.load(file)
+def parse_json(path):
+    parsed_json=[]
 
-df = json_to_ner_dataset(json_data)
+    with open (path, 'r') as json_file:
+        for line in json_file:
+            parsed_record = json.loads(line)
+            parsed_json.append(parsed_record)
+    
+    return parsed_json
+
+# Example usage:
+new_data = parse_json('C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json') 
+df = json_to_ner_dataset(new_data)
 print(df)
