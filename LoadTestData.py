@@ -45,5 +45,51 @@ def parse_json(path):
 
 new_data = parse_json('C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json') 
 df = json_to_ner_dataset(new_data)
-print(df)
 
+
+def construct_docMap(path):
+    dict = {}
+    with open (path, 'r') as json_file:
+        for line in json_file:
+            record = json.loads(line)
+            documentid = record['_id'].split('-')[0]
+            if documentid in dict:
+                dict[documentid][record['_id']] = record
+            else:
+                dict[documentid] = {record['_id']: record}
+    return dict
+
+def map_entities(dict,path):
+    tags = []
+    words = []
+    document_ids = []
+    
+    with open (path, 'r') as json_file:
+        for line in json_file:
+            document = json.loads(line)
+            entities = dict[document["_id"]]
+            text = document['text']
+            for k,v in entities.items():
+                entity = text[v["begin"]:v["end"]]
+                for i,word in enumerate (entity.split(" ")):
+                    if(i == 0):
+                        words.append(word)
+                        tags.append(f"B-{v['type']}")
+                    else:
+                        words.append(word)
+                        tags.append(f"I-{v['type']}")
+
+            
+    df = pd.DataFrame({"Words": words, "Label": tags})
+    return df   
+
+            
+if __name__ == '__main__':            
+    dict = construct_docMap("C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json")
+    df = map_entities(dict, "C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/documents.json")
+    print(df.to_string())
+    
+    
+
+    
+   
