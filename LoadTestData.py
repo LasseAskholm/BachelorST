@@ -43,10 +43,6 @@ def parse_json(path):
     
     return parsed_json
 
-new_data = parse_json('C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json') 
-df = json_to_ner_dataset(new_data)
-
-
 def construct_docMap(path):
     dict = {}
     with open (path, 'r') as json_file:
@@ -85,8 +81,8 @@ def map_entities(dict,path):
 
             
 if __name__ == '__main__':            
-    dict = construct_docMap("C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/entities.json")
-    df = map_entities(dict, "C:/Git/Bachelores/BachelorST/data/re3d-master/US State Department/documents.json")
+    dict = construct_docMap("data/re3d-master/US State Department/entities.json")
+    df = map_entities(dict, "data/re3d-master/US State Department/documents.json")
     print(df.to_string())
     
     
