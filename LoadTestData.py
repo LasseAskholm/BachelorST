@@ -60,7 +60,7 @@ def map_entities(dict,path):
     words = []
     document_ids = []
     o_tags_idx = []
-    
+
     with open (path, 'r', encoding = "utf-8") as json_file:
         for line in json_file:
             document = json.loads(line)
@@ -86,22 +86,37 @@ def map_entities(dict,path):
                         break
                 if use_word:
                     o_tags_idx.append((begin_idx,begin_idx+len(word)+1))
-                begin_idx += len(word)+1 
-            print(o_tags_idx)  
-                
-                
+                begin_idx += len(word)+1
+            print(o_tags_idx)
 
-            
+            current_idx_in_text = 0
+            current_o_tags_idx = 0
+            for word in text.split(" "):
+                for k,v in entities.items():
+                    if current_idx_in_text == v["begin"]:
+                        entity = text[v["begin"]:v["end"]]
+                        for i, secquence in enumerate(entity.split (" ")):
+                            if (i == 0):
+                                words.append(secquence)
+                                tags.append(f"B-{v['type']}")
+                            else:
+                                words.append(secquence)
+                                tags.append(f"I-{v['type']}")
+                        current_idx_in_text+=v["begin"]+1
+                words.append(word)
+                tags.append("O")
+                current_idx_in_text = o_tags_idx[current_o_tags_idx][1]+1
+                current_o_tags_idx+=1
+
+
     df = pd.DataFrame({"Words": words, "Label": tags})
-    return df   
+    return df
 
-            
-if __name__ == '__main__':            
+
+if __name__ == '__main__':
     dict = construct_docMap("data/re3d-master/US State Department/entities.json")
     df = map_entities(dict, "data/re3d-master/US State Department/documents.json")
     #print(df.to_string())
-    
-    
 
-    
-   
+
+
