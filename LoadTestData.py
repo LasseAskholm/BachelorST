@@ -69,13 +69,6 @@ def map_entities(dict,path):
             masked_text= document['text']
             for k,v in entities.items():
                 entity = text[v["begin"]:v["end"]]
-                for i,word in enumerate (entity.split(" ")):
-                    if(i == 0):
-                        words.append(word)
-                        tags.append(f"B-{v['type']}")
-                    else:
-                        words.append(word)
-                        tags.append(f"I-{v['type']}")
                 masked_text = masked_text[:v["begin"]] + "".join(["*" for _ in range(len(entity))]) + masked_text[v["end"]:]
             begin_idx = 0
             for word in masked_text.split(" "):
@@ -87,13 +80,14 @@ def map_entities(dict,path):
                 if use_word:
                     o_tags_idx.append((begin_idx,begin_idx+len(word)+1))
                 begin_idx += len(word)+1
-            print(o_tags_idx)
 
             current_idx_in_text = 0
             current_o_tags_idx = 0
-            for word in text.split(" "):
+            for char in text:
+                entity_found = False
                 for k,v in entities.items():
                     if current_idx_in_text == v["begin"]:
+                        entity_found = True
                         entity = text[v["begin"]:v["end"]]
                         for i, secquence in enumerate(entity.split (" ")):
                             if (i == 0):
@@ -102,11 +96,17 @@ def map_entities(dict,path):
                             else:
                                 words.append(secquence)
                                 tags.append(f"I-{v['type']}")
-                        current_idx_in_text+=v["begin"]+1
-                words.append(word)
-                tags.append("O")
-                current_idx_in_text = o_tags_idx[current_o_tags_idx][1]+1
-                current_o_tags_idx+=1
+                        current_idx_in_text+=v["end"]+1  
+                if not entity_found:
+                    word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
+                    words.append(word)
+                    tags.append("O")
+                    char =text[current_idx_in_text]
+                    if current_o_tags_idx == len(o_tags_idx)-1:
+                        break
+                    else:
+                        current_idx_in_text = o_tags_idx[current_o_tags_idx][1]+1
+                        current_o_tags_idx+=1
 
 
     df = pd.DataFrame({"Words": words, "Label": tags})
@@ -116,7 +116,7 @@ def map_entities(dict,path):
 if __name__ == '__main__':
     dict = construct_docMap("data/re3d-master/US State Department/entities.json")
     df = map_entities(dict, "data/re3d-master/US State Department/documents.json")
-    #print(df.to_string())
+    print(df.to_string())
 
 
 
