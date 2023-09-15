@@ -66,7 +66,7 @@ def map_entities(dict,path):
             document = json.loads(line)
             entities = dict[document["_id"]]
             text = document['text']
-            masked_text= document['text']
+            masked_text = document['text']
             for k,v in entities.items():
                 entity = text[v["begin"]:v["end"]]
                 masked_text = masked_text[:v["begin"]] + "".join(["*" for _ in range(len(entity))]) + masked_text[v["end"]:]
@@ -81,32 +81,79 @@ def map_entities(dict,path):
                     o_tags_idx.append((begin_idx,begin_idx+len(word)+1))
                 begin_idx += len(word)+1
 
+            '''
+            loop text
+            if entity -> tag
+
+            else o-tag            
+            '''
+
+            # print(masked_text)
+
             current_idx_in_text = 0
-            current_o_tags_idx = 0
-            for char in text:
-                entity_found = False
-                for k,v in entities.items():
-                    if current_idx_in_text == v["begin"]:
-                        entity_found = True
-                        entity = text[v["begin"]:v["end"]]
-                        for i, secquence in enumerate(entity.split (" ")):
-                            if (i == 0):
-                                words.append(secquence)
-                                tags.append(f"B-{v['type']}")
-                            else:
-                                words.append(secquence)
-                                tags.append(f"I-{v['type']}")
-                        current_idx_in_text+=v["end"]+1  
-                if not entity_found:
-                    word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
-                    words.append(word)
+            i = 0
+            while i < len(text):
+                print(i)
+                next_space = 0
+                if(masked_text[i] == '*'):
+                    ## entity
+                    for k, v in entities.items():
+                        if i == v["begin"]:
+                            entity = text[v["begin"]:v["end"]]
+                            for j, secquence in enumerate(entity.split (" ")):
+                                if (j == 0):
+                                    words.append(secquence)
+                                    tags.append(f"B-{v['type']}")
+                                else:
+                                    words.append(secquence)
+                                    tags.append(f"I-{v['type']}")
+                            i = v["end"]+1 
+
+                        else:
+                            i += 1
+                
+                else:
+                    ## o tag
+                    
+                    next_space = text.find(' ', i)
+
+                    # i -> next_space
+                    words.append(text[i:next_space])
                     tags.append("O")
-                    char =text[current_idx_in_text]
-                    if current_o_tags_idx == len(o_tags_idx)-1:
-                        break
-                    else:
-                        current_idx_in_text = o_tags_idx[current_o_tags_idx][1]+1
-                        current_o_tags_idx+=1
+
+                    i = next_space + 1
+
+                if(next_space == 0 or i == len(text)): break
+
+        
+
+
+            # current_idx_in_text = 0
+            # current_o_tags_idx = 0
+            # for char in text.split(' '):
+            #     entity_found = False
+            #     for k,v in entities.items():
+            #         if current_idx_in_text == v["begin"]:
+            #             entity_found = True
+            #             entity = text[v["begin"]:v["end"]]
+            #             for i, secquence in enumerate(entity.split (" ")):
+            #                 if (i == 0):
+            #                     words.append(secquence)
+            #                     tags.append(f"B-{v['type']}")
+            #                 else:
+            #                     words.append(secquence)
+            #                     tags.append(f"I-{v['type']}")
+            #             current_idx_in_text+=v["end"]+1  
+            #     if not entity_found:
+            #         word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
+            #         words.append(word)
+            #         tags.append("O")
+            #         #char =text[current_idx_in_text]
+            #         if current_o_tags_idx == len(o_tags_idx)-1:
+            #             break
+            #         else:
+            #             current_idx_in_text = o_tags_idx[current_o_tags_idx][1]+1
+            #             current_o_tags_idx+=1
 
 
     df = pd.DataFrame({"Words": words, "Label": tags})
