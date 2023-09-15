@@ -88,6 +88,7 @@ def map_entities(dict,path):
            # exit()
             current_o_tags_idx = 0
             i = 0
+            print(text)
             while (i< len(text)):
                 entity_found = False
                 for k,v in entities.items():
@@ -101,7 +102,7 @@ def map_entities(dict,path):
                             else:
                                 words.append(secquence)
                                 tags.append(f"I-{v['type']}")
-                        i+=v["end"]+1  
+                        i += 1
                 if not entity_found:
                     word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
                     #print ('word' , word)
@@ -110,7 +111,7 @@ def map_entities(dict,path):
                     if current_o_tags_idx == len(o_tags_idx)-1:
                         break
                     else:
-                        i = o_tags_idx[current_o_tags_idx][1]+1
+                        i += 1
                         current_o_tags_idx+=1
             break
 
