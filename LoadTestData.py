@@ -1,48 +1,6 @@
 import pandas as pd
 import json 
 
-def json_to_ner_dataset(json_data):
-    # Initialize empty lists to store tokens and labels
-    tokens = []
-    labels = []
-    document_ids = []
-    
-    for record in json_data:
-        # Extract relevant fields from the JSON record
-        begin = record["begin"]
-        end = record["end"]
-        entity_type = record["type"]
-        value = record["value"]
-        document_id = record['documentId']
-
-        value_tokens = value.split()
-        
-        token_position = 0
-
-        for token in value_tokens:
-            if token_position == 0:
-                labels.append(f"B-{entity_type}")
-            else:
-                labels.append(f"I-{entity_type}")
-
-            tokens.append(token)
-            document_ids.append(document_id)
-            token_position += 1
-
-    df = pd.DataFrame({"DocumentID":document_ids,"Token": tokens, "Label": labels})
-
-    return df
-
-def parse_json(path):
-    parsed_json=[]
-
-    with open (path, 'r') as json_file:
-        for line in json_file:
-            parsed_record = json.loads(line)
-            parsed_json.append(parsed_record)
-    
-    return parsed_json
-
 def construct_docMap(path):
     dict = {}
     with open (path, 'r', encoding = "utf-8") as json_file:
@@ -78,17 +36,11 @@ def map_entities(dict,path):
                         use_word = False
                         break
                 if use_word:
-                    print ("O - Tag Word=", word)
                     o_tags_idx.append((begin_idx,begin_idx+len(word)+1))    
                 begin_idx += len(word)+1
 
-            current_idx_in_text = 0
-           # print(o_tags_idx)
-           # print("Word!:", text[o_tags_idx[0][0]:o_tags_idx[0][1]])
-           # exit()
             current_o_tags_idx = 0
             i = 0
-            print(text)
             while (i< len(text)):
                 entity_found = False
                 for k,v in entities.items():
@@ -102,10 +54,14 @@ def map_entities(dict,path):
                             else:
                                 words.append(secquence)
                                 tags.append(f"I-{v['type']}")
+                    
                         i += 1
                 if not entity_found:
+                    if (i < o_tags_idx[current_o_tags_idx][0]):
+                        i += 1
+                        continue
                     word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
-                    #print ('word' , word)
+
                     words.append(word)
                     tags.append("O")
                     if current_o_tags_idx == len(o_tags_idx)-1:
