@@ -16,6 +16,7 @@ def construct_docMap(path):
     return dict
 
 def map_entities(dict,path):
+    print ("mapping entities in:" , path)
     tags = []
     words = []
     document_ids = []
@@ -71,7 +72,6 @@ def map_entities(dict,path):
                     else:
                         i += 1
                         current_o_tags_idx+=1
-            break
 
 
     df = pd.DataFrame({"Words": words, "Label": tags})
@@ -80,9 +80,28 @@ def map_entities(dict,path):
 def find_all_entities_files(dirPath):
     for path in glob.glob(dirPath):
         DuplicateCheck.check_for_duplicates(path)
+        
+        
+def construct_global_docMap(dirPath):
+    dict = {}
+    for path in glob.glob(dirPath):
+        temp = construct_docMap(path)
+        dict.update(temp)
+    return dict
+
+def map_all_entities(dict,dirPath):
+    df = pd.DataFrame()
+    frames  = []
+    for path in glob.glob(dirPath):
+        df2 = map_entities(dict,path)
+        frames.append(df2)
+    df = pd.concat (frames)
+    return df
+   
+    
 
 if __name__ == '__main__':
-    #dict = construct_docMap("data/re3d-master/US State Department/entities.json")
-    #df = map_entities(dict, "data/re3d-master/US State Department/documents.json")
+    dict = construct_global_docMap("data/re3d-master/*/entities.json")
+    df = map_all_entities(dict, "data/re3d-master/*/documents.json")
     #print(df.to_string())
-    find_all_entities_files("data/re3d-master/*/entities.json")
+    #find_all_entities_files("data/re3d-master/*/entities.json")
