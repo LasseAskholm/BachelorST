@@ -77,12 +77,13 @@ def map_entities(dict,path):
     df = pd.DataFrame({"Words": words, "Label": tags})
     return df
 
-def find_all_entities_files(dirPath):
-    for path in glob.glob(dirPath):
-        DuplicateCheck.check_for_duplicates(path)
+#def find_all_entities_files(dirPath):
+    #for path in glob.glob(dirPath):
+        #DuplicateCheck.clean_entities(path)
+        #print(len(DuplicateCheck.check_for_duplicates(path)))
 
 if __name__ == '__main__':
-    #dict = construct_docMap("data/re3d-master/US State Department/entities.json")
+    dict = construct_docMap("data/re3d-master/US State Department/entities.json")
     #df = map_entities(dict, "data/re3d-master/US State Department/documents.json")
     #print(df.to_string())
-    find_all_entities_files("data/re3d-master/*/entities.json")
+
