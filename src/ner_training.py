@@ -102,6 +102,8 @@ def main ():
         weight_decay=1e-5,
     )
     
+    ### define trainer here
+    
     trainer = Trainer (
         model,
         training_args,
@@ -113,13 +115,13 @@ def main ():
         
     )
     
-    ### define trainer here
-    
+
+    #start training model
     
     #trainer.train()
     
 
 if __name__ == '__main__':
-    train_data, test_data = load_data_sets()
+    main()
     
 
