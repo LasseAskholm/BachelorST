@@ -91,6 +91,7 @@ def main ():
     test_tokenized_dataset = test_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "label_encoding_dict": mapped_labels})
     
     ### define training args here
+    ### we should experiment with these hyperparameters.
     training_args = TrainingArguments(
         os.path.join(get_root_path(), 'models',"/outputDir"),
         evaluation_strategy = "epoch",
