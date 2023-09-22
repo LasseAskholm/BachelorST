@@ -1,9 +1,6 @@
 import os
-import itertools
 import pandas as pd
 import numpy as np
-import argparse
-import torch
 from datasets import Dataset
 from datasets import load_metric
 from transformers import AutoTokenizer
@@ -76,7 +73,7 @@ def compute_metrics(p):
     
 def main ():
     labels, mapped_labels = load_labels("../resources/labels.txt")
-    
+    #TODO: Verificer størelse på modellen med henrik eller noget
     #model
     model = AutoModelForTokenClassification.from_pretrained("meta-llama/Llama-2-70b-hf",num_labels = len(labels))
     #tokenizer
