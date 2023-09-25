@@ -2,6 +2,7 @@ import pandas as pd
 import json 
 import DuplicateCheck
 import glob
+from datasets import Dataset
 
 def construct_docMap(path):
     dict = {}
@@ -72,7 +73,7 @@ def map_entities(dict,path):
                     else:
                         i += 1
                         current_o_tags_idx+=1
-
+            break
 
     df = pd.DataFrame({"Words": words, "Label": tags})
     return df
@@ -97,12 +98,21 @@ def map_all_entities(dict,dirPath):
         df2 = map_entities(dict,path)
         frames.append(df2)
     df = pd.concat (frames)
-    return df
-   
+    dataset = Dataset.from_pandas(df)
+    dataset = dataset.train_test_split(test_size=0.2)
+    train_dataset = dataset['train']
+    test_dataset = dataset['test']
     
+    return (train_dataset,test_dataset)
+
+
 
 if __name__ == '__main__':
-    dict = construct_global_docMap("data/re3d-master/*/entities.json")
-    df = map_all_entities(dict, "data/re3d-master/*/documents.json")
+    dict = construct_global_docMap("../data/re3d-master/*/entities.json")
+    train,test = map_all_entities(dict, "../data/re3d-master/*/documents.json")
+    load_labels("../resources/labels.txt")
+   
+
     #print(df.to_string())
+    
     #find_all_entities_files("data/re3d-master/*/entities.json")
