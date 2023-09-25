@@ -12,7 +12,6 @@ from transformers import DataCollatorForTokenClassification
 from LoadTestData import construct_global_docMap, map_all_entities
 
 def load_labels(labels_path):
-    
     with open(labels_path, encoding='utf-8') as file:
         labels = file.readlines()
         
