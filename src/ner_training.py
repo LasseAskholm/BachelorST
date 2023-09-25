@@ -4,7 +4,7 @@ import numpy as np
 from datasets import Dataset
 from datasets import load_metric
 from transformers import AutoTokenizer
-from transformers import AutoModelForTokenClassification, TrainingArguments, Trainer
+from transformers import AutoModelForTokenClassification, TrainingArguments, Trainer, AutoModelForCausalLM
 from transformers import DataCollatorForTokenClassification
 from LoadTestData import construct_global_docMap, map_all_entities
 
@@ -71,22 +71,31 @@ def compute_metrics(p):
 
     
 def main ():
-    labels, mapped_labels = load_labels("../resources/labels.txt")
-    #model
-    model = AutoModelForTokenClassification.from_pretrained("meta-llama/Llama-2-7b-hf",num_labels = len(labels))
-    #tokenizer
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
-    #data collator
-    data_collator = DataCollatorForTokenClassification(tokenizer)
     
+    #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
+    labels, mapped_labels = load_labels("../resources/labels.txt")
     
     train_tokenized_dataset = train_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "label_encoding_dict": mapped_labels})
     
     test_tokenized_dataset = test_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "label_encoding_dict": mapped_labels})
+  
+    
+    #tokenizer
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
+    
+    #data collator
+    data_collator = DataCollatorForTokenClassification(tokenizer)
+    
+    #Configure quantization
+    gptq_config = GPTQConfif(bits = 4 , dataset = train_tokenized_dataset, tokenizer = tokenizer)
+    
+    #model
+    model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf",num_labels = len(labels), quantization = gptq_config)
     
     ### define training args here
     ### we should experiment with these hyperparameters.
+    ### Leaning rates from bert documentation = (among 5e-5, 4e-5, 3e-5, and 2e-5)
     training_args = TrainingArguments(
         os.path.join(get_root_path(), 'models',"/outputDir"),
         evaluation_strategy = "epoch",
