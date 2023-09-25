@@ -23,9 +23,9 @@ def load_labels(labels_path):
 
 def load_data_sets():
     
-    entities = construct_global_docMap("../data/re3d-master/*/entities.json")
+    entities = construct_global_docMap("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned.json")
     
-    train_data, test_data = map_all_entities(entities,"../data/re3d-master/*/documents.json")
+    train_data, test_data = map_all_entities(entities,"../data/re3d-master/Australian Department of Foreign Affairs/documents.json")
     
     return (train_data, test_data)
     
@@ -72,11 +72,10 @@ def compute_metrics(p):
     
 def main ():
     labels, mapped_labels = load_labels("../resources/labels.txt")
-    #TODO: Verificer størelse på modellen med henrik eller noget
     #model
-    model = AutoModelForTokenClassification.from_pretrained("meta-llama/Llama-2-70b-hf",num_labels = len(labels))
+    model = AutoModelForTokenClassification.from_pretrained("meta-llama/Llama-2-7b-hf",num_labels = len(labels))
     #tokenizer
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-70b-hf")
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
     #data collator
     data_collator = DataCollatorForTokenClassification(tokenizer)
     
