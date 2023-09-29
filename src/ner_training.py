@@ -8,12 +8,8 @@ from transformers import AutoModelForTokenClassification, TrainingArguments, Tra
 from transformers import DataCollatorForTokenClassification
 from transformers import BitsAndBytesConfig
 from LoadTestData import construct_global_docMap, map_all_entities
-import os
 import torch
 from huggingface_hub import login
-
-
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:516"
 
 access_token = "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"
 write_token = "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"
@@ -23,7 +19,7 @@ def load_labels(labels_path):
         labels = file.readlines()
         
     labels = [label if label[-1:] != '\n' else label[:-1] for label in labels]
-    
+
     mapped_labels = {}
     
     for i, label in enumerate(labels):
@@ -36,13 +32,17 @@ def load_data_sets():
     entities = construct_global_docMap("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned.json")
     
     train_data, test_data = map_all_entities(entities,"../data/re3d-master/Australian Department of Foreign Affairs/documents.json")
-    
+
+    #print(entities)
+    #print(train_data['Words'])
+    #print(test_data['Words'])
+    #print (train_data['Label'])
+
     return (train_data, test_data)
     
 def tokenize_labels(examples, tokenizer, mapped_labels):
     tokenized_inputs = tokenizer(list(examples["Words"]), truncation = True)
     labels = []
-
     for i, label in enumerate (examples["Label"]):
         word_ids = tokenized_inputs.word_ids(batch_index = i)
         previous_word_idx = None
@@ -56,8 +56,7 @@ def tokenize_labels(examples, tokenizer, mapped_labels):
                 label_ids.append(-100)
             previous_word_idx = word_idx
         labels.append(label_ids)
-
-    print(labels)
+    
     tokenized_inputs["labels"] = labels
     return tokenized_inputs 
 
@@ -67,18 +66,23 @@ def compute_metrics(p):
     '''
     predictions, labels = p
     print("METRICS!!")
-    print(p)
+    
     predictions = np.argmax(predictions, axis=2)
+    print(predictions)
+    
+    _, label_list = load_labels('../resources/labels.txt')
 
-    label_list, _ = load_labels('../resources/labels.txt')
     true_predictions = [[label_list[p] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
     true_labels = [[label_list[l] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
+    print("True labels")
+    print(true_labels)
 
+    print("PREDICTIONS!")
+    print(true_predictions)
     metric = load_metric("seqeval")
     results = metric.compute(predictions=true_predictions, references=true_labels)
     return {"precision": results["overall_precision"], "recall": results["overall_recall"], "f1": results["overall_f1"], "accuracy": results["overall_accuracy"]}
 
-    
 def main ():
     login(token = write_token)
     print("Prepping Data....")
@@ -91,6 +95,9 @@ def main ():
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token=access_token)
 
     train_tokenized_dataset = train_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
+   # print(train_tokenized_dataset['Words'])
+    #print("LABELS:")
+    #print(train_tokenized_dataset['labels'])
     
     test_tokenized_dataset = test_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
     
@@ -118,14 +125,12 @@ def main ():
     training_args = TrainingArguments(
         output_dir="../models",
         evaluation_strategy = "epoch",
-        save_strategy='epoch',
-        learning_rate=2e-5,
+        learning_rate=1e-5,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=16,
         num_train_epochs=30,
-        weight_decay=1e-5,
-        load_best_model_at_end=True,
-        push_to_hub=True
+        weight_decay=1e-5
+
     )
     
     ### define trainer here
@@ -141,14 +146,12 @@ def main ():
         
     )
     
-
     #start training model
     print ("STARTING TRAINING OF NER_MODEL")
     trainer.train()
     
 
 if __name__ == '__main__':
-
     main()
     
 
