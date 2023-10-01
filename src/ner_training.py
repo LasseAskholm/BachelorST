@@ -8,6 +8,7 @@ from transformers import AutoModelForTokenClassification, TrainingArguments, Tra
 from transformers import DataCollatorForTokenClassification
 from transformers import BitsAndBytesConfig
 from LoadTestData import construct_global_docMap, map_all_entities
+from SortEntities import sort_entities_assending
 import torch
 from huggingface_hub import login
 
@@ -19,7 +20,7 @@ def load_labels(labels_path):
         labels = file.readlines()
         
     labels = [label if label[-1:] != '\n' else label[:-1] for label in labels]
-
+    
     mapped_labels = {}
     
     for i, label in enumerate(labels):
@@ -29,36 +30,59 @@ def load_labels(labels_path):
 
 def load_data_sets():
     
-    entities = construct_global_docMap("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned.json")
+    entities = construct_global_docMap("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned_sorted.json")
     
     train_data, test_data = map_all_entities(entities,"../data/re3d-master/Australian Department of Foreign Affairs/documents.json")
-
-    #print(entities)
-    #print(train_data['Words'])
-    #print(test_data['Words'])
-    #print (train_data['Label'])
 
     return (train_data, test_data)
     
 def tokenize_labels(examples, tokenizer, mapped_labels):
-    tokenized_inputs = tokenizer(list(examples["Words"]), truncation = True)
+    tokenized_inputs = tokenizer(list(examples["text"]), truncation = True, is_split_into_words = True, max_length = 512)
+    
+    label_all_tokens = False
     labels = []
-    for i, label in enumerate (examples["Label"]):
-        word_ids = tokenized_inputs.word_ids(batch_index = i)
+    for i, label in enumerate(examples["ner-tags"]):
+        
+        word_ids = tokenized_inputs.word_ids(batch_index=i)
         previous_word_idx = None
         label_ids = []
         for word_idx in word_ids:
             if word_idx is None:
                 label_ids.append(-100)
+            elif label[word_idx] == '0':
+                label_ids.append(0)
             elif word_idx != previous_word_idx:
-                label_ids.append(mapped_labels[label])
+                label_ids.append(mapped_labels[label[word_idx]])
             else:
-                label_ids.append(-100)
+                label_ids.append(mapped_labels[label[word_idx]] if label_all_tokens else -100)
             previous_word_idx = word_idx
         labels.append(label_ids)
-    
+        
     tokenized_inputs["labels"] = labels
-    return tokenized_inputs 
+    return tokenized_inputs
+
+    #labels = []
+    #for i, label in enumerate (examples["labels"]):
+        
+    #    word_ids = tokenized_inputs.word_ids(batch_index = i)
+    #    previous_word_idx = None
+    #    label_ids = []
+    #    for word_idx in word_ids:
+    #        if word_idx is None:
+    #             label_ids.append(-100)
+    #        elif word_idx != previous_word_idx:
+    #            label_ids.append(mapped_labels[label])
+    #        else:
+    #            label_ids.append(-100)
+    #            # label_ids.append(-101)
+    #        previous_word_idx = word_idx
+    #    labels.append(label_ids)
+    #tokenized_inputs["labels"] = labels
+
+# {'text': 'The', 'labels': [-100, 1], 'input_ids': [1, 450], 'attention_mask': [1, 1]}
+# {'text': 'Members', 'labels': [-100, 2, -101], 'input_ids': [1, 341, 13415], 'attention_mask': [1, 1, 1]}
+
+    #return tokenized_inputs 
 
 def compute_metrics(p):
     '''
@@ -68,13 +92,13 @@ def compute_metrics(p):
     print("METRICS!!")
     
     predictions = np.argmax(predictions, axis=2)
-    print(predictions)
+    #print(predictions)
     
-    _, label_list = load_labels('../resources/labels.txt')
+    _ , label_list = load_labels('../resources/labels.txt')
 
     true_predictions = [[label_list[p] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
     true_labels = [[label_list[l] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
-    print("True labels")
+    print("LABELS;")
     print(true_labels)
 
     print("PREDICTIONS!")
@@ -84,10 +108,13 @@ def compute_metrics(p):
     return {"precision": results["overall_precision"], "recall": results["overall_recall"], "f1": results["overall_f1"], "accuracy": results["overall_accuracy"]}
 
 def main ():
+    #sort_entities_assending("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned.json")
+    #exit()
     login(token = write_token)
     print("Prepping Data....")
     #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
+    print(train_data["text"])
     mapped_labels, labels = load_labels("../resources/labels.txt")
     
     #tokenizer
@@ -97,18 +124,33 @@ def main ():
     train_tokenized_dataset = train_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
    # print(train_tokenized_dataset['Words'])
     #print("LABELS:")
-    #print(train_tokenized_dataset['labels'])
-    
+    #print(train_tokenized_dataset[0])
+    #exit()
+
     test_tokenized_dataset = test_data.map(tokenize_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
     
     #data collator
     data_collator = DataCollatorForTokenClassification(tokenizer)
     
-    
     quantization_config  = BitsAndBytesConfig (
         load_in_4bit = True,
         bnb_4bit_compute_dtype = torch.bfloat16
     )
+
+    # sentence = "The Members of the Security Council are "
+    # text_seq = tokenizer.tokenize(sentence)
+    # print(text_seq)
+    # sq = tokenizer(sentence)
+    # print(sq)
+    # encoded = sq['input_ids']
+    # print(encoded)
+    # exit()
+
+    #for i in range(20):
+    #    print(train_tokenized_dataset[i])
+
+    #exit()
+
 
     #model
     print("Loading model....")
@@ -126,8 +168,8 @@ def main ():
         output_dir="../models",
         evaluation_strategy = "epoch",
         learning_rate=1e-5,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
+        per_device_train_batch_size=2,
+        per_device_eval_batch_size=2,
         num_train_epochs=30,
         weight_decay=1e-5
 

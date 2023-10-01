@@ -16,7 +16,7 @@ def construct_docMap(path):
                 dict[documentid] = {record['_id']: record}
     return dict
 
-def map_entities(dict,path):
+def map_entities_old(dict,path):
     print ("mapping entities in:" , path)
     tags = []
     words = []
@@ -75,14 +75,84 @@ def map_entities(dict,path):
                             i += 1
                             current_o_tags_idx+=1
 
-    df = pd.DataFrame({"Words": words, "Label": tags})
+    df = pd.DataFrame({"text": words, "labels": tags})
     return df
 
-#def find_all_entities_files(dirPath):
-    #for path in glob.glob(dirPath):
-        #DuplicateCheck.clean_entities(path)
-        #print(len(DuplicateCheck.check_for_duplicates(path)))
-        
+def map_entities(entities_dict, document_path):
+    # Read the document JSON
+    with open(document_path, 'r') as doc_file:
+        document_data = [json.loads(line) for line in doc_file]
+
+    # Initialize lists to store words and labels
+    words = []
+    labels = []
+
+    # Initialize list to store words and labels in sentences
+    words_in_sentence = []
+    labels_in_sentence = []
+
+    # Iterate through the document data
+    for doc_entry in document_data:
+        text = doc_entry['text']  # Get the full text
+    
+        # Get the entities for this document entry from the provided dictionary
+        if doc_entry['_id'] in entities_dict:
+            entities_data = entities_dict[doc_entry['_id']]
+        else:
+            continue
+
+        current_char_index = 0  # Track the current character index
+        for entity_id, entity_info in entities_data.items():
+            begin = entity_info['begin']
+            end = entity_info['end']
+            entity_type = entity_info['type']
+
+            # Append words before the entity
+            while current_char_index < begin:
+                entity_text = text[current_char_index:begin]
+                entity_words = entity_text.split()
+                for i, word in enumerate(entity_words):
+                    words.append(word)
+                    labels.append('O')  # Outside an entity
+                current_char_index = begin
+
+            # Append the entity
+            entity_text = text[begin:end]
+            entity_words = entity_text.split()
+            for i, word in enumerate(entity_words):
+                if i == 0:
+                    words.append(word)
+                    labels.append(f'B-{entity_type}')  # Beginning of an entity
+                else:
+                    words.append(word)
+                    labels.append(f'I-{entity_type}')  # Inside an entity
+            current_char_index = end
+
+        # Append words after the last entity
+        while current_char_index < len(text):
+            entity_text = text[current_char_index:len(text)]
+            entity_words = entity_text.split()
+            for i, word in enumerate(entity_words):
+                words.append(word)
+                labels.append('O')  # Outside an entity
+            current_char_index = len(text)
+   
+    #Format the list to be per sentence. 
+    word_sentence_index = []
+    word_index_counter = 0
+    for word in words:
+        if word[-1] == '.':
+            word_sentence_index.append(word_index_counter)
+        word_index_counter += 1
+    
+    for x in range (len(word_sentence_index)):
+        if x == 0:
+            words_in_sentence.append(words[:word_sentence_index[x] + 1])
+            labels_in_sentence.append(labels[:word_sentence_index[x] + 1])
+        else:
+            words_in_sentence.append(words[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
+            labels_in_sentence.append(labels[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
+    return pd.DataFrame({"text": words_in_sentence, "ner-tags": labels_in_sentence})
         
 def construct_global_docMap(dirPath):
     dict = {}
