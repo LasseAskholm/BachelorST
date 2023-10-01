@@ -152,7 +152,7 @@ def map_entities(entities_dict, document_path):
         else:
             words_in_sentence.append(words[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
             labels_in_sentence.append(labels[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
-    return pd.DataFrame({"text": words_in_sentence, "ner-tags": labels_in_sentence})
+    return pd.DataFrame({"tokens": words_in_sentence, "ner_tags": labels_in_sentence})
         
 def construct_global_docMap(dirPath):
     dict = {}
@@ -178,7 +178,7 @@ def map_all_entities(dict,dirPath):
     for path in glob.glob(dirPath):
         df2_test = map_entities(dict_test,path)
         frames_test.append(df2_test)
-    
+
     df_test = pd.concat(frames_test)
     test_dataset = Dataset.from_pandas(df_test)
 

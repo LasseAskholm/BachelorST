@@ -13,7 +13,7 @@ def sort_entities_assending(path):
     sorted_data = dict(sorted(dict_temp.items(), key=lambda item: (item[1]['documentId'], item[1]['begin'])))
 
     
-    with open('../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned_sorted.json', 'w', encoding='utf-8') as f:
+    with open('../data/re3d-master/Wikipedia/entities_cleaned_sorted.json', 'w', encoding='utf-8') as f:
         for key in sorted_data:
             json.dump(sorted_data[key], f)
             f.write("\n")
