@@ -43,9 +43,9 @@ def load_labels(labels_path):
 
 def load_data_sets():
     
-    entities = construct_global_docMap("../data/re3d-master/Australian Department of Foreign Affairs/entities_cleaned_sorted.json")
+    entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted.json")
     
-    train_data, test_data = map_all_entities(entities,"../data/re3d-master/Australian Department of Foreign Affairs/documents.json")
+    train_data, test_data = map_all_entities(entities,"../data/re3d-master/*/documents.json")
 
     return (train_data, test_data)
 
@@ -105,11 +105,11 @@ def compute_metrics(p):
 
     true_predictions = [[label_list[p] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
     true_labels = [[label_list[l] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
-    logger.info("LABELS;")
-    logger.info(true_labels)
+    #logger.info("LABELS;")
+    #logger.info(true_labels)
 
-    logger.info("PREDICTIONS!")
-    logger.info(true_predictions)
+    #logger.info("PREDICTIONS!")
+    #logger.info(true_predictions)
     results = seqeval.compute(predictions=true_predictions, references=true_labels)
     return {
         "precision": results["overall_precision"],
@@ -127,12 +127,12 @@ def main ():
     
     #tokenizer
     logger.info("Loading Tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token=access_token)
+    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-multilingual-cased", token=access_token)
     tokenizer.pad_token_id = 0
 
-    train_tokenized_dataset = train_data.map(tokenize_and_align_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
-    test_tokenized_dataset = test_data.map(tokenize_and_align_labels, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
-    
+    train_tokenized_dataset = train_data.map(tokenize_labels_old, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
+    test_tokenized_dataset = test_data.map(tokenize_labels_old, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
+ 
     #data collator
     data_collator = DataCollatorForTokenClassification(tokenizer)
     
@@ -150,24 +150,12 @@ def main ():
 
     #model
     logger.info("Loading model....")
-    model = AutoModelForTokenClassification.from_pretrained("meta-llama/Llama-2-7b-hf", num_labels = len(labels), token=access_token, load_in_8bit=True, torch_dtype=torch.bfloat16, device_map={"": 0})
-
-    #model = prepare_model_for_kbit_training(model)
-
-    config = LoraConfig(
-        bias= "none",
-        lora_alpha= 16,
-        lora_dropout= 0.1,
-        r= 64,
-        peft_type= "LORA",
-        target_modules = [
-            "q_proj",
-            "v_proj"
-        ],
-        task_type = "CAUSAL_LM"
-    )
-
-    #model = get_peft_model(model, config)
+    model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased"
+            , num_labels = len(labels)
+            , token=access_token
+            )
+            #, load_in_8bit = True
+            #, torch_dtype=torch.float32
 
     if tokenizer.pad_token is None:
         tokenizer.add_special_tokens({'pad_token': '[PAD]'})
@@ -186,6 +174,7 @@ def main ():
         num_train_epochs = 30,
         weight_decay = 1e-5,
         logging_dir = "../logging"
+        
     )
     
     ### define trainer here
@@ -197,13 +186,13 @@ def main ():
         eval_dataset = test_tokenized_dataset,
         data_collator = data_collator,
         tokenizer = tokenizer,
-        compute_metrics = compute_metrics,
-        
+        compute_metrics = compute_metrics   
     )
     
     #start training model
     logger.info("STARTING TRAINING OF NER_MODEL")
     trainer.train()
+    trainer.push_to_hub()
     
 
 if __name__ == '__main__':

@@ -172,6 +172,9 @@ def map_all_entities(dict,dirPath):
     
     df_train = pd.concat(frames_train)
     train_dataset = Dataset.from_pandas(df_train)
+    print(frames_train)
+    print(train_dataset)
+    exit()
     
     df_test = pd.DataFrame()
     frames_test  = []
@@ -181,6 +184,9 @@ def map_all_entities(dict,dirPath):
 
     df_test = pd.concat(frames_test)
     test_dataset = Dataset.from_pandas(df_test)
+    print(train_dataset['__index_level_0__'])
+    print(test_dataset)
+    exit()
 
     return (train_dataset,test_dataset)
 
