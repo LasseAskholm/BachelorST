@@ -2,7 +2,7 @@ from tkinter import *
 
 # https://www.geeksforgeeks.org/create-table-using-tkinter/
  
-class Table:
+class Results_Table:
      
     def __init__(self, root, json):
          
