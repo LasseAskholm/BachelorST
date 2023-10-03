@@ -78,11 +78,7 @@ def map_entities_old(dict,path):
     df = pd.DataFrame({"text": words, "labels": tags})
     return df
 
-def map_entities(entities_dict, document_path):
-    # Read the document JSON
-    with open(document_path, 'r') as doc_file:
-        document_data = [json.loads(line) for line in doc_file]
-
+def map_entities(entities_dict, dirPath):
     # Initialize lists to store words and labels
     words = []
     labels = []
@@ -90,59 +86,65 @@ def map_entities(entities_dict, document_path):
     # Initialize list to store words and labels in sentences
     words_in_sentence = []
     labels_in_sentence = []
+    for document_path in glob.glob(dirPath):
+        # Read the document JSON
+        with open(document_path, 'r') as doc_file:
+            document_data = [json.loads(line) for line in doc_file]
 
-    # Iterate through the document data
-    for doc_entry in document_data:
-        text = doc_entry['text']  # Get the full text
-    
-        # Get the entities for this document entry from the provided dictionary
-        if doc_entry['_id'] in entities_dict:
-            entities_data = entities_dict[doc_entry['_id']]
-        else:
-            continue
+        # Iterate through the document data
+        for doc_entry in document_data:
+            text = doc_entry['text']  # Get the full text
+        
+            # Get the entities for this document entry from the provided dictionary
+            if doc_entry['_id'] in entities_dict:
+                entities_data = entities_dict[doc_entry['_id']]
+            else:
+                continue
 
-        current_char_index = 0  # Track the current character index
-        for entity_id, entity_info in entities_data.items():
-            begin = entity_info['begin']
-            end = entity_info['end']
-            entity_type = entity_info['type']
+            current_char_index = 0  # Track the current character index
+            for entity_id, entity_info in entities_data.items():
+                begin = entity_info['begin']
+                end = entity_info['end']
+                entity_type = entity_info['type']
 
-            # Append words before the entity
-            while current_char_index < begin:
-                entity_text = text[current_char_index:begin]
+                # Append words before the entity
+                while current_char_index < begin:
+                    entity_text = text[current_char_index:begin]
+                    entity_words = entity_text.split()
+                    for i, word in enumerate(entity_words):
+                        words.append(word)
+                        labels.append('O')  # Outside an entity
+                    current_char_index = begin
+
+                # Append the entity
+                entity_text = text[begin:end]
+                entity_words = entity_text.split()
+                for i, word in enumerate(entity_words):
+                    if i == 0:
+                        words.append(word)
+                        labels.append(f'B-{entity_type}')  # Beginning of an entity
+                    else:
+                        words.append(word)
+                        labels.append(f'I-{entity_type}')  # Inside an entity
+                current_char_index = end
+
+            # Append words after the last entity
+            while current_char_index < len(text):
+                entity_text = text[current_char_index:len(text)]
                 entity_words = entity_text.split()
                 for i, word in enumerate(entity_words):
                     words.append(word)
                     labels.append('O')  # Outside an entity
-                current_char_index = begin
-
-            # Append the entity
-            entity_text = text[begin:end]
-            entity_words = entity_text.split()
-            for i, word in enumerate(entity_words):
-                if i == 0:
-                    words.append(word)
-                    labels.append(f'B-{entity_type}')  # Beginning of an entity
-                else:
-                    words.append(word)
-                    labels.append(f'I-{entity_type}')  # Inside an entity
-            current_char_index = end
-
-        # Append words after the last entity
-        while current_char_index < len(text):
-            entity_text = text[current_char_index:len(text)]
-            entity_words = entity_text.split()
-            for i, word in enumerate(entity_words):
-                words.append(word)
-                labels.append('O')  # Outside an entity
-            current_char_index = len(text)
-   
+                current_char_index = len(text)
+    
     #Format the list to be per sentence. 
     word_sentence_index = []
     word_index_counter = 0
+    words_to_skip = ["Jan.", "Feb.", "Mar.", "Apr.", "Jun.", "Jul.", "Aug.", "Sep.", "Sept.", "Oct.", "Nov.", "Dec."]
     for word in words:
-        if word[-1] == '.':
-            word_sentence_index.append(word_index_counter)
+        if word[-1] == '.' or word[-1] == "?" or word[-1] == "!":
+            if not words_to_skip.__contains__(word):
+                word_sentence_index.append(word_index_counter)
         word_index_counter += 1
     
     for x in range (len(word_sentence_index)):
@@ -152,7 +154,9 @@ def map_entities(entities_dict, document_path):
         else:
             words_in_sentence.append(words[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
             labels_in_sentence.append(labels[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
-    return pd.DataFrame({"text": words_in_sentence, "ner_tags": labels_in_sentence})
+    df_word = pd.DataFrame({"text": words, "ner_tags": labels})
+    df_sentence = pd.DataFrame({"text": words_in_sentence, "ner_tags": labels_in_sentence})
+    return df_word, df_sentence
         
 def construct_global_docMap(dirPath):
     dict = {}
@@ -162,40 +166,14 @@ def construct_global_docMap(dirPath):
     return dict
 
 def map_all_entities(dict,dirPath):
-    dict_train, dict_test = split_dict(dict)
+    df_word_weights, df = map_entities(dict,dirPath)
 
-    df_train = pd.DataFrame()
-    frames_train  = []
-    for path in glob.glob(dirPath):
-        df2_train = map_entities(dict_train,path)
-        frames_train.append(df2_train)
-    
-    df_train = pd.concat(frames_train)
-    train_dataset = Dataset.from_pandas(df_train)
-    
-    df_test = pd.DataFrame()
-    frames_test  = []
-    for path in glob.glob(dirPath):
-        df2_test = map_entities(dict_test,path)
-        frames_test.append(df2_test)
+    dataset = Dataset.from_pandas(df)
+    dataset = dataset.train_test_split(test_size=0.2)
+    train_dataset = dataset['train']
+    test_dataset = dataset['test']
 
-    df_test = pd.concat(frames_test)
-    test_dataset = Dataset.from_pandas(df_test)
-
-
-    return (train_dataset,test_dataset)
-
-def split_dict(dict, ):
-    percent_to_test = 0.2
-    dataset_test_length = round(len(dict) * percent_to_test)
-    dataset_train_length = len(dict) - dataset_test_length
-    dict_train = {key: dict[key] for key in list(dict)[:dataset_train_length]}
-    keys = list(dict.keys())[-dataset_test_length:]
-    dict_test = {key: dict[key] for key in keys}
-    
-    return ([dict_train, dict_test])
-
-
+    return (df_word_weights, train_dataset,test_dataset)
 
 
 if __name__ == '__main__':
