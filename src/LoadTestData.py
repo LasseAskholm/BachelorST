@@ -1,6 +1,6 @@
 import pandas as pd
+import re
 import json 
-import DuplicateCheck
 import glob
 from datasets import Dataset
 
@@ -16,79 +16,16 @@ def construct_docMap(path):
                 dict[documentid] = {record['_id']: record}
     return dict
 
-def map_entities_old(dict,path):
-    print ("mapping entities in:" , path)
-    tags = []
-    words = []
-    document_ids = []
-    o_tags_idx = []
-
-    with open (path, 'r', encoding = "utf-8") as json_file:
-        for line in json_file:
-            document = json.loads(line)
-            if document['_id'] in dict:
-                entities = dict[document['_id']]
-                text = document['text']
-                masked_text = document['text']
-                for k,v in entities.items():
-                    entity = text[v["begin"]:v["end"]]
-                    masked_text = masked_text[:v["begin"]] + "".join(["*" for _ in range(len(entity))]) + masked_text[v["end"]:]
-                begin_idx = 0
-                for word in masked_text.split(" "):
-                    use_word = True
-                    for char in word:
-                        if char == '*':
-                            use_word = False
-                            break
-                    if use_word:
-                        o_tags_idx.append((begin_idx,begin_idx+len(word)+1))    
-                    begin_idx += len(word)+1
-
-                current_o_tags_idx = 0
-                i = 0
-                while (i< len(text)):
-                    entity_found = False
-                    for k,v in entities.items():
-                        if i == v["begin"]:
-                            entity_found = True
-                            entity = text[v["begin"]:v["end"]]
-                            for j, secquence in enumerate(entity.split (" ")):
-                                if (j == 0):
-                                    words.append(secquence)
-                                    tags.append(f"B-{v['type']}")
-                                else:
-                                    words.append(secquence)
-                                    tags.append(f"I-{v['type']}")
-                        
-                            i += 1
-                    if not entity_found:
-                        if (i < o_tags_idx[current_o_tags_idx][0]):
-                            i += 1
-                            continue
-                        word = text[o_tags_idx[current_o_tags_idx][0]:o_tags_idx[current_o_tags_idx][1]]
-
-                        words.append(word)
-                        tags.append("O")
-                        if current_o_tags_idx == len(o_tags_idx)-1:
-                            break
-                        else:
-                            i += 1
-                            current_o_tags_idx+=1
-
-    df = pd.DataFrame({"text": words, "labels": tags})
-    return df
-
 def map_entities(entities_dict, dirPath):
     # Initialize lists to store words and labels
     words = []
     labels = []
-
     # Initialize list to store words and labels in sentences
     words_in_sentence = []
     labels_in_sentence = []
     for document_path in glob.glob(dirPath):
         # Read the document JSON
-        with open(document_path, 'r') as doc_file:
+        with open(document_path, 'r', encoding = "utf-8") as doc_file:
             document_data = [json.loads(line) for line in doc_file]
 
         # Iterate through the document data
@@ -100,7 +37,7 @@ def map_entities(entities_dict, dirPath):
                 entities_data = entities_dict[doc_entry['_id']]
             else:
                 continue
-
+            
             current_char_index = 0  # Track the current character index
             for entity_id, entity_info in entities_data.items():
                 begin = entity_info['begin']
@@ -167,7 +104,6 @@ def construct_global_docMap(dirPath):
 
 def map_all_entities(dict,dirPath):
     df_word_weights, df = map_entities(dict,dirPath)
-
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train']
@@ -175,12 +111,82 @@ def map_all_entities(dict,dirPath):
 
     return (df_word_weights, train_dataset,test_dataset)
 
+def generate_prompt_data(entities_dict, dirPath):
+    # Initialize lists to store the promts
+    
+    prompt_data_set = []    
+    
+    for document_path in glob.glob(dirPath):
+        # Read the document JSON
+        with open(document_path, 'r', encoding = "utf-8") as doc_file:
+            document_data = [json.loads(line) for line in doc_file]
+
+        # Iterate through the document data
+        for doc_entry in document_data:
+            data_point = {}
+            response = []
+            contexts = []
+            contexts.append( doc_entry['text'])  # Get the full text
+            
+            # Get the entities for this document entry from the provided dictionary
+            if doc_entry['_id'] in entities_dict:
+                entities_data = entities_dict[doc_entry['_id']]
+            else:
+                continue
+
+            for entity_id, entity_info in entities_data.items():
+                response.append({"WordLabel": entity_info['value'] + " - " + entity_info['type'], "Placement": entity_info['end']})
+            data_point["context"] = contexts
+            data_point["answers"] = response
+            prompt_data_set.append(data_point)
+
+    return pd.DataFrame(prompt_data_set, columns=['context','answers'])
+
+
+def generate_prompt_data_sentence(entities_dict, dirPath):
+    # Initialize list to store the promts
+    prompt_data_set = []
+
+    pattern = "(?<=[.!?])\s+(?![A-Z][a-z]+\.\s+[A-Z]|[a-z]|[1-9])"
+
+    for document_path in glob.glob(dirPath):
+        # Read the document JSON
+        with open(document_path, 'r', encoding = "utf-8") as doc_file:
+            document_data = [json.loads(line) for line in doc_file]
+
+        # Iterate through the document data
+        for doc_entry in document_data:
+            text_idx = 0
+            doc_text = doc_entry['text']
+            
+            # Get the entities for this sentence entry from the provided dictionary
+            if doc_entry['_id'] in entities_dict:
+                entities_data = entities_dict[doc_entry['_id']]
+            else:
+                continue
+            
+            for sentence in re.split(pattern, doc_text):
+                if(sentence == ""):
+                    continue
+
+                data_point = {}
+                response = []
+                contexts = []
+                contexts.append(sentence)
+
+                #Find entities in current sentence:
+                for entity_id, entity_info in entities_data.items():
+                    if(entity_info['begin']>= text_idx and entity_info['end']<= text_idx+len(sentence)+1):
+                        response.append(entity_info['value'] + " - " + entity_info['type'])
+                text_idx += len(sentence)+1
+                data_point["context"] = contexts
+                data_point["answers"] = response
+                prompt_data_set.append(data_point)
+    
+    return pd.DataFrame(prompt_data_set, columns=['context','answers'])
+    
 
 if __name__ == '__main__':
     dict = construct_global_docMap("../data/re3d-master/*/entities.json")
     train,test = map_all_entities(dict, "../data/re3d-master/*/documents.json")
    
-
-    #print(df.to_string())
-    
-    #find_all_entities_files("data/re3d-master/*/entities.json")
