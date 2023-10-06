@@ -2,16 +2,11 @@ import os
 
 os.environ["CUDA_VISIBLE_DEVICES"] = str(0) #Limits to use only one GPU
 
-import pandas as pd
 import numpy as np
-from datasets import Dataset
-from datasets import load_metric
 from transformers import AutoTokenizer
-from transformers import LlamaForCausalLM, TrainingArguments, Trainer, AutoModelForCausalLM, AutoModelForSequenceClassification, AutoModelForTokenClassification
+from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
 from transformers import DataCollatorForTokenClassification
-from transformers import BitsAndBytesConfig
 from LoadTestData import construct_global_docMap, map_all_entities
-from SortEntities import sort_entities_assending
 import torch
 from huggingface_hub import login
 from loguru import logger
@@ -21,7 +16,16 @@ access_token = "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"
 write_token = "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"
 seqeval = evaluate.load("seqeval")
 
+entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted.json"
+documens_file_path = "../data/re3d-master/*/documents.json"
+label_file_path = '../resources/labels.txt'
+
+model_name = "distilbert-base-multilingual-cased"
+
 def load_labels(labels_path):
+    '''
+    Function to load the labels.
+    '''
     with open(labels_path, encoding='utf-8') as file:
         labels = file.readlines()
         
@@ -35,39 +39,25 @@ def load_labels(labels_path):
     return mapped_labels, labels
 
 def load_data_sets():
+    '''
+    Function to load the test data and adjust importance for each label.
+    '''
+    entities = construct_global_docMap(entities_file_ptah)
     
-    entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted.json")
+    df_word_weights, train_data, test_data = map_all_entities(entities,
+                                                              documens_file_path)
     
-    df_word_weights, train_data, test_data = map_all_entities(entities,"../data/re3d-master/*/documents.json")
     class_weights = (1 - (df_word_weights["ner_tags"].value_counts().sort_index() / len(df_word_weights))).values
     class_weights = torch.from_numpy(class_weights).float().to("cuda")
 
     return (train_data, test_data)
 
 def tokenize_and_align_labels(examples, tokenizer, mapped_labels):
-    tokenized_inputs = tokenizer(examples["text"], truncation=True, is_split_into_words=True)
-
-    labels = []
-    for i, label in enumerate(examples[f"ner_tags"]):
-        word_ids = tokenized_inputs.word_ids(batch_index=i)  # Map tokens to their respective word.
-        previous_word_idx = None
-        label_ids = []
-        for word_idx in word_ids:  # Set the special tokens to -100.
-            if word_idx is None:
-                label_ids.append(-100)
-            elif word_idx != previous_word_idx:  # Only label the first token of a given word.
-                label_ids.append(mapped_labels[label[word_idx]])
-            else:
-                label_ids.append(-100)
-            previous_word_idx = word_idx
-        labels.append(label_ids)
-
-    tokenized_inputs["labels"] = labels
-    return tokenized_inputs
-
-def tokenize_labels_old(examples, tokenizer, mapped_labels):
+    '''
+    Function To realing labels after subtokenization.
+    '''
     tokenized_inputs = tokenizer(list(examples["text"]), truncation = True, is_split_into_words = True, max_length = 512)
-    
+
     label_all_tokens = False
     labels = []
     for i, label in enumerate(examples["ner_tags"]):
@@ -96,12 +86,13 @@ def compute_metrics(p):
     '''
     predictions, labels = p    
     predictions = np.argmax(predictions, axis=2)
-    _ , label_list = load_labels('../resources/labels.txt')
+    _ , label_list = load_labels(label_file_path)
 
     true_predictions = [[label_list[p] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
     true_labels = [[label_list[l] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
 
     results = seqeval.compute(predictions=true_predictions, references=true_labels)
+
     return {
         "precision": results["overall_precision"],
         "recall": results["overall_recall"],
@@ -112,38 +103,42 @@ def compute_metrics(p):
 def main ():
     login(token = write_token)
     logger.info("Prepping Data")
+
     #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
     mapped_labels, labels = load_labels("../resources/labels.txt")
     
     #tokenizer
-    logger.info("Loading Tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-multilingual-cased", token=access_token)
+    logger.info("Loading Tokenizer")
+    tokenizer = AutoTokenizer.from_pretrained(model_name, 
+                                              token=access_token)
     tokenizer.pad_token_id = 0
 
-    train_tokenized_dataset = train_data.map(tokenize_labels_old, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
-    test_tokenized_dataset = test_data.map(tokenize_labels_old, batched=True, fn_kwargs={"tokenizer": tokenizer, "mapped_labels": mapped_labels})
+    logger.info("Creating tokenized dataset")
+    train_tokenized_dataset = train_data.map(tokenize_and_align_labels, 
+                                             batched=True, 
+                                             fn_kwargs={"tokenizer": tokenizer, 
+                                                        "mapped_labels": mapped_labels})
+    
+    test_tokenized_dataset = test_data.map(tokenize_and_align_labels, 
+                                           batched=True, 
+                                           fn_kwargs={"tokenizer": tokenizer, 
+                                                      "mapped_labels": mapped_labels})
  
     #data collator
     data_collator = DataCollatorForTokenClassification(tokenizer)
 
     #model
-    logger.info("Loading model....")
-    model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased"
-            , num_labels = len(labels)
-            , token=access_token
+    logger.info("Loading model")
+    model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased", 
+                                                            num_labels = len(labels), 
+                                                            token=access_token
             )
-            #, load_in_8bit = True
-            #, torch_dtype=torch.float32
 
-    #if tokenizer.pad_token is None:
-    #    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
-    #    model.resize_token_embeddings(len(tokenizer))
 
-    ### define training args here
-    ### we should experiment with these hyperparameters.
-    ### Leaning rates from bert documentation = (among 5e-5, 4e-5, 3e-5, and 2e-5)
-    logger.info("Setting training args....")
+    # define training args here
+    # Leaning rates from bert documentation = (among 5e-5, 4e-5, 3e-5, and 2e-5)
+    logger.info("Setting training args")
     training_args = TrainingArguments(
         output_dir="../models",
         evaluation_strategy = "epoch",
@@ -158,7 +153,7 @@ def main ():
     )
     
     ### define trainer here
-    logger.info("Defining Trainer...")
+    logger.info("Defining Trainer")
     trainer = Trainer (
         model,
         training_args,
@@ -172,6 +167,8 @@ def main ():
     #start training model
     logger.info("STARTING TRAINING OF NER_MODEL")
     trainer.train()
+    
+    logger.info("Pushing trained model to hub")
     trainer.push_to_hub()
     
 
