@@ -1,4 +1,4 @@
-def generate_prompt_ner(context, output="", input = "Extract all entities in the following context along with their label from the provided label list"):
+def generate_prompt_ner(context, output="", input = "Extract all entities in the following context along with their label from the entities at your disposal:"):
      return f""""
      Your task is to harness the capabilities of a robust entity extraction model. 
      Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
@@ -15,7 +15,9 @@ Vehicle,
 Temporal,
 Weapon,
 Quantity,
-CommsIdentifier
+CommsIdentifier,
+MilitaryPlatform,
+Coordinate
 
 Your output should reflect the discovered entities in the given text, each tagged with its corresponding label.
 

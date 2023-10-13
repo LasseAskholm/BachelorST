@@ -1,0 +1,15 @@
+O
+B-Organisation
+I-Organisation
+B-Person
+I-Person
+B-Location
+I-Location
+B-Money
+I-Money
+B-Temporal
+I-Temporal
+B-Weapon
+I-Weapon
+B-MilitaryPlatform
+I-MilitaryPlatform

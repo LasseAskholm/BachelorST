@@ -6,7 +6,7 @@ import numpy as np
 from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
 from transformers import DataCollatorForTokenClassification
-from LoadTestData import construct_global_docMap, map_all_entities
+from LoadTestData import construct_global_docMap, map_all_entities, generate_df_from_additional_data
 import torch
 from huggingface_hub import login
 from loguru import logger
@@ -18,9 +18,66 @@ seqeval = evaluate.load("seqeval")
 
 entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted.json"
 documens_file_path = "../data/re3d-master/*/documents.json"
-label_file_path = '../resources/labels.txt'
+label_file_path = '../resources/labelsReduced.txt'
 
 model_name = "distilbert-base-multilingual-cased"
+
+label2id = {"O": 0, 
+            "B-Organisation": 1, 
+            "I-Organisation": 2, 
+            "B-Nationality": 3, 
+            "I-Nationality": 4, 
+            "B-Person": 5,
+            "I-Person": 6, 
+            "B-DocumentReference": 7,
+            "I-DocumentReference": 8,
+            "B-Location": 9,
+            "I-Location": 10,
+            "B-Money": 11,
+            "I-Money": 12,
+            "B-Vehicle": 13,
+            "I-Vehicle": 14,
+            "B-Temporal": 15,
+            "I-Temporal": 16,
+            "B-Weapon": 17,
+            "I-Weapon": 18,
+            "B-Quantity": 19,
+            "I-Quantity": 20,
+            "B-CommsIdentifier": 21,
+            "B-MilitaryPlatform": 22,
+            "I-MilitaryPlatform": 23,
+            "B-Coordinate": 24,
+            "I-Coordinate": 25,
+            "B-Frequency": 26,
+            "I-Frequency": 27}
+id2label = {0 : "O", 
+            1 : "B-Organisation", 
+            2 : "I-Organisation", 
+            3 : "B-Nationality", 
+            4 : "I-Nationality", 
+            5 : "B-Person",
+            6 : "I-Person", 
+            7 : "B-DocumentReference",
+            8 : "I-DocumentReference",
+            9 : "B-Location",
+            10 : "I-Location",
+            11 : "B-Money",
+            12 : "I-Money",
+            13 : "B-Vehicle",
+            14 : "I-Vehicle",
+            15 : "B-Temporal",
+            16 : "I-Temporal",
+            17 : "B-Weapon",
+            18 : "I-Weapon",
+            19 : "B-Quantity",
+            20 : "I-Quantity",
+            21 : "B-CommsIdentifier",
+            22 : "B-MilitaryPlatform",
+            23 : "I-MilitaryPlatform",
+            24 : "B-Coordinate",
+            25 : "I-Coordinate",
+            26 : "B-Frequency",
+            27 : "I-Frequency"}
 
 def load_labels(labels_path):
     '''
@@ -106,7 +163,7 @@ def main ():
 
     #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
-    mapped_labels, labels = load_labels("../resources/labels.txt")
+    mapped_labels, labels = load_labels("../resources/labelsReduced.txt")
     
     #tokenizer
     logger.info("Loading Tokenizer")
@@ -132,7 +189,7 @@ def main ():
     logger.info("Loading model")
     model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased", 
                                                             num_labels = len(labels), 
-                                                            token=access_token
+                                                            token=access_token,
             )
 
 
@@ -143,8 +200,8 @@ def main ():
         output_dir="../models",
         evaluation_strategy = "epoch",
         learning_rate = 2e-5,
-        per_device_train_batch_size = 32,
-        per_device_eval_batch_size = 32,
+        per_device_train_batch_size = 16,
+        per_device_eval_batch_size = 16,
         num_train_epochs = 10,
         weight_decay = 1e-5,
         logging_dir = "../logging",

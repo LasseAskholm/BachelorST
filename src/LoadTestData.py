@@ -2,7 +2,12 @@ import pandas as pd
 import re
 import json 
 import glob
+import itertools
 from datasets import Dataset
+
+self_labeled_data = "../data/selfLabeledWithReducedLabels.conll"
+
+skippedLabelsList = ["DocumentReference", "Nationality", "Quantity", "CommsIdentifier", "Coordinate", "Frequency"]
 
 def construct_docMap(path):
     dict = {}
@@ -16,7 +21,7 @@ def construct_docMap(path):
                 dict[documentid] = {record['_id']: record}
     return dict
 
-def map_entities(entities_dict, dirPath):
+def map_entities(entities_dict, dirPath, reducedLabels):
     # Initialize lists to store words and labels
     words = []
     labels = []
@@ -59,10 +64,27 @@ def map_entities(entities_dict, dirPath):
                 for i, word in enumerate(entity_words):
                     if i == 0:
                         words.append(word)
-                        labels.append(f'B-{entity_type}')  # Beginning of an entity
+                        if not reducedLabels:
+                            labels.append(f'B-{entity_type}')  # Beginning of an entity
+                        else:
+                            if entity_type in skippedLabelsList:
+                                labels.append('O')
+                            elif entity_type == 'Vehicle':
+                                labels.append(f'B-MilitaryPlatform')
+                            else:
+                                labels.append(f'B-{entity_type}')  # Beginning of an entity   
                     else:
                         words.append(word)
-                        labels.append(f'I-{entity_type}')  # Inside an entity
+                        if not reducedLabels:
+                            labels.append(f'I-{entity_type}')  # Inside an entity
+                        else:
+                            if entity_type in skippedLabelsList:
+                                labels.append('O')
+                            elif entity_type == 'Vehicle':
+                                labels.append(f'I-MilitaryPlatform')
+                            else:
+                                labels.append(f'I-{entity_type}')  # Beginning of an entity  
+                       
                 current_char_index = end
 
             # Append words after the last entity
@@ -91,9 +113,12 @@ def map_entities(entities_dict, dirPath):
         else:
             words_in_sentence.append(words[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
             labels_in_sentence.append(labels[word_sentence_index[x-1] + 1:word_sentence_index[x] + 1])
+
     df_word = pd.DataFrame({"text": words, "ner_tags": labels})
     df_sentence = pd.DataFrame({"text": words_in_sentence, "ner_tags": labels_in_sentence})
-    return df_word, df_sentence
+    df_self_labeled_data = get_tokens_and_ner_tags(self_labeled_data)
+    df_merged = pd.concat([df_sentence, df_self_labeled_data], ignore_index=True, sort=False)
+    return df_word, df_merged, labels_in_sentence
         
 def construct_global_docMap(dirPath):
     dict = {}
@@ -103,13 +128,33 @@ def construct_global_docMap(dirPath):
     return dict
 
 def map_all_entities(dict,dirPath):
-    df_word_weights, df = map_entities(dict,dirPath)
+    df_word_weights, df, _ = map_entities(dict,dirPath, True)
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train']
     test_dataset = dataset['test']
 
-    return (df_word_weights, train_dataset,test_dataset)
+    return (df_word_weights, train_dataset, test_dataset)
+
+def generate_df_from_additional_data():
+    data_set = []
+    path = "../data/additional.json"
+    file = open (path)
+    obj = json.load(file)
+    for i in range (len(obj)):
+        data_point = {}
+        response = []
+        contexts = []
+        json_obj = obj[i]
+        contexts.append(json_obj["text"])
+        for label in json_obj["label"]:
+            response.append(label["text"]+ " - " + label["labels"][0])
+        data_point["context"] = contexts
+        data_point["answers"] = response
+        data_set.append(data_point)
+    
+    return data_set
+
 
 def generate_prompt_data(entities_dict, dirPath):
     # Initialize lists to store the promts
@@ -182,9 +227,26 @@ def generate_prompt_data_sentence(entities_dict, dirPath):
                 data_point["context"] = contexts
                 data_point["answers"] = response
                 prompt_data_set.append(data_point)
+
+    df = pd.DataFrame(prompt_data_set, columns=['context',''])
+    df_self_labeled_data = get_tokens_and_ner_tags(self_labeled_data)
+    df_merged = pd.concat([df, df_self_labeled_data], ignore_index=True, sort=False)
+    print(df_merged)
+    exit()
     
     return pd.DataFrame(prompt_data_set, columns=['context','answers'])
     
+def get_tokens_and_ner_tags(filename):
+    '''
+    Function for loading tokens and ner tags.
+    '''
+    with open(filename, 'r', encoding="utf8") as f:
+        lines = f.readlines()
+        split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
+        tokens = [[x.split('\t')[0] for x in y] for y in split_list]
+        entities = [[x.split('\t')[1][:-1] for x in y] for y in split_list]
+
+    return pd.DataFrame({'text': tokens, 'ner_tags': entities})
 
 if __name__ == '__main__':
     dict = construct_global_docMap("../data/re3d-master/*/entities.json")
