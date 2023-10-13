@@ -16,7 +16,7 @@ access_token = "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"
 write_token = "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"
 seqeval = evaluate.load("seqeval")
 
-entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted.json"
+entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json"
 documens_file_path = "../data/re3d-master/*/documents.json"
 label_file_path = '../resources/labelsReduced.txt'
 

@@ -22,7 +22,7 @@ from peft import (
 
 
 
-entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted.json")
+entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json")
 #df = generate_prompt_data(entities, "../data/re3d-master/BBC Online/documents.json")
 df = generate_prompt_data_sentence(entities, "../data/re3d-master/*/documents.json")
 
@@ -64,7 +64,7 @@ config = LoraConfig(
 model = get_peft_model(model, config)
 
 def load_data_sets():
-    entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted.json")
+    entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json")
     df = generate_prompt_data_sentence(entities, "../data/re3d-master/*/documents.json")
 
     dataset = Dataset.from_pandas(df)

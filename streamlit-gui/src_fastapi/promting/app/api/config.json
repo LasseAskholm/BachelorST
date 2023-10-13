@@ -1,0 +1,10 @@
+{
+    "model-1": {
+        "name": "Llama2 7b Base Version",
+        "info": "This model is provided by meta AI and is available on [metas huggingface page](https://huggingface.co/meta-llama/Llama-2-7b)"
+    },
+    "model-2": {
+        "name": "Llama2 7b Fine-tuned iteration",
+        "info": "This model is the final iteration trained with the data provided by Defence Science and Technology Laboratory (Dstl) and selflabeled data."
+    }
+}

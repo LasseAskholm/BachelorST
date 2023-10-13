@@ -5,13 +5,13 @@
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-2-75-90-Organisation", "begin": 333, "end": 348, "type": "Organisation", "value": "all the parties", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-3-21-32-Weapon", "begin": 387, "end": 398, "type": "Weapon", "value": "air strikes", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-3-49-60-Location", "begin": 415, "end": 426, "type": "Location", "value": "Wadi Barada", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
-{"_id": "26E0189E3D774CB2B8F078A082E5088C-4-198-204-Nationality", "begin": 650, "end": 656, "type": "Nationality", "value": "Syrian", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
+{"_id": "26E0189E3D774CB2B8F078A082E5088C-4-198-204-Nationality", "begin": 650, "end": 656, "type": "Location", "value": "Syrian", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-217-219-Organisation", "begin": 669, "end": 671, "type": "Organisation", "value": "UN", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-258-281-Organisation", "begin": 710, "end": 733, "type": "Organisation", "value": "the UN Security Council", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-299-301-Organisation", "begin": 751, "end": 753, "type": "Organisation", "value": "we", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-353-380-Organisation", "begin": 805, "end": 832, "type": "Organisation", "value": "other international players", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-415-421-Location", "begin": 867, "end": 873, "type": "Location", "value": "Astana", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
-{"_id": "26E0189E3D774CB2B8F078A082E5088C-4-512-518-Nationality", "begin": 964, "end": 970, "type": "Nationality", "value": "Syrian", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
+{"_id": "26E0189E3D774CB2B8F078A082E5088C-4-512-518-Nationality", "begin": 964, "end": 970, "type": "Location", "value": "Syrian", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-528-534-Location", "begin": 980, "end": 986, "type": "Location", "value": "Geneva", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-541-543-Organisation", "begin": 993, "end": 995, "type": "Organisation", "value": "UN", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
 {"_id": "26E0189E3D774CB2B8F078A082E5088C-4-566-567-Person", "begin": 1018, "end": 1019, "type": "Person", "value": "I", "documentId": "26E0189E3D774CB2B8F078A082E5088C", "confidence": 1}
@@ -49,14 +49,14 @@
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-0-232-243-Location", "begin": 232, "end": 243, "type": "Location", "value": "the country", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-55-81-Organisation", "begin": 300, "end": 326, "type": "Organisation", "value": "senior officials of the EU", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-109-137-Organisation", "begin": 354, "end": 382, "type": "Organisation", "value": "Ministers of Foreign Affairs", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-141-145-Organisation", "begin": 386, "end": 390, "type": "Organisation", "value": "Iran", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.97}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-147-159-Organisation", "begin": 392, "end": 404, "type": "Organisation", "value": "Saudi Arabia", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.85}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-165-185-Organisation", "begin": 410, "end": 430, "type": "Organisation", "value": "United Arab Emirates", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.84}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-187-192-Organisation", "begin": 432, "end": 437, "type": "Organisation", "value": "Egypt", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.97}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-194-200-Organisation", "begin": 439, "end": 445, "type": "Organisation", "value": "Jordan", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.11}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-205-212-Organisation", "begin": 450, "end": 457, "type": "Organisation", "value": "Lebanon", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.85}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-242-248-Organisation", "begin": 487, "end": 493, "type": "Organisation", "value": "Turkey", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.71}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-253-258-Organisation", "begin": 498, "end": 503, "type": "Organisation", "value": "Qatar", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.11}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-141-145-Organisation", "begin": 386, "end": 390, "type": "Location", "value": "Iran", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.97}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-147-159-Organisation", "begin": 392, "end": 404, "type": "Location", "value": "Saudi Arabia", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.85}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-165-185-Organisation", "begin": 410, "end": 430, "type": "Location", "value": "United Arab Emirates", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.84}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-187-192-Organisation", "begin": 432, "end": 437, "type": "Location", "value": "Egypt", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.97}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-194-200-Organisation", "begin": 439, "end": 445, "type": "Location", "value": "Jordan", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.11}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-205-212-Organisation", "begin": 450, "end": 457, "type": "Location", "value": "Lebanon", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.85}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-242-248-Organisation", "begin": 487, "end": 493, "type": "Location", "value": "Turkey", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.71}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-1-253-258-Organisation", "begin": 498, "end": 503, "type": "Location", "value": "Qatar", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.11}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-2-0-9-Person", "begin": 505, "end": 514, "type": "Person", "value": "Mogherini", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-2-51-56-Location", "begin": 556, "end": 561, "type": "Location", "value": "Syria", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-2-60-70-Organisation", "begin": 565, "end": 575, "type": "Organisation", "value": "EU leaders", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
@@ -69,7 +69,7 @@
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-3-117-122-Location", "begin": 750, "end": 755, "type": "Location", "value": "Egypt", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-3-124-130-Location", "begin": 757, "end": 763, "type": "Location", "value": "Jordan", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-3-145-164-Temporal", "begin": 778, "end": 797, "type": "Temporal", "value": "the end of the year", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
-{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-5-68-74-Nationality", "begin": 1066, "end": 1072, "type": "Nationality", "value": "Syrian", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0}
+{"_id": "8BF4B60AA80B0601BE12F0164E2E7001-5-68-74-Nationality", "begin": 1066, "end": 1072, "type": "Location", "value": "Syrian", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-5-102-133-Person", "begin": 1100, "end": 1131, "type": "Person", "value": "the UN Special Envoy de Mistura", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.73}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-5-137-143-Location", "begin": 1135, "end": 1141, "type": "Location", "value": "Geneva", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 0.99}
 {"_id": "8BF4B60AA80B0601BE12F0164E2E7001-5-147-155-Temporal", "begin": 1145, "end": 1153, "type": "Temporal", "value": "February", "documentId": "8BF4B60AA80B0601BE12F0164E2E7001", "confidence": 1}
