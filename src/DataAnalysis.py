@@ -4,7 +4,7 @@ from collections import Counter
 from LoadTestData import map_entities
 from ner_training import construct_global_docMap
 
-entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted.json"
+entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json"
 documens_file_path = "../data/re3d-master/*/documents.json"
 
 def analyse_conll_file(filename):
@@ -19,12 +19,6 @@ def count_labe_occourences(entities_list):
     for entities in entities_list:
         for entity in entities:
             combined_entites_list.append(entity)
-    #print("LABELS:")
-    #print(Counter(combined_entites_list).keys())
-    #print("----------------------")
-    #print("Occourences")
-    #print(Counter(combined_entites_list).values())
-    #print("----------------------")
     print("Length")
     print(len(combined_entites_list))
     print("----------------------")

@@ -284,7 +284,7 @@
 {"_id": "6646F63F6AC6B483D15DA258CB182147-2-168-201-Organisation", "begin": 682, "end": 715, "type": "Organisation", "value": "the Kurdistan regional government", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-3-0-6-Person", "begin": 717, "end": 723, "type": "Person", "value": "Carter", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-3-15-20-Person", "begin": 732, "end": 737, "type": "Person", "value": "Abadi", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
-{"_id": "6646F63F6AC6B483D15DA258CB182147-3-115-132-Organisation", "begin": 832, "end": 849, "type": "Organisation", "value": "the United States", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 0.99}
+{"_id": "6646F63F6AC6B483D15DA258CB182147-3-115-132-Organisation", "begin": 832, "end": 849, "type": "Location", "value": "the United States", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 0.99}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-3-137-163-Organisation", "begin": 854, "end": 880, "type": "Organisation", "value": "the counter-ISIL coalition", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-3-176-180-Location", "begin": 893, "end": 897, "type": "Location", "value": "Iraq", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 0}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-3-202-221-Organisation", "begin": 919, "end": 938, "type": "Organisation", "value": "the terrorist group", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
@@ -294,7 +294,7 @@
 {"_id": "6646F63F6AC6B483D15DA258CB182147-4-76-80-Organisation", "begin": 1042, "end": 1046, "type": "Organisation", "value": "ISIL", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-4-105-110-Location", "begin": 1071, "end": 1076, "type": "Location", "value": "Mosul", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-4-131-135-Organisation", "begin": 1097, "end": 1101, "type": "Organisation", "value": "U.S.", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 0.99}
-{"_id": "6646F63F6AC6B483D15DA258CB182147-4-136-140-Organisation", "begin": 1102, "end": 1106, "type": "Organisation", "value": "Iraq", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
+{"_id": "6646F63F6AC6B483D15DA258CB182147-4-136-140-Organisation", "begin": 1102, "end": 1106, "type": "Location", "value": "Iraq", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-4-175-179-Organisation", "begin": 1141, "end": 1145, "type": "Organisation", "value": "ISIL", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-5-0-16-Temporal", "begin": 1213, "end": 1229, "type": "Temporal", "value": "Later in the day", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-5-18-24-Person", "begin": 1231, "end": 1237, "type": "Person", "value": "Carter", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
@@ -312,7 +312,7 @@
 {"_id": "6646F63F6AC6B483D15DA258CB182147-8-28-31-Organisation", "begin": 1652, "end": 1655, "type": "Organisation", "value": "our", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-8-75-78-Organisation", "begin": 1699, "end": 1702, "type": "Organisation", "value": "our", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-8-79-93-Organisation", "begin": 1703, "end": 1717, "type": "Organisation", "value": "Turkish allies", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
-{"_id": "6646F63F6AC6B483D15DA258CB182147-9-51-57-Organisation", "begin": 1835, "end": 1841, "type": "Organisation", "value": "Turkey", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
+{"_id": "6646F63F6AC6B483D15DA258CB182147-9-51-57-Organisation", "begin": 1835, "end": 1841, "type": "Location", "value": "Turkey", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-9-65-69-Organisation", "begin": 1849, "end": 1853, "type": "Organisation", "value": "NATO", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6646F63F6AC6B483D15DA258CB182147-9-74-100-Organisation", "begin": 1858, "end": 1884, "type": "Organisation", "value": "the counter-ISIL coalition", "documentId": "6646F63F6AC6B483D15DA258CB182147", "confidence": 1}
 {"_id": "6874F49C56340E2BD65BF958916C97AE-0-3-20-Temporal", "begin": 3, "end": 20, "type": "Temporal", "value": "Thursday, Dec. 15", "documentId": "6874F49C56340E2BD65BF958916C97AE", "confidence": 1}
@@ -459,15 +459,15 @@
 {"_id": "6B183780227A18218A12E917A5BC8654-27-127-135-Organisation", "begin": 2679, "end": 2687, "type": "Organisation", "value": "CJTF-OIR", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
 {"_id": "6B183780227A18218A12E917A5BC8654-30-0-17-Organisation", "begin": 3014, "end": 3031, "type": "Organisation", "value": "Coalition nations", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
 {"_id": "6B183780227A18218A12E917A5BC8654-30-50-54-Location", "begin": 3064, "end": 3068, "type": "Location", "value": "Iraq", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-63-72-Organisation", "begin": 3077, "end": 3086, "type": "Organisation", "value": "Australia", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-74-81-Organisation", "begin": 3088, "end": 3095, "type": "Organisation", "value": "Belgium", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-83-89-Organisation", "begin": 3097, "end": 3103, "type": "Organisation", "value": "Canada", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-91-98-Organisation", "begin": 3105, "end": 3112, "type": "Organisation", "value": "Denmark", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.43}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-100-106-Organisation", "begin": 3114, "end": 3120, "type": "Organisation", "value": "France", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.97}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-108-114-Organisation", "begin": 3122, "end": 3128, "type": "Organisation", "value": "Jordan", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.12}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-116-131-Organisation", "begin": 3130, "end": 3145, "type": "Organisation", "value": "the Netherlands", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.42}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-133-151-Organisation", "begin": 3147, "end": 3165, "type": "Organisation", "value": "the United Kingdom", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
-{"_id": "6B183780227A18218A12E917A5BC8654-30-157-174-Organisation", "begin": 3171, "end": 3188, "type": "Organisation", "value": "the United States", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.92}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-63-72-Organisation", "begin": 3077, "end": 3086, "type": "Location", "value": "Australia", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-74-81-Organisation", "begin": 3088, "end": 3095, "type": "Location", "value": "Belgium", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-83-89-Organisation", "begin": 3097, "end": 3103, "type": "Location", "value": "Canada", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-91-98-Organisation", "begin": 3105, "end": 3112, "type": "Location", "value": "Denmark", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.43}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-100-106-Organisation", "begin": 3114, "end": 3120, "type": "Location", "value": "France", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.97}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-108-114-Organisation", "begin": 3122, "end": 3128, "type": "Location", "value": "Jordan", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.12}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-116-131-Organisation", "begin": 3130, "end": 3145, "type": "Location", "value": "the Netherlands", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.42}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-133-151-Organisation", "begin": 3147, "end": 3165, "type": "Location", "value": "the United Kingdom", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 1}
+{"_id": "6B183780227A18218A12E917A5BC8654-30-157-174-Organisation", "begin": 3171, "end": 3188, "type": "Location", "value": "the United States", "documentId": "6B183780227A18218A12E917A5BC8654", "confidence": 0.92}
 {"_id": "76957901E4278B498901454FA209CFFA-0-22-26-Organisation", "begin": 22, "end": 26, "type": "Organisation", "value": "U.S.", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.79}
 {"_id": "76957901E4278B498901454FA209CFFA-0-46-65-Organisation", "begin": 46, "end": 65, "type": "Organisation", "value": "al-Qaida operatives", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-0-66-75-Temporal", "begin": 66, "end": 75, "type": "Temporal", "value": "this week", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.95}
@@ -501,7 +501,7 @@
 {"_id": "76957901E4278B498901454FA209CFFA-3-162-166-Person", "begin": 624, "end": 628, "type": "Person", "value": "Cook", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-4-0-2-Person", "begin": 635, "end": 637, "type": "Person", "value": "He", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-4-24-32-Organisation", "begin": 659, "end": 667, "type": "Organisation", "value": "al-Qaida", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
-{"_id": "76957901E4278B498901454FA209CFFA-4-93-110-Organisation", "begin": 728, "end": 745, "type": "Organisation", "value": "the United States", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.94}
+{"_id": "76957901E4278B498901454FA209CFFA-4-93-110-Organisation", "begin": 728, "end": 745, "type": "Location", "value": "the United States", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.94}
 {"_id": "76957901E4278B498901454FA209CFFA-4-131-153-Organisation", "begin": 766, "end": 788, "type": "Organisation", "value": "our allies and friends", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-5-0-2-Organisation", "begin": 790, "end": 792, "type": "Organisation", "value": "We", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-5-36-40-Person", "begin": 826, "end": 830, "type": "Person", "value": "deny", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0}
@@ -509,7 +509,7 @@
 {"_id": "76957901E4278B498901454FA209CFFA-5-72-77-Location", "begin": 862, "end": 867, "type": "Location", "value": "Syria", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-6-0-2-Organisation", "begin": 869, "end": 871, "type": "Organisation", "value": "We", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.96}
 {"_id": "76957901E4278B498901454FA209CFFA-6-18-26-Organisation", "begin": 887, "end": 895, "type": "Organisation", "value": "al-Qaida", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
-{"_id": "76957901E4278B498901454FA209CFFA-6-58-75-Organisation", "begin": 927, "end": 944, "type": "Organisation", "value": "the United States", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.37}
+{"_id": "76957901E4278B498901454FA209CFFA-6-58-75-Organisation", "begin": 927, "end": 944, "type": "Location", "value": "the United States", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0.37}
 {"_id": "76957901E4278B498901454FA209CFFA-6-79-89-Organisation", "begin": 948, "end": 958, "type": "Organisation", "value": "our allies", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-7-0-4-Person", "begin": 1032, "end": 1036, "type": "Person", "value": "Cook", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 1}
 {"_id": "76957901E4278B498901454FA209CFFA-7-10-18-Location", "begin": 1042, "end": 1050, "type": "Location", "value": "the camp", "documentId": "76957901E4278B498901454FA209CFFA", "confidence": 0}
@@ -639,7 +639,7 @@
 {"_id": "B2E5F55F5D7E31B291D9F76E8E4AC75D-8-134-136-Organisation", "begin": 1438, "end": 1440, "type": "Organisation", "value": "we", "documentId": "B2E5F55F5D7E31B291D9F76E8E4AC75D", "confidence": 1}
 {"_id": "B2E5F55F5D7E31B291D9F76E8E4AC75D-8-150-154-Organisation", "begin": 1454, "end": 1458, "type": "Organisation", "value": "ISIL", "documentId": "B2E5F55F5D7E31B291D9F76E8E4AC75D", "confidence": 1}
 {"_id": "C044623AD872323AF717F26F21E9352B-0-0-11-Organisation", "begin": 0, "end": 11, "type": "Organisation", "value": "U.S. forces", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
-{"_id": "C044623AD872323AF717F26F21E9352B-0-22-28-Organisation", "begin": 22, "end": 28, "type": "Organisation", "value": "Jordan", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
+{"_id": "C044623AD872323AF717F26F21E9352B-0-22-28-Organisation", "begin": 22, "end": 28, "type": "Location", "value": "Jordan", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
 {"_id": "C044623AD872323AF717F26F21E9352B-0-63-83-Organisation", "begin": 63, "end": 83, "type": "Organisation", "value": "U.S. Central Command", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
 {"_id": "C044623AD872323AF717F26F21E9352B-0-109-140-Location", "begin": 109, "end": 140, "type": "Location", "value": "the Hashemite Kingdom of Jordan", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
 {"_id": "C044623AD872323AF717F26F21E9352B-0-146-155-Temporal", "begin": 146, "end": 155, "type": "Temporal", "value": "May 15-24", "documentId": "C044623AD872323AF717F26F21E9352B", "confidence": 1}
@@ -965,18 +965,18 @@
 {"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-13-25-29-Location", "begin": 1445, "end": 1449, "type": "Location", "value": "base", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
 {"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-0-17-Organisation", "begin": 2936, "end": 2953, "type": "Organisation", "value": "Coalition nations", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
 {"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-50-55-Location", "begin": 2986, "end": 2991, "type": "Location", "value": "Syria", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-64-73-Organisation", "begin": 3000, "end": 3009, "type": "Organisation", "value": "Australia", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.62}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-75-82-Organisation", "begin": 3011, "end": 3018, "type": "Organisation", "value": "Bahrain", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-84-90-Organisation", "begin": 3020, "end": 3026, "type": "Organisation", "value": "Canada", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-92-99-Organisation", "begin": 3028, "end": 3035, "type": "Organisation", "value": "Denmark", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.36}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-101-107-Organisation", "begin": 3037, "end": 3043, "type": "Organisation", "value": "France", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-109-115-Organisation", "begin": 3045, "end": 3051, "type": "Organisation", "value": "Jordan", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-117-132-Organisation", "begin": 3053, "end": 3068, "type": "Organisation", "value": "the Netherlands", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-134-146-Organisation", "begin": 3070, "end": 3082, "type": "Organisation", "value": "Saudi Arabia", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-148-154-Organisation", "begin": 3084, "end": 3090, "type": "Organisation", "value": "Turkey", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-156-176-Organisation", "begin": 3092, "end": 3112, "type": "Organisation", "value": "United Arab Emirates", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-178-196-Organisation", "begin": 3114, "end": 3132, "type": "Organisation", "value": "the United Kingdom", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
-{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-202-219-Organisation", "begin": 3138, "end": 3155, "type": "Organisation", "value": "the United States", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-64-73-Organisation", "begin": 3000, "end": 3009, "type": "Location", "value": "Australia", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.62}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-75-82-Organisation", "begin": 3011, "end": 3018, "type": "Location", "value": "Bahrain", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-84-90-Organisation", "begin": 3020, "end": 3026, "type": "Location", "value": "Canada", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-92-99-Organisation", "begin": 3028, "end": 3035, "type": "Location", "value": "Denmark", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.36}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-101-107-Organisation", "begin": 3037, "end": 3043, "type": "Location", "value": "France", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-109-115-Organisation", "begin": 3045, "end": 3051, "type": "Location", "value": "Jordan", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-117-132-Organisation", "begin": 3053, "end": 3068, "type": "Location", "value": "the Netherlands", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 0.1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-134-146-Organisation", "begin": 3070, "end": 3082, "type": "Location", "value": "Saudi Arabia", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-148-154-Organisation", "begin": 3084, "end": 3090, "type": "Location", "value": "Turkey", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-156-176-Organisation", "begin": 3092, "end": 3112, "type": "Location", "value": "United Arab Emirates", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-178-196-Organisation", "begin": 3114, "end": 3132, "type": "Location", "value": "the United Kingdom", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
+{"_id": "F5B5E86320A4E95E92A7EA2FB8E8B484-22-202-219-Organisation", "begin": 3138, "end": 3155, "type": "Location", "value": "the United States", "documentId": "F5B5E86320A4E95E92A7EA2FB8E8B484", "confidence": 1}
 {"_id": "F7893F2F4E38C8E00C7D22E22E100428-0-0-30-Person", "begin": 0, "end": 30, "type": "Person", "value": "U.S. Army General Joseph Votel", "documentId": "F7893F2F4E38C8E00C7D22E22E100428", "confidence": 1}
 {"_id": "F7893F2F4E38C8E00C7D22E22E100428-0-43-63-Organisation", "begin": 43, "end": 63, "type": "Organisation", "value": "U.S. Central Command", "documentId": "F7893F2F4E38C8E00C7D22E22E100428", "confidence": 0.65}
 {"_id": "F7893F2F4E38C8E00C7D22E22E100428-0-82-115-Organisation", "begin": 82, "end": 115, "type": "Organisation", "value": "U.S. Air Force civilian employees", "documentId": "F7893F2F4E38C8E00C7D22E22E100428", "confidence": 1}

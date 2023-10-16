@@ -1,5 +1,5 @@
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-0-5-Organisation", "begin": 0, "end": 5, "type": "Organisation", "value": "Syria", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-18-24-Organisation", "begin": 18, "end": 24, "type": "Organisation", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-0-5-Organisation", "begin": 0, "end": 5, "type": "Location", "value": "Syria", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-18-24-Organisation", "begin": 18, "end": 24, "type": "Location", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-47-63-Location", "begin": 47, "end": 63, "type": "Location", "value": "west of Damascus", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-0-81-99-Location", "begin": 81, "end": 99, "type": "Location", "value": "a military airport", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-1-0-16-Organisation", "begin": 111, "end": 127, "type": "Organisation", "value": "State television", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.99}
@@ -11,12 +11,12 @@
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-3-0-22-Organisation", "begin": 335, "end": 357, "type": "Organisation", "value": "The Israeli government", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-3-98-103-Location", "begin": 433, "end": 438, "type": "Location", "value": "Syria", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-0-2-Organisation", "begin": 440, "end": 442, "type": "Organisation", "value": "It", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.99}
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-60-67-Organisation", "begin": 500, "end": 507, "type": "Organisation", "value": "Lebanon", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.91}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-60-67-Organisation", "begin": 500, "end": 507, "type": "Location", "value": "Lebanon", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.91}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-70-88-Organisation", "begin": 510, "end": 528, "type": "Organisation", "value": "Hezbollah movement", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-109-114-Location", "begin": 549, "end": 554, "type": "Location", "value": "Syria", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.92}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-4-136-140-Temporal", "begin": 576, "end": 580, "type": "Temporal", "value": "2011", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-0-9-Organisation", "begin": 582, "end": 591, "type": "Organisation", "value": "Hezbollah", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-46-52-Organisation", "begin": 628, "end": 634, "type": "Organisation", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-46-52-Organisation", "begin": 628, "end": 634, "type": "Location", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-56-60-Temporal", "begin": 638, "end": 642, "type": "Temporal", "value": "2006", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-71-92-Organisation", "begin": 653, "end": 674, "type": "Organisation", "value": "thousands of fighters", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-5-96-101-Location", "begin": 678, "end": 683, "type": "Location", "value": "Syria", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
@@ -24,11 +24,11 @@
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-6-10-33-Organisation", "begin": 741, "end": 764, "type": "Organisation", "value": "Syrian news agency Sana", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.98}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-6-57-84-Location", "begin": 788, "end": 815, "type": "Location", "value": "the Mezzeh military airport", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-7-1-9-Organisation", "begin": 864, "end": 872, "type": "Organisation", "value": "The army", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-7-32-38-Organisation", "begin": 895, "end": 901, "type": "Organisation", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.94}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-7-32-38-Organisation", "begin": 895, "end": 901, "type": "Location", "value": "Israel", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 0.94}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-7-101-108-Organisation", "begin": 964, "end": 971, "type": "Organisation", "value": "Reuters", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-3-11-Temporal", "begin": 977, "end": 985, "type": "Temporal", "value": "December", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-13-31-Organisation", "begin": 987, "end": 1005, "type": "Organisation", "value": "Syrian state media", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
-{"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-40-47-Nationality", "begin": 1014, "end": 1021, "type": "Nationality", "value": "Israeli", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
+{"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-40-47-Nationality", "begin": 1014, "end": 1021, "type": "Location", "value": "Israeli", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-48-55-Weapon", "begin": 1022, "end": 1029, "type": "Weapon", "value": "missile", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-76-87-Location", "begin": 1050, "end": 1061, "type": "Location", "value": "the airport", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
 {"_id": "3095FB15AFF7B552702E9EF46C083FDD-8-91-97-Location", "begin": 1065, "end": 1071, "type": "Location", "value": "Mezzeh", "documentId": "3095FB15AFF7B552702E9EF46C083FDD", "confidence": 1}
@@ -151,12 +151,12 @@
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-35-40-DocumentReference", "begin": 4023, "end": 4028, "type": "DocumentReference", "value": "books", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 0.98}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-59-71-Organisation", "begin": 4047, "end": 4059, "type": "Organisation", "value": "Arab writers", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-104-116-Person", "begin": 4092, "end": 4104, "type": "Person", "value": "Ahmed Shawqi", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
-{"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-151-157-Nationality", "begin": 4139, "end": 4145, "type": "Nationality", "value": "Syrian", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
+{"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-151-157-Nationality", "begin": 4139, "end": 4145, "type": "Location", "value": "Syrian", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-165-174-Person", "begin": 4153, "end": 4162, "type": "Person", "value": "al-Tanawi", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-31-205-219-Location", "begin": 4193, "end": 4207, "type": "Location", "value": "the Arab world", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 0.06}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-32-4-6-Person", "begin": 4213, "end": 4215, "type": "Person", "value": "he", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-33-3-4-Person", "begin": 4300, "end": 4301, "type": "Person", "value": "I", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
-{"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-33-27-33-Nationality", "begin": 4324, "end": 4330, "type": "Nationality", "value": "French", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 0}
+{"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-33-27-33-Nationality", "begin": 4324, "end": 4330, "type": "Location", "value": "French", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 0}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-33-46-47-Person", "begin": 4343, "end": 4344, "type": "Person", "value": "I", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-33-77-95-Person", "begin": 4374, "end": 4392, "type": "Person", "value": "Abdulbaset Alahmar", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
 {"_id": "55AE94FC6D11B6BC1A89A144F6BA49FF-34-3-14-Person", "begin": 4437, "end": 4448, "type": "Person", "value": "Shakespeare", "documentId": "55AE94FC6D11B6BC1A89A144F6BA49FF", "confidence": 1}
@@ -318,7 +318,7 @@
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-3-80-107-Organisation", "begin": 260, "end": 287, "type": "Organisation", "value": "musicians and other artists", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-4-5-10-Location", "begin": 294, "end": 299, "type": "Location", "value": "there", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-4-12-14-Person", "begin": 301, "end": 303, "type": "Person", "value": "he", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
-{"_id": "A0302EA7B1BDE005835BC09ECBF2930A-4-32-37-Nationality", "begin": 321, "end": 326, "type": "Nationality", "value": "Iraqi", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
+{"_id": "A0302EA7B1BDE005835BC09ECBF2930A-4-32-37-Nationality", "begin": 321, "end": 326, "type": "Location", "value": "Iraqi", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-5-0-2-Person", "begin": 338, "end": 340, "type": "Person", "value": "He", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-5-30-37-Location", "begin": 368, "end": 375, "type": "Location", "value": "Baghdad", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
 {"_id": "A0302EA7B1BDE005835BC09ECBF2930A-5-48-69-Location", "begin": 386, "end": 407, "type": "Location", "value": "Karrada neighbourhood", "documentId": "A0302EA7B1BDE005835BC09ECBF2930A", "confidence": 1}
@@ -458,7 +458,7 @@
 {"_id": "A575C2B05115236A223DBE644F73BE9A-6-12-22-Organisation", "begin": 620, "end": 630, "type": "Organisation", "value": "the police", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-7-5-16-DocumentReference", "begin": 637, "end": 648, "type": "DocumentReference", "value": "the permits", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.94}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-8-10-17-Quantity", "begin": 679, "end": 686, "type": "Quantity", "value": "650,000", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-8-18-25-Organisation", "begin": 687, "end": 694, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-8-18-25-Organisation", "begin": 687, "end": 694, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-8-56-62-Location", "begin": 725, "end": 731, "type": "Location", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-9-25-39-Organisation", "begin": 758, "end": 772, "type": "Organisation", "value": "the government", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-9-53-67-Quantity", "begin": 786, "end": 800, "type": "Quantity", "value": "a few thousand", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
@@ -466,7 +466,7 @@
 {"_id": "A575C2B05115236A223DBE644F73BE9A-10-15-19-Organisation", "begin": 826, "end": 830, "type": "Organisation", "value": "they", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-10-58-68-Organisation", "begin": 869, "end": 879, "type": "Organisation", "value": "Jordanians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.97}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-11-4-19-Organisation", "begin": 949, "end": 964, "type": "Organisation", "value": "the authorities", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-11-94-101-Organisation", "begin": 1039, "end": 1046, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.28}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-11-94-101-Organisation", "begin": 1039, "end": 1046, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.28}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-12-6-17-Organisation", "begin": 1089, "end": 1100, "type": "Organisation", "value": "350 Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.45}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-12-27-42-Organisation", "begin": 1110, "end": 1125, "type": "Organisation", "value": "al-Rahman Farms", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-13-13-15-Organisation", "begin": 1142, "end": 1144, "type": "Organisation", "value": "us", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
@@ -508,28 +508,28 @@
 {"_id": "A575C2B05115236A223DBE644F73BE9A-31-0-10-Temporal", "begin": 2058, "end": 2068, "type": "Temporal", "value": "Last month", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-31-81-100-Organisation", "begin": 2139, "end": 2158, "type": "Organisation", "value": "Jordanian factories", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.97}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-31-114-132-Organisation", "begin": 2172, "end": 2190, "type": "Organisation", "value": "the European Union", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-32-91-97-Nationality", "begin": 2283, "end": 2289, "type": "Nationality", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.93}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-32-91-97-Nationality", "begin": 2283, "end": 2289, "type": "Location", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.93}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-32-136-138-Organisation", "begin": 2328, "end": 2330, "type": "Organisation", "value": "EU", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-33-36-43-Organisation", "begin": 2376, "end": 2383, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.97}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-33-36-43-Organisation", "begin": 2376, "end": 2383, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.97}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-33-49-59-Organisation", "begin": 2389, "end": 2399, "type": "Organisation", "value": "businesses", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-34-67-74-Organisation", "begin": 2481, "end": 2488, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-34-67-74-Organisation", "begin": 2481, "end": 2488, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-34-143-145-Organisation", "begin": 2557, "end": 2559, "type": "Organisation", "value": "us", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-34-211-253-Person", "begin": 2625, "end": 2667, "type": "Person", "value": "Jordanian planning minister, Imad Fakhoury", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-35-41-51-Organisation", "begin": 2711, "end": 2721, "type": "Organisation", "value": "Jordanians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.9}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-35-67-82-Organisation", "begin": 2737, "end": 2752, "type": "Organisation", "value": "Syrian refugees", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-36-0-6-Organisation", "begin": 2846, "end": 2852, "type": "Organisation", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.99}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-36-0-6-Organisation", "begin": 2846, "end": 2852, "type": "Location", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.99}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-36-46-57-Quantity", "begin": 2892, "end": 2903, "type": "Quantity", "value": "2.4% a year", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-37-0-2-Organisation", "begin": 2905, "end": 2907, "type": "Organisation", "value": "It", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.5}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-37-67-72-Organisation", "begin": 2972, "end": 2977, "type": "Organisation", "value": "Syria", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-37-77-81-Organisation", "begin": 2982, "end": 2986, "type": "Organisation", "value": "Iraq", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.01}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-37-67-72-Organisation", "begin": 2972, "end": 2977, "type": "Location", "value": "Syria", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-37-77-81-Organisation", "begin": 2982, "end": 2986, "type": "Location", "value": "Iraq", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.01}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-38-4-6-Organisation", "begin": 3024, "end": 3026, "type": "Organisation", "value": "it", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-39-0-14-Organisation", "begin": 3089, "end": 3103, "type": "Organisation", "value": "The World Bank", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-39-39-44-Money", "begin": 3128, "end": 3133, "type": "Money", "value": "$100m", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-40-0-10-Temporal", "begin": 3154, "end": 3164, "type": "Temporal", "value": "Next month", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-40-40-45-Money", "begin": 3194, "end": 3199, "type": "Money", "value": "$300m", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-41-18-24-Organisation", "begin": 3293, "end": 3299, "type": "Organisation", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.37}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-41-18-24-Organisation", "begin": 3293, "end": 3299, "type": "Location", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.37}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-41-35-42-Quantity", "begin": 3310, "end": 3317, "type": "Quantity", "value": "200,000", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-41-43-50-Organisation", "begin": 3318, "end": 3325, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.94}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-41-43-50-Organisation", "begin": 3318, "end": 3325, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.94}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-42-0-6-Organisation", "begin": 3327, "end": 3333, "type": "Organisation", "value": "The EU", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-42-34-42-Organisation", "begin": 3361, "end": 3369, "type": "Organisation", "value": "refugees", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-42-103-107-Organisation", "begin": 3430, "end": 3434, "type": "Organisation", "value": "they", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
@@ -537,7 +537,7 @@
 {"_id": "A575C2B05115236A223DBE644F73BE9A-43-0-6-Organisation", "begin": 3486, "end": 3492, "type": "Organisation", "value": "Donors", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-43-41-49-Money", "begin": 3527, "end": 3535, "type": "Money", "value": "handouts", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 0.8}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-44-23-34-Quantity", "begin": 3560, "end": 3571, "type": "Quantity", "value": "4.7 million", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
-{"_id": "A575C2B05115236A223DBE644F73BE9A-44-35-42-Organisation", "begin": 3572, "end": 3579, "type": "Organisation", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
+{"_id": "A575C2B05115236A223DBE644F73BE9A-44-35-42-Organisation", "begin": 3572, "end": 3579, "type": "Location", "value": "Syrians", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-44-57-63-Location", "begin": 3594, "end": 3600, "type": "Location", "value": "Jordan", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-44-65-72-Location", "begin": 3602, "end": 3609, "type": "Location", "value": "Lebanon", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}
 {"_id": "A575C2B05115236A223DBE644F73BE9A-44-77-83-Location", "begin": 3614, "end": 3620, "type": "Location", "value": "Turkey", "documentId": "A575C2B05115236A223DBE644F73BE9A", "confidence": 1}

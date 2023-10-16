@@ -1,5 +1,5 @@
 {"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-0-6-Location", "begin": 0, "end": 6, "type": "Location", "value": "Hibhib", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 1}
-{"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-8-14-Nationality", "begin": 8, "end": 14, "type": "Nationality", "value": "Arabic", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 0}
+{"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-8-14-Nationality", "begin": 8, "end": 14, "type": "Location", "value": "Arabic", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 0}
 {"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-30-44-Location", "begin": 30, "end": 44, "type": "Location", "value": "Hibhib Village", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 0.99}
 {"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-62-75-Location", "begin": 62, "end": 75, "type": "Location", "value": "northern Iraq", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 0.97}
 {"_id": "0388FEF6427DE0223688EB04A8DA71E1-0-85-89-Quantity", "begin": 85, "end": 89, "type": "Quantity", "value": "8\u00a0km", "documentId": "0388FEF6427DE0223688EB04A8DA71E1", "confidence": 1}
@@ -75,7 +75,7 @@
 {"_id": "22BCFA25729AF03473435DAAAE67F5B8-4-16-43-Organisation", "begin": 733, "end": 760, "type": "Organisation", "value": "the Syrian Computer Society", "documentId": "22BCFA25729AF03473435DAAAE67F5B8", "confidence": 1}
 {"_id": "22BCFA25729AF03473435DAAAE67F5B8-4-89-115-Organisation", "begin": 806, "end": 832, "type": "Organisation", "value": "the Syrian Electronic Army", "documentId": "22BCFA25729AF03473435DAAAE67F5B8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-0-0-13-Person", "begin": 0, "end": 13, "type": "Person", "value": "Abboud Qanbar", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
-{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-0-14-20-Nationality", "begin": 14, "end": 20, "type": "Nationality", "value": "Arabic", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0}
+{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-0-14-20-Nationality", "begin": 14, "end": 20, "type": "Location", "value": "Arabic", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-0-51-61-Person", "begin": 51, "end": 61, "type": "Person", "value": "Abu Haidar", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-0-72-77-Nationality", "begin": 72, "end": 77, "type": "Nationality", "value": "Iraqi", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-1-3-19-Temporal", "begin": 90, "end": 106, "type": "Temporal", "value": "January 13, 2007", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
@@ -97,8 +97,8 @@
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-0-6-Person", "begin": 453, "end": 459, "type": "Person", "value": "Qanbar", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-26-34-Organisation", "begin": 479, "end": 487, "type": "Organisation", "value": "the navy", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-42-56-Person", "begin": 495, "end": 509, "type": "Person", "value": "Saddam Hussein", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
-{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-87-91-Organisation", "begin": 540, "end": 544, "type": "Organisation", "value": "Iran", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0.21}
-{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-92-96-Organisation", "begin": 545, "end": 549, "type": "Organisation", "value": "Iraq", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0}
+{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-87-91-Organisation", "begin": 540, "end": 544, "type": "Location", "value": "Iran", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0.21}
+{"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-92-96-Organisation", "begin": 545, "end": 549, "type": "Location", "value": "Iraq", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 0}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-104-111-Temporal", "begin": 557, "end": 564, "type": "Temporal", "value": "1980-88", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-130-136-Location", "begin": 583, "end": 589, "type": "Location", "value": "Kuwait", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
 {"_id": "2B0DB9AA5ACC73214D2C69C20AA734A8-4-140-147-Temporal", "begin": 593, "end": 600, "type": "Temporal", "value": "1990-91", "documentId": "2B0DB9AA5ACC73214D2C69C20AA734A8", "confidence": 1}
@@ -139,7 +139,7 @@
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-0-15-Location", "begin": 0, "end": 15, "type": "Location", "value": "Samarra Barrage", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 0.73}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-17-23-Nationality", "begin": 17, "end": 23, "type": "Nationality", "value": "Arabic", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 0}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-44-60-Location", "begin": 44, "end": 60, "type": "Location", "value": "Tharthar Barrage", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
-{"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-62-68-Nationality", "begin": 62, "end": 68, "type": "Nationality", "value": "Arabic", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 0}
+{"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-62-68-Nationality", "begin": 62, "end": 68, "type": "Location", "value": "Arabic", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 0}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-115-131-Location", "begin": 115, "end": 131, "type": "Location", "value": "the Tigris River", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-151-158-Location", "begin": 151, "end": 158, "type": "Location", "value": "Samarra", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-0-172-185-Location", "begin": 172, "end": 185, "type": "Location", "value": "Baghdad, Iraq", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
@@ -152,7 +152,7 @@
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-2-135-148-Location", "begin": 505, "end": 518, "type": "Location", "value": "the Mosul Dam", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-2-182-196-Location", "begin": 552, "end": 566, "type": "Location", "value": "dams in Turkey", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-3-20-24-Temporal", "begin": 588, "end": 592, "type": "Temporal", "value": "1956", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
-{"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-3-32-38-Nationality", "begin": 600, "end": 606, "type": "Nationality", "value": "German", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
+{"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-3-32-38-Nationality", "begin": 600, "end": 606, "type": "Location", "value": "German", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-3-47-53-Organisation", "begin": 615, "end": 621, "type": "Organisation", "value": "Z\u00fcblin", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-4-26-61-Organisation", "begin": 649, "end": 684, "type": "Organisation", "value": "the British firm Voganlei and Coode", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 0.99}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-5-0-17-Location", "begin": 686, "end": 703, "type": "Location", "value": "The power station", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
@@ -182,9 +182,9 @@
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-11-0-18-Organisation", "begin": 1478, "end": 1496, "type": "Organisation", "value": "The jihadist group", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "2ED27E1CBF9EFDEF369E721DC948D2F4-11-43-60-Location", "begin": 1521, "end": 1538, "type": "Location", "value": "military barracks", "documentId": "2ED27E1CBF9EFDEF369E721DC948D2F4", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-0-11-Person", "begin": 0, "end": 11, "type": "Person", "value": "Abu Ghadiya", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
-{"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-13-19-Nationality", "begin": 13, "end": 19, "type": "Nationality", "value": "Arabic", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 0}
+{"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-13-19-Nationality", "begin": 13, "end": 19, "type": "Location", "value": "Arabic", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 0}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-40-69-Person", "begin": 40, "end": 69, "type": "Person", "value": "Badran Turki Hishan al-Mazidi", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
-{"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-71-77-Nationality", "begin": 71, "end": 77, "type": "Nationality", "value": "Arabic", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 0}
+{"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-71-77-Nationality", "begin": 71, "end": 77, "type": "Location", "value": "Arabic", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 0}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-124-128-Temporal", "begin": 124, "end": 128, "type": "Temporal", "value": "1977", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-137-142-Location", "begin": 137, "end": 142, "type": "Location", "value": "Mosul", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-0-150-155-Nationality", "begin": 150, "end": 155, "type": "Nationality", "value": "Sunni", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 0}
@@ -203,7 +203,7 @@
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-13-50-Organisation", "begin": 473, "end": 510, "type": "Organisation", "value": "the United States Treasury Department", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-52-72-Person", "begin": 512, "end": 532, "type": "Person", "value": "Abu Musab al-Zarqawi", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-83-94-Person", "begin": 543, "end": 554, "type": "Person", "value": "Abu Ghadiya", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
-{"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-104-110-Nationality", "begin": 564, "end": 570, "type": "Nationality", "value": "Syrian", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
+{"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-104-110-Nationality", "begin": 564, "end": 570, "type": "Location", "value": "Syrian", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-125-128-Organisation", "begin": 585, "end": 588, "type": "Organisation", "value": "AQI", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-3-144-148-Temporal", "begin": 604, "end": 608, "type": "Temporal", "value": "2004", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
 {"_id": "3B6F5E49DF05198FD982806C6CA1591C-4-6-13-Person", "begin": 616, "end": 623, "type": "Person", "value": "Zarqawi", "documentId": "3B6F5E49DF05198FD982806C6CA1591C", "confidence": 1}
@@ -260,7 +260,7 @@
 {"_id": "76F75D985AD7642B43A8AA4DBC146621-4-199-227-Person", "begin": 1028, "end": 1056, "type": "Person", "value": "lieutenant Muath al-Kasasbeh", "documentId": "76F75D985AD7642B43A8AA4DBC146621", "confidence": 1}
 {"_id": "76F75D985AD7642B43A8AA4DBC146621-4-231-271-Organisation", "begin": 1060, "end": 1100, "type": "Organisation", "value": "the Islamic State of Iraq and the Levant", "documentId": "76F75D985AD7642B43A8AA4DBC146621", "confidence": 1}
 {"_id": "774684266A20284937043C2BC997EC3B-0-1-28-Organisation", "begin": 1, "end": 28, "type": "Organisation", "value": "Jaish al-Ta'ifa al-Mansurah", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 1}
-{"_id": "774684266A20284937043C2BC997EC3B-0-30-36-Nationality", "begin": 30, "end": 36, "type": "Nationality", "value": "Arabic", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 0}
+{"_id": "774684266A20284937043C2BC997EC3B-0-30-36-Nationality", "begin": 30, "end": 36, "type": "Location", "value": "Arabic", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 0}
 {"_id": "774684266A20284937043C2BC997EC3B-0-92-119-Organisation", "begin": 92, "end": 119, "type": "Organisation", "value": "Army of the Victorious Sect", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 1}
 {"_id": "774684266A20284937043C2BC997EC3B-0-126-148-Organisation", "begin": 126, "end": 148, "type": "Organisation", "value": "a militant Sunni group", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 0.98}
 {"_id": "774684266A20284937043C2BC997EC3B-0-171-191-Organisation", "begin": 171, "end": 191, "type": "Organisation", "value": "the Iraqi insurgency", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 1}
@@ -286,12 +286,12 @@
 {"_id": "774684266A20284937043C2BC997EC3B-5-26-35-Organisation", "begin": 872, "end": 881, "type": "Organisation", "value": "11 people", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 0.01}
 {"_id": "774684266A20284937043C2BC997EC3B-5-47-58-Person", "begin": 893, "end": 904, "type": "Person", "value": "one hostage", "documentId": "774684266A20284937043C2BC997EC3B", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-0-23-Organisation", "begin": 0, "end": 23, "type": "Organisation", "value": "Operation Steel Curtain", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0}
-{"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-25-31-Nationality", "begin": 25, "end": 31, "type": "Nationality", "value": "Arabic", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0}
+{"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-25-31-Nationality", "begin": 25, "end": 31, "type": "Location", "value": "Arabic", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-49-67-Person", "begin": 49, "end": 67, "type": "Person", "value": "Al Hejab Elfulathi", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-106-122-Organisation", "begin": 106, "end": 122, "type": "Organisation", "value": "coalition forces", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-126-145-Temporal", "begin": 126, "end": 145, "type": "Temporal", "value": "early November 2005", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-168-186-Organisation", "begin": 168, "end": 186, "type": "Organisation", "value": "foreign insurgents", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0.98}
-{"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-223-228-Nationality", "begin": 223, "end": 228, "type": "Nationality", "value": "Iraqi", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
+{"_id": "7EA8D40D4CBE1191B91C9B3503A07338-0-223-228-Nationality", "begin": 223, "end": 228, "type": "Location", "value": "Iraqi", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-1-79-97-Organisation", "begin": 320, "end": 338, "type": "Organisation", "value": "the New Iraqi Army", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-2-56-62-Person", "begin": 396, "end": 402, "type": "Person", "value": "Hunter", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-2-85-101-Organisation", "begin": 425, "end": 441, "type": "Organisation", "value": "al Qaeda in Iraq", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0.92}
@@ -347,7 +347,7 @@
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-14-92-104-Organisation", "begin": 2076, "end": 2088, "type": "Organisation", "value": "97 civilians", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 1}
 {"_id": "7EA8D40D4CBE1191B91C9B3503A07338-14-115-129-Temporal", "begin": 2099, "end": 2113, "type": "Temporal", "value": "the first week", "documentId": "7EA8D40D4CBE1191B91C9B3503A07338", "confidence": 0.98}
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-0-20-Location", "begin": 0, "end": 20, "type": "Location", "value": "The Hamrin Mountains", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
-{"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-22-28-Nationality", "begin": 22, "end": 28, "type": "Nationality", "value": "Arabic", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
+{"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-22-28-Nationality", "begin": 22, "end": 28, "type": "Location", "value": "Arabic", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-54-61-Nationality", "begin": 54, "end": 61, "type": "Nationality", "value": "Kurdish", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-100-122-Location", "begin": 100, "end": 122, "type": "Location", "value": "a small mountain ridge", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-0-126-140-Location", "begin": 126, "end": 140, "type": "Location", "value": "northeast Iraq", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
@@ -370,7 +370,7 @@
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-4-37-59-Location", "begin": 644, "end": 666, "type": "Location", "value": "35.0325\u00b0N 43.6463889\u00b0E", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
 {"_id": "99036C6E6DB96D33FA0830D3095E7B71-4-62-81-Location", "begin": 669, "end": 688, "type": "Location", "value": "35.0325; 43.6463889", "documentId": "99036C6E6DB96D33FA0830D3095E7B71", "confidence": 1}
 {"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-0-14-Organisation", "begin": 0, "end": 14, "type": "Organisation", "value": "Alsumaria News", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}
-{"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-16-22-Nationality", "begin": 16, "end": 22, "type": "Nationality", "value": "Arabic", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}
+{"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-16-22-Nationality", "begin": 16, "end": 22, "type": "Location", "value": "Arabic", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}
 {"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-24-37-Organisation", "begin": 24, "end": 37, "type": "Organisation", "value": "\u0627\u0644\u0633\u0648\u0645\u0631\u064a\u0629 \u0646\u064a\u0648\u0632", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}
 {"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-59-64-Nationality", "begin": 59, "end": 64, "type": "Nationality", "value": "Iraqi", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}
 {"_id": "B7CAC5946BE12615BA4815FFE0FE4C54-0-104-111-Organisation", "begin": 104, "end": 111, "type": "Organisation", "value": "Nilesat", "documentId": "B7CAC5946BE12615BA4815FFE0FE4C54", "confidence": 1}

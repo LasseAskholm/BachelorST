@@ -6,18 +6,12 @@ def generate_prompt_ner(context, output="", input = "Extract all entities in the
      The entity types at your disposal include:
 
 Organisation,
-Nationality,
 Person,
-DocumentReference,
 Location,
 Money,
-Vehicle,
 Temporal,
 Weapon,
-Quantity,
-CommsIdentifier,
 MilitaryPlatform,
-Coordinate
 
 Your output should reflect the discovered entities in the given text, each tagged with its corresponding label.
 
@@ -45,21 +39,3 @@ the terrorist threat of Daesh (also known as ISIL).
 # Foreign Minister Julie Bishop - Person,
 # the Minister of Foreing affairs - Person,
 # 12 February - temporal 
-
-### Test promt:
-""" Extract all entities from the following context along with their associated label. The labels must be one of the following but all labels might not be present in the context provided. Furthermore, not every word necessarily be labeled: Organisation,
-Nationality,
-Person,
-DocumentReference,
-Location,
-Money,
-Vehicle,
-Temporal,
-Weapon,
-Quantity,
-CommsIdentifier,
-MilitaryPlatform,
-Coordinate,
-Frequency.
-
-Extract from the following context: "Foreign Minister Julie Bishop met with the Minister of Foreign Affairs of Iraq, HE Dr Ibrahim Al-Ja’afari, in Canberra on 12 February to discuss bilateral relations and reaffirm our shared commitment to combating the terrorist threat of Daesh (also known as ISIL)." """
