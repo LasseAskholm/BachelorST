@@ -5,7 +5,7 @@ import glob
 import itertools
 from datasets import Dataset
 
-self_labeled_data = "../data/selfLabeledWithReducedLabels.conll"
+self_labeled_data = "../data/selv-labeled-data/selfLabeledDataFiltered.conll"
 
 skippedLabelsList = ["DocumentReference", "Nationality", "Quantity", "CommsIdentifier", "Coordinate", "Frequency"]
 
@@ -138,7 +138,7 @@ def map_all_entities(dict,dirPath):
 
 def generate_df_from_additional_data():
     data_set = []
-    path = "../data/additional.json"
+    path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
     file = open (path)
     obj = json.load(file)
     for i in range (len(obj)):
