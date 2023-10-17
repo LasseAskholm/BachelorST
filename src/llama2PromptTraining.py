@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer, AutoModelForCausalLM
 from transformers import DataCollatorForTokenClassification
 from transformers import BitsAndBytesConfig
-from LoadTestData import generate_prompt_data, construct_global_docMap, generate_prompt_data_sentence
+from LoadTestData import generate_prompt_data, construct_global_docMap, generate_prompt_data_sentence, generate_df_from_additional_data
 import torch
 from huggingface_hub import login
 from loguru import logger
@@ -20,11 +20,6 @@ from peft import (
         set_peft_model_state_dict,
     )
 
-
-
-entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json")
-#df = generate_prompt_data(entities, "../data/re3d-master/BBC Online/documents.json")
-df = generate_prompt_data_sentence(entities, "../data/re3d-master/*/documents.json")
 
 
 access_token = "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"
@@ -64,16 +59,15 @@ config = LoraConfig(
 model = get_peft_model(model, config)
 
 def load_data_sets():
+   
     entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json")
     df = generate_prompt_data_sentence(entities, "../data/re3d-master/*/documents.json")
-
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train'].map(tokenize_and_generate_prompt)
     test_dataset = dataset['test'].map(tokenize_and_generate_prompt)
 
     return (train_dataset, test_dataset)
-
 
 def tokenize_and_generate_prompt(data_point):
     full_prompt = generate_prompt_ner(context =data_point['context'], output= data_point['answers'])
@@ -133,7 +127,7 @@ def main ():
         tokenizer = tokenizer,
     )
     #start training model
-    logger.info("STARTING TRAINING OF NER_MODEL")
+    logger.info("STARTING TRAINING OF PROMPTING NER_MODEL")
     trainer.train()
     trainer.push_to_hub()
 

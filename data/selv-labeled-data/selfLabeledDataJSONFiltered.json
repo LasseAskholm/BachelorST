@@ -23662,5 +23662,5765 @@
     "created_at": "2023-10-14T10:49:41.110348Z",
     "updated_at": "2023-10-14T10:49:41.110362Z",
     "lead_time": 16.973
+  },
+  {
+    "text": "ABU DHABI – Intrepid Maven 23.3 concluded in the United Arab Emirates on May 22. The exercise included more than 100 U.S. Marines and Sailors, alongside partnering elements of the United Arab Emirates Armed Forces, who conducted infantry-based close-quarters combat training, live-fire close-air support exercises, and expeditionary airfield operations at several training locations throughout the country.",
+    "id": 139,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "ABU DHABI",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 69,
+        "text": "United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 79,
+        "text": "May 22",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 141,
+        "text": "100 U.S. Marines and Sailors",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 180,
+        "end": 200,
+        "text": "United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 213,
+        "text": "Armed Forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1,
+    "created_at": "2023-10-13T09:41:12.976223Z",
+    "updated_at": "2023-10-13T09:41:12.976223Z",
+    "lead_time": 215.408
+  },
+  {
+    "text": "“Planning and training with the Emiratis in their country during Intrepid Maven definitely made both of our teams better, and I think it made our partnership stronger” said Maj. Dan Ealy, Officer-in-Charge of Task Force 51\/5th Marine Expeditionary Brigade’s Exercise Control Group (ECG). “It was really great getting to work with such a professional partner, and it gave us a chance to practice skills that are vital to our preparedness as a crisis-response task force, like planning and operating in a foreign and expeditionary environment,” Ealy concluded. “The level of professionalism the Emiratis displayed made our bilateral operations smooth and maximized the time we had to train”.",
+    "id": 140,
+    "label": [
+      {
+        "start": 173,
+        "end": 186,
+        "text": "Maj. Dan Ealy",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 442,
+        "end": 468,
+        "text": "crisis-response task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 543,
+        "end": 547,
+        "text": "Ealy",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 209,
+        "end": 226,
+        "text": "Task Force 51\/5th",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 227,
+        "end": 280,
+        "text": "Marine Expeditionary Brigade’s Exercise Control Group",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2,
+    "created_at": "2023-10-13T09:44:46.092216Z",
+    "updated_at": "2023-10-13T09:44:46.092216Z",
+    "lead_time": 212.719
+  },
+  {
+    "text": "Task Force 51\/5’s ECG provided overall command-and-control of the exercise, while also managing the logistical and administrative actions required to support multiple subordinate elements – these included elements from the task force’s administrative, logistics, communications, force protection, and operations directorates. The larger force of U.S. Marines supporting Intrepid Maven 23.3 consisted of a detachment of active-duty Marines from Marine Corps Forces Command (MARFORCOM), as well as detachments of Marine reservists from 3rd Air Naval Gunfire Liaison Company and Marine Air Control Group 48. Partnering elements of the United Arab Emirates Armed Forces included the Presidential Guard and Joint Aviation Command.",
+    "id": 141,
+    "label": [
+      {
+        "start": 223,
+        "end": 235,
+        "text": "task force’s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Task Force 51\/5’s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "text": "ECG",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 632,
+        "end": 652,
+        "text": "United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 653,
+        "end": 665,
+        "text": "Armed Forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 679,
+        "end": 697,
+        "text": "Presidential Guard",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 702,
+        "end": 724,
+        "text": "Joint Aviation Command",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 337,
+        "end": 358,
+        "text": "force of U.S. Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 419,
+        "end": 438,
+        "text": "active-duty Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 444,
+        "end": 471,
+        "text": "Marine Corps Forces Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 534,
+        "end": 571,
+        "text": "3rd Air Naval Gunfire Liaison Company",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 576,
+        "end": 603,
+        "text": "Marine Air Control Group 48",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 511,
+        "end": 528,
+        "text": "Marine reservists",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 3,
+    "created_at": "2023-10-13T10:29:35.309033Z",
+    "updated_at": "2023-10-13T10:29:35.310034Z",
+    "lead_time": 2688.716
+  },
+  {
+    "text": "Intrepid Maven 23.3 marks the second time USCENTCOM has conducted an Intrepid Maven exercise in the United Arab Emirates, and the seventh time Marines have held the exercise in the Middle East. Exercise Intrepid Maven is a U.S. Marine Corps Forces Central Command-conceptualized and -implemented exercise series, designed in late 2021, with the first iteration having occurred in Jordan in March 2022. The series, to include IM 23.3, is designed to strengthen partnerships, produce training opportunities, contribute to interoperability, and to improve conditions for regional security. Episodic in nature, Intrepid Maven, which occurs with anywhere from one to any of a number of partner nations during each iteration, is a force deployment-tailored training series designed to demonstrate persistence in partnering; to prepare for the demands of a volatile and fluid AOR; to conduct unit-level training in new and challenging areas, spaces and facilities; and to demonstrate service ability to project forces to meet emergent requirements, all with the objective of gaining and maintaining unit readiness, deterring malicious adversary intent and demonstrating global responsiveness for crisis-response and contingencies.",
+    "id": 142,
+    "label": [
+      {
+        "start": 42,
+        "end": 51,
+        "text": "USCENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 120,
+        "text": "United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 150,
+        "text": "Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 181,
+        "end": 192,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 223,
+        "end": 263,
+        "text": "U.S. Marine Corps Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 330,
+        "end": 334,
+        "text": "2021",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 390,
+        "end": 400,
+        "text": "March 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 380,
+        "end": 386,
+        "text": "Jordan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 4,
+    "created_at": "2023-10-13T10:33:17.059371Z",
+    "updated_at": "2023-10-13T10:33:17.059371Z",
+    "lead_time": 221.325
+  },
+  {
+    "text": "U.S. Central Command named U.S. Marine Corps Sgt. Steven Matsunaga as the winner of its second CENTCOM Innovation Oasis competition on May 25, 2023, at CENTCOM headquarters in Tampa. Matsunaga was also awarded the Defense Meritorious Service Medal for his development of a total force deployment dashboard (TFDD) that will help to fill a capability gap to expedite the analysis and quality control of large quantities of records instantaneously. Matsunaga, a Marine Air Ground Task Force planning specialist, and the force deployment noncommissioned officer in charge at U.S. Marine Corps Forces, Central Command, crafted the TFDD program with hopes of it being deployed throughout the military planning and execution community and across the CENTCOM area of responsibility.",
+    "id": 143,
+    "label": [
+      {
+        "start": 0,
+        "end": 20,
+        "text": "U.S. Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 66,
+        "text": "U.S. Marine Corps Sgt. Steven Matsunaga",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 102,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 147,
+        "text": "May 25, 2023",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 152,
+        "end": 159,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 176,
+        "end": 181,
+        "text": "Tampa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 183,
+        "end": 192,
+        "text": "Matsunaga",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 446,
+        "end": 455,
+        "text": "Matsunaga",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 459,
+        "end": 487,
+        "text": "Marine Air Ground Task Force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 550,
+        "end": 557,
+        "text": "officer",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 571,
+        "end": 595,
+        "text": "U.S. Marine Corps Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 743,
+        "end": 750,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 5,
+    "created_at": "2023-10-13T10:35:42.873899Z",
+    "updated_at": "2023-10-13T10:35:42.873899Z",
+    "lead_time": 145.467
+  },
+  {
+    "text": "“The fact that I was able to take a program, bring it here to CENTCOM, bring it to General Kurilla's attention, and speak to a wide audience and have them really grasp that problem and a solution for it... That's HUGE!,” Matsunaga said. “At the end of the day, I'm really just trying to give back, not just to Marine Corps or my MOS, but to anyone that might benefit with the application. I'd rather get this to a wider audience so that everyone can see and experience the benefit of it.”The ‘Shark Tank’-like innovation competition was open to all U.S. service members and DoD civilians from seven USCENTCOM subordinate and component commands, including ARCENT; AFCENT; NAVCENT; MARCENT; SOCCENT; SPACECENT; and CENTCOM.Each component command conducted their own individual innovation competitions and chose their top innovators to compete in the main event in Tampa.These innovators had the privilege to present their ideas in front of a distinguished panel of tech industry leaders and senior military officials, including:• Dr. Andrew Moore, Founder of Lovelace AI and former VP of Google AI Cloud• Kevin Harrington, Entrepreneur, and original ‘Shark’ on Shark Tank• Honorable Sue Gordon, former Deputy Director of National Intelligence• Honorable Mac Thornberry, former Chair House Armed Services Committee• General Michael “Erik” Kurilla, commander of CENTCOM• Fleet Master Chief Derrick Walters, senior enlisted leader CENTCOM• Colonel Khaled Alrubaian, Kuwait senior national representative at CENTCOM• Schuyler Moore, chief technology officer CENTCOM",
+    "id": 144,
+    "label": [
+      {
+        "start": 62,
+        "end": 69,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 100,
+        "text": "General Kurilla's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 221,
+        "end": 230,
+        "text": "Matsunaga",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 310,
+        "end": 322,
+        "text": "Marine Corps",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 329,
+        "end": 332,
+        "text": "MOS",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 549,
+        "end": 569,
+        "text": "U.S. service members",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 599,
+        "end": 608,
+        "text": "USCENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 862,
+        "end": 867,
+        "text": "Tampa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 954,
+        "end": 1014,
+        "text": "panel of tech industry leaders and senior military officials",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1028,
+        "end": 1044,
+        "text": "Dr. Andrew Moore",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1086,
+        "end": 1092,
+        "text": "Google",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1103,
+        "end": 1119,
+        "text": "Kevin Harrington",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1181,
+        "end": 1191,
+        "text": "Sue Gordon",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1252,
+        "end": 1266,
+        "text": "Mac Thornberry",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1275,
+        "end": 1311,
+        "text": "Chair House Armed Services Committee",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1313,
+        "end": 1343,
+        "text": "General Michael “Erik” Kurilla",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1358,
+        "end": 1365,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1367,
+        "end": 1401,
+        "text": "Fleet Master Chief Derrick Walters",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1426,
+        "end": 1433,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1435,
+        "end": 1459,
+        "text": "Colonel Khaled Alrubaian",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1461,
+        "end": 1467,
+        "text": "Kuwait",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1502,
+        "end": 1509,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1511,
+        "end": 1525,
+        "text": "Schuyler Moore",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1552,
+        "end": 1559,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 6,
+    "created_at": "2023-10-13T10:40:08.606230Z",
+    "updated_at": "2023-10-13T10:40:08.606230Z",
+    "lead_time": 265.372
+  },
+  {
+    "text": "Each finalist had ten minutes to present their innovation, followed by 15 minutes of questions and answers from the panel. Each presenter was evaluated along a set of criteria that included originality, scalability of concept and the overall presentation.",
+    "id": 145,
+    "annotator": 1,
+    "annotation_id": 7,
+    "created_at": "2023-10-13T10:42:39.574376Z",
+    "updated_at": "2023-10-13T10:42:39.574376Z",
+    "lead_time": 150.604
+  },
+  {
+    "text": "The presentations ranged from an electronic warfare virtual training environment to an AI prototype passenger tracker for noncombatant evacuation operations. The finalists chosen to present their innovation were selected from every U.S military service branch.",
+    "id": 146,
+    "label": [
+      {
+        "start": 232,
+        "end": 244,
+        "text": "U.S military",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 8,
+    "created_at": "2023-10-13T10:45:32.410936Z",
+    "updated_at": "2023-10-13T10:45:32.410936Z",
+    "lead_time": 172.494
+  },
+  {
+    "text": "“Innovation Oasis 2023 has enabled us to spread the spirit of innovation across the command, encouraging all our team members to think of creative solutions to real-world problems,” said Schuyler Moore, CENTCOM chief technology officer. “The next great idea can come from a civilian or service member, a sergeant or a general. Innovation is agnostic of position or rank, and here at CENTCOM we will always encourage and elevate that kind of thinking and problem-solving.",
+    "id": 147,
+    "label": [
+      {
+        "start": 187,
+        "end": 201,
+        "text": "Schuyler Moore",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 203,
+        "end": 210,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 383,
+        "end": 390,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 9,
+    "created_at": "2023-10-13T10:48:51.773714Z",
+    "updated_at": "2023-10-13T10:48:51.773714Z",
+    "lead_time": 199.017
+  },
+  {
+    "text": "\"Through just two iterations of the Innovation Oasis, CENTCOM has received hundreds of submissions from across the Department of Defense. The competition has provided a platform for service members to present ideas and to higher echelons of leadership.",
+    "id": 148,
+    "label": [
+      {
+        "start": 54,
+        "end": 61,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 136,
+        "text": "Department of Defense",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 10,
+    "created_at": "2023-10-13T10:49:26.706485Z",
+    "updated_at": "2023-10-13T10:49:26.706485Z",
+    "lead_time": 34.581
+  },
+  {
+    "text": "“A lot of the times if you present something to your leadership, it can come across as presenting a problem but if you take the time to fully understand the problem, come up with a solution, and you're willing to advocate for that idea, whether it's a product or it's a policy change...I've never met a leader that isn't willing to embrace change for the sake of improvement,” Matsunaga said. “So, if you are willing to take the time to develop that situation and advocate, I guarantee a good leader is going to be willing to grab on to it. They're going to listen. There're going to elevate it. And it doesn't matter what rank you are, it doesn't matter your experience level in your career field, if you’re willing to put forth the effort, you can take that solution anywhere you need to.”",
+    "id": 149,
+    "label": [
+      {
+        "start": 377,
+        "end": 386,
+        "text": "Matsunaga",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 11,
+    "created_at": "2023-10-13T10:52:45.326102Z",
+    "updated_at": "2023-10-13T10:52:45.326102Z",
+    "lead_time": 198.279
+  },
+  {
+    "text": "The resonating roar of an F-22 Raptor or the sky-ripping sound of an A-10C Thunderbolt II minigun ignites visions of air superiority. Though, amidst the awe-inspiring might of these multi-million dollar aircraft, lies an unsung hero: the diligent ground equipment Airmen who work behind the scenes.",
+    "id": 150,
+    "label": [
+      {
+        "start": 26,
+        "end": 37,
+        "text": "F-22 Raptor",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 89,
+        "text": "A-10C Thunderbolt II",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "text": "minigun",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 264,
+        "end": 270,
+        "text": "Airmen",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 182,
+        "end": 202,
+        "text": "multi-million dollar",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 12,
+    "created_at": "2023-10-13T10:54:07.392749Z",
+    "updated_at": "2023-10-13T10:54:07.392749Z",
+    "lead_time": 81.73
+  },
+  {
+    "text": "Aerospace ground equipment (AGE) is one of the first building blocks making up the pyramid aimed at the air domain and the 379th Expeditionary Maintenance Squadron (EMXS) Airmen at Al Udeid Air Base (AUAB), Qatar, form this essential building block for Central Command’s area of responsibility (AOR).",
+    "id": 151,
+    "label": [
+      {
+        "start": 171,
+        "end": 198,
+        "text": "Airmen at Al Udeid Air Base",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 212,
+        "text": "Qatar",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 13,
+    "created_at": "2023-10-13T10:54:54.651972Z",
+    "updated_at": "2023-10-13T10:54:54.651972Z",
+    "lead_time": 46.897
+  },
+  {
+    "text": "The AGE team is responsible for maintaining more than 350 pieces of equipment ranging from hydraulic maintenance stands to jet engine generators that provide power to aircraft on the flight line. Aircraft maintainers and crew chiefs rely on these assets every day to sustain the 379th Air Expeditionary Wing’s fleet to include the KC-135 Stratotanker and C-17 Globemaster III, or even transient aircraft like the KC-46A Pegasus.",
+    "id": 152,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "The AGE team",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 279,
+        "end": 315,
+        "text": "379th Air Expeditionary Wing’s fleet",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 331,
+        "end": 350,
+        "text": "KC-135 Stratotanker",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 355,
+        "end": 375,
+        "text": "C-17 Globemaster III",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 413,
+        "end": 427,
+        "text": "KC-46A Pegasus",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 14,
+    "created_at": "2023-10-13T10:56:15.671123Z",
+    "updated_at": "2023-10-13T10:56:15.671123Z",
+    "lead_time": 80.667
+  },
+  {
+    "text": "“It’s the strength of an AGE maintainer to remain flexible,” said U.S. Air Force Staff Sgt. Brandon Huff, 379th EMXS AGE craftsman. “Inspections one day, heavy maintenance the next, AGE touches all aircraft and misses none. With our capabilities, not only can we power older generation aircraft like the KC-135 with newer equipment built in the late 2010s, but we can extend the lifespan of Vietnam War-era equipment to work on new aircraft such as the KC-46.”",
+    "id": 153,
+    "label": [
+      {
+        "start": 66,
+        "end": 130,
+        "text": "U.S. Air Force Staff Sgt. Brandon Huff, 379th EMXS AGE craftsman",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 182,
+        "end": 185,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 304,
+        "end": 310,
+        "text": "KC-135",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 350,
+        "end": 355,
+        "text": "2010s",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 453,
+        "end": 458,
+        "text": "KC-46",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 391,
+        "end": 398,
+        "text": "Vietnam",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 15,
+    "created_at": "2023-10-13T11:00:01.131487Z",
+    "updated_at": "2023-10-13T11:00:01.131487Z",
+    "lead_time": 225.13
+  },
+  {
+    "text": "At AUAB, the in-flight refuel capabilities enable other aircraft to conduct security in the AOR without needing to land. With every piece of equipment the AGE Airmen provide, their hardworking hours directly contribute to the mission overhead.",
+    "id": 154,
+    "label": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "AUAB",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 165,
+        "text": "AGE Airmen",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 16,
+    "created_at": "2023-10-13T11:00:49.846198Z",
+    "updated_at": "2023-10-13T11:00:49.847200Z",
+    "lead_time": 48.37
+  },
+  {
+    "text": "“AGE is critical to the execution of our tanker mission at AUAB especially due to hot weather operations,” said Maj. Matthew Woods, 912th Expeditionary Air Refueling Squadron assistant director of operations. “Air conditioning carts maintained and provided by AGE allow our crews to perform pre-flight measures in extremely high temperatures. Because the crews are able to be in the jet with a cooler temperature, they are able to be more flexible with dynamic taskings that may require ground delays.”",
+    "id": 155,
+    "label": [
+      {
+        "start": 1,
+        "end": 4,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "AUAB",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 207,
+        "text": "Maj. Matthew Woods, 912th Expeditionary Air Refueling Squadron assistant director of operations",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 260,
+        "end": 263,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 17,
+    "created_at": "2023-10-13T11:02:10.502623Z",
+    "updated_at": "2023-10-13T11:02:10.502623Z",
+    "lead_time": 80.315
+  },
+  {
+    "text": "Certified on jet engines, air conditioning, high purity nitrogen and more, AGE Airmen are multi-capable and ready to solve problems in an unpredictable environment, protecting the longevity of the fleet.",
+    "id": 156,
+    "label": [
+      {
+        "start": 75,
+        "end": 85,
+        "text": "AGE Airmen",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 18,
+    "created_at": "2023-10-13T11:02:22.245610Z",
+    "updated_at": "2023-10-13T11:02:22.245610Z",
+    "lead_time": 11.384
+  },
+  {
+    "text": "“Air conditioning carts allow the KC-135 to operate electronic upgraded variants in the desert by cooling the circuit breaker panels, minimizing maintenance issues,” Woods said. “AGE is also crucial to our operations by providing units that supply ground power to the aircraft in lieu of using the aircraft's auxiliary power unit (APU). Minimizing the wear and tear on the APUs allows us to increase the lifespan of a critical system.”",
+    "id": 157,
+    "label": [
+      {
+        "start": 34,
+        "end": 40,
+        "text": "KC-135",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 171,
+        "text": "Woods",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 179,
+        "end": 182,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2023-10-13T11:03:27.477089Z",
+    "updated_at": "2023-10-13T11:03:27.477089Z",
+    "lead_time": 64.886
+  },
+  {
+    "text": "Not only does AGE enable air power for U.S. aircraft, but it also extends its reach to coalition forces.",
+    "id": 158,
+    "label": [
+      {
+        "start": 14,
+        "end": 17,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 52,
+        "text": "U.S. aircraft",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2023-10-13T11:03:46.429769Z",
+    "updated_at": "2023-10-13T11:03:46.429769Z",
+    "lead_time": 18.634
+  },
+  {
+    "text": "“We had a French KC-135 out there for a while, and we provided our AGE to them as well,” said U.S. Air Force Senior Airman Marc Rose, 379th EMXS AGE maintenance journeyman. “We let them use our generator carts, our universal maintenance stands, hydraulic carts … anything they needed to service their aircraft as well.”",
+    "id": 159,
+    "label": [
+      {
+        "start": 17,
+        "end": 23,
+        "text": "KC-135",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "text": "AGE",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 171,
+        "text": "U.S. Air Force Senior Airman Marc Rose, 379th EMXS AGE maintenance journeyman",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2023-10-13T11:04:18.131943Z",
+    "updated_at": "2023-10-13T11:04:18.131943Z",
+    "lead_time": 31.36
+  },
+  {
+    "text": "Recognizing the interdependence of air and ground support, Rose further underscored the integral nature of their work, stating, \"There's no air support without ground support. It all works together; we're just one link in that chain. Without us, the chain is broken.\"",
+    "id": 160,
+    "label": [
+      {
+        "start": 59,
+        "end": 63,
+        "text": "Rose",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2023-10-13T11:05:16.813830Z",
+    "updated_at": "2023-10-13T11:05:16.813830Z",
+    "lead_time": 58.342
+  },
+  {
+    "text": "These words serve as a powerful reminder that the seamless synergy between air and ground operations is essential for the success of any mission.",
+    "id": 161,
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2023-10-13T11:05:24.824735Z",
+    "updated_at": "2023-10-13T11:05:24.824735Z",
+    "lead_time": 7.688
+  },
+  {
+    "text": "A French warship operating in support of Combined Task Force (CTF) 150 conducted four illegal drug seizures between April 19 and May 18 worth a total estimated U.S. street value of $108 million from fishing vessels transiting international waters in the Indian Ocean.",
+    "id": 162,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "A French warship",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 60,
+        "text": "Combined Task Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 124,
+        "text": "April 19",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 135,
+        "text": "May 18",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 160,
+        "end": 163,
+        "text": "U.S",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 181,
+        "end": 193,
+        "text": "$108 million",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 266,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2023-10-13T11:06:34.350548Z",
+    "updated_at": "2023-10-13T11:06:34.351548Z",
+    "lead_time": 69.199
+  },
+  {
+    "text": "The warship seized 2,265 kilograms of heroin and 242 kilograms of methamphetamine from four different vessels while patrolling regional waters. CTF 150 is one of five task forces under Combined Maritime Forces, the largest multinational naval partnership in the world.",
+    "id": 163,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "The warship",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 185,
+        "end": 209,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 151,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2023-10-13T11:07:06.127748Z",
+    "updated_at": "2023-10-13T11:07:06.127748Z",
+    "lead_time": 31.408
+  },
+  {
+    "text": "In 2023, maritime forces supporting CTF 150 have seized illegal drugs worth a combined estimated U.S. street value of $203 million, adding to record-breaking drug interdictions by U.S. and international naval units in 2021 and 2022 totaling more than $1 billion in value.",
+    "id": 164,
+    "label": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "2023",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 100,
+        "text": "U.S",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 130,
+        "text": "$203 million",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 180,
+        "end": 182,
+        "text": "U.",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 218,
+        "end": 222,
+        "text": "2021",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 227,
+        "end": 231,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 251,
+        "end": 261,
+        "text": "$1 billion",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2023-10-13T11:07:50.581690Z",
+    "updated_at": "2023-10-13T11:07:50.581690Z",
+    "lead_time": 44.115
+  },
+  {
+    "text": "“It’s been a pleasure working with the French sailors to achieve our mission’s aims together,” said United Kingdom Royal Navy Lt. Francis Henry, a CTF 150 staff officer responsible for coordinating the task force’s counter-narcotics efforts.",
+    "id": 165,
+    "label": [
+      {
+        "start": 39,
+        "end": 53,
+        "text": "French sailors",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 114,
+        "text": "United Kingdom",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 125,
+        "text": "Royal Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 126,
+        "end": 168,
+        "text": "Lt. Francis Henry, a CTF 150 staff officer",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2023-10-13T11:08:42.965769Z",
+    "updated_at": "2023-10-13T11:08:42.965769Z",
+    "lead_time": 52.036
+  },
+  {
+    "text": "CTF 150 conducts maritime security operations in the Gulf of Oman, Arabian Sea and Indian Ocean to disrupt destabilizing activity, promote international rules-based order and help ensure the free flow of commerce.",
+    "id": 166,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 65,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 78,
+        "text": "Arabian Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 95,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2023-10-13T11:09:54.290058Z",
+    "updated_at": "2023-10-13T11:09:54.290058Z",
+    "lead_time": 70.958
+  },
+  {
+    "text": "The task force is headquartered in Bahrain with Combined Maritime Forces, which is led by the commander of U.S. Naval Forces Central Command and U.S. 5th Fleet.",
+    "id": 167,
+    "label": [
+      {
+        "start": 4,
+        "end": 14,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 72,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 145,
+        "end": 153,
+        "text": "U.S. 5th",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 140,
+        "text": "U.S. Naval Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2023-10-13T11:10:43.319591Z",
+    "updated_at": "2023-10-13T11:10:43.319591Z",
+    "lead_time": 48.686
+  },
+  {
+    "text": "The U.S.-led multinational partnership, Combined Maritime Forces (CMF), established a new task force May 22 that will train partner navies and improve operational capabilities to enhance maritime security in the Middle East.",
+    "id": 168,
+    "label": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "U.S",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 64,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 100,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 107,
+        "text": "May 22",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 212,
+        "end": 223,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2023-10-13T11:11:16.205437Z",
+    "updated_at": "2023-10-13T11:11:16.205437Z",
+    "lead_time": 32.552
+  },
+  {
+    "text": "During a ceremony at U.S. 5th Fleet headquarters in Bahrain, leaders commissioned Combined Task Force (CTF) 154. The new staff is CMF’s fifth task force after standing up CTF 153 in April 2022 for maritime security in the Red Sea.",
+    "id": 169,
+    "label": [
+      {
+        "start": 21,
+        "end": 35,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 111,
+        "text": "Combined Task Force (CTF) 154",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 152,
+        "text": "CMF’s fifth task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 178,
+        "text": "CTF 153",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 182,
+        "end": 192,
+        "text": "April 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 222,
+        "end": 229,
+        "text": "Red Sea",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2023-10-13T11:12:22.611391Z",
+    "updated_at": "2023-10-13T11:12:22.611391Z",
+    "lead_time": 66.049
+  },
+  {
+    "text": "CTF 154 will lead multinational maritime training at locations across the Middle East, enabling more CMF partner-nations to participate in training opportunities without ships or aircraft, particularly during courses that are facilitated ashore.",
+    "id": 170,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 154",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 85,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 104,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 32,
+    "created_at": "2023-10-13T11:12:42.726055Z",
+    "updated_at": "2023-10-13T11:12:42.726055Z",
+    "lead_time": 19.747
+  },
+  {
+    "text": "“Our navies are at their very best when we train, operate and work together,” said Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and CMF. “Establishing CTF 154 demonstrates our deep commitment to strengthening and expanding partnerships through new training opportunities that will enhance regional maritime security.”",
+    "id": 171,
+    "label": [
+      {
+        "start": 83,
+        "end": 176,
+        "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and CMF",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 192,
+        "end": 199,
+        "text": "CTF 154",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 33,
+    "created_at": "2023-10-13T11:13:51.736938Z",
+    "updated_at": "2023-10-13T11:13:51.736938Z",
+    "lead_time": 68.672
+  },
+  {
+    "text": "The new task force is commanded by a U.S. Navy captain who will build and lead a multinational staff. Another nation will assume command as early as this fall.",
+    "id": 172,
+    "label": [
+      {
+        "start": 35,
+        "end": 54,
+        "text": "a U.S. Navy captain",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 34,
+    "created_at": "2023-10-13T11:14:07.154297Z",
+    "updated_at": "2023-10-13T11:14:07.154297Z",
+    "lead_time": 15.065
+  },
+  {
+    "text": "CTF 154’s core staff will be augmented by CMF partners during key training opportunities such as the task force’s inaugural event, Compass Rose. This week, CTF 154 is hosting Compass Rose in the Kingdom of Bahrain. More than 50 participants from Bahrain, Kuwait, Oman, Pakistan, Saudi Arabia, the United Kingdom and United States began arriving Sunday to attend courses on first aid and vessel boarding procedures.",
+    "id": 173,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 154",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 113,
+        "text": "task force’s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 156,
+        "end": 163,
+        "text": "CTF 154",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 195,
+        "end": 213,
+        "text": "Kingdom of Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 246,
+        "end": 253,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 255,
+        "end": 261,
+        "text": "Kuwait",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 263,
+        "end": 267,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 269,
+        "end": 277,
+        "text": "Pakistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 279,
+        "end": 291,
+        "text": "Saudi Arabia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 311,
+        "text": "the United Kingdom",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 316,
+        "end": 329,
+        "text": "United States",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 35,
+    "created_at": "2023-10-13T11:15:32.408541Z",
+    "updated_at": "2023-10-13T11:15:32.408541Z",
+    "lead_time": 84.907
+  },
+  {
+    "text": "“I am excited to lead an international team in this important work,” said Capt. Oliver Herion, CTF 154's first commander. “Collectively, CMF has tremendous experience and expertise with critical skills, tools and relationships.”",
+    "id": 174,
+    "label": [
+      {
+        "start": 74,
+        "end": 120,
+        "text": "Capt. Oliver Herion, CTF 154's first commander",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 140,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 36,
+    "created_at": "2023-10-13T11:16:25.800425Z",
+    "updated_at": "2023-10-13T11:16:25.800425Z",
+    "lead_time": 53.032
+  },
+  {
+    "text": "CTF 154 will frequently organize training events around five core areas: maritime awareness, maritime law, maritime interdiction, maritime rescue and assistance, and leadership development. Each training opportunity will be tailored to meet partner requests ranging from basic to advanced levels.",
+    "id": 175,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 154",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 37,
+    "created_at": "2023-10-13T11:16:39.177044Z",
+    "updated_at": "2023-10-13T11:16:39.177044Z",
+    "lead_time": 12.997
+  },
+  {
+    "text": "“Focusing our efforts to facilitate training for the multinational partnership will refine our skillsets and reinforce our ability to operate together,” said Herion. “We are ‘Stronger Together’ and ‘Ready Together.’ That is what CMF is all about.”",
+    "id": 176,
+    "label": [
+      {
+        "start": 158,
+        "end": 164,
+        "text": "Herion",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 229,
+        "end": 232,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 38,
+    "created_at": "2023-10-13T11:16:53.288439Z",
+    "updated_at": "2023-10-13T11:16:53.288439Z",
+    "lead_time": 13.774
+  },
+  {
+    "text": "CMF is the largest multinational naval partnership in the world, with 38 nations committed to upholding the international rules-based order at sea.",
+    "id": 177,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 39,
+    "created_at": "2023-10-13T11:17:04.312946Z",
+    "updated_at": "2023-10-13T11:17:04.312946Z",
+    "lead_time": 10.701
+  },
+  {
+    "text": "CMF’s other task forces include CTF 150 that focuses on maritime security in the Gulf of Oman and Indian Ocean; CTF 151, which leads regional counter-piracy efforts; CTF 152, dedicated to maritime security in the Arabian Gulf; and CTF 153 in the Red Sea.",
+    "id": 178,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "CMF’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 93,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 110,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 119,
+        "text": "CTF 151",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 173,
+        "text": "CTF 152",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 225,
+        "text": "Arabian Gulf",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 231,
+        "end": 238,
+        "text": "CTF 153",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 246,
+        "end": 253,
+        "text": "Red Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 40,
+    "created_at": "2023-10-13T11:17:43.807035Z",
+    "updated_at": "2023-10-13T11:17:43.807035Z",
+    "lead_time": 39.145
+  },
+  {
+    "text": "Ships from the South Korean and Italian navies sailed together and conducted combined training in the Gulf of Aden, May 17, while operating under two multinational maritime partnerships, Combined Maritime Forces and European Union Naval Forces.",
+    "id": 179,
+    "label": [
+      {
+        "start": 102,
+        "end": 114,
+        "text": "Gulf of Aden",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 122,
+        "text": "May 17",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 211,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 216,
+        "end": 243,
+        "text": "European Union Naval Forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 41,
+    "created_at": "2023-10-13T11:18:59.029574Z",
+    "updated_at": "2023-10-13T11:18:59.029574Z",
+    "lead_time": 74.89
+  },
+  {
+    "text": "Republic of Korea Navy ship ROKS Chungmugong Yi Sun-sin (DDH 975) and Italian Navy frigate ITS Luigi Rizzo (F 595) rehearsed ship and helicopter maneuvers while sharing best practices on vessel boarding procedures to enhance collaboration on combating maritime piracy.",
+    "id": 180,
+    "label": [
+      {
+        "start": 70,
+        "end": 106,
+        "text": "Italian Navy frigate ITS Luigi Rizzo",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 55,
+        "text": "Republic of Korea Navy ship ROKS Chungmugong Yi Sun-sin",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 42,
+    "created_at": "2023-10-13T11:49:18.126712Z",
+    "updated_at": "2023-10-13T11:49:18.126712Z",
+    "lead_time": 1818.752
+  },
+  {
+    "text": "“The Korean and Italian ships collaborated, from the planning to execution making this a very successful interaction,” said Capt. Yoon Sung-won, commanding officer for Chungmugong Yi Sun-sin. “We have demonstrated seamless teamwork and the ability to respond promptly in any situation.”",
+    "id": 181,
+    "label": [
+      {
+        "start": 124,
+        "end": 190,
+        "text": "Capt. Yoon Sung-won, commanding officer for Chungmugong Yi Sun-sin",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 43,
+    "created_at": "2023-10-13T11:49:40.544683Z",
+    "updated_at": "2023-10-13T11:49:40.544683Z",
+    "lead_time": 22.03
+  },
+  {
+    "text": "During the training, Chungmugong Yi Sun-sin operated in support of Combined Task Force (CTF) 151, one of four operational task forces under Combined Maritime Forces, which includes 38 member-nations and partners. CTF 151 conducts counter-piracy missions led by Republic of Korea Navy Rear Adm. Ko Seung-bum.",
+    "id": 182,
+    "label": [
+      {
+        "start": 21,
+        "end": 43,
+        "text": "Chungmugong Yi Sun-sin",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 96,
+        "text": "Combined Task Force (CTF) 151",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 164,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 122,
+        "end": 133,
+        "text": "task forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 220,
+        "text": "CTF 151",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 261,
+        "end": 306,
+        "text": "Republic of Korea Navy Rear Adm. Ko Seung-bum",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 44,
+    "created_at": "2023-10-13T11:50:24.060542Z",
+    "updated_at": "2023-10-13T11:50:24.060542Z",
+    "lead_time": 43.141
+  },
+  {
+    "text": "“Our warships have once again joined forces. Through continuous training, we will strengthen the combined operational capabilities,” said Ko.",
+    "id": 183,
+    "label": [
+      {
+        "start": 138,
+        "end": 140,
+        "text": "Ko",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 45,
+    "created_at": "2023-10-13T11:50:37.040986Z",
+    "updated_at": "2023-10-13T11:50:37.040986Z",
+    "lead_time": 12.591
+  },
+  {
+    "text": "Luigi Rizzo participated while operating under Task Force (TF) 465, a multinational naval unit from European Union Naval Forces that also focuses on countering piracy in the Middle East.",
+    "id": 184,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Luigi Rizzo",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 66,
+        "text": "Task Force (TF) 465",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 127,
+        "text": "European Union Naval Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 174,
+        "end": 185,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 46,
+    "created_at": "2023-10-13T11:50:59.849686Z",
+    "updated_at": "2023-10-13T11:50:59.849686Z",
+    "lead_time": 22.451
+  },
+  {
+    "text": "Task forces from Combined Maritime Forces and European Union Naval Forces regularly collaborate to enhance interoperability through combined patrols and joint training. Japanese and Italian navy warships previously conducted combined training in the Gulf of Aden, April 8, while supporting CTF 151 and TF 465 respectively.",
+    "id": 185,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Task forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 41,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 46,
+        "end": 73,
+        "text": "European Union Naval Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 262,
+        "text": "Gulf of Aden",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 264,
+        "end": 271,
+        "text": "April 8",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 290,
+        "end": 297,
+        "text": "CTF 151",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 302,
+        "end": 308,
+        "text": "TF 465",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 47,
+    "created_at": "2023-10-13T11:51:31.747691Z",
+    "updated_at": "2023-10-13T11:51:31.747691Z",
+    "lead_time": 31.479
+  },
+  {
+    "text": "Established in 2009, CTF 151 conducts maritime security operations to deter, disrupt and suppress piracy and armed robbery at sea, outside the Horn of Africa. The task force is headquartered in Bahrain with U.S. Naval Forces Central Command, U.S. Fifth Fleet and Combined Maritime Forces.",
+    "id": 186,
+    "label": [
+      {
+        "start": 15,
+        "end": 19,
+        "text": "2009",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "text": "CTF 151",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 157,
+        "text": "Horn of Africa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 194,
+        "end": 201,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 240,
+        "text": "U.S. Naval Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 243,
+        "end": 258,
+        "text": ".S. Fifth Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 263,
+        "end": 287,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 163,
+        "end": 173,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 48,
+    "created_at": "2023-10-13T11:52:19.866459Z",
+    "updated_at": "2023-10-13T11:52:19.866459Z",
+    "lead_time": 47.717
+  },
+  {
+    "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command (NAVCENT), U.S. 5th Fleet and Combined Maritime Forces, spoke with Joint Commander of the French Forces Deployed in the Indian Ocean (ALINDIEN) Vice Adm. Emmanuel Slaars during a video call, May 13.",
+    "id": 187,
+    "label": [
+      {
+        "start": 0,
+        "end": 21,
+        "text": "Vice Adm. Brad Cooper",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 69,
+        "text": "U.S. Naval Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 95,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 100,
+        "end": 124,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 239,
+        "text": "Joint Commander of the French Forces Deployed in the Indian Ocean (ALINDIEN) Vice Adm. Emmanuel Slaars",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 261,
+        "end": 267,
+        "text": "May 13",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 49,
+    "created_at": "2023-10-13T11:53:08.228696Z",
+    "updated_at": "2023-10-13T11:53:08.228696Z",
+    "lead_time": 47.975
+  },
+  {
+    "text": "The leaders discussed opportunities for NAVCENT and ALINDIEN joint forces to enhance regional cooperation together, as NAVCENT works with allies and partners to bolster maritime security collaboration.",
+    "id": 188,
+    "label": [
+      {
+        "start": 40,
+        "end": 47,
+        "text": "NAVCENT",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "text": "ALINDIEN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 119,
+        "end": 126,
+        "text": "NAVCENT",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 50,
+    "created_at": "2023-10-13T11:53:43.861784Z",
+    "updated_at": "2023-10-13T11:53:43.861784Z",
+    "lead_time": 35.213
+  },
+  {
+    "text": "In coordination with French assets operating in the area, the United States is increasing the rotation of ships and aircraft patrolling in and around the Strait of Hormuz after Iran’s recent unlawful merchant vessel seizures.",
+    "id": 189,
+    "label": [
+      {
+        "start": 58,
+        "end": 75,
+        "text": "the United States",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 170,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 177,
+        "end": 183,
+        "text": "Iran’s",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 51,
+    "created_at": "2023-10-13T11:54:11.217293Z",
+    "updated_at": "2023-10-13T11:54:11.217293Z",
+    "lead_time": 26.953
+  },
+  {
+    "text": "NAVCENT’s area of operations encompasses approximately 2.5 million square miles of water area and includes the Arabian Gulf, Gulf of Oman, Red Sea, parts of the Indian Ocean and three critical choke points at the Strait of Hormuz, Suez Canal and Strait of Bab al Mandeb.",
+    "id": 190,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "NAVCENT’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 123,
+        "text": "Arabian Gulf",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 137,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "text": "Red Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 161,
+        "end": 173,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 229,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 231,
+        "end": 241,
+        "text": "Suez Canal",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 246,
+        "end": 269,
+        "text": "Strait of Bab al Mandeb",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 52,
+    "created_at": "2023-10-13T11:55:08.478589Z",
+    "updated_at": "2023-10-13T11:55:08.478589Z",
+    "lead_time": 56.87
+  },
+  {
+    "text": "U.S. 5th Fleet is working with regional allies and partners to increase the rotation of ships and aircraft patrolling in and around the Strait of Hormuz following Iran’s recent unlawful merchant vessel seizures.",
+    "id": 191,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 136,
+        "end": 152,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 53,
+    "created_at": "2023-10-13T11:55:49.007694Z",
+    "updated_at": "2023-10-13T11:55:49.007694Z",
+    "lead_time": 40.128
+  },
+  {
+    "text": "The increased force presence supports multinational efforts to deter threats to commercial shipping and reassure regional mariners. In addition to heightened patrols, U.S. 5th Fleet is bolstering international maritime security collaboration among the International Maritime Security Construct and European Maritime Awareness in the Strait of Hormuz.",
+    "id": 192,
+    "label": [
+      {
+        "start": 167,
+        "end": 181,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 333,
+        "end": 349,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 54,
+    "created_at": "2023-10-13T11:56:44.585164Z",
+    "updated_at": "2023-10-13T11:56:44.585164Z",
+    "lead_time": 55.184
+  },
+  {
+    "text": "“Iran’s unwarranted, irresponsible and unlawful seizure and harassment of merchant vessels must stop,” said Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and Combined Maritime Forces. “U.S. 5th Fleet and our partners are committed to protecting navigational rights in these critical waters.”",
+    "id": 193,
+    "label": [
+      {
+        "start": 1,
+        "end": 7,
+        "text": "Iran’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 222,
+        "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and Combined Maritime Forces",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 225,
+        "end": 239,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 55,
+    "created_at": "2023-10-13T11:57:12.010362Z",
+    "updated_at": "2023-10-13T11:57:12.010362Z",
+    "lead_time": 27.003
+  },
+  {
+    "text": "Iran has harassed, attacked or interfered with the navigational rights of 15 internationally flagged merchant vessels over the past two years. This pattern of destabilizing behavior is contrary to international law and disruptive to regional security.",
+    "id": 194,
+    "label": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Iran",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 56,
+    "created_at": "2023-10-13T11:57:24.703697Z",
+    "updated_at": "2023-10-13T11:57:24.703697Z",
+    "lead_time": 12.283
+  },
+  {
+    "text": "Forces from U.S. 5th Fleet completed a four-day exercise with Israel in the Gulf of Aqaba, May 11, that focused on unmanned systems and artificial intelligence integration into maritime operations.",
+    "id": 195,
+    "label": [
+      {
+        "start": 12,
+        "end": 26,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "text": "Israel",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 89,
+        "text": "Gulf of Aqaba",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 97,
+        "text": "May 11",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 57,
+    "created_at": "2023-10-13T11:57:46.285726Z",
+    "updated_at": "2023-10-13T11:57:46.285726Z",
+    "lead_time": 21.182
+  },
+  {
+    "text": "The exercise, called Digital Shield, included members of U.S. 5th Fleet's unmanned systems and artificial intelligence task force, Task Force 59, as well as a MANTAS Devil Ray T-38 unmanned surface vessel. U.S. forces trained alongside Israeli counterparts during maritime awareness and vessel boarding drills.",
+    "id": 196,
+    "label": [
+      {
+        "start": 58,
+        "end": 73,
+        "text": ".S. 5th Fleet's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 119,
+        "end": 129,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 144,
+        "text": "Task Force 59",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 159,
+        "end": 180,
+        "text": "MANTAS Devil Ray T-38",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 206,
+        "end": 209,
+        "text": "U.S",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 58,
+    "created_at": "2023-10-13T11:59:06.200122Z",
+    "updated_at": "2023-10-13T11:59:06.200122Z",
+    "lead_time": 79.5
+  },
+  {
+    "text": "“By working together to advance unmanned systems innovation we can enhance regional security and strengthen our collective ability to address emerging threats,” said Capt. Colin Corridan, Task Force 59’s commander.",
+    "id": 197,
+    "label": [
+      {
+        "start": 166,
+        "end": 213,
+        "text": "Capt. Colin Corridan, Task Force 59’s commander",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 59,
+    "created_at": "2023-10-13T11:59:42.566985Z",
+    "updated_at": "2023-10-13T11:59:42.566985Z",
+    "lead_time": 35.955
+  },
+  {
+    "text": "NAVCENT established Task Force 59 in September 2021 to integrate new unmanned systems and artificial intelligence into U.S. naval operations across the Middle East. Since its launch, the task force has operated a suite of new unmanned systems from regional hubs in Bahrain and Aqaba, Jordan.",
+    "id": 198,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "NAVCENT",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 33,
+        "text": "Task Force 59",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 51,
+        "text": "September 2021",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 152,
+        "end": 163,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 265,
+        "end": 272,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 277,
+        "end": 290,
+        "text": "Aqaba, Jordan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 60,
+    "created_at": "2023-10-13T12:02:36.702861Z",
+    "updated_at": "2023-10-13T12:02:36.702861Z",
+    "lead_time": 73.448
+  },
+  {
+    "text": "Task Force 59 also conducted a Digital Shield exercise last September with Israeli naval forces. The task force regularly trains and operates with maritime partners in the Middle East to accelerate the integration of cutting-edge unmanned technology into daily operations.",
+    "id": 199,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Task Force 59",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 69,
+        "text": "September",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 95,
+        "text": "Israeli naval forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 111,
+        "text": "The task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 172,
+        "end": 183,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 61,
+    "created_at": "2023-10-13T12:04:25.365122Z",
+    "updated_at": "2023-10-13T12:04:25.365122Z",
+    "lead_time": 108.258
+  },
+  {
+    "text": "U.S. 5th Fleet’s area of operations encompasses approximately 2.5 million square miles of water area and includes the Arabian Gulf, Gulf of Oman, Red Sea, parts of the Indian Ocean and three critical choke points at the Strait of Hormuz, Suez Canal and Strait of Bab al Mandeb.",
+    "id": 200,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "U.S. 5th Fleet’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 130,
+        "text": "Arabian Gulf",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 144,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 146,
+        "end": 153,
+        "text": "Red Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 236,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 238,
+        "end": 248,
+        "text": "Suez Canal",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 253,
+        "end": 276,
+        "text": "Strait of Bab al Mandeb",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 168,
+        "end": 180,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 62,
+    "created_at": "2023-10-13T12:05:19.944274Z",
+    "updated_at": "2023-10-13T12:05:19.944274Z",
+    "lead_time": 54.112
+  },
+  {
+    "text": "U.S. naval forces completed participation in a weeklong Oman-led naval exercise in and off the coast of Oman, May 11, with forces from France and the United Kingdom.",
+    "id": 201,
+    "label": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "U.S. naval forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 108,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 116,
+        "text": "May 11",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 141,
+        "text": "France",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 146,
+        "end": 164,
+        "text": "the United Kingdom",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 63,
+    "created_at": "2023-10-13T12:05:47.686534Z",
+    "updated_at": "2023-10-13T12:05:47.686534Z",
+    "lead_time": 27.331
+  },
+  {
+    "text": "The five-day exercise, called Khunjar Hadd, focused on mine countermeasures, explosive ordnance disposal, maritime interdiction and other combined naval operations. Personnel from a U.S. 5th Fleet expeditionary mine countermeasures unit participated with crewmembers from mine countermeasures ship USS Dextrous (MCM 13) and a U.S. Navy P-8A Poseidon maritime patrol aircraft.",
+    "id": 202,
+    "label": [
+      {
+        "start": 183,
+        "end": 196,
+        "text": ".S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 298,
+        "end": 319,
+        "text": "USS Dextrous (MCM 13)",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 374,
+        "text": "P-8A Poseidon maritime patrol aircraft",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 326,
+        "end": 335,
+        "text": "U.S. Navy",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 64,
+    "created_at": "2023-10-13T12:06:20.578806Z",
+    "updated_at": "2023-10-13T12:06:20.578806Z",
+    "lead_time": 32.473
+  },
+  {
+    "text": "“Training alongside the incredible forces of Oman’s Royal Navy has been an invaluable experience for our aircraft, ships and divers,” said United Kingdom Royal Navy Capt. Derek McKnight, deputy commander for Task Force 52, which oversees U.S. 5th Fleet’s mine countermeasures mission in the Middle East. “I have no doubt that opportunities such as this increase our effectiveness and enable us to achieve shared objectives.”",
+    "id": 203,
+    "label": [
+      {
+        "start": 45,
+        "end": 62,
+        "text": "Oman’s Royal Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "text": "forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 221,
+        "text": "United Kingdom Royal Navy Capt. Derek McKnight, deputy commander for Task Force 52",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 238,
+        "end": 254,
+        "text": "U.S. 5th Fleet’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 302,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 65,
+    "created_at": "2023-10-13T12:07:23.739775Z",
+    "updated_at": "2023-10-13T12:07:23.739775Z",
+    "lead_time": 62.753
+  },
+  {
+    "text": "The exercise aimed to strengthen relationships and enhance interoperability among participating military forces. It began May 7, the same day U.S. 5th Fleet hosted Oman’s top naval commander at the U.S. Navy base in Bahrain.",
+    "id": 204,
+    "label": [
+      {
+        "start": 96,
+        "end": 111,
+        "text": "military forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 122,
+        "end": 127,
+        "text": "May 7",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 156,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 164,
+        "end": 170,
+        "text": "Oman’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 216,
+        "end": 223,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 198,
+        "end": 212,
+        "text": "U.S. Navy base",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 66,
+    "created_at": "2023-10-13T12:09:54.954654Z",
+    "updated_at": "2023-10-13T12:09:54.954654Z",
+    "lead_time": 150.86
+  },
+  {
+    "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and Combined Maritime Forces, hosted Commander of the Royal Navy of Oman Rear Adm. Saif bin Nasser bin Mohsin Al Rahbi and other senior Omani officials for discussions on strengthening regional maritime security cooperation. Cooper later traveled to Oman and embarked Royal Navy of Oman patrol vessel RNOV Al Rahmani (Q41) to observe the exercise.",
+    "id": 205,
+    "label": [
+      {
+        "start": 0,
+        "end": 114,
+        "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Forces Central Command, U.S. 5th Fleet and Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 204,
+        "text": "hosted Commander of the Royal Navy of Oman Rear Adm. Saif bin Nasser bin Mohsin Al Rahbi",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 311,
+        "end": 317,
+        "text": "Cooper",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 340,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 387,
+        "end": 408,
+        "text": "RNOV Al Rahmani (Q41)",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 354,
+        "end": 372,
+        "text": "Royal Navy of Oman",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 67,
+    "created_at": "2023-10-13T12:11:07.910057Z",
+    "updated_at": "2023-10-13T12:11:07.910057Z",
+    "lead_time": 72.601
+  },
+  {
+    "text": "A U.S. Coast Guard fast response cutter seized $80 million worth of heroin from a fishing vessel transiting the Gulf of Oman, May 10, during the ship’s second drug bust this week.",
+    "id": 207,
+    "label": [
+      {
+        "start": 0,
+        "end": 39,
+        "text": "A U.S. Coast Guard fast response cutter",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 58,
+        "text": "$80 million",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 124,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 126,
+        "end": 132,
+        "text": "May 10",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 69,
+    "created_at": "2023-10-13T12:13:55.181779Z",
+    "updated_at": "2023-10-13T12:13:55.181779Z",
+    "lead_time": 47.984
+  },
+  {
+    "text": "USCGC Glen Harris (WPC 1144) was operating in support of Combined Task Force (CTF) 150 when a boarding team discovered 1,964 kilograms of heroin on a vessel transiting international waters after departing Chah Bahar, Iran. Glen Harris also seized $30 million worth of methamphetamine and heroin two days ago from another fishing vessel that departed the same port.",
+    "id": 208,
+    "label": [
+      {
+        "start": 0,
+        "end": 28,
+        "text": "USCGC Glen Harris (WPC 1144)",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 86,
+        "text": "Combined Task Force (CTF) 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 205,
+        "end": 221,
+        "text": "Chah Bahar, Iran",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 223,
+        "end": 234,
+        "text": "Glen Harris",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 247,
+        "end": 258,
+        "text": "$30 million",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 70,
+    "created_at": "2023-10-13T12:15:19.445793Z",
+    "updated_at": "2023-10-13T12:15:19.445793Z",
+    "lead_time": 83.918
+  },
+  {
+    "text": "“I’m very proud of my crew and all we’ve been able to accomplish as a team this week,” said Lt. Nick Jabs, Glen Harris’s commanding officer. “We’re out here to work with regional partners and disrupt any destabilizing maritime activity at sea. We will continue getting after it.”",
+    "id": 209,
+    "label": [
+      {
+        "start": 92,
+        "end": 139,
+        "text": "Lt. Nick Jabs, Glen Harris’s commanding officer",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 71,
+    "created_at": "2023-10-13T12:15:45.917639Z",
+    "updated_at": "2023-10-13T12:15:45.918639Z",
+    "lead_time": 26.151
+  },
+  {
+    "text": "Glen Harris’s previous seizure on May 8 included 580 kilograms of methamphetamine and 35 kilograms of heroin.",
+    "id": 210,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Glen Harris’s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "text": "May 8",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 72,
+    "created_at": "2023-10-13T12:16:00.288463Z",
+    "updated_at": "2023-10-13T12:16:00.288463Z",
+    "lead_time": 14.038
+  },
+  {
+    "text": "The ship arrived in the Middle East last year as part of a contingent of U.S. Coast Guard cutters that are forward-deployed to the region under Patrol Forces Southwest Asia.",
+    "id": 211,
+    "label": [
+      {
+        "start": 24,
+        "end": 35,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 97,
+        "text": "U.S. Coast Guard cutters",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 173,
+        "text": "Patrol Forces Southwest Asia.",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 73,
+    "created_at": "2023-10-13T12:16:28.987019Z",
+    "updated_at": "2023-10-13T12:16:28.987019Z",
+    "lead_time": 28.36
+  },
+  {
+    "text": "CTF 150 is one of four task forces that form the world’s largest multinational naval partnership, Combined Maritime Forces. Naval forces supporting CTF 150 have now seized illegal drugs worth a combined estimated U.S. street value of more than $250 million in 2023. These efforts help ensure legitimate commercial shipping transits the region free from non-state threats.",
+    "id": 212,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "text": "task forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 122,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 124,
+        "end": 136,
+        "text": "Naval forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 155,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 244,
+        "end": 256,
+        "text": "$250 million",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 260,
+        "end": 264,
+        "text": "2023",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 74,
+    "created_at": "2023-10-13T12:17:06.841514Z",
+    "updated_at": "2023-10-13T12:17:06.841514Z",
+    "lead_time": 37.521
+  },
+  {
+    "text": "U. S. Central Command (CENTCOM) hosted a Medical Security Cooperation Exchange (MSCE) 30 April - 4 May, 2023. The event brought together healthcare leaders from the U. S. and its regional partners over five days to share best practices and strengthen relationships. This event’s theme was “Partnership and Innovation to Enhance Military Medicine.”",
+    "id": 213,
+    "label": [
+      {
+        "start": 0,
+        "end": 31,
+        "text": "U. S. Central Command (CENTCOM)",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 94,
+        "text": "30 April",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 108,
+        "text": "4 May, 2023",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 161,
+        "end": 170,
+        "text": "the U. S.",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 75,
+    "created_at": "2023-10-13T12:18:57.374193Z",
+    "updated_at": "2023-10-13T12:18:57.374193Z",
+    "lead_time": 110.195
+  },
+  {
+    "text": "The bi-annual MSCE provides an opportunity for medical professionals to discuss current challenges, to share experiences and practices to provide care, and to identify opportunities to partner to address current health challenges. People, partners, and innovation make up CENTCOM’s Strategic Approach. Each element was prominent within the context of the MSCE.",
+    "id": 214,
+    "label": [
+      {
+        "start": 272,
+        "end": 281,
+        "text": "CENTCOM’s",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 76,
+    "created_at": "2023-10-15T14:38:45.079407Z",
+    "updated_at": "2023-10-15T14:38:45.079407Z",
+    "lead_time": 181187.011
+  },
+  {
+    "text": "\"The MSCE is a testament to our commitment to working with our partners to build strong, lasting relationships that enhance our collective medical capabilities,\" said Colonel Larry McCord, CENTCOM’s Command Surgeon. \"Through events like these, we can share knowledge and expertise, improve our medical practices, and enhance our ability to work together in the face of any medical challenge.\"",
+    "id": 215,
+    "label": [
+      {
+        "start": 167,
+        "end": 214,
+        "text": "Colonel Larry McCord, CENTCOM’s Command Surgeon",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 77,
+    "created_at": "2023-10-15T14:39:03.112445Z",
+    "updated_at": "2023-10-15T14:39:03.112445Z",
+    "lead_time": 17.677
+  },
+  {
+    "text": "Of particular focus was the identification of opportunities to partner and innovate to address common health challenges. This was pursued through presentations from senior health leaders and supporting organizations, through tours of local facilities to highlight current education and practice methodologies, and informal discussion throughout.",
+    "id": 216,
+    "annotator": 1,
+    "annotation_id": 78,
+    "created_at": "2023-10-15T14:39:18.421788Z",
+    "updated_at": "2023-10-15T14:39:18.421788Z",
+    "lead_time": 14.46
+  },
+  {
+    "text": "Attendees toured the University of South Florida’s Center for Advanced Medical Learning and Simulation (CAMLS) and the James H. Haley VA Hospital. CAMLS is one of the world’s largest medical simulation facilities exclusively dedicated to training healthcare professionals.",
+    "id": 217,
+    "label": [
+      {
+        "start": 21,
+        "end": 102,
+        "text": "University of South Florida’s Center for Advanced Medical Learning and Simulation",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 119,
+        "end": 145,
+        "text": "James H. Haley VA Hospital",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 79,
+    "created_at": "2023-10-15T14:39:57.354824Z",
+    "updated_at": "2023-10-15T14:39:57.354824Z",
+    "lead_time": 38.502
+  },
+  {
+    "text": "“CENTCOM and the partner nations provided beneficial lectures and tours during the conference,” said Brig. Gen. Dr. Mohamed Al-Khawalde, of the Jordanian Armed Forces. “We all benefited from many of the topics raised, in addition to providing much of our own expertise in military medicine and healing injuries during wartime.”",
+    "id": 218,
+    "label": [
+      {
+        "start": 1,
+        "end": 8,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 135,
+        "text": "Brig. Gen. Dr. Mohamed Al-Khawalde",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 166,
+        "text": "the Jordanian Armed Forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 80,
+    "created_at": "2023-10-15T14:40:30.584538Z",
+    "updated_at": "2023-10-15T14:40:30.584538Z",
+    "lead_time": 32.814
+  },
+  {
+    "text": "The MSCE underscores CENTCOM's ongoing efforts to improve medical capabilities and foster relationships with partner nations. By working together to improve medical capabilities, CENTCOM continues to build strong and effective partnerships with countries in the region.",
+    "id": 219,
+    "label": [
+      {
+        "start": 21,
+        "end": 30,
+        "text": "CENTCOM's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 179,
+        "end": 186,
+        "text": "CENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 81,
+    "created_at": "2023-10-15T14:40:57.153737Z",
+    "updated_at": "2023-10-15T14:40:57.153737Z",
+    "lead_time": 26.201
+  },
+  {
+    "text": "“Such medical conferences are essential to our region’s partnership efforts as they explore collaboration possibilities with the attending countries and come together with a global health plan,” said Maj. Gen Dr. Yasser Hussain Mandourah, of the Royal Saudi Armed Forces.",
+    "id": 220,
+    "label": [
+      {
+        "start": 200,
+        "end": 237,
+        "text": "Maj. Gen Dr. Yasser Hussain Mandourah",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 242,
+        "end": 270,
+        "text": "the Royal Saudi Armed Forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 82,
+    "created_at": "2023-10-15T14:41:16.060226Z",
+    "updated_at": "2023-10-15T14:41:16.060226Z",
+    "lead_time": 18.586
+  },
+  {
+    "text": "Operating in support of Combined Task Force (CTF) 150, USCGC Glen Harris (WPC 1144) seized 580 kilograms of methamphetamine and 35 kilograms of heroin from a vessel transiting international waters after departing Chah Bahar, Iran.",
+    "id": 222,
+    "label": [
+      {
+        "start": 24,
+        "end": 53,
+        "text": "Combined Task Force (CTF) 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 72,
+        "text": "USCGC Glen Harris",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 229,
+        "text": "Chah Bahar, Iran",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 84,
+    "created_at": "2023-10-15T14:42:05.160796Z",
+    "updated_at": "2023-10-15T14:42:05.160796Z",
+    "lead_time": 44.3
+  },
+  {
+    "text": "CTF 150 is one of four task forces that form the world’s largest multinational naval partnership, Combined Maritime Forces. Naval forces supporting CTF 150 have seized illegal drugs worth a combined estimated U.S. street value of nearly $200 million in 2023.",
+    "id": 223,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "text": "task forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 122,
+        "text": "Combined Maritime Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 155,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 124,
+        "end": 136,
+        "text": "Naval forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 237,
+        "end": 249,
+        "text": "$200 million",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 253,
+        "end": 257,
+        "text": "2023",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 85,
+    "created_at": "2023-10-15T14:43:06.509284Z",
+    "updated_at": "2023-10-15T14:43:06.509284Z",
+    "lead_time": 60.895
+  },
+  {
+    "text": "Glen Harris arrived in the Middle East last year and operates from the U.S. Navy base in Bahrain where CMF is headquartered with U.S. Naval Forces Central Command and U.S. 5th Fleet.",
+    "id": 224,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Glen Harris",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 38,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 96,
+        "text": "the U.S. Navy base in Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 106,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 162,
+        "text": "U.S. Naval Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 167,
+        "end": 181,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 86,
+    "created_at": "2023-10-15T14:43:43.666424Z",
+    "updated_at": "2023-10-15T14:43:43.666424Z",
+    "lead_time": 36.657
+  },
+  {
+    "text": "The fast response cutter is part of a contingent of U.S. Coast Guard ships forward-deployed to the region under Patrol Forces Southwest Asia (PATFORSWA). PATFORSWA deploys Coast Guard personnel and ships alongside U.S. and regional naval forces throughout the Middle East.",
+    "id": 225,
+    "label": [
+      {
+        "start": 0,
+        "end": 24,
+        "text": "The fast response cutter",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 74,
+        "text": "U.S. Coast Guard ships",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 153,
+        "text": "Patrol Forces Southwest Asia (PATFORSWA).",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 163,
+        "text": "PATFORSWA",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 260,
+        "end": 271,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 87,
+    "created_at": "2023-10-15T14:44:45.500584Z",
+    "updated_at": "2023-10-15T14:44:45.500584Z",
+    "lead_time": 61.468
+  },
+  {
+    "text": "“The dedication and expertise of Glen Harris’s leadership and crew embody our commitment to interdict and remove illicit narcotics from the sea, denying malign actors the ability to destabilize the region,” said Capt. Eric A. Helgen, PATFORSWA’s commander. “I could not be more proud of our fast response cutter crews.”",
+    "id": 226,
+    "label": [
+      {
+        "start": 33,
+        "end": 46,
+        "text": "Glen Harris’s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 212,
+        "end": 232,
+        "text": "Capt. Eric A. Helgen",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 234,
+        "end": 245,
+        "text": "PATFORSWA’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 311,
+        "text": "fast response cutter",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 88,
+    "created_at": "2023-10-15T14:45:23.130696Z",
+    "updated_at": "2023-10-15T14:45:23.130696Z",
+    "lead_time": 37.3
+  },
+  {
+    "text": "Currently led by the United Kingdom, CTF 150 conducts maritime security and counter-terrorism operations in the Gulf of Oman and Indian Ocean to disrupt criminal and terrorist organizations and their related illicit activities, including the movement of personnel, weapons, narcotics and charcoal. These efforts help ensure legitimate commercial shipping transits the region free from non-state threats.",
+    "id": 227,
+    "label": [
+      {
+        "start": 21,
+        "end": 35,
+        "text": "United Kingdom",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "CTF 150",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 124,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 141,
+        "text": "Indian Ocean",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 89,
+    "created_at": "2023-10-15T14:46:48.520403Z",
+    "updated_at": "2023-10-15T14:46:48.520403Z",
+    "lead_time": 85.043
+  },
+  {
+    "text": "U.S. and international naval units in the Middle East seized illegal drugs totaling $1 billion in value from 2021 to 2022.",
+    "id": 228,
+    "label": [
+      {
+        "start": 23,
+        "end": 34,
+        "text": "naval units",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "text": "Middle East",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 94,
+        "text": "$1 billion",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 113,
+        "text": "2021",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 121,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 90,
+    "created_at": "2023-10-15T14:47:16.376576Z",
+    "updated_at": "2023-10-15T14:47:16.376576Z",
+    "lead_time": 27.524
+  },
+  {
+    "text": "U.S. Naval Forces Central Command (NAVCENT) welcomed Oman’s top naval commander to the U.S. Navy base in Bahrain, May 7, coinciding with the start of an Oman-led maritime exercise in the Gulf of Oman.",
+    "id": 229,
+    "label": [
+      {
+        "start": 0,
+        "end": 43,
+        "text": "U.S. Naval Forces Central Command (NAVCENT)",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "text": "Oman’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 112,
+        "text": "U.S. Navy base in Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 119,
+        "text": "May 7",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 153,
+        "end": 157,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 199,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 91,
+    "created_at": "2023-10-15T14:47:53.676300Z",
+    "updated_at": "2023-10-15T14:47:53.676300Z",
+    "lead_time": 36.944
+  },
+  {
+    "text": "“Oman is an important regional maritime partner and it was a pleasure hosting discussions on our shared vision for advancing cooperation among our forces at sea,” said Cooper. “We look forward to strengthening our collaboration in the days ahead.”",
+    "id": 231,
+    "label": [
+      {
+        "start": 1,
+        "end": 5,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 168,
+        "end": 174,
+        "text": "Cooper",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 93,
+    "created_at": "2023-10-15T14:48:32.809096Z",
+    "updated_at": "2023-10-15T14:48:32.809096Z",
+    "lead_time": 17.12
+  },
+  {
+    "text": "The visit to Bahrain fell on the first day of an annual Oman-led naval exercise called Khunjar Hadd, in and off the coast of Oman. This year, mine countermeasures ship USS Dextrous (MCM 13), personnel from a U.S. 5th Fleet expeditionary mine countermeasures unit and a U.S. Navy P-8A Poseidon maritime patrol aircraft are slated to participate.",
+    "id": 232,
+    "label": [
+      {
+        "start": 13,
+        "end": 20,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 129,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 168,
+        "end": 190,
+        "text": "USS Dextrous (MCM 13),",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 208,
+        "end": 222,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 269,
+        "end": 292,
+        "text": "U.S. Navy P-8A Poseidon",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 94,
+    "created_at": "2023-10-15T14:49:19.048288Z",
+    "updated_at": "2023-10-15T14:49:19.048288Z",
+    "lead_time": 45.888
+  },
+  {
+    "text": "In addition to the Oman and the United States, the weeklong exercise will include forces from France, Japan and the United Kingdom. Training will focus on mine countermeasures, explosive ordnance disposal, maritime interdiction and other combined naval operations",
+    "id": 233,
+    "label": [
+      {
+        "start": 19,
+        "end": 23,
+        "text": "Oman",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 45,
+        "text": "United States",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "text": "France",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 107,
+        "text": "Japan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 130,
+        "text": "United Kingdom",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 95,
+    "created_at": "2023-10-15T14:49:47.109510Z",
+    "updated_at": "2023-10-15T14:49:47.109510Z",
+    "lead_time": 27.713
+  },
+  {
+    "text": "While at the U.S. Navy base in Bahrain, senior Omani officials met with leaders from U.S. 5th Fleet, Combined Maritimes Forces and the International Maritime Security Construct. They also received briefings and toured facilities showcasing unmanned systems the U.S. Navy has integrated into regional maritime operations.",
+    "id": 234,
+    "label": [
+      {
+        "start": 13,
+        "end": 38,
+        "text": "U.S. Navy base in Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 99,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 126,
+        "text": "Combined Maritimes Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 176,
+        "text": "International Maritime Security Construct",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 262,
+        "end": 270,
+        "text": ".S. Navy",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 96,
+    "created_at": "2023-10-15T14:50:35.009713Z",
+    "updated_at": "2023-10-15T14:50:35.009713Z",
+    "lead_time": 47.546
+  },
+  {
+    "text": "On May 3, Lt. Gen. Alexus Grynkewich, 9th Air Force (Air Forces Central) commander, conducted an immersion with the 380th Air Expeditionary Wing at Al Dhafra Air Base, United Arab Emirates.",
+    "id": 236,
+    "label": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "May 3",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 36,
+        "text": "Lt. Gen. Alexus Grynkewich",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 51,
+        "text": "9th Air Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 188,
+        "text": "Al Dhafra Air Base, United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 98,
+    "created_at": "2023-10-15T14:51:16.196026Z",
+    "updated_at": "2023-10-15T14:51:16.197025Z",
+    "lead_time": 30.269
+  },
+  {
+    "text": "Grynkewich met with Airmen and Marines from across the base to discuss regional threats, watch operations unfold at the tactical level and enhance his understanding of the opportunities and challenges facing 380th AEW members.",
+    "id": 237,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Grynkewich",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "Airmen",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 208,
+        "end": 225,
+        "text": "380th AEW members",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 99,
+    "created_at": "2023-10-15T14:52:17.100341Z",
+    "updated_at": "2023-10-15T14:52:17.100341Z",
+    "lead_time": 60.563
+  },
+  {
+    "text": "Grynkewich also had the opportunity to tour the beddown location of the A-10 Thunderbolt IIs that recently arrived in theater and engage with 75th Expeditionary Fighter Squadron pilots and maintainers.",
+    "id": 238,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Grynkewich",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 92,
+        "text": "A-10 Thunderbolt IIs",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 100,
+    "created_at": "2023-10-15T14:52:55.088832Z",
+    "updated_at": "2023-10-15T14:52:55.088832Z",
+    "lead_time": 37.647
+  },
+  {
+    "text": "“I look forward to seeing how our A-10 experts adjust their tactics and operations to employ this capability,” said Grynkewich. “Deployments like this provide valuable experience to our pilots, maintainers and weapons teams.  It’s experience like this they’ll need in the future as they transition to new platforms capable of flying in all operational environments. In the meantime, we have a responsibility to the taxpayer, while the A-10 is still flying, to wring from it every possible ounce of combat capability. The 75th EFS is well on the way to showing us how that can be done here in USCENTCOM.”",
+    "id": 239,
+    "label": [
+      {
+        "start": 116,
+        "end": 126,
+        "text": "Grynkewich",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 435,
+        "end": 439,
+        "text": "A-10",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 521,
+        "end": 529,
+        "text": "75th EFS",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 592,
+        "end": 601,
+        "text": "USCENTCOM",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 101,
+    "created_at": "2023-10-15T14:53:47.488525Z",
+    "updated_at": "2023-10-15T14:53:47.488525Z",
+    "lead_time": 52.057
+  },
+  {
+    "text": "As the service modernizes its fighter fleet, the first of 21 A-10s in the Air Force’s fleet arrived at the Boneyard last month.",
+    "id": 240,
+    "label": [
+      {
+        "start": 103,
+        "end": 115,
+        "text": "the Boneyard",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 66,
+        "text": "A-10s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 102,
+    "created_at": "2023-10-15T14:55:04.460019Z",
+    "updated_at": "2023-10-15T14:55:04.460019Z",
+    "lead_time": 76.613
+  },
+  {
+    "text": "“With the 380th AEW team preparing the A-10 to carry small diameter bombs in combat, we are eager to leverage the capability this brings to the U.S. Central Command area of responsibility,” added Grynkewich.",
+    "id": 241,
+    "label": [
+      {
+        "start": 10,
+        "end": 24,
+        "text": "380th AEW team",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "text": "A-10",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 164,
+        "text": "U.S. Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 206,
+        "text": "Grynkewich",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 103,
+    "created_at": "2023-10-15T14:55:29.702648Z",
+    "updated_at": "2023-10-15T14:55:29.702648Z",
+    "lead_time": 24.898
+  },
+  {
+    "text": "The A-10’s ability to carry SDBs will increase the platform’s stand-off range; whereas previous munitions could be employed only within ranges in single-digit nautical miles, SDBs can travel dozens prior to detonation.",
+    "id": 242,
+    "label": [
+      {
+        "start": 4,
+        "end": 8,
+        "text": "A-10",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "text": "SDBs",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 179,
+        "text": "SDBs",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 159,
+        "end": 173,
+        "text": "nautical miles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 104,
+    "created_at": "2023-10-15T14:56:11.932096Z",
+    "updated_at": "2023-10-15T14:56:11.932096Z",
+    "lead_time": 41.885
+  },
+  {
+    "text": "Manama, Bahrain – Late last week Naval Amphibious Task Force 51\/5th Marine Expeditionary Bridge (TF 51\/5) Joint Terminal Attack Controllers (JTAC) embarked on Bahrain-based U.S. Coast Guard fast-response cutters to conduct joint training with both U.S. Navy and U.S. Air Force aircraft in the Northern Arabian Gulf. The training involved five U.S. Coast Guard vessels and a group of Marine JTACs who sharpened their tactical skills by controlling U.S. Air Force A-10 Thunderbolt II and U.S. Navy P-8 Poseidon aircraft.",
+    "id": 243,
+    "label": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "Manama, Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 67,
+        "text": "Naval Amphibious Task Force 51\/5th",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 159,
+        "end": 166,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 211,
+        "text": "U.S. Coast Guard fast-response cutters",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 248,
+        "end": 257,
+        "text": "U.S. Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 262,
+        "end": 276,
+        "text": "U.S. Air Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 314,
+        "text": "Northern Arabian Gulf",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 343,
+        "end": 359,
+        "text": "U.S. Coast Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 447,
+        "end": 461,
+        "text": "U.S. Air Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 462,
+        "end": 481,
+        "text": "A-10 Thunderbolt II",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 486,
+        "end": 517,
+        "text": "U.S. Navy P-8 Poseidon aircraft",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 105,
+    "created_at": "2023-10-15T14:59:43.305134Z",
+    "updated_at": "2023-10-15T14:59:43.305134Z",
+    "lead_time": 211.029
+  },
+  {
+    "text": "“This was an excellent opportunity for all five crews to be shown the potential of joint maritime and air operations” said U.S. Coast Guard LT Sehng Hwang, Commanding Officer of U.S. Coast Guard Cutter Clarence Sutphin, Jr. “It really allowed us all to see the specific lethal capability that something like the A-10 has, in tandem with capable and competent Marines and Sailors when deployed to the region”.",
+    "id": 244,
+    "label": [
+      {
+        "start": 123,
+        "end": 139,
+        "text": "U.S. Coast Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 154,
+        "text": "LT Sehng Hwang",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 178,
+        "end": 194,
+        "text": "U.S. Coast Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 195,
+        "end": 223,
+        "text": "Cutter Clarence Sutphin, Jr.",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 312,
+        "end": 316,
+        "text": "A-10",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 359,
+        "end": 366,
+        "text": "Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 106,
+    "created_at": "2023-10-15T15:00:53.778276Z",
+    "updated_at": "2023-10-15T15:00:53.778276Z",
+    "lead_time": 70.131
+  },
+  {
+    "text": "In addition to its steady-state mission of maintaining readiness as a crisis-response task force, Task Force 51\/5 advances naval integration in support of the Tri-Service Maritime Strategy. Published jointly in 2020 by the Commandant of the Marine Corps, Chief of Naval Operations, and Commandant of the Coast Guard, the Tri-Service Maritime Strategy outlines an integrated U.S. Marine Corps, U.S. Navy, U.S. Coast Guard approach towards supporting Department of Defense maritime prerogatives.",
+    "id": 245,
+    "label": [
+      {
+        "start": 86,
+        "end": 96,
+        "text": "task force",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 113,
+        "text": "Task Force 51\/5",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 211,
+        "end": 215,
+        "text": "2020",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 374,
+        "end": 391,
+        "text": "U.S. Marine Corps",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 404,
+        "end": 420,
+        "text": "U.S. Coast Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 393,
+        "end": 402,
+        "text": "U.S. Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 470,
+        "text": "Department of Defense",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 107,
+    "created_at": "2023-10-15T15:02:02.384705Z",
+    "updated_at": "2023-10-15T15:02:02.384705Z",
+    "lead_time": 68.264
+  },
+  {
+    "text": "“Joint training like this only delivers greater flexibility and options for crisis response in this theater” said Brig. Gen. Matthew Reid, TF 51\/5’s Commanding General. “As Marines, we are always looking for ways to support joint maritime efforts and, in this case, we were able to take things a step further by working with our Air Force partners. Altogether, this helps the Marine Corps better support regional security and demonstrates that we’re able to work together with joint partners to deter external threats”.",
+    "id": 246,
+    "label": [
+      {
+        "start": 114,
+        "end": 137,
+        "text": "Brig. Gen. Matthew Reid",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "text": "TF 51\/5",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 180,
+        "text": "Marines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 329,
+        "end": 338,
+        "text": "Air Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 376,
+        "end": 388,
+        "text": "Marine Corps",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 108,
+    "created_at": "2023-10-15T15:02:49.163507Z",
+    "updated_at": "2023-10-15T15:02:49.163507Z",
+    "lead_time": 46.405
+  },
+  {
+    "text": "The training culminated on Friday with a live fire attack by U.S. Air Force A-10s onto sea targets, in conjunction with high-value target seizure, fast intruder attack craft, and visit, board search and seizure (VBSS) exercises conducted by embarked U.S. Coast Guard and Navy forces.",
+    "id": 247,
+    "label": [
+      {
+        "start": 76,
+        "end": 81,
+        "text": "A-10s",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 75,
+        "text": "U.S. Air Force",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 266,
+        "text": "U.S. Coast Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 271,
+        "end": 282,
+        "text": "Navy forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 109,
+    "created_at": "2023-10-15T15:03:18.484712Z",
+    "updated_at": "2023-10-15T15:03:18.485711Z",
+    "lead_time": 28.983
+  },
+  {
+    "text": "TF 51\/5 is a Bahrain-based Joint Task Force-Capable (JTF-C) Headquarters that responds to crises and contingencies; coordinates, plans, and executes operations; conducts theater security cooperation; and advances emerging Naval concepts at sea, from the sea, and ashore in support of U.S. Central Command, Fifth Fleet and Marine Forces Central Command theater objectives.",
+    "id": 248,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "TF 51\/5",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 284,
+        "end": 304,
+        "text": "U.S. Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 306,
+        "end": 317,
+        "text": "Fifth Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 322,
+        "end": 351,
+        "text": "Marine Forces Central Command",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 110,
+    "created_at": "2023-10-15T15:03:56.055654Z",
+    "updated_at": "2023-10-15T15:03:56.055654Z",
+    "lead_time": 37.21
+  },
+  {
+    "text": "On May 3 at approximately 6:20 a.m. local time, Panama-flagged oil tanker Niovi was seized by Iran’s Islamic Revolutionary Guard Corps Navy (IRGCN) while transiting the Strait of Hormuz.",
+    "id": 249,
+    "label": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "May 3",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "text": "Panama",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "text": "Iran’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 139,
+        "text": "Islamic Revolutionary Guard Corps Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 169,
+        "end": 185,
+        "text": "Strait of Hormuz",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 111,
+    "created_at": "2023-10-15T15:04:29.346502Z",
+    "updated_at": "2023-10-15T15:04:29.346502Z",
+    "lead_time": 32.917
+  },
+  {
+    "text": "The oil tanker departed Dubai and was transiting from the Arabian Gulf toward the port of Fujairah in the United Arab Emirates when a dozen IRGCN fast-attack craft swarmed the vessel in the middle of the strait. The IRGCN subsequently forced the oil tanker to reverse course and head toward Iranian territorial waters off the coast of Bandar ‘Abbas, Iran.",
+    "id": 250,
+    "label": [
+      {
+        "start": 24,
+        "end": 29,
+        "text": "Dubai",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 70,
+        "text": "Arabian Gulf",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 98,
+        "text": "Fujairah",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 126,
+        "text": "United Arab Emirates",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 145,
+        "text": "IRGCN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 216,
+        "end": 221,
+        "text": "IRGCN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 322,
+        "end": 354,
+        "text": "the coast of Bandar ‘Abbas, Iran",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 112,
+    "created_at": "2023-10-15T15:05:43.624320Z",
+    "updated_at": "2023-10-15T15:05:43.624320Z",
+    "lead_time": 73.932
+  },
+  {
+    "text": "A previous incident occurred six days ago when the Islamic Republic of Iran Navy seized Marshall Islands-flagged oil tanker Advantage Sweet while it transited international waters in the Gulf of Oman.",
+    "id": 251,
+    "label": [
+      {
+        "start": 51,
+        "end": 80,
+        "text": "Islamic Republic of Iran Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 199,
+        "text": "Gulf of Oman",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 113,
+    "created_at": "2023-10-15T15:06:20.726156Z",
+    "updated_at": "2023-10-15T15:06:20.726156Z",
+    "lead_time": 36.758
+  },
+  {
+    "text": "Iran’s actions are contrary to international law and disruptive to regional security and stability. Over the past two years, Iran has harassed, attacked or interfered with the navigational rights of 15 internationally flagged merchant vessels.",
+    "id": 252,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Iran’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 129,
+        "text": "Iran",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 114,
+    "created_at": "2023-10-15T15:06:44.641329Z",
+    "updated_at": "2023-10-15T15:06:44.641329Z",
+    "lead_time": 23.549
+  },
+  {
+    "text": "Iran’s continued harassment of vessels and interference with navigational rights in regional waters are unwarranted, irresponsible and a present threat to maritime security and the global economy.",
+    "id": 253,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Iran’s",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 115,
+    "created_at": "2023-10-15T15:06:57.983022Z",
+    "updated_at": "2023-10-15T15:06:57.983022Z",
+    "lead_time": 13.026
+  },
+  {
+    "text": "U.S. 5th Fleet hosted Qatar’s top naval leader May 2 at the U.S. Navy base in Bahrain, marking strengthening ties between U.S. and Qatari maritime forces.",
+    "id": 254,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "text": "Qatar’s",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "text": "May 2",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 85,
+        "text": "U.S. Navy base in Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 153,
+        "text": "Qatari maritime forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 116,
+    "created_at": "2023-10-15T15:08:59.396537Z",
+    "updated_at": "2023-10-15T15:08:59.396537Z",
+    "lead_time": 121.069
+  },
+  {
+    "text": "Vice Adm. Brad Cooper, commander of U.S. Naval Central Forces Command, U.S. 5th Fleet and Combined Maritime Forces (CMF), welcomed Commander of the Qatari Emiri Navy Maj. Gen. Abdullah Hassan Al-Sulaiti and other senior Qatari officers for discussions on regional maritime security cooperation.",
+    "id": 255,
+    "label": [
+      {
+        "start": 0,
+        "end": 21,
+        "text": "Vice Adm. Brad Cooper",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 69,
+        "text": "U.S. Naval Central Forces Command",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 85,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 121,
+        "text": "Combined Maritime Forces (CMF),",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 165,
+        "text": "Qatari Emiri Navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 202,
+        "text": "Maj. Gen. Abdullah Hassan Al-Sulaiti",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 117,
+    "created_at": "2023-10-15T15:09:50.392221Z",
+    "updated_at": "2023-10-15T15:09:50.392221Z",
+    "lead_time": 50.624
+  },
+  {
+    "text": "“We were deeply grateful for this opportunity to host our Qatari partners at U.S. 5th Fleet headquarters here in Bahrain,” said Cooper. “Strengthening and expanding maritime collaboration with the Qatari Emiri Navy is essential for regional security and stability.”",
+    "id": 256,
+    "label": [
+      {
+        "start": 77,
+        "end": 104,
+        "text": "U.S. 5th Fleet headquarters",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 120,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 128,
+        "end": 134,
+        "text": "Cooper",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 197,
+        "end": 214,
+        "text": "Qatari Emiri Navy",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 118,
+    "created_at": "2023-10-15T15:10:13.369960Z",
+    "updated_at": "2023-10-15T15:10:13.369960Z",
+    "lead_time": 22.622
+  },
+  {
+    "text": "Qatar is one of 38 nations that make up CMF, the world’s largest multinational naval partnership. The organization is co-located at U.S. 5th Fleet headquarters.",
+    "id": 257,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Qatar",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 43,
+        "text": "CMF",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 159,
+        "text": "U.S. 5th Fleet headquarters",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 119,
+    "created_at": "2023-10-15T15:10:31.171223Z",
+    "updated_at": "2023-10-15T15:10:31.171223Z",
+    "lead_time": 17.446
+  },
+  {
+    "text": "During the visit, the senior Qatari military officials met with U.S. 5th Fleet staff and attended a briefing on new unmanned systems the U.S. Navy has recently integrated into regional operations.",
+    "id": 258,
+    "label": [
+      {
+        "start": 64,
+        "end": 78,
+        "text": "U.S. 5th Fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 146,
+        "text": "U.S. Navy",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 120,
+    "created_at": "2023-10-15T15:13:05.412788Z",
+    "updated_at": "2023-10-15T15:13:05.412788Z",
+    "lead_time": 153.861
+  },
+  {
+    "text": "The meeting in Bahrain came on the heels of Cooper’s daylong trip to Qatar where he met with Qatar Armed Forces Chief of Staff Lt. Gen. (Pilot) Salem bin Hamad bin Aqeel al-Nabit near Doha.",
+    "id": 259,
+    "label": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "Bahrain",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "text": "Cooper’s",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 74,
+        "text": "Qatar",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 178,
+        "text": "Chief of Staff Lt. Gen. (Pilot) Salem bin Hamad bin Aqeel al-Nabit",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 111,
+        "text": "Qatar Armed Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 184,
+        "end": 188,
+        "text": "Doha",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 121,
+    "created_at": "2023-10-15T15:13:38.575518Z",
+    "updated_at": "2023-10-15T15:13:38.575518Z",
+    "lead_time": 32.828
+  },
+  {
+    "text": "RICHMOND, Va.  –  The Virginia National Guard began recognizing its 20th year of partnership with the Republic of Tajikistan March 27, 2023, as VNG senior leaders visited with the Tajikistan Ministry of Defense in Dushanbe, Tajikistan.",
+    "id": 261,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "RICHMOND, Va",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 45,
+        "text": "The Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 124,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 139,
+        "text": "March 27, 2023",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 180,
+        "end": 210,
+        "text": "Tajikistan Ministry of Defense",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 214,
+        "end": 234,
+        "text": "Dushanbe, Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 123,
+    "created_at": "2023-10-15T15:14:29.347884Z",
+    "updated_at": "2023-10-15T15:14:29.347884Z",
+    "lead_time": 44.83
+  },
+  {
+    "text": "During the visit, the VNG team, led by Brig. Gen. James W. Ring, the VNG Director of the Joint Staff, participated in bilateral talks on military to military engagements. The Ministry of Defense also hosted a 20th anniversary celebration, commemorating two decades of partnership supporting the State Partnership Program.",
+    "id": 262,
+    "label": [
+      {
+        "start": 39,
+        "end": 63,
+        "text": "Brig. Gen. James W. Ring",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 194,
+        "text": "The Ministry of Defense",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 124,
+    "created_at": "2023-10-15T15:15:08.494123Z",
+    "updated_at": "2023-10-15T15:15:08.494123Z",
+    "lead_time": 38.796
+  },
+  {
+    "text": "\"The Virginia National Guard has enjoyed great camaraderie with military forces of Tajikistan over the two decades of our partnership, and through various military exchanges have helped promote regional and global security and prosperity,\" said Maj. Gen. Timothy P. Williams, the Adjutant General of Virginia. \"We have dramatically increased the pace of our exchanges, and we look forward to further growing the partnership to help build the capability and capacity of the Tajikistan military force.\"",
+    "id": 263,
+    "label": [
+      {
+        "start": 1,
+        "end": 28,
+        "text": "The Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 93,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 245,
+        "end": 274,
+        "text": "Maj. Gen. Timothy P. Williams",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 300,
+        "end": 308,
+        "text": "Virginia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 473,
+        "end": 498,
+        "text": "Tajikistan military force",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 125,
+    "created_at": "2023-10-15T15:15:54.361105Z",
+    "updated_at": "2023-10-15T15:15:54.361105Z",
+    "lead_time": 45.485
+  },
+  {
+    "text": "\"The Virginia National Guard values the continued partnership with Tajikistan in support of our shared security cooperation objectives,” said Ring. “Each partnership exchange between the Virginia National Guard and the Tajikistan military forces supports our nation’s mutual interest in peace and regional stability.”",
+    "id": 264,
+    "label": [
+      {
+        "start": 1,
+        "end": 28,
+        "text": "The Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 77,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 146,
+        "text": "Ring",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 210,
+        "text": "Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 219,
+        "end": 245,
+        "text": "Tajikistan military forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 126,
+    "created_at": "2023-10-15T15:16:23.318430Z",
+    "updated_at": "2023-10-15T15:16:23.318430Z",
+    "lead_time": 28.603
+  },
+  {
+    "text": "During the visit to Tajikistan, Tajik leaders expressed their gratitude for the partnership, according to Maj. Isaac Rivera, the State Partnership Program director.",
+    "id": 265,
+    "label": [
+      {
+        "start": 20,
+        "end": 30,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 123,
+        "text": "Maj. Isaac Rivera",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 127,
+    "created_at": "2023-10-15T15:16:35.046774Z",
+    "updated_at": "2023-10-15T15:16:35.046774Z",
+    "lead_time": 11.368
+  },
+  {
+    "text": "“Col. Husein Shokirzoda, Commander of Tajikistan Mobile Forces, was grateful for all the training that the Virginia National Guard has provide to his forces over the past years,” said Rivera.",
+    "id": 266,
+    "label": [
+      {
+        "start": 1,
+        "end": 23,
+        "text": "Col. Husein Shokirzoda",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 62,
+        "text": "Tajikistan Mobile Forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 130,
+        "text": "Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 184,
+        "end": 190,
+        "text": "Rivera",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 128,
+    "created_at": "2023-10-15T15:16:53.594091Z",
+    "updated_at": "2023-10-15T15:16:53.594091Z",
+    "lead_time": 18.181
+  },
+  {
+    "text": "The VNG and Tajikistan began their formal partnership in July 2003. The relationship has benefitted from sharing subject matter expertise during over 200 military-to-military engagements that help counter terrorism, deter violent extremism, expand emergency response capabilities, develop professionalism among leaders and staffs and promote shared values in national sovereignty and security.",
+    "id": 267,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "The VNG",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 66,
+        "text": "July 2003",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 129,
+    "created_at": "2023-10-15T15:18:18.278166Z",
+    "updated_at": "2023-10-15T15:18:18.278166Z",
+    "lead_time": 84.296
+  },
+  {
+    "text": "The two organizations have made vital contributions to regional stability and security across Central and South Asia, executing bi-lateral and multi-lateral engagements with international partners; enhancing multinational understanding and shared values of peace, national sovereignty and global security.",
+    "id": 268,
+    "label": [
+      {
+        "start": 94,
+        "end": 116,
+        "text": "Central and South Asia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 130,
+    "created_at": "2023-10-15T15:18:34.223792Z",
+    "updated_at": "2023-10-15T15:18:34.223792Z",
+    "lead_time": 15.585
+  },
+  {
+    "text": "Most recently, a team of four Tajik officers traveled to Fort Barfoot where they conducted an Officer Professional Development hosted by the Fort Barfoot-based 183rd Regiment, Regional Training Institute, focused on weapons qualification.",
+    "id": 269,
+    "label": [
+      {
+        "start": 15,
+        "end": 44,
+        "text": "a team of four Tajik officers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "text": "Fort Barfoot",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 174,
+        "text": "the Fort Barfoot-based 183rd Regiment",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 176,
+        "end": 203,
+        "text": "Regional Training Institute",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 131,
+    "created_at": "2023-10-15T15:19:19.565132Z",
+    "updated_at": "2023-10-15T15:19:19.565132Z",
+    "lead_time": 44.962
+  },
+  {
+    "text": "“It went great, we really liked it,” said Tajikistan Capt. Jaloliddin Qurbonzoda through a translator. “The instructors are great, we can tell they’re very experienced. We really liked shooting the weapons and clearing buildings, it was a lot of fun. Zeroing the weapons was very important and what we were looking for.”",
+    "id": 270,
+    "label": [
+      {
+        "start": 42,
+        "end": 80,
+        "text": "Tajikistan Capt. Jaloliddin Qurbonzoda",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 132,
+    "created_at": "2023-10-15T15:19:43.020691Z",
+    "updated_at": "2023-10-15T15:19:43.020691Z",
+    "lead_time": 23.083
+  },
+  {
+    "text": "At the conclusion of the training, Ring presented certificates to the four Tajik officers and their translator, marking their successful completion of the program.",
+    "id": 271,
+    "label": [
+      {
+        "start": 35,
+        "end": 39,
+        "text": "Ring",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 133,
+    "created_at": "2023-10-15T15:19:55.235007Z",
+    "updated_at": "2023-10-15T15:19:55.235007Z",
+    "lead_time": 11.874
+  },
+  {
+    "text": "“I want to thank each you individually for your service to your country,” said Ring. “We recognize that freedom does not come free. It is the direct result of citizens such as you who stand for the freedom of your people. We’re glad, as the Virginia National Guard, to be part of that for Tajikistan.”",
+    "id": 272,
+    "label": [
+      {
+        "start": 79,
+        "end": 83,
+        "text": "Ring",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 237,
+        "end": 264,
+        "text": "the Virginia National Guard",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 289,
+        "end": 299,
+        "text": "Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 134,
+    "created_at": "2023-10-15T15:20:29.114648Z",
+    "updated_at": "2023-10-15T15:20:29.114648Z",
+    "lead_time": 33.539
+  },
+  {
+    "text": "Read more about the State Partnership Program and the VNG’s relationship with the Republic of Tajikistan at https:\/\/ngpa.us\/24494.",
+    "id": 273,
+    "label": [
+      {
+        "start": 54,
+        "end": 59,
+        "text": "VNG’s",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 104,
+        "text": "Republic of Tajikistan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 135,
+    "created_at": "2023-10-15T15:20:41.094508Z",
+    "updated_at": "2023-10-15T15:20:41.094508Z",
+    "lead_time": 11.615
   }
 ]
