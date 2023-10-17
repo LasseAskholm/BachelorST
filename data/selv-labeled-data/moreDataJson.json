@@ -1,0 +1,4830 @@
+[
+  {
+    "text": "Russian troops have launched a major offensive on the town of Avdiivka in eastern Ukraine. Three battalions involving some 2,000 troops, dozens of armoured vehicles as well as jets have been reportedly involved in what is described as the largest-scale attack in this area. The General Staff of Ukraine says they have managed to repel dozens of attacks in Avdiivka and nearby areas since Tuesday. \"They launched their offensive on a wide front,\" Serhiy Tsekhovsky, an officer from the 59th brigade, told the BBC. \"Since the beginning of the invasion, we haven't dealt with such an intensive attack [in the area near Avdiivka]. They are using multiple rocket launchers, artillery, tanks and infantry - all at the same time.\"",
+    "id": 404,
+    "label": [
+      {
+        "start": 8,
+        "end": 14,
+        "text": "troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 70,
+        "text": " town of Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 89,
+        "text": " Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 107,
+        "text": "battalions",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 135,
+        "text": "troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 274,
+        "end": 302,
+        "text": "The General Staff of Ukraine",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 356,
+        "end": 364,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 446,
+        "end": 463,
+        "text": "Serhiy Tsekhovsky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 485,
+        "end": 497,
+        "text": "59th brigade",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 508,
+        "end": 511,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 616,
+        "end": 624,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 680,
+        "end": 685,
+        "text": "tanks",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 651,
+        "end": 667,
+        "text": "rocket launchers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 669,
+        "end": 678,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 690,
+        "end": 698,
+        "text": "infantry",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 139,
+    "created_at": "2023-10-17T09:09:35.660353Z",
+    "updated_at": "2023-10-17T09:09:35.660353Z",
+    "lead_time": 64.79
+  },
+  {
+    "text": "Avdiivka is described as a gateway to the city of Donetsk, the capital of Ukraine's eastern Donbas region. Although Russia and its proxy forces have occupied Donetsk city since 2014, they have been unable to use its resources as a key military communications hub because it is too close to the front line. By capturing Avdiivka, the occupying force could push the front line away. But Avdiivka is important not just because of its strategic role. This town has been right on the front line since Moscow annexed Crimea nine years ago and the conflict in eastern Ukraine began. As a result, the town of Avdiivka has turned into a symbol of Ukrainian resistance and resilience.",
+    "id": 405,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 57,
+        "text": "city of Donetsk",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 105,
+        "text": "Ukraine's eastern Donbas region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 122,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 170,
+        "text": "Donetsk city",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 177,
+        "end": 181,
+        "text": "2014",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 319,
+        "end": 327,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 385,
+        "end": 393,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 496,
+        "end": 502,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 511,
+        "end": 517,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 553,
+        "end": 568,
+        "text": "eastern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 589,
+        "end": 609,
+        "text": "the town of Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 140,
+    "created_at": "2023-10-17T09:10:58.454796Z",
+    "updated_at": "2023-10-17T09:10:58.454796Z",
+    "lead_time": 82.444
+  },
+  {
+    "text": "Ukraine's president, Volodymyr Zelensky, has shared photos of Avdiivka on social media saying: \"We are holding our ground. It is Ukrainian courage and unity that will determine how this war will end.\"",
+    "id": 406,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 39,
+        "text": "Volodymyr Zelensky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 141,
+    "created_at": "2023-10-17T09:11:19.067521Z",
+    "updated_at": "2023-10-17T09:11:19.068517Z",
+    "lead_time": 20.248
+  },
+  {
+    "text": "Military positions and residential areas of Avdiivka have been relentlessly pummelled for the last three days.",
+    "id": 407,
+    "label": [
+      {
+        "start": 44,
+        "end": 52,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 142,
+    "created_at": "2023-10-17T09:11:29.100692Z",
+    "updated_at": "2023-10-17T09:11:29.100692Z",
+    "lead_time": 9.686
+  },
+  {
+    "text": "Apartment blocks, office buildings and a hospital have been damaged, he complains. \"The firing doesn't stop,\" he adds. \"There were about 20 air strikes yesterday during the day time. At night, 12 KAB-500 bombs were dropped on the town.\" The BBC cannot verify his comments. Some 1,600 residents remain in Avdiivka. Most of them moved into basements long ago, but they don't always provide good protection. According to Mr Barabash, as a result of the latest attacks, one person was killed and at least two more are feared dead under the rubble. Russian attempts to move forward appear to be aimed at seizing the villages of Berdyche and Stepove to the north of Avdiivka and the villages of Tonenke and Severne to the south. Moscow asserts that its troops have \"improved their positions\" near Avdiivka and Russian military bloggers report that Russian forces have taken some strategic positions belonging to Ukrainians and already entered Stepove. Ukraine's military denies those reports but these intense battles suggest that Russia is trying to encircle the city of Avdiivka by pushing from the north and the south. The town has been well fortified and protected since 2014, making a Russian breakthrough inside Avdiivka much harder. For that reason they are trying to cut it off from the rest of Ukrainian-controlled territories and encircle it.",
+    "id": 409,
+    "label": [
+      {
+        "start": 193,
+        "end": 209,
+        "text": "12 KAB-500 bombs",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 237,
+        "end": 244,
+        "text": "The BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 304,
+        "end": 312,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 418,
+        "end": 429,
+        "text": "Mr Barabash",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 607,
+        "end": 643,
+        "text": "the villages of Berdyche and Stepove",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 660,
+        "end": 668,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 673,
+        "end": 708,
+        "text": "the villages of Tonenke and Severne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 723,
+        "end": 729,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 791,
+        "end": 799,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 804,
+        "end": 820,
+        "text": "Russian military",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 842,
+        "end": 856,
+        "text": "Russian forces",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 937,
+        "end": 944,
+        "text": "Stepove",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 946,
+        "end": 964,
+        "text": "Ukraine's military",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1025,
+        "end": 1031,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1054,
+        "end": 1074,
+        "text": "the city of Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1169,
+        "end": 1173,
+        "text": "2014",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 1212,
+        "end": 1220,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 144,
+    "created_at": "2023-10-17T09:18:27.009059Z",
+    "updated_at": "2023-10-17T09:18:27.009059Z",
+    "lead_time": 411.378
+  },
+  {
+    "text": "Russia has launched massive attacks along other parts of the front line in eastern Ukraine. Its forces are pushing in the direction of Kupyansk in Kharkiv region and Lyman in Donetsk region.",
+    "id": 410,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 90,
+        "text": "eastern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 102,
+        "text": "forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 143,
+        "text": "Kupyansk",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 147,
+        "end": 161,
+        "text": "Kharkiv region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 189,
+        "text": "Lyman in Donetsk region",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 145,
+    "created_at": "2023-10-17T10:28:18.396685Z",
+    "updated_at": "2023-10-17T10:28:18.396685Z",
+    "lead_time": 4191.041
+  },
+  {
+    "text": "Analysts from the Institute of Study of War argue that these operations in Avdiivka and other parts of the Donbas are aimed at fixing Ukrainian forces to \"prevent them from redeploying to other areas\", particularly to Zaporizhzhia region further west where Ukraine is making a slow progress.",
+    "id": 411,
+    "label": [
+      {
+        "start": 18,
+        "end": 43,
+        "text": "Institute of Study of War",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 83,
+        "text": "Avdiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 113,
+        "text": "Donbas",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 150,
+        "text": "forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 218,
+        "end": 237,
+        "text": "Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 257,
+        "end": 264,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 146,
+    "created_at": "2023-10-17T10:28:55.221496Z",
+    "updated_at": "2023-10-17T10:28:55.221496Z",
+    "lead_time": 36.422
+  },
+  {
+    "text": "Poland's two highest-ranking military officers have resigned days before a key election and amid the war in neighbouring Ukraine.",
+    "id": 413,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Poland's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 128,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 148,
+    "created_at": "2023-10-17T10:29:09.836229Z",
+    "updated_at": "2023-10-17T10:29:09.836229Z",
+    "lead_time": 9.026
+  },
+  {
+    "text": "The army's Chief of General Staff, Gen Rajmund Andrzejczak, and Operational Commander Gen Tomasz Piotrowski gave no reason for their decision.",
+    "id": 414,
+    "label": [
+      {
+        "start": 0,
+        "end": 58,
+        "text": "The army's Chief of General Staff, Gen Rajmund Andrzejczak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 107,
+        "text": "Operational Commander Gen Tomasz Piotrowski",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 149,
+    "created_at": "2023-10-17T10:29:24.238710Z",
+    "updated_at": "2023-10-17T10:29:24.238710Z",
+    "lead_time": 14.052
+  },
+  {
+    "text": "Media reports say they are worried about attempts by the right-wing government to politicise the military ahead of Sunday's general elections.",
+    "id": 415,
+    "annotator": 1,
+    "annotation_id": 150,
+    "created_at": "2023-10-17T10:29:37.272620Z",
+    "updated_at": "2023-10-17T10:29:37.272620Z",
+    "lead_time": 12.69
+  },
+  {
+    "text": "The government denies the claim. It also rejects accusations by Poland's opposition and the European Union that it is politicising the country's judiciary and curbing media freedoms.",
+    "id": 416,
+    "label": [
+      {
+        "start": 64,
+        "end": 72,
+        "text": "Poland's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 14,
+        "text": "The government",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 106,
+        "text": "European Union",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 151,
+    "created_at": "2023-10-17T10:29:56.489852Z",
+    "updated_at": "2023-10-17T10:29:56.489852Z",
+    "lead_time": 18.879
+  },
+  {
+    "text": "“Why Europe is watching Poland's election\" General Rajmund Andrzejczak submitted his resignation... on Monday,\" his spokeswoman Col Joanna Klejszmit told the AFP news agency",
+    "id": 417,
+    "label": [
+      {
+        "start": 5,
+        "end": 11,
+        "text": "Europe",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "text": "Poland's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 70,
+        "text": "General Rajmund Andrzejczak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 128,
+        "end": 148,
+        "text": "Col Joanna Klejszmit",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 173,
+        "text": "AFP news agency",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 152,
+    "created_at": "2023-10-17T10:30:30.854586Z",
+    "updated_at": "2023-10-17T10:30:30.854586Z",
+    "lead_time": 34.026
+  },
+  {
+    "text": "\"Like any soldier, he's entitled to resign without giving a reason,\" she added. Gen Piotrowski also tendered his resignation.",
+    "id": 418,
+    "label": [
+      {
+        "start": 80,
+        "end": 94,
+        "text": "Gen Piotrowski",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 153,
+    "created_at": "2023-10-17T10:33:44.124644Z",
+    "updated_at": "2023-10-17T10:33:44.124644Z",
+    "lead_time": 192.897
+  },
+  {
+    "text": "The daily Rzeczpospolita - one of Poland's leading newspapers - reported that the two generals were in conflict with Defence Minister Mariusz Blaszczak about the politicisation of the military and a row over a Russian cruise missile over Poland late last year.",
+    "id": 419,
+    "label": [
+      {
+        "start": 0,
+        "end": 24,
+        "text": "The daily Rzeczpospolita",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "Poland's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 151,
+        "text": "Defence Minister Mariusz Blaszczak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 210,
+        "end": 217,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 238,
+        "end": 244,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 154,
+    "created_at": "2023-10-17T10:34:11.254487Z",
+    "updated_at": "2023-10-17T10:34:11.254487Z",
+    "lead_time": 26.788
+  },
+  {
+    "text": "In May, Mr Blaszczak, said Gen Piotrowski failed to inform him last December that the unarmed missile had entered Polish airspace from Belarus and flown hundreds of kilometres before crashing in a forest. The missile was only discovered in April by a member of the public, causing considerable embarrassment for the minister.",
+    "id": 420,
+    "label": [
+      {
+        "start": 3,
+        "end": 6,
+        "text": "May",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "text": "Mr Blaszczak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 41,
+        "text": "Gen Piotrowski",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 76,
+        "text": "December",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 142,
+        "text": "Belarus",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 209,
+        "end": 216,
+        "text": "missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 240,
+        "end": 245,
+        "text": "April",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 101,
+        "text": "missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 155,
+    "created_at": "2023-10-17T10:35:55.690997Z",
+    "updated_at": "2023-10-17T10:35:55.690997Z",
+    "lead_time": 104.091
+  },
+  {
+    "text": "Mr Blaszczak and the two generals have not publicly commented on the Rzeczpospolita report.",
+    "id": 421,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Mr Blaszczak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 83,
+        "text": "Rzeczpospolita",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 156,
+    "created_at": "2023-10-17T10:36:09.768986Z",
+    "updated_at": "2023-10-17T10:36:09.768986Z",
+    "lead_time": 13.74
+  },
+  {
+    "text": "On Sunday, Poles will be voting in what opposition leader Donald Tusk has billed as their \"most important election since 1989 and the fall of communism\"",
+    "id": 422,
+    "label": [
+      {
+        "start": 58,
+        "end": 69,
+        "text": "Donald Tusk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "text": "1989",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 157,
+    "created_at": "2023-10-17T10:36:25.729270Z",
+    "updated_at": "2023-10-17T10:36:25.729270Z",
+    "lead_time": 15.596
+  },
+  {
+    "text": "The populist, right-wing United Right coalition, led by the Law and Justice party of Jaroslaw Kaczynski is seeking a third term in office.",
+    "id": 423,
+    "label": [
+      {
+        "start": 25,
+        "end": 37,
+        "text": "United Right",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 103,
+        "text": "the Law and Justice party of Jaroslaw Kaczynski",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 158,
+    "created_at": "2023-10-17T10:36:43.032036Z",
+    "updated_at": "2023-10-17T10:36:43.032036Z",
+    "lead_time": 16.932
+  },
+  {
+    "text": "However, the gap between the right and centre has narrowed after an intensely bitter election campaign.",
+    "id": 424,
+    "annotator": 1,
+    "annotation_id": 159,
+    "created_at": "2023-10-17T10:36:49.644704Z",
+    "updated_at": "2023-10-17T10:36:49.644704Z",
+    "lead_time": 6.278
+  },
+  {
+    "text": "Poland has been a staunch supporter of Ukraine since Russia's full-scale invasion began in February 2022, housing more than a million of Ukrainian refugees and providing Kyiv with more than $3bn (£2.4bn) in weapons. But relations have frayed during the campaign over a Polish ban on Ukrainian grain imports",
+    "id": 425,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 61,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 104,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 170,
+        "end": 174,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 190,
+        "end": 194,
+        "text": "$3bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 202,
+        "text": "£2.4bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 214,
+        "text": "weapons",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 160,
+    "created_at": "2023-10-17T10:37:35.030751Z",
+    "updated_at": "2023-10-17T10:37:35.030751Z",
+    "lead_time": 45.049
+  },
+  {
+    "text": "Prime Minister Mateusz Morawiecki said Warsaw would supply no more weapons, and would instead focus on rebuilding its own depleted stocks",
+    "id": 427,
+    "label": [
+      {
+        "start": 0,
+        "end": 33,
+        "text": "Prime Minister Mateusz Morawiecki",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "text": "Warsaw",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "text": "weapons",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 162,
+    "created_at": "2023-10-17T10:38:01.041314Z",
+    "updated_at": "2023-10-17T10:38:01.041314Z",
+    "lead_time": 19.256
+  },
+  {
+    "text": "Russia has failed to get re-elected as a member of the UN's human rights council.",
+    "id": 429,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "text": "UN's",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 164,
+    "created_at": "2023-10-17T10:38:11.628573Z",
+    "updated_at": "2023-10-17T10:38:11.628573Z",
+    "lead_time": 8.055
+  },
+  {
+    "text": "The state was expelled from the top human rights body last April after its forces invaded Ukraine",
+    "id": 430,
+    "label": [
+      {
+        "start": 59,
+        "end": 64,
+        "text": "April",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 165,
+    "created_at": "2023-10-17T10:38:20.479915Z",
+    "updated_at": "2023-10-17T10:38:20.479915Z",
+    "lead_time": 8.508
+  },
+  {
+    "text": "It had hoped getting a fresh three-year term would highlight divisions between UN member states over whether or not to keep supporting Ukraine.",
+    "id": 431,
+    "label": [
+      {
+        "start": 79,
+        "end": 81,
+        "text": "UN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 142,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 166,
+    "created_at": "2023-10-17T10:38:31.080936Z",
+    "updated_at": "2023-10-17T10:38:31.080936Z",
+    "lead_time": 10.23
+  },
+  {
+    "text": "But Bulgaria and Albania won the two seats allocated for Eastern European countries instead.",
+    "id": 432,
+    "label": [
+      {
+        "start": 4,
+        "end": 12,
+        "text": "Bulgaria",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "text": "Albania",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 167,
+    "created_at": "2023-10-17T10:38:53.716814Z",
+    "updated_at": "2023-10-17T10:38:53.716814Z",
+    "lead_time": 22.269
+  },
+  {
+    "text": "The vote came days after a Russian missile attack that killed 52 people in the north-eastern Ukrainian village of Hroza.",
+    "id": 433,
+    "label": [
+      {
+        "start": 35,
+        "end": 42,
+        "text": "missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 79,
+        "end": 120,
+        "text": "north-eastern Ukrainian village of Hroza.",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 168,
+    "created_at": "2023-10-17T10:39:05.962566Z",
+    "updated_at": "2023-10-17T10:39:05.962566Z",
+    "lead_time": 11.849
+  },
+  {
+    "text": "Russia received 83 votes in favour from the UN's 193 general assembly members, while Bulgaria got 160 and Albania got 123. Earlier, Albania's ambassador Ferit Hoxha had said it was important for member states to show it was not ready to \"take an arsonist for a firefighter\".",
+    "id": 434,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "UN's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 93,
+        "text": "Bulgaria",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 113,
+        "text": "Albania",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 141,
+        "text": "Albania's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 164,
+        "text": "ambassador Ferit Hoxha",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 169,
+    "created_at": "2023-10-17T10:40:55.180563Z",
+    "updated_at": "2023-10-17T10:40:55.181564Z",
+    "lead_time": 108.858
+  },
+  {
+    "text": "Russia had promised to find \"adequate solutions for human rights issues\" and said it wanted to stop the body becoming an \"instrument which serves political wills of one group of countries\" - understood to be a reference to the West",
+    "id": 435,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 170,
+    "created_at": "2023-10-17T10:41:29.022621Z",
+    "updated_at": "2023-10-17T10:41:29.022621Z",
+    "lead_time": 33.488
+  },
+  {
+    "text": "Diplomats said it was hoping to regain some international credibility after being accused of widespread rights abuses in Ukraine and inside its own borders.",
+    "id": 436,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Diplomats",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 128,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 171,
+    "created_at": "2023-10-17T10:41:53.386822Z",
+    "updated_at": "2023-10-17T10:41:53.386822Z",
+    "lead_time": 24.03
+  },
+  {
+    "text": "Russia had claimed it would win the votes of many member states - particularly developing nations - in the secret ballot, suggesting they privately sympathised with Moscow but avoided doing so in public to avoid angering Western states",
+    "id": 437,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 165,
+        "end": 171,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 221,
+        "end": 235,
+        "text": "Western states",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 172,
+    "created_at": "2023-10-17T10:42:12.211053Z",
+    "updated_at": "2023-10-17T10:42:12.211053Z",
+    "lead_time": 18.491
+  },
+  {
+    "text": "Russia is said to have campaigned aggressively, offering small countries grain and arms in return for their votes. Moscow's ambassador to the UN, Vassily Nebenzia, accused the US of leading a campaign to stop them from returning to the council. The state was suspended from the human rights council in April 2022 with 93 members of the UN general assembly voting in favour, 24 against and 58 abstaining.",
+    "id": 438,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 162,
+        "text": "Moscow's ambassador to the UN, Vassily Nebenzia",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 176,
+        "end": 178,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 302,
+        "end": 312,
+        "text": "April 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 338,
+        "text": "UN",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 173,
+    "created_at": "2023-10-17T10:42:48.696589Z",
+    "updated_at": "2023-10-17T10:42:48.696589Z",
+    "lead_time": 36.121
+  },
+  {
+    "text": "The council will consist of the following countries from 2024, for three years: Albania, Brazil, Bulgaria, Burundi, China, the Ivory Coast, Cuba, Dominican Republic, France, Ghana, Indonesia, Japan, Kuwait, Malawi and the Netherlands.",
+    "id": 439,
+    "label": [
+      {
+        "start": 57,
+        "end": 61,
+        "text": "2024",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 87,
+        "text": "Albania",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 95,
+        "text": "Brazil",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 105,
+        "text": "Bulgaria",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 107,
+        "end": 114,
+        "text": "Burundi",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 121,
+        "text": "China",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 138,
+        "text": "the Ivory Coast",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 144,
+        "text": "Cuba",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 146,
+        "end": 164,
+        "text": "Dominican Republic",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 172,
+        "text": "France",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 174,
+        "end": 179,
+        "text": "Ghana",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 181,
+        "end": 190,
+        "text": "Indonesia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 192,
+        "end": 197,
+        "text": "Japan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 199,
+        "end": 205,
+        "text": "Kuwait",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 213,
+        "text": "Malawi",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 218,
+        "end": 233,
+        "text": "the Netherlands",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 174,
+    "created_at": "2023-10-17T10:44:27.302127Z",
+    "updated_at": "2023-10-17T10:44:27.302127Z",
+    "lead_time": 98.266
+  },
+  {
+    "text": "When Ukraine's Kakhovka dam was blown up in June, it led to devastating floods that destroyed homes and farmland, and left hundreds of thousands without drinking water. Four months on, Ukrainians are still facing water shortages but say they are determined to overcome the destruction. When Svitlana Kridiner heard about the dam collapse, she knew it was only a matter of time before her village would be flooded. In the end it took two days for the water to reach her. It arrived at around 17:00 on 8 June.",
+    "id": 441,
+    "label": [
+      {
+        "start": 5,
+        "end": 27,
+        "text": "Ukraine's Kakhovka dam",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 308,
+        "text": "Svitlana Kridiner",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 500,
+        "end": 506,
+        "text": "8 June",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 176,
+    "created_at": "2023-10-17T10:45:03.143628Z",
+    "updated_at": "2023-10-17T10:45:03.144627Z",
+    "lead_time": 33.504
+  },
+  {
+    "text": "\"We packed quickly. We took our livestock - cows, dogs, ducklings - and our equipment: milking kits and a generator,\" she says. \"We had to leave all our other possessions behind, they were all lost.\" The 52-year-old farmer and her husband Vasyl had devoted their lives to their herd of two dozen cows, which they had raised from calves, and did everything they could to save them. It took just five more hours for the water to engulf their whole farm. Their village, Afanasiivka, is 70km (45 miles) north of the dam and there are signs of damage everywhere.",
+    "id": 442,
+    "label": [
+      {
+        "start": 239,
+        "end": 244,
+        "text": "Vasyl",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 467,
+        "end": 478,
+        "text": "Afanasiivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 177,
+    "created_at": "2023-10-17T10:45:30.010449Z",
+    "updated_at": "2023-10-17T10:45:30.010449Z",
+    "lead_time": 26.524
+  },
+  {
+    "text": "Svitlana shows us water marks inside a barn, close to the ceiling, and explains that most of the hay she and her husband had prepared to feed their cows over the winter was destroyed. So was their other animal feed.\"The water rose by six metres, but at least the farm building survived,\" she says. \"Only the floor got washed away but the walls are still standing.\"On top of this, Svitlana's village is near the front line, and like many of the flood-hit areas is contaminated with ammunition. She shows us a rocket, stuck in the ground in one of her hay meadows. \"My husband has to mow around it,\" she says.",
+    "id": 444,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Svitlana",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 380,
+        "end": 398,
+        "text": "Svitlana's village",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 179,
+    "created_at": "2023-10-17T10:46:05.598934Z",
+    "updated_at": "2023-10-17T10:46:05.598934Z",
+    "lead_time": 29.062
+  },
+  {
+    "text": "Image caption, A rocket is stuck in the middle of Svitlana's hay meadow which they now have to mow around The Ukrainian government is offering her compensation for the flood damage, although she says the 5,000 Ukrainian hryvnia offered, equivalent to $135 or £110, is nowhere near enough to repair everything.Somehow, she's not disheartened. \"Maybe we will take out another loan, we will mow some hay for the cows or buy some more. We will make it, rest assured.\"Her optimism is shared by another farmer we meet, Vadym Sheremet, who shows us round the ruins of his home in the village of Pavlo-Marianivka, 10km (six miles) away.\"Here we had a fireplace, where our family gathered,\" says the 52-year-old, pointing to a pile of bricks and chimney debris. \"It was such a happy time,\" he trails off, remembering the old days. Image caption, Vadym Sheremet is having to rebuild his entire farm after flood-water hit. The water reached the roof of his house and destroyed his crops. Before the flood he grew wheat, barley and sunflowers. And this isn't the first time he has had to start again. Vadym's village was under Russian occupation for much of 2022. \"Last autumn we had 250 hectares of grain, ready to harvest. Russians burnt it all. That was the first blow,\" he says. \"Then spring 2023 came. We gave it our all and sowed, however hard it was. Then the water came. We were knocked down once again.\"",
+    "id": 445,
+    "label": [
+      {
+        "start": 15,
+        "end": 23,
+        "text": "A rocket",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 71,
+        "text": "the middle of Svitlana's hay meadow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 106,
+        "end": 130,
+        "text": "The Ukrainian government",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 251,
+        "end": 255,
+        "text": "$135",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 259,
+        "end": 263,
+        "text": "£110",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 513,
+        "end": 527,
+        "text": "Vadym Sheremet",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 573,
+        "end": 604,
+        "text": "the village of Pavlo-Marianivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 837,
+        "end": 851,
+        "text": "Vadym Sheremet",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1089,
+        "end": 1104,
+        "text": "Vadym's village",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1146,
+        "end": 1150,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 1284,
+        "end": 1288,
+        "text": "2023",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 180,
+    "created_at": "2023-10-17T10:49:38.113604Z",
+    "updated_at": "2023-10-17T10:49:38.113604Z",
+    "lead_time": 212.19
+  },
+  {
+    "text": "The impact of the dam explosion is so huge that it is described as \"one of the biggest human-caused disasters of our time\", in a report by US research institute, the Wilson Centre. It also says that \"more than one million hectares of land in three southern oblasts of Ukraine - Kherson, Zaporizhzhia and Dnipropetrovsk - will be unusable for the next three to five years for lack of a water supply\". Damage worth an estimated $2bn (£1.6bn) was caused by the breach, excluding the cost of rebuilding it, according to Ukrainian authorities. They said more than two-thirds of the affected area was in Russian-occupied territory where the flooding was worse because the bank on that side of the river is lower. Watch on iPlayer: After Kakhovka, The Kakhovka dam held back a vast reservoir that supplied water to irrigate farms as well as provided drinking water. A report by the United Nations warns that there is unlikely to be enough rain to water farmers' crops, so people have been digging new wells and laying water supply lines with help from the authorities and aid groups. With help from volunteers, Vadym is building a new house, ploughing his fields to prepare for the season ahead and plans to lay a new water supply to help his community. \"Everything will work out,\" says Vadim. \"Life is wonderful. You can give in or become stronger.\" Image source, Family handout Image caption, Ivan Sheremet was killed by an explosive in southern Ukraine at the age of 20. Two days after we left Vadym's village he received some devastating news. His 20-year-old son, Ivan, was killed by an explosive by the side of a road, not far from his home. Vadim believes it was a Russian munition, although there is no way to confirm this at the moment. Since Russia's invasion, Ukraine has become one of the most heavily mined countries in the world, according to the United Nations. The head of the Red Cross's weapon contamination unit, Erik Tollefsen, says the dam disaster dislodged mines, exacerbating the problem. \"We knew where the hazards were. Now we don't. All we know is that they are somewhere downstream,\" he told the AFP news agency. Ukrainian government \/ UN estimates Russia and Ukraine have blamed each other for the destruction of the dam. Two days after it started to burst, a Norwegian agency analysed seismic signals from a regional station in Romania, which indicated an explosion at the same time the dam collapse was registered. Experts with the international human rights law firm Global Rights Compliance, which is implementing Western-backed efforts to support accountability for atrocities in Ukraine, visited the Kherson region from 10 to 11 June with Ukraine's prosecutor general and a team from the International Criminal Court. The group concluded it was \"highly likely\" that Russia was behind the attack.",
+    "id": 447,
+    "label": [
+      {
+        "start": 139,
+        "end": 141,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 162,
+        "end": 179,
+        "text": "the Wilson Centre",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 268,
+        "end": 285,
+        "text": "Ukraine - Kherson",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 287,
+        "end": 299,
+        "text": "Zaporizhzhia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 304,
+        "end": 318,
+        "text": "Dnipropetrovsk",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 426,
+        "end": 430,
+        "text": "$2bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 432,
+        "end": 438,
+        "text": "£1.6bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 516,
+        "end": 537,
+        "text": "Ukrainian authorities",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 731,
+        "end": 739,
+        "text": "Kakhovka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 741,
+        "end": 757,
+        "text": "The Kakhovka dam",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 871,
+        "end": 889,
+        "text": "the United Nations",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1104,
+        "end": 1109,
+        "text": "Vadym",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1280,
+        "end": 1285,
+        "text": "Vadim",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1388,
+        "end": 1401,
+        "text": "Ivan Sheremet",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1432,
+        "end": 1448,
+        "text": "southern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1490,
+        "end": 1497,
+        "text": "Vadym's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1562,
+        "end": 1566,
+        "text": "Ivan",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1585,
+        "end": 1594,
+        "text": "explosive",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1419,
+        "end": 1428,
+        "text": "explosive",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1641,
+        "end": 1646,
+        "text": "Vadim",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1665,
+        "end": 1681,
+        "text": "Russian munition",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1745,
+        "end": 1753,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1764,
+        "end": 1771,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1850,
+        "end": 1860,
+        "text": "the United",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1882,
+        "end": 1897,
+        "text": "the Red Cross's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1925,
+        "end": 1939,
+        "text": "Erik Tollefsen",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1973,
+        "end": 1978,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 2113,
+        "end": 2132,
+        "text": "the AFP news agency",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2134,
+        "end": 2154,
+        "text": "Ukrainian government",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2157,
+        "end": 2159,
+        "text": "UN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2170,
+        "end": 2176,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 2181,
+        "end": 2188,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 2282,
+        "end": 2298,
+        "text": "Norwegian agency",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2351,
+        "end": 2358,
+        "text": "Romania",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 2492,
+        "end": 2516,
+        "text": "Global Rights Compliance",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2607,
+        "end": 2614,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 2628,
+        "end": 2642,
+        "text": "Kherson region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 2648,
+        "end": 2661,
+        "text": "10 to 11 June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 2716,
+        "end": 2744,
+        "text": "International Criminal Court",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 2794,
+        "end": 2800,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 182,
+    "created_at": "2023-10-17T10:59:14.767809Z",
+    "updated_at": "2023-10-17T10:59:14.767809Z",
+    "lead_time": 569.322
+  },
+  {
+    "text": "Despite everything that has happened, Vadym is determined to rebuild his life and his farm. He was too upset to talk straight after Ivan's death but eventually he called us from his courtyard, sitting with his back against his tractor. \"My son was someone who could do anything,\" he said. And he vowed to keep strong for Ivan.\"We have to be strong. We have to live. We will make it,\" he says. \"We are good people who deserve to live in a peaceful and flourishing Ukraine.",
+    "id": 448,
+    "label": [
+      {
+        "start": 38,
+        "end": 43,
+        "text": "Vadym",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 138,
+        "text": "Ivan's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 321,
+        "end": 325,
+        "text": "Ivan",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 463,
+        "end": 470,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 183,
+    "created_at": "2023-10-17T11:00:36.571663Z",
+    "updated_at": "2023-10-17T11:00:36.571663Z",
+    "lead_time": 81.426
+  },
+  {
+    "text": "The two largest hacktivist groups in the Ukraine conflict have vowed to de-escalate cyber-attacks and comply with new rules of engagement published by a war watchdog.",
+    "id": 449,
+    "label": [
+      {
+        "start": 16,
+        "end": 33,
+        "text": "hacktivist groups",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 184,
+    "created_at": "2023-10-17T11:00:53.420217Z",
+    "updated_at": "2023-10-17T11:00:53.420217Z",
+    "lead_time": 16.518
+  },
+  {
+    "text": "On Wednesday, the International Committee of the Red Cross (ICRC) issued the first list of rules for civilian hackers ever created.",
+    "id": 450,
+    "label": [
+      {
+        "start": 18,
+        "end": 65,
+        "text": "International Committee of the Red Cross (ICRC)",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 185,
+    "created_at": "2023-10-17T11:01:08.557306Z",
+    "updated_at": "2023-10-17T11:01:08.557306Z",
+    "lead_time": 14.802
+  },
+  {
+    "text": "Dubbed a \"Geneva Code of cyber-war\", it was initially criticised as unworkable.",
+    "id": 451,
+    "annotator": 1,
+    "annotation_id": 186,
+    "created_at": "2023-10-17T11:01:15.094083Z",
+    "updated_at": "2023-10-17T11:01:15.094083Z",
+    "lead_time": 6.222
+  },
+  {
+    "text": "But now Ukrainian and Russian hackers say they will comply with the rules.",
+    "id": 452,
+    "annotator": 1,
+    "annotation_id": 187,
+    "created_at": "2023-10-17T11:01:25.412400Z",
+    "updated_at": "2023-10-17T11:01:25.412400Z",
+    "lead_time": 10.016
+  },
+  {
+    "text": "Since the invasion of Ukraine there has been a steady stream of disruptive cyber-attacks against public services in both Ukraine and Russia with varying degrees of impact.",
+    "id": 453,
+    "label": [
+      {
+        "start": 22,
+        "end": 29,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 128,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 139,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 188,
+    "created_at": "2023-10-17T11:03:05.820545Z",
+    "updated_at": "2023-10-17T11:03:05.820545Z",
+    "lead_time": 100.094
+  },
+  {
+    "text": "Hacktivist groups have been using largely unsophisticated forms of cyber-attack, but successfully temporarily disrupted banks, companies, pharmacies, hospitals, railway networks and civilian government services for Ukrainian and Russian citizens.",
+    "id": 454,
+    "annotator": 1,
+    "annotation_id": 189,
+    "created_at": "2023-10-17T11:03:22.486296Z",
+    "updated_at": "2023-10-17T11:03:22.486296Z",
+    "lead_time": 16.338
+  },
+  {
+    "text": "With few soft targets in government or military, hacktivists on both sides have revelled in causing friction for ordinary people to further their causes, often collecting angry social media posts from those affected by their attacks.",
+    "id": 455,
+    "annotator": 1,
+    "annotation_id": 190,
+    "created_at": "2023-10-17T11:04:18.440321Z",
+    "updated_at": "2023-10-17T11:04:18.440321Z",
+    "lead_time": 55.594
+  },
+  {
+    "text": "By vowing to comply with the ICRC rules, hacker groups will avoid cyber-attacks that affect civilians.",
+    "id": 456,
+    "label": [
+      {
+        "start": 29,
+        "end": 33,
+        "text": "ICRC",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 191,
+    "created_at": "2023-10-17T11:04:24.015728Z",
+    "updated_at": "2023-10-17T11:04:24.015728Z",
+    "lead_time": 5.245
+  },
+  {
+    "text": "Speaking to the BBC, the leader of the infamous pro-Russian hacking group Killnet said he \"agrees to the terms and rules of the Red Cross, let this be the first step from Killnet to peace\".",
+    "id": 457,
+    "label": [
+      {
+        "start": 12,
+        "end": 19,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 81,
+        "text": "the infamous pro-Russian hacking group Killnet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 128,
+        "end": 137,
+        "text": "Red Cross",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 178,
+        "text": "Killnet",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 192,
+    "created_at": "2023-10-17T11:05:05.486080Z",
+    "updated_at": "2023-10-17T11:05:05.486080Z",
+    "lead_time": 41.11
+  },
+  {
+    "text": "Killmilk, as he is known, started the Telegram group for Killnet shortly after his country invaded, and now has 90,000 followers. Killmilk has posted videos of himself urinating on the flags of Ukraine and Nato, and the group was highlighted as a persistent source of low-level disruptive attacks on Ukrainian targets.",
+    "id": 458,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Killmilk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 52,
+        "text": "Telegram group",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "Killnet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 138,
+        "text": "Killmilk",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 194,
+        "end": 201,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 206,
+        "end": 210,
+        "text": "Nato",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 193,
+    "created_at": "2023-10-17T11:05:38.172613Z",
+    "updated_at": "2023-10-17T11:05:38.172613Z",
+    "lead_time": 32.321
+  },
+  {
+    "text": "Image caption, Killnet's leader, Killmilk, says he \"agrees to the terms and rules of the Red Cross\" The group has been accused of having close links to the Kremlin, but has always denied this.",
+    "id": 459,
+    "label": [
+      {
+        "start": 15,
+        "end": 24,
+        "text": "Killnet's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "Killmilk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 98,
+        "text": "Red Cross",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 152,
+        "end": 163,
+        "text": "the Kremlin",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 194,
+    "created_at": "2023-10-17T11:06:02.739707Z",
+    "updated_at": "2023-10-17T11:06:02.739707Z",
+    "lead_time": 24.227
+  },
+  {
+    "text": "In April, the UK's National Cyber Security Centre highlighted groups like Killnet as a new threat facing Ukraine allies, warning UK businesses that attacks from them on are on rise.",
+    "id": 460,
+    "label": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "April",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 49,
+        "text": "UK's National Cyber Security Centre",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 81,
+        "text": "Killnet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 112,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 131,
+        "text": "UK",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 195,
+    "created_at": "2023-10-17T11:06:25.645844Z",
+    "updated_at": "2023-10-17T11:06:25.645844Z",
+    "lead_time": 22.564
+  },
+  {
+    "text": "If Killnet keeps to its word, then cyber-attacks on civilian targets, including those of Ukraine's allies, will stop.",
+    "id": 461,
+    "label": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "Killnet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 89,
+        "end": 98,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 196,
+    "created_at": "2023-10-17T11:07:01.871102Z",
+    "updated_at": "2023-10-17T11:07:01.871102Z",
+    "lead_time": 35.887
+  },
+  {
+    "text": "The IT Army of Ukraine also said it would be following the ICRC's eight rules.",
+    "id": 462,
+    "label": [
+      {
+        "start": 0,
+        "end": 22,
+        "text": "The IT Army of Ukraine",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "text": "ICRC's",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 197,
+    "created_at": "2023-10-17T11:07:11.325502Z",
+    "updated_at": "2023-10-17T11:07:11.325502Z",
+    "lead_time": 9.134
+  },
+  {
+    "text": "The group, which has 160,000 members on its Telegram channel, also targets public services such as railway systems and banks.",
+    "id": 463,
+    "label": [
+      {
+        "start": 44,
+        "end": 52,
+        "text": "Telegram",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 198,
+    "created_at": "2023-10-17T11:07:19.345273Z",
+    "updated_at": "2023-10-17T11:07:19.345273Z",
+    "lead_time": 7.633
+  },
+  {
+    "text": "Its spokesman told BBC News that the group will \"make best efforts to follow the rules\", even though it may place them at a disadvantage to their adversaries. The spokesman added that attacks on healthcare targets have been a long-standing red line already.",
+    "id": 464,
+    "label": [
+      {
+        "start": 19,
+        "end": 22,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 199,
+    "created_at": "2023-10-17T11:07:30.397061Z",
+    "updated_at": "2023-10-17T11:07:30.397061Z",
+    "lead_time": 10.692
+  },
+  {
+    "text": "The news means that there will likely be a major reduction in the number of cyber attacks as groups restrict their activities to official or military targets.",
+    "id": 465,
+    "annotator": 1,
+    "annotation_id": 200,
+    "created_at": "2023-10-17T11:07:45.558752Z",
+    "updated_at": "2023-10-17T11:07:45.558752Z",
+    "lead_time": 14.819
+  },
+  {
+    "text": "But other hacktivist groups working for other patriotic or ethical causes in the world told the BBC they would not be following the rules at all.",
+    "id": 466,
+    "label": [
+      {
+        "start": 92,
+        "end": 99,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 201,
+    "created_at": "2023-10-17T11:07:52.548076Z",
+    "updated_at": "2023-10-17T11:07:52.548076Z",
+    "lead_time": 6.672
+  },
+  {
+    "text": "The ICRC issued the eight rules of engagement in an attempt to end the free-for-all that has accelerated during the Ukraine cyber-conflict, warning that unprecedented numbers of people are joining patriotic cyber-gangs. ",
+    "id": 467,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "The ICRC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 123,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 202,
+    "created_at": "2023-10-17T11:08:05.035228Z",
+    "updated_at": "2023-10-17T11:08:05.035228Z",
+    "lead_time": 12.146
+  },
+  {
+    "text": "The unusually large collection of vehicles and people tells you something significant has happened in the tiny village of Hroza.",
+    "id": 469,
+    "label": [
+      {
+        "start": 102,
+        "end": 127,
+        "text": "the tiny village of Hroza",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 204,
+    "created_at": "2023-10-17T11:08:21.201724Z",
+    "updated_at": "2023-10-17T11:08:21.201724Z",
+    "lead_time": 12.715
+  },
+  {
+    "text": "After driving for hours through Ukraine's endless rural expanse, it is a jarring sight.",
+    "id": 470,
+    "label": [
+      {
+        "start": 32,
+        "end": 41,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 205,
+    "created_at": "2023-10-17T11:08:28.799321Z",
+    "updated_at": "2023-10-17T11:08:28.799321Z",
+    "lead_time": 7.268
+  },
+  {
+    "text": "Such is the force from a ballistic missile, it is not always immediately obvious where the missile hit.",
+    "id": 471,
+    "label": [
+      {
+        "start": 25,
+        "end": 42,
+        "text": "ballistic missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "text": "missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 206,
+    "created_at": "2023-10-17T11:08:40.354885Z",
+    "updated_at": "2023-10-17T11:08:40.354885Z",
+    "lead_time": 11.196
+  },
+  {
+    "text": "But, as the odour of burning still taints the air, you turn a corner to find the remaining walls of what was once a café and grocery shop. The missile struck during a wake attended by many in the village - for what this also was, was a son's attempt to rebury his father after he was killed and buried in occupied territory last year. Now he, his wife, and 49 others are gone too - a fifth of Hroza's population killed in one go.",
+    "id": 472,
+    "label": [
+      {
+        "start": 143,
+        "end": 150,
+        "text": "missile",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 192,
+        "end": 203,
+        "text": "the village",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 305,
+        "end": 323,
+        "text": "occupied territory",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 393,
+        "end": 400,
+        "text": "Hroza's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 207,
+    "created_at": "2023-10-17T11:12:39.410633Z",
+    "updated_at": "2023-10-17T11:12:39.410633Z",
+    "lead_time": 238.655
+  },
+  {
+    "text": "Every family in the village in north-eastern Kharkiv region has been affected, Interior Minister Ihor Klymenko says.",
+    "id": 473,
+    "label": [
+      {
+        "start": 79,
+        "end": 110,
+        "text": "Interior Minister Ihor Klymenko",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 59,
+        "text": "the village in north-eastern Kharkiv region",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 208,
+    "created_at": "2023-10-17T11:13:01.216803Z",
+    "updated_at": "2023-10-17T11:13:01.216803Z",
+    "lead_time": 21.451
+  },
+  {
+    "text": "Blood stains are still visible in the soil. Eerily, the swings and slide are still there. Symbols of innocence against a desperate backdrop.",
+    "id": 474,
+    "annotator": 1,
+    "annotation_id": 209,
+    "created_at": "2023-10-17T11:13:08.906989Z",
+    "updated_at": "2023-10-17T11:13:08.906989Z",
+    "lead_time": 7.361
+  },
+  {
+    "text": "A covered body lies next to a collection of candles on a tractor tyre. A memorial to the 52 lives taken in an instant yesterday. Down a neighbouring bumpy road, we meet the imposing frame of Andriy. He tells us his wife Lyubov was at the funeral wake yesterday afternoon and that he doesn't know what's happened to her.",
+    "id": 475,
+    "label": [
+      {
+        "start": 191,
+        "end": 197,
+        "text": "Andriy",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 226,
+        "text": "Lyubov",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 210,
+    "created_at": "2023-10-17T11:13:30.666400Z",
+    "updated_at": "2023-10-17T11:13:30.666400Z",
+    "lead_time": 21.441
+  },
+  {
+    "text": "Andriy was out at work at the same time.",
+    "id": 476,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Andriy",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 211,
+    "created_at": "2023-10-17T11:13:35.061137Z",
+    "updated_at": "2023-10-17T11:13:35.061137Z",
+    "lead_time": 4.05
+  },
+  {
+    "text": "\"We can't find her,\" he says. \"We haven't seen her dead, we haven't seen her alive, we just don't know what to do.",
+    "id": 477,
+    "annotator": 1,
+    "annotation_id": 212,
+    "created_at": "2023-10-17T11:13:40.185636Z",
+    "updated_at": "2023-10-17T11:13:40.185636Z",
+    "lead_time": 4.784
+  },
+  {
+    "text": "\"Lyubov's father went to the police station to give a DNA sample in the hope she might at least be identified.",
+    "id": 478,
+    "label": [
+      {
+        "start": 1,
+        "end": 9,
+        "text": "Lyubov's",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 213,
+    "created_at": "2023-10-17T11:13:46.884110Z",
+    "updated_at": "2023-10-17T11:13:46.884110Z",
+    "lead_time": 6.369
+  },
+  {
+    "text": "What also backs that up, is how locals say the village is typically spared from the frequent shelling other settlements must endure. Russia has not directly commented on the strike.",
+    "id": 480,
+    "label": [
+      {
+        "start": 133,
+        "end": 139,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "text": "the village",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 215,
+    "created_at": "2023-10-17T11:14:12.209880Z",
+    "updated_at": "2023-10-17T11:14:12.209880Z",
+    "lead_time": 18.248
+  },
+  {
+    "text": "But Ukraine's defence ministry blames Russia for the attack, adding there were no military targets in the area.",
+    "id": 481,
+    "label": [
+      {
+        "start": 4,
+        "end": 30,
+        "text": "Ukraine's defence ministry",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 216,
+    "created_at": "2023-10-17T11:14:25.002585Z",
+    "updated_at": "2023-10-17T11:14:25.002585Z",
+    "lead_time": 12.435
+  },
+  {
+    "text": "When Canada's parliament praised a Ukrainian war veteran who fought with Nazi Germany, a renewed spotlight was put on a controversial part of Ukraine's history and its memorialisation in Canada. Yaroslav Hunka, the Ukrainian veteran who was applauded in parliament this week, served with a Nazi unit called the 14th Waffen Grenadier Division of the SS - also known as the Galicia Division - that was formed in 1943. His appearance was criticised by Jewish groups and other parliamentarians alike. MP Anthony Rota, who invited him, has since resigned as the Speaker of the House of Commons, saying he deeply regretted the mistake",
+    "id": 485,
+    "label": [
+      {
+        "start": 5,
+        "end": 24,
+        "text": "Canada's parliament",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 85,
+        "text": "Nazi Germany",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 151,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 193,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 195,
+        "end": 209,
+        "text": "Yaroslav Hunka",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 290,
+        "end": 294,
+        "text": "Nazi",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 311,
+        "end": 351,
+        "text": "14th Waffen Grenadier Division of the SS",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 372,
+        "end": 388,
+        "text": "Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 410,
+        "end": 414,
+        "text": "1943",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 497,
+        "end": 512,
+        "text": "MP Anthony Rota",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 568,
+        "end": 588,
+        "text": "the House of Commons",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 220,
+    "created_at": "2023-10-17T11:15:58.746677Z",
+    "updated_at": "2023-10-17T11:15:58.746677Z",
+    "lead_time": 88.228
+  },
+  {
+    "text": "Praise for Nazi veteran 'embarrassing' - Trudeau. But this is not the first time that Ukraine's role in WWII has sparked a debate in Canada, which is home to the largest Ukrainian diaspora outside of Europe.",
+    "id": 486,
+    "label": [
+      {
+        "start": 11,
+        "end": 15,
+        "text": "Nazi",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 95,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 139,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 200,
+        "end": 206,
+        "text": "Europe",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 221,
+    "created_at": "2023-10-17T11:16:17.218613Z",
+    "updated_at": "2023-10-17T11:16:17.218613Z",
+    "lead_time": 18.134
+  },
+  {
+    "text": "Several monuments dedicated to Ukrainian WWII veterans who served in the Galicia Division exist across the country. Jewish groups have long denounced these dedications, arguing soldiers in the Galicia Division swore allegiance to Adolf Hitler, and were either complicit in Nazi Germany's crimes or had committed crimes themselves. But for some Ukrainians, these veterans are viewed as freedom fighters, who only fought alongside the Nazis to resist the Soviets in their quest for an independent Ukraine",
+    "id": 487,
+    "label": [
+      {
+        "start": 73,
+        "end": 89,
+        "text": "Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 193,
+        "end": 209,
+        "text": "Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 230,
+        "end": 242,
+        "text": "Adolf Hitler",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 273,
+        "end": 287,
+        "text": "Nazi Germany's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 433,
+        "end": 438,
+        "text": "Nazis",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 460,
+        "text": "the Soviets",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 495,
+        "end": 502,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 222,
+    "created_at": "2023-10-17T11:16:54.821947Z",
+    "updated_at": "2023-10-17T11:16:54.821947Z",
+    "lead_time": 37.246
+  },
+  {
+    "text": "During the war, more than one million Jews in Ukraine were killed, mostly between 1941 and 1942. Most of them were shot to death near their homes by Nazi Germans and their collaborators. The Galicia Division has been accused of committing war crimes, but its members have never been found guilty in a court of law.",
+    "id": 489,
+    "label": [
+      {
+        "start": 46,
+        "end": 53,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 86,
+        "text": "1941",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 95,
+        "text": "1942",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 161,
+        "text": "Nazi Germans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 207,
+        "text": "The Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 224,
+    "created_at": "2023-10-17T11:18:17.028536Z",
+    "updated_at": "2023-10-17T11:18:17.028536Z",
+    "lead_time": 75.586
+  },
+  {
+    "text": "Jewish groups have condemned Canadian monuments to Ukrainian veterans who fought in the Waffen-SS, saying they are \"a glorification and celebration of those who actively participated in Holocaust crimes\". Image source, Getty ImagesImage caption, A controversial sculpture of Ukrainian soldier Roman Shukhevych, located near the Ukrainian Youth Association in Edmonton. One such monument sits in a private Ukrainian cemetery in Oakville, Ontario, and features the insignia of the Galicia Division. Another was put up by Ukrainian WWII veterans in Edmonton, Alberta. A third, also in Edmonton, depicts the bust of Roman Shukhevych, a Ukrainian nationalist leader and Nazi collaborator, whose units are accused of massacring Jews and Poles. Shukhevych's involvement, however, is a matter of debate and he was not a member of the Galicia Division. The monuments, which date back to the 1970s and 80s, have all been vandalised in recent years, with the word \"Nazi\" painted across them in red.",
+    "id": 490,
+    "label": [
+      {
+        "start": 88,
+        "end": 97,
+        "text": "Waffen-SS",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 309,
+        "text": "Roman Shukhevych",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 328,
+        "end": 367,
+        "text": "Ukrainian Youth Association in Edmonton",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 427,
+        "end": 444,
+        "text": "Oakville, Ontario",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 475,
+        "end": 495,
+        "text": "the Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 546,
+        "end": 563,
+        "text": "Edmonton, Alberta",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 582,
+        "end": 590,
+        "text": "Edmonton",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 612,
+        "end": 628,
+        "text": "Roman Shukhevych",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 665,
+        "end": 669,
+        "text": "Nazi",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 738,
+        "end": 750,
+        "text": "Shukhevych's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 822,
+        "end": 842,
+        "text": "the Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 882,
+        "end": 895,
+        "text": "1970s and 80s",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 954,
+        "end": 959,
+        "text": "Nazi\"",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 225,
+    "created_at": "2023-10-17T11:19:59.473707Z",
+    "updated_at": "2023-10-17T11:19:59.473707Z",
+    "lead_time": 102.064
+  },
+  {
+    "text": "Why is there disagreement on what the monuments stand for? It goes back to Ukraine's history in the war, as well as the make-up of Canada's large Ukrainian diaspora, said David Marples, a professor of eastern European history at the University of Alberta. During WWII, millions of Ukrainians served in the Soviet Red Army, but thousands of others fought on the German side under the Galicia Division. Those who fought with Germany believed it would grant them an independent state free from Soviet rule, Prof Marples said. At the time, Ukrainians resented the Soviets for their role in the Great Ukrainian Famine of 1932-33, also known as Holodomor, which killed an estimated five million Ukrainians.",
+    "id": 491,
+    "label": [
+      {
+        "start": 75,
+        "end": 84,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 139,
+        "text": "Canada's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 184,
+        "text": "David Marples",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 229,
+        "end": 254,
+        "text": "the University of Alberta",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 306,
+        "end": 321,
+        "text": "Soviet Red Army",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 379,
+        "end": 399,
+        "text": "the Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 423,
+        "end": 430,
+        "text": "Germany",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 504,
+        "end": 516,
+        "text": "Prof Marples",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 556,
+        "end": 567,
+        "text": "the Soviets",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 616,
+        "end": 623,
+        "text": "1932-33",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 226,
+    "created_at": "2023-10-17T11:21:56.945380Z",
+    "updated_at": "2023-10-17T11:21:56.945380Z",
+    "lead_time": 117.059
+  },
+  {
+    "text": "Far-right ideologies were also gaining traction in most European countries in the 1930s - including the UK - and Ukraine was no exception, said Prof Marples.",
+    "id": 492,
+    "label": [
+      {
+        "start": 82,
+        "end": 87,
+        "text": "1930s",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 120,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 156,
+        "text": "Prof Marples",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 104,
+        "end": 106,
+        "text": "UK",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 227,
+    "created_at": "2023-10-17T11:22:49.189333Z",
+    "updated_at": "2023-10-17T11:22:49.189333Z",
+    "lead_time": 51.884
+  },
+  {
+    "text": "Following the defeat of Germany, some of the Galicia Division soldiers were allowed entry to Canada after surrendering to the Allied forces - a move that was resisted by Jewish groups at the time.",
+    "id": 493,
+    "label": [
+      {
+        "start": 24,
+        "end": 31,
+        "text": "Germany",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 61,
+        "text": "the Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 93,
+        "end": 99,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 126,
+        "end": 139,
+        "text": "Allied forces",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 228,
+    "created_at": "2023-10-17T11:23:05.071430Z",
+    "updated_at": "2023-10-17T11:23:05.071430Z",
+    "lead_time": 15.537
+  },
+  {
+    "text": "Some Canadians of Ukrainian descent view these soldiers and the broader Galicia Division as \"national heroes\" who fought for the country's independence. They also argue that their collaboration with Nazi Germany was short-lived, and that they, including Shukhevych, had eventually fought both the Soviets and the Germans for a free Ukraine. But the Jewish community views this differently. \"The bottom line is that this unit, the 14th SS unit, were Nazis,\" B'nai Brith Canada leader Michael Mostyn told the BBC.",
+    "id": 494,
+    "label": [
+      {
+        "start": 72,
+        "end": 88,
+        "text": "Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 55,
+        "text": "soldiers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 199,
+        "end": 211,
+        "text": "Nazi Germany",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 254,
+        "end": 264,
+        "text": "Shukhevych",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 293,
+        "end": 304,
+        "text": "the Soviets",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 309,
+        "end": 320,
+        "text": "the Germans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 332,
+        "end": 339,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 345,
+        "end": 365,
+        "text": "the Jewish community",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 426,
+        "end": 442,
+        "text": "the 14th SS unit",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 454,
+        "text": "Nazis",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 469,
+        "end": 475,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 483,
+        "end": 497,
+        "text": "Michael Mostyn",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 503,
+        "end": 510,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 229,
+    "created_at": "2023-10-17T11:25:43.848130Z",
+    "updated_at": "2023-10-17T11:25:43.848130Z",
+    "lead_time": 158.413
+  },
+  {
+    "text": "Canada has reckoned with this history in the past through a commission in 1985, which was tasked with investigating allegations that Canada had become a haven for Nazi war criminals",
+    "id": 495,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 78,
+        "text": "1985",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 139,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 163,
+        "end": 167,
+        "text": "Nazi",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 230,
+    "created_at": "2023-10-17T11:26:09.532904Z",
+    "updated_at": "2023-10-17T11:26:09.532904Z",
+    "lead_time": 25.324
+  },
+  {
+    "text": "A report released by the commission the following year concluded that there is no evidence tying Ukrainians who fought with Nazi Germany to specific war crimes. And the \"mere membership in the Galicia Division is insufficient to justify prosecution,\" the report added. The report's findings have since been contested by Jewish groups and some historians.",
+    "id": 496,
+    "label": [
+      {
+        "start": 21,
+        "end": 35,
+        "text": "the commission",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 124,
+        "end": 136,
+        "text": "Nazi Germany",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 209,
+        "text": "the Galicia Division",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 320,
+        "end": 333,
+        "text": "Jewish groups",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 231,
+    "created_at": "2023-10-17T11:27:26.186582Z",
+    "updated_at": "2023-10-17T11:27:26.186582Z",
+    "lead_time": 76.31
+  },
+  {
+    "text": "Russian disinformation targets Ukraine's history. As this historical debate entered the 21st century, it was made more complicated by modern Russian propaganda, which falsely labelled the Ukrainian government as Nazis to justify its invasion of the country. Prof Marples said that while far-right extremism still exists in Ukraine, it is much smaller than what Russian propaganda tries to make people believe.",
+    "id": 498,
+    "label": [
+      {
+        "start": 31,
+        "end": 40,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 188,
+        "end": 208,
+        "text": "Ukrainian government",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 212,
+        "end": 217,
+        "text": "Nazis",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 258,
+        "end": 270,
+        "text": "Prof Marples",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 323,
+        "end": 330,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 233,
+    "created_at": "2023-10-17T11:28:03.803395Z",
+    "updated_at": "2023-10-17T11:28:03.803395Z",
+    "lead_time": 33.916
+  },
+  {
+    "text": "And Ukrainian elected officials are not tied to any far-right group in the country. \"Russia has greatly simplified the narrative,\" Prof Marples said.",
+    "id": 499,
+    "label": [
+      {
+        "start": 85,
+        "end": 91,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 143,
+        "text": "Prof Marples",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 234,
+    "created_at": "2023-10-17T11:28:14.245662Z",
+    "updated_at": "2023-10-17T11:28:14.245662Z",
+    "lead_time": 10.103
+  },
+  {
+    "text": "Ukrainian groups in Canada say the row over monuments and Mr Hunka's appearance in parliament is the result of this propaganda.",
+    "id": 500,
+    "label": [
+      {
+        "start": 20,
+        "end": 26,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "text": "Mr Hunka's",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 235,
+    "created_at": "2023-10-17T11:28:29.836520Z",
+    "updated_at": "2023-10-17T11:28:29.836520Z",
+    "lead_time": 15.247
+  },
+  {
+    "text": "As far back as 2017, before the invasion but when Russia-Ukraine tensions were high, the Russian embassy in Canada criticized the existence of Ukrainian monuments in Canada, accusing them of paying tribute to \"Nazi collaborators\". Taras Podilsky, a spokesperson for the Ukrainian Youth Unity Complex in Edmonton that houses the bust of Shukhevych, said Mr Hunka's swift renunciation by Canadian politicians is the latest effect of Russia's disinformation campaign",
+    "id": 501,
+    "label": [
+      {
+        "start": 15,
+        "end": 19,
+        "text": "2017",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 64,
+        "text": "Russia-Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 104,
+        "text": "the Russian embassy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 114,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 172,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 210,
+        "end": 228,
+        "text": "Nazi collaborators",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 231,
+        "end": 245,
+        "text": "Taras Podilsky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 266,
+        "end": 299,
+        "text": "the Ukrainian Youth Unity Complex",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 303,
+        "end": 311,
+        "text": "Edmonton",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 336,
+        "end": 346,
+        "text": "Shukhevych",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 353,
+        "end": 363,
+        "text": "Mr Hunka's",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 236,
+    "created_at": "2023-10-17T11:29:54.145949Z",
+    "updated_at": "2023-10-17T11:29:54.145949Z",
+    "lead_time": 83.792
+  },
+  {
+    "text": "Mr Mostyn of B'nai Brith said he acknowledged the complicated nature of this history, especially to some within the Ukrainian diaspora. But he said any ties to Nazism \"is not something that we can allow future generations to celebrate or whitewash\".",
+    "id": 504,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Mr Mostyn",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 239,
+    "created_at": "2023-10-17T11:32:45.109324Z",
+    "updated_at": "2023-10-17T11:32:45.109324Z",
+    "lead_time": 20.072
+  },
+  {
+    "text": "More broadly, Holocaust scholars have called out several eastern European countries in recent years for downplaying their role in the massacre of Jewish people during WWII",
+    "id": 505,
+    "label": [
+      {
+        "start": 146,
+        "end": 159,
+        "text": "Jewish people",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 240,
+    "created_at": "2023-10-17T11:32:59.208761Z",
+    "updated_at": "2023-10-17T11:32:59.208761Z",
+    "lead_time": 13.727
+  },
+  {
+    "text": "Both Jewish groups in Canada and Canadians of Ukrainian descent behind these monuments said they have had conversations about the issue. However, both said they were unable to agree on a path forward. \"It is on our own private property, it is not on public property, and it is for us to have a symbol of Ukrainian freedom,\" Mr Podilsky said of the Shukhevych bust in Edmonton. \"We know there was no wrongdoing.",
+    "id": 506,
+    "label": [
+      {
+        "start": 5,
+        "end": 18,
+        "text": "Jewish groups",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 324,
+        "end": 335,
+        "text": "Mr Podilsky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 348,
+        "end": 375,
+        "text": "Shukhevych bust in Edmonton",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 241,
+    "created_at": "2023-10-17T11:33:29.253244Z",
+    "updated_at": "2023-10-17T11:33:29.253244Z",
+    "lead_time": 29.694
+  },
+  {
+    "text": "\"Mr Mostyn said that, to him, the recent episode in Canada's House of Commons shows that there are gaps when it comes to Canada's knowledge of Nazi history. \"We have a situation in Canada where we don't know our own history when it comes to Nazi perpetrators that made their way into this country,\" he said.",
+    "id": 507,
+    "label": [
+      {
+        "start": 1,
+        "end": 10,
+        "text": "Mr Mostyn",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 77,
+        "text": "Canada's House of Commons",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 129,
+        "text": "Canada's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 147,
+        "text": "Nazi",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 181,
+        "end": 187,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 241,
+        "end": 258,
+        "text": "Nazi perpetrators",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 242,
+    "created_at": "2023-10-17T11:34:50.845798Z",
+    "updated_at": "2023-10-17T11:34:50.845798Z",
+    "lead_time": 53.907
+  },
+  {
+    "text": "He and others within the Jewish community in Canada have called for a renewed examination of this history. \"It really is important that leadership be shown at the highest level by our prime minister, to finally open this up, because this is something that Jewish community has been demanding for decades.",
+    "id": 508,
+    "label": [
+      {
+        "start": 21,
+        "end": 41,
+        "text": "the Jewish community",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "text": "Canada",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 256,
+        "end": 272,
+        "text": "Jewish community",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 243,
+    "created_at": "2023-10-17T11:35:10.932641Z",
+    "updated_at": "2023-10-17T11:35:10.932641Z",
+    "lead_time": 19.719
+  },
+  {
+    "text": "President Joe Biden has vowed continued US support for Ukraine, after further military funding was excluded from a last-minute congressional budget deal.",
+    "id": 510,
+    "label": [
+      {
+        "start": 0,
+        "end": 19,
+        "text": "President Joe Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 55,
+        "end": 62,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 42,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 245,
+    "created_at": "2023-10-17T11:35:30.672403Z",
+    "updated_at": "2023-10-17T11:35:30.672403Z",
+    "lead_time": 17.345
+  },
+  {
+    "text": "The temporary measure, pushed through to avert a government shutdown, did not include $6bn (£4.92bn) in military aid for Kyiv - a top White House priority",
+    "id": 511,
+    "label": [
+      {
+        "start": 86,
+        "end": 90,
+        "text": "$6bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 99,
+        "text": "£4.92bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 134,
+        "end": 145,
+        "text": "White House",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 246,
+    "created_at": "2023-10-17T11:35:48.906486Z",
+    "updated_at": "2023-10-17T11:35:48.906486Z",
+    "lead_time": 17.909
+  },
+  {
+    "text": "Hardline Republicans oppose further military aid, with many openly opposing Mr Biden's approach to the war.",
+    "id": 512,
+    "label": [
+      {
+        "start": 0,
+        "end": 20,
+        "text": "Hardline Republicans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 76,
+        "end": 86,
+        "text": "Mr Biden's",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 247,
+    "created_at": "2023-10-17T11:36:00.607946Z",
+    "updated_at": "2023-10-17T11:36:00.607946Z",
+    "lead_time": 11.357
+  },
+  {
+    "text": "But on Sunday Mr Biden said Ukraine could \"count on\" US support.",
+    "id": 513,
+    "label": [
+      {
+        "start": 14,
+        "end": 22,
+        "text": "Mr Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 55,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 248,
+    "created_at": "2023-10-17T11:36:10.888386Z",
+    "updated_at": "2023-10-17T11:36:10.888386Z",
+    "lead_time": 9.942
+  },
+  {
+    "text": "\"We cannot, under any circumstances, allow US support to Ukraine to be interrupted,\" Mr Biden said. \"I can reassure [Ukraine] we'll get there, that we're going to get it done,\" he said on restoring funding for the war. \"I want to assure our American allies... that you can count on our support, we will not walk away.\" The US has already supplied some $46bn (£37bn) in military aid to Ukraine since Russian launched its full scale invasion in February 2022.",
+    "id": 514,
+    "label": [
+      {
+        "start": 43,
+        "end": 45,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 93,
+        "text": "Mr Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 124,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 241,
+        "end": 256,
+        "text": "American allies",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 319,
+        "end": 325,
+        "text": "The US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 352,
+        "end": 357,
+        "text": "$46bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 359,
+        "end": 364,
+        "text": "£37bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 385,
+        "end": 392,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 443,
+        "end": 456,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 249,
+    "created_at": "2023-10-17T11:37:15.573564Z",
+    "updated_at": "2023-10-17T11:37:15.573564Z",
+    "lead_time": 64.313
+  },
+  {
+    "text": "President Biden has requested another $24bn (£19bn).",
+    "id": 515,
+    "label": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "President Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "text": "$24bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "text": "£19bn",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 250,
+    "created_at": "2023-10-17T11:37:30.725445Z",
+    "updated_at": "2023-10-17T11:37:30.725445Z",
+    "lead_time": 14.806
+  },
+  {
+    "text": "And in recent months the US has sent state of the art equipment to Kyiv - including long-range missiles and Abrams tanks. It comes as Kyiv's forces continue to launch a slow moving counter-offensive in the south of the country. US Congress avoids government shutdown in last-minute dealRussian video 'shows Black Sea fleet commander alive'. How Zelensky is grappling with Western war fatigue. But Saturday's temporary budget agreement - which will fund the US federal government for 45 days - stripped out continued military funding for the time being.",
+    "id": 516,
+    "label": [
+      {
+        "start": 25,
+        "end": 27,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 103,
+        "text": "long-range missiles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 120,
+        "text": "Abrams tanks",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 134,
+        "end": 140,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 141,
+        "end": 147,
+        "text": "forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 228,
+        "end": 239,
+        "text": "US Congress",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 307,
+        "end": 322,
+        "text": "Black Sea fleet",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 345,
+        "end": 353,
+        "text": "Zelensky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 453,
+        "end": 478,
+        "text": "the US federal government",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 251,
+    "created_at": "2023-10-17T11:39:05.096362Z",
+    "updated_at": "2023-10-17T11:39:05.096362Z",
+    "lead_time": 94.006
+  },
+  {
+    "text": "Senior Senate leaders from both parties released a joint statement signalling their intention to \"ensure the US government continues to provide\" support to Ukraine in the coming weeks",
+    "id": 517,
+    "label": [
+      {
+        "start": 109,
+        "end": 122,
+        "text": "US government",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 156,
+        "end": 163,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 252,
+    "created_at": "2023-10-17T11:39:20.392800Z",
+    "updated_at": "2023-10-17T11:39:20.392800Z",
+    "lead_time": 14.925
+  },
+  {
+    "text": "But the move - which came just nine days after President Volodymyr Zelensky flew to Washington to plead for further support - reflects increasing opposition from hard-right Republicans in the House of Representatives to the war in recent months. Republicans control the House of Representatives, with Democrats enjoying a wafer-thin majority in the Senate. Both need to approve legislation on the budget before it is signed into law.",
+    "id": 518,
+    "label": [
+      {
+        "start": 47,
+        "end": 75,
+        "text": "President Volodymyr Zelensky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 162,
+        "end": 184,
+        "text": "hard-right Republicans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 192,
+        "end": 216,
+        "text": "House of Representatives",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 246,
+        "end": 257,
+        "text": "Republicans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 270,
+        "end": 294,
+        "text": "House of Representatives",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 301,
+        "end": 310,
+        "text": "Democrats",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 349,
+        "end": 355,
+        "text": "Senate",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 253,
+    "created_at": "2023-10-17T11:39:59.996296Z",
+    "updated_at": "2023-10-17T11:39:59.996296Z",
+    "lead_time": 39.272
+  },
+  {
+    "text": "Florida congressman Matt Gaetz told reporters on Saturday that funding \"already authorised out of this Congress is somewhere between more than enough and way too much\"",
+    "id": 519,
+    "label": [
+      {
+        "start": 0,
+        "end": 30,
+        "text": "Florida congressman Matt Gaetz",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 111,
+        "text": "Congress",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 254,
+    "created_at": "2023-10-17T11:40:13.621100Z",
+    "updated_at": "2023-10-17T11:40:13.621100Z",
+    "lead_time": 13.244
+  },
+  {
+    "text": "And Georgia Representative Marjorie Taylor-Green said far too much aid had already been allocated to Kyiv, saying \"Ukraine is not the 51st state\".",
+    "id": 520,
+    "label": [
+      {
+        "start": 4,
+        "end": 48,
+        "text": "Georgia Representative Marjorie Taylor-Green",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 122,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 255,
+    "created_at": "2023-10-17T11:40:28.655461Z",
+    "updated_at": "2023-10-17T11:40:28.655461Z",
+    "lead_time": 14.689
+  },
+  {
+    "text": "Their approach provoked a furious reaction from Democratic Party senators. \"I can't believe people are going to walk away from Ukraine at this moment in time,\" Senator Mark Warner said. Despite the row, officials in Kyiv have sought to frame this new 45-day funding agreement in the US as an \"opportunity\" for its diplomats to secure longer-term support. It's more like an unwanted deadline.",
+    "id": 521,
+    "label": [
+      {
+        "start": 48,
+        "end": 64,
+        "text": "Democratic Party",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 127,
+        "end": 134,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 160,
+        "end": 179,
+        "text": "Senator Mark Warner",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 216,
+        "end": 220,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 279,
+        "end": 285,
+        "text": "the US",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 256,
+    "created_at": "2023-10-17T11:41:25.842250Z",
+    "updated_at": "2023-10-17T11:41:25.842250Z",
+    "lead_time": 56.838
+  },
+  {
+    "text": "Ukraine's foreign ministry says the \"flow of US aid won't change\" with $3bn of humanitarian and military support set to still arrive, but it concedes \"ongoing programmes\" might be affected",
+    "id": 522,
+    "label": [
+      {
+        "start": 0,
+        "end": 26,
+        "text": "Ukraine's foreign ministry",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "text": "$3bn",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 257,
+    "created_at": "2023-10-17T11:41:43.852976Z",
+    "updated_at": "2023-10-17T11:41:43.852976Z",
+    "lead_time": 17.655
+  },
+  {
+    "text": "But one Ukrainian MP, Oleksi Goncharenko, admitted that the suspended funding was causing concern in Kyiv. \"The vote in US Congress is disturbing. The US said they would be with Ukraine as long as it takes and now see how support of Ukraine is excluded from the stop-gap deal. This is the sign of alarm, not only for Ukraine, but for Europe, too,\" he told the BBC. This political turmoil is one of several symptoms of Western fatigue. The growing scepticism from some Republicans and the recent election victory for a populist, pro-Moscow party in Slovakia are concerning for both Ukraine and the European Union.",
+    "id": 523,
+    "label": [
+      {
+        "start": 22,
+        "end": 40,
+        "text": "Oleksi Goncharenko",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 120,
+        "end": 131,
+        "text": "US Congress",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 147,
+        "end": 153,
+        "text": "The US",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 178,
+        "end": 185,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 233,
+        "end": 240,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 317,
+        "end": 324,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 334,
+        "end": 340,
+        "text": "Europe",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 356,
+        "end": 363,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 468,
+        "end": 479,
+        "text": "Republicans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 548,
+        "end": 556,
+        "text": "Slovakia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 581,
+        "end": 588,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 597,
+        "end": 611,
+        "text": "European Union",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 258,
+    "created_at": "2023-10-17T11:42:44.593264Z",
+    "updated_at": "2023-10-17T11:42:44.594265Z",
+    "lead_time": 60.397
+  },
+  {
+    "text": "In an interview with the BBC in Kyiv, the EU's most senior diplomat, Josep Borrell, said he was \"worried\" by the latest decision on funding for Ukraine by the US Congress.",
+    "id": 524,
+    "label": [
+      {
+        "start": 21,
+        "end": 28,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "text": "EU's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 82,
+        "text": "Josep Borrell",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 151,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 159,
+        "end": 170,
+        "text": "US Congress",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 259,
+    "created_at": "2023-10-17T11:43:08.700650Z",
+    "updated_at": "2023-10-17T11:43:08.700650Z",
+    "lead_time": 23.726
+  },
+  {
+    "text": "\"I don't know what's going to happen in the future,\" he told the BBC. \"One thing is clear: to us Europeans the war of Russia against Ukraine is an existential threat, and we must react accordingly.",
+    "id": 525,
+    "label": [
+      {
+        "start": 61,
+        "end": 68,
+        "text": "the BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 106,
+        "text": "Europeans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 124,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 140,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 260,
+    "created_at": "2023-10-17T11:43:24.932291Z",
+    "updated_at": "2023-10-17T11:43:24.932291Z",
+    "lead_time": 15.884
+  },
+  {
+    "text": "\"In his daily address from Kyiv, President Zelensky said no-one should be able to \"turn off Ukraine's resilience\". It is clear the country will continue to fight with or without help from the West. Ukraine knows what it would overwhelmingly prefer.",
+    "id": 526,
+    "label": [
+      {
+        "start": 27,
+        "end": 31,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 51,
+        "text": "President Zelensky",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 101,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 198,
+        "end": 205,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 261,
+    "created_at": "2023-10-17T11:43:39.601768Z",
+    "updated_at": "2023-10-17T11:43:39.601768Z",
+    "lead_time": 14.259
+  }
+]
