@@ -1,0 +1,7160 @@
+[
+  {
+    "text": "Ukraine has been widening the breach in Russia's defences in the southern Zaporizhzhia region as its counter-offensive continues to make slow progress against Moscow's forces.",
+    "id": 544,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 93,
+        "text": "the southern Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 159,
+        "end": 174,
+        "text": "Moscow's forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 564,
+    "created_at": "2023-10-17T08:57:01.970014Z",
+    "updated_at": "2023-10-17T08:57:01.970030Z",
+    "lead_time": 87.282
+  },
+  {
+    "text": "Here are the latest developments: Ukraine has brought heavy equipment beyond Russia's first line of defences in the Zaporizhzhia region for the first time, analysts sayIt has also made advances around Bakhmut after Russia moved some of its most experienced troops from the city to the Zaporizhzhia region Meanwhile, Russia has maintained drone attacks on Ukraine's River Danube ports, damaging the country's grain export infrastructure Ukraine's armoured vehicles advance Ukrainian forces have been widening their breach of Russian defensive lines near the village of Robotyne for several weeks and analysts say they may be preparing for a new push.",
+    "id": 545,
+    "label": [
+      {
+        "start": 34,
+        "end": 41,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 85,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 135,
+        "text": "the Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 208,
+        "text": "Bakhmut",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 215,
+        "end": 221,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 269,
+        "end": 304,
+        "text": "the city to the Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 316,
+        "end": 322,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 338,
+        "end": 343,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 355,
+        "end": 383,
+        "text": "Ukraine's River Danube ports",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 436,
+        "end": 445,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 446,
+        "end": 463,
+        "text": "armoured vehicles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 472,
+        "end": 488,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 524,
+        "end": 531,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 553,
+        "end": 576,
+        "text": "the village of Robotyne",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 565,
+    "created_at": "2023-10-17T08:58:34.759778Z",
+    "updated_at": "2023-10-17T08:58:34.759798Z",
+    "lead_time": 92.674
+  },
+  {
+    "text": "The tiny village, some 56km (35 miles) south-east of the city of Zaporizhzhia, has been a focal point since Ukraine's counter-offensive began at the start of June",
+    "id": 546,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "The tiny village",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 39,
+        "end": 77,
+        "text": "south-east of the city of Zaporizhzhia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 117,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 162,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 566,
+    "created_at": "2023-10-17T08:59:06.029598Z",
+    "updated_at": "2023-10-17T08:59:06.029613Z",
+    "lead_time": 31.149
+  },
+  {
+    "text": "Progress has been slow but analysts at the US-based Institute for the Study of War (ISW) say they have confirmed that Ukrainian forces are operating armoured vehicles beyond the Russian anti-tank ditch and dragon's teeth obstacles in the area for the first time - just to the west of nearby Verbove. War in maps: Ukraine widening Russia defences breach The ISW describes this as an \"important sign of progress\" but adds it is not prepared to say that Ukraine has broken through as its forces have not breached the last visible defensive positions",
+    "id": 547,
+    "label": [
+      {
+        "start": 39,
+        "end": 88,
+        "text": "the US-based Institute for the Study of War (ISW)",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 134,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 166,
+        "text": "armoured vehicles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 178,
+        "end": 195,
+        "text": "Russian anti-tank",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 272,
+        "end": 299,
+        "text": "the west of nearby Verbove.",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 313,
+        "end": 320,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 330,
+        "end": 336,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 353,
+        "end": 360,
+        "text": "The ISW",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 451,
+        "end": 458,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 567,
+    "created_at": "2023-10-17T09:05:53.382772Z",
+    "updated_at": "2023-10-17T09:05:53.382790Z",
+    "lead_time": 407.239
+  },
+  {
+    "text": "BBC security correspondent Frank Gardner says this is the most strategically important part of the Ukrainian counter-offensive and, if it is successful, could cut off Russia's supply lines that connect the Russian city of Rostov-on-Don to Crimea.",
+    "id": 548,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "text": "Frank Gardner",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 222,
+        "end": 235,
+        "text": "Rostov-on-Don",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 239,
+        "end": 245,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 167,
+        "end": 188,
+        "text": "Russia's supply lines",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 568,
+    "created_at": "2023-10-17T09:06:33.740423Z",
+    "updated_at": "2023-10-17T09:06:33.740439Z",
+    "lead_time": 40.233
+  },
+  {
+    "text": "Doing so would make it all but impossible for Russia to maintain its huge garrison in Crimea, which it annexed in 2014, he adds.",
+    "id": 549,
+    "label": [
+      {
+        "start": 46,
+        "end": 52,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 82,
+        "text": "garrison",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 118,
+        "text": "2014",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 569,
+    "created_at": "2023-10-17T09:07:05.800575Z",
+    "updated_at": "2023-10-17T09:07:05.800591Z",
+    "lead_time": 31.946
+  },
+  {
+    "text": "Has Ukraine broken through the dragon's teeth? However, the advance so far has been restricted to the area around Robotyne and Ukrainian forces have a long way to go if they are to achieve this aim by reaching the Sea of Azov.",
+    "id": 550,
+    "label": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 122,
+        "text": "Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 127,
+        "end": 143,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 210,
+        "end": 225,
+        "text": "the Sea of Azov",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 570,
+    "created_at": "2023-10-17T09:07:44.446081Z",
+    "updated_at": "2023-10-17T09:07:44.446094Z",
+    "lead_time": 38.544
+  },
+  {
+    "text": "The battle for Bakhmut As Ukraine has been trying to widen the breach near Robotyne, Russia has been bringing reinforcements into the region - including some of its best trained soldiers that had previously been deployed elsewhere.",
+    "id": 551,
+    "label": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "Bakhmut",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 75,
+        "end": 83,
+        "text": "Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 91,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 571,
+    "created_at": "2023-10-17T09:08:03.251196Z",
+    "updated_at": "2023-10-17T09:08:03.251212Z",
+    "lead_time": 18.69
+  },
+  {
+    "text": "The UK Ministry of Defence says the redeployments of Russia's paratroop formations, known as the VDV, have probably weakened its defences around the city of Bakhmut in eastern Ukraine, which has endured some of the heaviest fighting of the war.",
+    "id": 552,
+    "label": [
+      {
+        "start": 0,
+        "end": 26,
+        "text": "The UK Ministry of Defence",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 157,
+        "end": 183,
+        "text": "Bakhmut in eastern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 572,
+    "created_at": "2023-10-17T09:09:26.078791Z",
+    "updated_at": "2023-10-17T09:09:26.078806Z",
+    "lead_time": 82.716
+  },
+  {
+    "text": "It has been under Russian control for several months but Ukraine has gained some ground in the surrounding areas and the MoD says Ukraine has now secured the villages of Klishchiivka and Andriivka, about 8km (five miles) south of the city",
+    "id": 553,
+    "label": [
+      {
+        "start": 18,
+        "end": 25,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 137,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 182,
+        "text": "the villages of Klishchiivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 187,
+        "end": 196,
+        "text": "Andriivka",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 573,
+    "created_at": "2023-10-17T09:09:51.529237Z",
+    "updated_at": "2023-10-17T09:09:51.529253Z",
+    "lead_time": 25.325
+  },
+  {
+    "text": "Attacks on Crimea Ukraine has also stepped up attacks on the Crimean peninsula in the past month - including a missile attack on the port of Sevastopol on 22 September which it says killed Russian 34 officers.",
+    "id": 554,
+    "label": [
+      {
+        "start": 11,
+        "end": 17,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "text": "Crimean",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 167,
+        "text": "22 September",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 151,
+        "text": "the port of Sevastopol",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 574,
+    "created_at": "2023-10-17T09:10:24.374957Z",
+    "updated_at": "2023-10-17T09:10:24.374972Z",
+    "lead_time": 32.723
+  },
+  {
+    "text": "It initially claimed they included the commander of Russia's Black Sea Fleet, but Moscow later released a video of Viktor Sokolov, which it said was filmed several days later. That attack came just over a week after a major attack on the same city, which is the headquarters of the fleet, using cruise missiles supplied by the UK and France that is thought to have destroyed a ship and a submarine.",
+    "id": 555,
+    "label": [
+      {
+        "start": 52,
+        "end": 76,
+        "text": "Russia's Black Sea Fleet",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 88,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 129,
+        "text": "Viktor Sokolov",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 295,
+        "end": 310,
+        "text": "cruise missiles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 323,
+        "end": 329,
+        "text": "the UK",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 334,
+        "end": 340,
+        "text": "France",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 375,
+        "end": 381,
+        "text": "a ship",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 386,
+        "end": 397,
+        "text": "a submarine",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 575,
+    "created_at": "2023-10-17T09:11:03.254731Z",
+    "updated_at": "2023-10-17T09:11:03.254750Z",
+    "lead_time": 38.754
+  },
+  {
+    "text": "It also caused significant damage to the dry docks, which are vital for maintenance of the entire Black Sea fleet.",
+    "id": 556,
+    "label": [
+      {
+        "start": 98,
+        "end": 113,
+        "text": "Black Sea fleet",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 576,
+    "created_at": "2023-10-17T09:11:13.497357Z",
+    "updated_at": "2023-10-17T09:11:13.497375Z",
+    "lead_time": 10.127
+  },
+  {
+    "text": "The next day Ukraine said it had succeeded in destroying a sophisticated Russian air defence system - the S-400 - on the peninsular. Attacks in late August destroyed another S-400 and others knocked out Russian radar positions on offshore gas platforms.",
+    "id": 557,
+    "label": [
+      {
+        "start": 13,
+        "end": 20,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 99,
+        "text": "air defence system",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 111,
+        "text": "the S-400",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 174,
+        "end": 179,
+        "text": "S-400",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 211,
+        "end": 216,
+        "text": "radar",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 577,
+    "created_at": "2023-10-17T09:11:58.500567Z",
+    "updated_at": "2023-10-17T09:11:58.500584Z",
+    "lead_time": 44.883
+  },
+  {
+    "text": "Russia's Black Sea fleet is an important target for Kyiv - it is seen as the flagship unit of Russia's navy and its ships have launched missiles at Ukraine causing devastating damage.",
+    "id": 558,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 24,
+        "text": "Black Sea fleet",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 90,
+        "text": "the flagship unit",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 94,
+        "end": 107,
+        "text": "Russia's navy",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 121,
+        "text": "ships",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 136,
+        "end": 144,
+        "text": "missiles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 155,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 578,
+    "created_at": "2023-10-17T09:13:06.252702Z",
+    "updated_at": "2023-10-17T09:13:06.252716Z",
+    "lead_time": 67.64
+  },
+  {
+    "text": "It has also been threatening to block the Black Sea shipping routes that Ukraine has been using to export grain - which is a particular sticking point for Kyiv currently.",
+    "id": 559,
+    "label": [
+      {
+        "start": 38,
+        "end": 67,
+        "text": "the Black Sea shipping routes",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 159,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 579,
+    "created_at": "2023-10-17T09:13:17.887200Z",
+    "updated_at": "2023-10-17T09:13:17.887215Z",
+    "lead_time": 11.526
+  },
+  {
+    "text": "Moscow pulled out of the internationally brokered Black Sea Grain Initiative in mid-July - guaranteeing safe passage of non-military vessels - arguing that Russia's own agricultural exporters were being disadvantaged. ",
+    "id": 560,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "text": "Black Sea Grain",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 156,
+        "end": 164,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 580,
+    "created_at": "2023-10-17T09:24:52.077584Z",
+    "updated_at": "2023-10-17T09:24:52.077600Z",
+    "lead_time": 694.073
+  },
+  {
+    "text": "Is Ukraine trying to retake Crimea? Since Russia pulled out, only a handful of vessels, have been able to sail from Ukraine's Black Sea ports such as Odesa, with the first large grain shipment leaving Chornomorsk, just south of Odesa, this week and reaching Turkey on Friday",
+    "id": 561,
+    "label": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 79,
+        "end": 86,
+        "text": "vessels",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 116,
+        "end": 141,
+        "text": "Ukraine's Black Sea ports",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 150,
+        "end": 155,
+        "text": "Odesa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 212,
+        "text": "Chornomorsk",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 219,
+        "end": 233,
+        "text": "south of Odesa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 258,
+        "end": 264,
+        "text": "Turkey",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 268,
+        "end": 274,
+        "text": "Friday",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 581,
+    "created_at": "2023-10-17T09:25:20.408076Z",
+    "updated_at": "2023-10-17T09:25:20.408094Z",
+    "lead_time": 28.21
+  },
+  {
+    "text": "Drone attacks on Danube ports The UK's Agriculture and Horticulture Development Board (AHDB) says 65% of Ukraine's grain exports are now going from the ports of Izmail and Reni, on the Danube. The grain is then transported by river and canals into the Black Sea, via the Romanian seaports of Sulina and Constanta.",
+    "id": 562,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "text": "Danube ports",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 30,
+        "end": 92,
+        "text": "The UK's Agriculture and Horticulture Development Board (AHDB)",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 105,
+        "end": 114,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 172,
+        "end": 176,
+        "text": "Reni",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 167,
+        "text": "the ports of Izmail",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 185,
+        "end": 191,
+        "text": "Danube",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 248,
+        "end": 261,
+        "text": "the Black Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 267,
+        "end": 298,
+        "text": "the Romanian seaports of Sulina",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 303,
+        "end": 312,
+        "text": "Constanta",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 582,
+    "created_at": "2023-10-17T09:26:01.348564Z",
+    "updated_at": "2023-10-17T09:26:01.348584Z",
+    "lead_time": 40.82
+  },
+  {
+    "text": "In theory it is safer to go this way, as vessels entering the Black Sea from the mouth of the river immediately enter Romanian territorial waters.",
+    "id": 563,
+    "label": [
+      {
+        "start": 58,
+        "end": 71,
+        "text": "the Black Sea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 145,
+        "text": "Romanian territorial waters",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 583,
+    "created_at": "2023-10-17T09:26:15.822555Z",
+    "updated_at": "2023-10-17T09:26:15.822571Z",
+    "lead_time": 14.349
+  },
+  {
+    "text": "But Russia has also been attacking Ukraine's Danube ports using drones. Since the River Danube forms part of Ukraine's border with Nato, Russia's attacks have an added geopolitical dimension - at least one Russian drone has been filmed exploding across the river from Izmail, inside Romania.",
+    "id": 564,
+    "label": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 35,
+        "end": 57,
+        "text": "Ukraine's Danube ports",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 64,
+        "end": 70,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "text": "the River Danube",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 125,
+        "text": "Ukraine's border",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 135,
+        "text": "Nato",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 137,
+        "end": 145,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 214,
+        "end": 219,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 268,
+        "end": 274,
+        "text": "Izmail",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 283,
+        "end": 290,
+        "text": "Romania",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 584,
+    "created_at": "2023-10-17T09:26:53.892807Z",
+    "updated_at": "2023-10-17T09:26:53.892843Z",
+    "lead_time": 37.954
+  },
+  {
+    "text": "Russian drones threaten Ukraine's economic lifeline More than a year of fighting Russia's invasion began with dozens of missile strikes on cities all over Ukraine before dawn on 24 February 2022.",
+    "id": 565,
+    "label": [
+      {
+        "start": 8,
+        "end": 14,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 89,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 155,
+        "end": 162,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 178,
+        "end": 194,
+        "text": "24 February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 585,
+    "created_at": "2023-10-17T09:27:21.396504Z",
+    "updated_at": "2023-10-17T09:27:21.396524Z",
+    "lead_time": 27.38
+  },
+  {
+    "text": "Russian ground troops moved in quickly and within a few weeks were in control of large areas of Ukraine and had advanced to the suburbs of Kyiv.",
+    "id": 566,
+    "label": [
+      {
+        "start": 0,
+        "end": 21,
+        "text": "Russian ground troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 96,
+        "end": 103,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 124,
+        "end": 143,
+        "text": "the suburbs of Kyiv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 586,
+    "created_at": "2023-10-17T09:27:36.546646Z",
+    "updated_at": "2023-10-17T09:27:36.546661Z",
+    "lead_time": 15.03
+  },
+  {
+    "text": "Russian forces were bombarding Kharkiv, and they had taken territory in the east and south as far as Kherson, and surrounded the port city of Mariupol.",
+    "id": 567,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Russian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "Kharkiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "the east",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 90,
+        "text": "south",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 108,
+        "text": "Kherson",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 125,
+        "end": 151,
+        "text": "the port city of Mariupol.",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 587,
+    "created_at": "2023-10-17T09:27:57.047470Z",
+    "updated_at": "2023-10-17T09:27:57.047508Z",
+    "lead_time": 20.39
+  },
+  {
+    "text": "But they hit very strong Ukrainian resistance almost everywhere and faced serious logistical problems with poorly motivated Russian troops suffering shortages of food, water and ammunition.",
+    "id": 568,
+    "label": [
+      {
+        "start": 124,
+        "end": 138,
+        "text": "Russian troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 588,
+    "created_at": "2023-10-17T09:28:17.354050Z",
+    "updated_at": "2023-10-17T09:28:17.354067Z",
+    "lead_time": 20.183
+  },
+  {
+    "text": "Ukrainian forces were also quick to deploy Western supplied arms such as the Nlaw anti-tank system, which proved highly effective against the Russian advance.",
+    "id": 569,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 60,
+        "end": 64,
+        "text": "arms",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 77,
+        "end": 98,
+        "text": "Nlaw anti-tank system",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 149,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 589,
+    "created_at": "2023-10-17T10:26:15.852025Z",
+    "updated_at": "2023-10-17T10:26:15.852038Z",
+    "lead_time": 3478.381
+  },
+  {
+    "text": "By October the picture had changed dramatically and having failed to take Kyiv, Russia withdrew completely from the north.",
+    "id": 570,
+    "label": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "October",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 74,
+        "end": 78,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 86,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 590,
+    "created_at": "2023-10-17T10:27:04.382603Z",
+    "updated_at": "2023-10-17T10:27:04.382622Z",
+    "lead_time": 48.407
+  },
+  {
+    "text": "More than a year since the invasion, Ukraine is now hoping its latest counter-offensive can turn the war in its favour.",
+    "id": 571,
+    "label": [
+      {
+        "start": 37,
+        "end": 44,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 591,
+    "created_at": "2023-10-17T10:36:35.742454Z",
+    "updated_at": "2023-10-17T10:36:35.742472Z",
+    "lead_time": 571.227
+  },
+  {
+    "text": "About these maps To indicate which parts of Ukraine are under control by Russian troops we are using daily assessments published by the Institute for the Study of War with the American Enterprise Institute's Critical Threats Project. To show key areas where advances are taking place we are also using updates from the UK Ministry of Defence and BBC research.",
+    "id": 572,
+    "label": [
+      {
+        "start": 44,
+        "end": 51,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 73,
+        "end": 87,
+        "text": "Russian troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 166,
+        "text": "the Institute for the Study of War",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 176,
+        "end": 207,
+        "text": "American Enterprise Institute's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 315,
+        "end": 341,
+        "text": "the UK Ministry of Defence",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 346,
+        "end": 349,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 592,
+    "created_at": "2023-10-17T10:37:30.887414Z",
+    "updated_at": "2023-10-17T10:37:30.887435Z",
+    "lead_time": 55.023
+  },
+  {
+    "text": "The situation in Ukraine is often fast moving and it is likely there will be times when there have been changes not reflected in the maps.",
+    "id": 573,
+    "label": [
+      {
+        "start": 17,
+        "end": 24,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 593,
+    "created_at": "2023-10-17T10:37:35.184920Z",
+    "updated_at": "2023-10-17T10:37:35.184937Z",
+    "lead_time": 4.179
+  },
+  {
+    "text": "Specialist British military bomb disposal teams are training Ukrainian engineers to clear Russian minefields. Ukraine is now the most heavily mined country in the world, and it's slowing down Ukrainian military advances. The training by British Army sappers - combat engineers, some of whom faced similar obstacles in Afghanistan - was specifically requested by Ukraine.",
+    "id": 574,
+    "label": [
+      {
+        "start": 0,
+        "end": 47,
+        "text": "Specialist British military bomb disposal teams",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 90,
+        "end": 108,
+        "text": "Russian minefields",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 110,
+        "end": 117,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 192,
+        "end": 219,
+        "text": "Ukrainian military advances",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 237,
+        "end": 257,
+        "text": "British Army sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 318,
+        "end": 329,
+        "text": "Afghanistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 362,
+        "end": 369,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 594,
+    "created_at": "2023-10-17T10:38:39.472931Z",
+    "updated_at": "2023-10-17T10:38:39.472946Z",
+    "lead_time": 64.183
+  },
+  {
+    "text": "The BBC is the first news organisation to visit the military base in Poland where the training has been taking place.",
+    "id": 575,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "The BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 595,
+    "created_at": "2023-10-17T10:38:49.773166Z",
+    "updated_at": "2023-10-17T10:38:49.773181Z",
+    "lead_time": 10.173
+  },
+  {
+    "text": "Most of the Ukrainian engineers, like Denys, are already battle-hardened and experienced. He volunteered to fight the day after Russia's full-scale invasion began in February 2022. This brief visit to Poland is the first time he's left Ukraine since 2021, the first time he's seen passenger jets flying overhead in nearly two years.",
+    "id": 576,
+    "label": [
+      {
+        "start": 38,
+        "end": 43,
+        "text": "Denys",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 128,
+        "end": 136,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 166,
+        "end": 179,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 201,
+        "end": 207,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 236,
+        "end": 243,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 250,
+        "end": 254,
+        "text": "2021",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 281,
+        "end": 295,
+        "text": "passenger jets",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 596,
+    "created_at": "2023-10-17T10:41:22.185388Z",
+    "updated_at": "2023-10-17T10:41:22.185402Z",
+    "lead_time": 152.298
+  },
+  {
+    "text": "Denys calls Explosive Ordnance Disposal (EOD) the most dangerous job in the world. \"We need more sappers,\" he says, \"we don't have enough of them\". I ask him if he's lost friends doing this dangerous work. His eyes well with tears as he nods.",
+    "id": 577,
+    "label": [
+      {
+        "start": 12,
+        "end": 44,
+        "text": "Explosive Ordnance Disposal (EOD",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 104,
+        "text": "sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Denys",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 597,
+    "created_at": "2023-10-17T10:42:14.952216Z",
+    "updated_at": "2023-10-17T10:42:14.952237Z",
+    "lead_time": 52.648
+  },
+  {
+    "text": "He says he appreciates the help being given by his British brothers in arms, but says Ukraine still needs more Western help and equipment to clear the Russian minefields. \"We can't do it on our own,\" he says",
+    "id": 578,
+    "label": [
+      {
+        "start": 71,
+        "end": 75,
+        "text": "arms",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 93,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 118,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 147,
+        "end": 169,
+        "text": "the Russian minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 598,
+    "created_at": "2023-10-17T10:43:44.743151Z",
+    "updated_at": "2023-10-17T10:44:47.917848Z",
+    "lead_time": 99.52199999999999
+  },
+  {
+    "text": "Denys says that even if the war ended tomorrow, it would still take hundreds of years to clear the mines that have now been laid. Russia has been producing and laying mines on an industrial scale in Ukraine. They're now scattered over an area the size of Florida; the minefields can be up to 10km (6.2 miles) deep. Just one square metre can contain as many as five explosives.",
+    "id": 579,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Denys",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 38,
+        "end": 46,
+        "text": "tomorrow",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 136,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 199,
+        "end": 206,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 255,
+        "end": 262,
+        "text": "Florida",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 365,
+        "end": 375,
+        "text": "explosives",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 268,
+        "end": 278,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 99,
+        "end": 104,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 167,
+        "end": 172,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 599,
+    "created_at": "2023-10-17T10:44:36.839604Z",
+    "updated_at": "2023-10-17T10:44:36.839616Z",
+    "lead_time": 51.971
+  },
+  {
+    "text": "Image caption, Ukrainian engineers are being shown how to safely clear anti-tank, anti-personnel, and bounding minesAt the military base in Poland, more than 20 dummy devices have been buried and booby-trapped by the small UK training team in a field. The British EOD experts, from 35 Engineer Regiment, are testing the Ukrainians' skills as the course nears its end",
+    "id": 580,
+    "label": [
+      {
+        "start": 71,
+        "end": 80,
+        "text": "anti-tank",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 82,
+        "end": 96,
+        "text": "anti-personnel",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 146,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 223,
+        "end": 239,
+        "text": "UK training team",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 252,
+        "end": 275,
+        "text": "The British EOD experts",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 600,
+    "created_at": "2023-10-17T10:45:50.102403Z",
+    "updated_at": "2023-10-17T10:45:50.102420Z",
+    "lead_time": 55.422
+  },
+  {
+    "text": "Among the devices they've hidden are large cylindrical anti-tank mines; smaller anti-personnel ones; bounding mines - which pop out of the ground and spread shrapnel over a wide area - and grenades fitted to a trip wire.",
+    "id": 581,
+    "label": [
+      {
+        "start": 43,
+        "end": 70,
+        "text": "cylindrical anti-tank mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 80,
+        "end": 94,
+        "text": "anti-personnel",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 115,
+        "text": "bounding mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 197,
+        "text": "grenades",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 601,
+    "created_at": "2023-10-17T10:46:19.640729Z",
+    "updated_at": "2023-10-17T10:46:19.640744Z",
+    "lead_time": 29.416
+  },
+  {
+    "text": "Those not on display include the small butterfly mines designed to maim; others triggered by vibration rather than direct contact; and mines which can turn themselves on and off to avoid detection. Russia has had decades to plan, produce and prepare these weapons - now one of the major causes of Ukrainian casualties and injuries.",
+    "id": 582,
+    "label": [
+      {
+        "start": 39,
+        "end": 54,
+        "text": "butterfly mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 140,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 198,
+        "end": 204,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 602,
+    "created_at": "2023-10-17T10:46:57.314654Z",
+    "updated_at": "2023-10-17T10:46:57.314669Z",
+    "lead_time": 37.561
+  },
+  {
+    "text": "Ihor, who has been a sapper for four years, says he has already lost more than 10 members of his team. He says one team of sappers may have to deal with more than 100 devices a day. They're also often having to clear areas still in range of Russian artillery and small arms fire",
+    "id": 583,
+    "label": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Ihor",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 241,
+        "end": 258,
+        "text": "Russian artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 263,
+        "end": 278,
+        "text": "small arms fire",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "text": "sapper",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 130,
+        "text": "sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 603,
+    "created_at": "2023-10-17T10:47:40.213975Z",
+    "updated_at": "2023-10-17T10:49:02.057526Z",
+    "lead_time": 52.17
+  },
+  {
+    "text": "Image caption, Staff Sgt Engstrom says the British are teaching the Ukrainians the gold standard of mine clearanceThat's one of the reasons why they mostly work at night. Ukrainian sappers are also being deliberately targeted by Russian forces to slow down their advance. \"When we advance, we have to take higher risks. We don't always have time to see if the mines are booby trapped,\" says Ihor. Staff Sgt Kevin Engstrom says the British are teaching the Ukrainians the gold standard of mine clearance, which involves time and patience, but adds: \"If your immediate threat is gunfire, you can't always be slow and methodical.",
+    "id": 584,
+    "label": [
+      {
+        "start": 15,
+        "end": 33,
+        "text": "Staff Sgt Engstrom",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 229,
+        "end": 243,
+        "text": "Russian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 188,
+        "text": "Ukrainian sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 360,
+        "end": 365,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 391,
+        "end": 395,
+        "text": "Ihor",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 397,
+        "end": 421,
+        "text": "Staff Sgt Kevin Engstrom",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 604,
+    "created_at": "2023-10-17T10:48:50.903231Z",
+    "updated_at": "2023-10-17T10:48:50.903249Z",
+    "lead_time": 70.569
+  },
+  {
+    "text": "\"As in Afghanistan, the threat is also evolving.",
+    "id": 585,
+    "label": [
+      {
+        "start": 7,
+        "end": 18,
+        "text": "Afghanistan",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 605,
+    "created_at": "2023-10-17T10:49:19.461030Z",
+    "updated_at": "2023-10-17T10:49:19.461048Z",
+    "lead_time": 5.316
+  },
+  {
+    "text": "Denys says it's now the norm to find the bodies of dead Russian soldiers booby-trapped in liberated territory. Russia has been placing anti-tank mines on top of each other to cause larger explosions.",
+    "id": 586,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Denys",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 117,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 150,
+        "text": "anti-tank mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 606,
+    "created_at": "2023-10-17T10:49:41.941525Z",
+    "updated_at": "2023-10-17T10:49:41.941544Z",
+    "lead_time": 22.357
+  },
+  {
+    "text": "Smaller anti-personnel mines are also being placed on top of vehicle mines to trigger the larger bomb. Trip wires are often hidden in the grass.",
+    "id": 587,
+    "label": [
+      {
+        "start": 8,
+        "end": 28,
+        "text": "anti-personnel mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "text": "vehicle mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 86,
+        "end": 101,
+        "text": "the larger bomb",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 113,
+        "text": "Trip wires",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 607,
+    "created_at": "2023-10-17T10:49:59.177545Z",
+    "updated_at": "2023-10-17T10:51:52.592703Z",
+    "lead_time": 128.21900000000002
+  },
+  {
+    "text": "The Russians also now hang them from trees with hooks attached, to try to snag the uniforms and equipment of advancing troops.",
+    "id": 588,
+    "label": [
+      {
+        "start": 109,
+        "end": 125,
+        "text": "advancing troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 608,
+    "created_at": "2023-10-17T10:52:07.287360Z",
+    "updated_at": "2023-10-17T10:52:07.287377Z",
+    "lead_time": 13.167
+  },
+  {
+    "text": "Clearing a path through these deadly hidden traps can be slow and laborious. The Ukrainian sappers first use Vallons, which look like metal detectors, to clear a path. Britain has already provided Ukraine with 1,500 of them. When the Vallon squawks the sappers get down on their knees and stomachs to identify the threat. It can be painstaking work by hand",
+    "id": 589,
+    "label": [
+      {
+        "start": 77,
+        "end": 98,
+        "text": "The Ukrainian sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 249,
+        "end": 260,
+        "text": "the sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 609,
+    "created_at": "2023-10-17T10:52:57.536706Z",
+    "updated_at": "2023-10-17T10:52:57.536743Z",
+    "lead_time": 50.128
+  },
+  {
+    "text": "Denys admires the ants crawling on the ground before spotting a trip wire. \"You guys make it hard,\" he laughs.",
+    "id": 590,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Denys",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 610,
+    "created_at": "2023-10-17T10:53:08.020759Z",
+    "updated_at": "2023-10-17T10:53:08.020776Z",
+    "lead_time": 10.357
+  },
+  {
+    "text": "The British trainers all comment on the speed of the Ukrainians. \"They're very quick. The first time I deployed to Afghanistan I was slow. They don't miss much,\" says Staff Sgt Engstrom. Their work is impressive with the kit they've been given, he adds",
+    "id": 591,
+    "label": [
+      {
+        "start": 115,
+        "end": 126,
+        "text": "Afghanistan",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 167,
+        "end": 185,
+        "text": "Staff Sgt Engstrom",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 611,
+    "created_at": "2023-10-17T10:53:27.488868Z",
+    "updated_at": "2023-10-17T10:53:27.488899Z",
+    "lead_time": 19.343
+  },
+  {
+    "text": "Image caption, The UK has provided Ukraine with 1,500 Vallons, which are used to clear a pathMaking the device safe is not the biggest challenge. Ihor says he was already familiar with the types of mines the Russians use before the invasion. \"It's quite easy to disarm mines, but the Russians are making it more difficult\". The British instructors liken it to solving a puzzle or a game of chess",
+    "id": 592,
+    "label": [
+      {
+        "start": 146,
+        "end": 150,
+        "text": "Ihor",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 198,
+        "end": 203,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 269,
+        "end": 274,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 612,
+    "created_at": "2023-10-17T10:54:04.337790Z",
+    "updated_at": "2023-10-17T10:54:04.337804Z",
+    "lead_time": 36.731
+  },
+  {
+    "text": "The real challenge is trying to work out where the minefields are and why they have been placed there. It's often deliberate - to draw in troops who can then be targeted by artillery. Mines are often booby trapped. Capt Chris Wilson, who leads the small British training team in Poland, says the character traits needed for Explosive Ordnance Disposal and Search \"is someone who's slow and methodical, who can think and understand problem-solving while retaining their composure\".",
+    "id": 593,
+    "label": [
+      {
+        "start": 47,
+        "end": 61,
+        "text": "the minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 144,
+        "text": "troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 173,
+        "end": 182,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 184,
+        "end": 189,
+        "text": "Mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 215,
+        "end": 232,
+        "text": "Capt Chris Wilson",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 279,
+        "end": 285,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 324,
+        "end": 362,
+        "text": "Explosive Ordnance Disposal and Search",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 613,
+    "created_at": "2023-10-17T10:54:59.087763Z",
+    "updated_at": "2023-10-17T10:54:59.087779Z",
+    "lead_time": 54.636
+  },
+  {
+    "text": "This training only started last November. Each course is just a few weeks long and includes just a few dozen experienced Ukrainian sappers. That tells you the high demand for them back on the front line. In Southern Ukraine they may have broken through the first lines of Russian defences. But yet more Russian minefields, dragons' teeth and trenches stand in their way. Ihor and his team of sappers know they still have a huge task ahead. But, he says, they have no choice.",
+    "id": 594,
+    "label": [
+      {
+        "start": 32,
+        "end": 40,
+        "text": "November",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 138,
+        "text": "Ukrainian sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 207,
+        "end": 223,
+        "text": "Southern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 272,
+        "end": 279,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 303,
+        "end": 321,
+        "text": "Russian minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 371,
+        "end": 375,
+        "text": "Ihor",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 392,
+        "end": 399,
+        "text": "sappers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 614,
+    "created_at": "2023-10-17T10:55:43.663503Z",
+    "updated_at": "2023-10-17T10:55:43.663519Z",
+    "lead_time": 44.458
+  },
+  {
+    "text": "\"Unfortunately we will lose more guys in the process, but we have to do it.",
+    "id": 595,
+    "annotator": 1,
+    "annotation_id": 615,
+    "created_at": "2023-10-17T10:55:46.642809Z",
+    "updated_at": "2023-10-17T10:55:46.642830Z",
+    "lead_time": 2.851
+  },
+  {
+    "text": "\"At the very least the British instructors hope this training will save some Ukrainian lives.",
+    "id": 596,
+    "annotator": 1,
+    "annotation_id": 616,
+    "created_at": "2023-10-17T10:55:49.304338Z",
+    "updated_at": "2023-10-17T10:55:49.304356Z",
+    "lead_time": 2.544
+  },
+  {
+    "text": "Ukraine's generals say they have \"broken through\" Russia's first line of defence in the south. We've assessed how far Ukrainian forces have really progressed, and what signs there are of further breakthroughs along the frontline.",
+    "id": 597,
+    "label": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "Ukraine's generals",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 58,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 84,
+        "end": 93,
+        "text": "the south",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 118,
+        "end": 134,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 617,
+    "created_at": "2023-10-17T10:56:12.973713Z",
+    "updated_at": "2023-10-17T10:56:12.973728Z",
+    "lead_time": 23.545
+  },
+  {
+    "text": "Ukraine began its big counter-offensive in early June to push Russian forces back from land they seized. It attacked at three points along the 600-mile-plus (965km) frontline. The area to the south-east of the city of Zaporizhzhia is by far the most strategically important.",
+    "id": 598,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 62,
+        "end": 76,
+        "text": "Russian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 188,
+        "end": 230,
+        "text": "the south-east of the city of Zaporizhzhia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 618,
+    "created_at": "2023-10-17T10:56:53.029282Z",
+    "updated_at": "2023-10-17T10:56:53.029297Z",
+    "lead_time": 39.933
+  },
+  {
+    "text": "Striking out in this direction towards the Sea of Azov, if successful, could cut off Russia's supply lines that connect the Russian city of Rostov-on-Don to Crimea.",
+    "id": 599,
+    "label": [
+      {
+        "start": 43,
+        "end": 54,
+        "text": "Sea of Azov",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 106,
+        "text": "Russia's supply lines",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 153,
+        "text": "Rostov-on-Don",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 157,
+        "end": 163,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 619,
+    "created_at": "2023-10-17T10:58:05.343484Z",
+    "updated_at": "2023-10-17T10:58:05.343500Z",
+    "lead_time": 18.595
+  },
+  {
+    "text": "There hasn't been much progress on this front, except for the area around the villages of Robotyne and Verbove in the Zaporizhzhia region, as seen highlighted in purple in the map above.",
+    "id": 600,
+    "label": [
+      {
+        "start": 74,
+        "end": 98,
+        "text": "the villages of Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 103,
+        "end": 110,
+        "text": "Verbove",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 137,
+        "text": "the Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 620,
+    "created_at": "2023-10-17T10:58:28.999921Z",
+    "updated_at": "2023-10-17T10:58:28.999935Z",
+    "lead_time": 23.445
+  },
+  {
+    "text": "If Ukraine can sever this main supply route then Russia will find it all but impossible to maintain its huge garrison in Crimea which it annexed in 2014.",
+    "id": 601,
+    "label": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 117,
+        "text": "garrison",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 127,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 152,
+        "text": "2014",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 621,
+    "created_at": "2023-10-17T10:58:46.609534Z",
+    "updated_at": "2023-10-17T10:58:46.609550Z",
+    "lead_time": 17.487
+  },
+  {
+    "text": "Despite significant obstacles, there are now confirmed sightings of Ukrainian troops breaching Russia's defensive structures along the southern front.",
+    "id": 602,
+    "label": [
+      {
+        "start": 68,
+        "end": 84,
+        "text": "Ukrainian troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 103,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 131,
+        "end": 149,
+        "text": "the southern front",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 622,
+    "created_at": "2023-10-17T10:58:57.299222Z",
+    "updated_at": "2023-10-17T10:58:57.299235Z",
+    "lead_time": 10.584
+  },
+  {
+    "text": "We have verified nine social media videos along the frontline near Verbove.",
+    "id": 603,
+    "label": [
+      {
+        "start": 48,
+        "end": 74,
+        "text": "the frontline near Verbove",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 623,
+    "created_at": "2023-10-17T10:59:18.577406Z",
+    "updated_at": "2023-10-17T10:59:18.577421Z",
+    "lead_time": 21.159
+  },
+  {
+    "text": "Four of the videos show Ukrainian forces breaching Russian defences north of Verbove.",
+    "id": 604,
+    "label": [
+      {
+        "start": 24,
+        "end": 40,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 84,
+        "text": "north of Verbove",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 624,
+    "created_at": "2023-10-17T10:59:26.466879Z",
+    "updated_at": "2023-10-17T10:59:26.466896Z",
+    "lead_time": 7.769
+  },
+  {
+    "text": "However, these show incursions, not that Ukraine has managed to take control of the area.",
+    "id": 605,
+    "label": [
+      {
+        "start": 41,
+        "end": 48,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 625,
+    "created_at": "2023-10-17T10:59:32.214090Z",
+    "updated_at": "2023-10-17T10:59:32.214105Z",
+    "lead_time": 5.635
+  },
+  {
+    "text": "So far it has only been Ukrainian infantry getting through, and we're not seeing Ukrainian armoured columns pouring through, exploiting the gap and holding the ground taken. What is stopping Ukraine advancing faster?",
+    "id": 606,
+    "label": [
+      {
+        "start": 191,
+        "end": 198,
+        "text": "Ukraine",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 626,
+    "created_at": "2023-10-17T10:59:58.879681Z",
+    "updated_at": "2023-10-17T10:59:58.879701Z",
+    "lead_time": 26.544
+  },
+  {
+    "text": "Moscow saw this counter attack coming long ago and has spent months building the world's most formidable layered defences in depth. This is what they look like from space - lines of interlocking obstacles, trenches, bunkers and minefields, each covered by artillery. Its so-called dragon's teeth are concrete anti-tank barriers.",
+    "id": 607,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 228,
+        "end": 238,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 256,
+        "end": 265,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 309,
+        "end": 327,
+        "text": "anti-tank barriers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 627,
+    "created_at": "2023-10-17T11:34:30.450773Z",
+    "updated_at": "2023-10-17T11:34:30.450788Z",
+    "lead_time": 2071.451
+  },
+  {
+    "text": "Vast minefields have slowed the Ukrainian advance.",
+    "id": 608,
+    "label": [
+      {
+        "start": 5,
+        "end": 15,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 628,
+    "created_at": "2023-10-17T11:34:36.487262Z",
+    "updated_at": "2023-10-17T11:34:36.487278Z",
+    "lead_time": 5.912
+  },
+  {
+    "text": "These minefields are intensely packed, in some places up to five mines laid in a square metre.",
+    "id": 609,
+    "label": [
+      {
+        "start": 6,
+        "end": 16,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 629,
+    "created_at": "2023-10-17T11:34:40.874870Z",
+    "updated_at": "2023-10-17T11:34:40.874886Z",
+    "lead_time": 4.261
+  },
+  {
+    "text": "Ukraine's first attempt to charge through them in June quickly ended in failure, with its modern, Western-supplied armour crippled and burning. Ukrainian infantry came similarly unstuck, taking horrific casualties.",
+    "id": 610,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "text": "armour",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 114,
+        "text": "Western-supplied",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 162,
+        "text": "Ukrainian infantry",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 630,
+    "created_at": "2023-10-17T11:35:03.239945Z",
+    "updated_at": "2023-10-17T11:35:03.239985Z",
+    "lead_time": 22.239
+  },
+  {
+    "text": "Kyiv has since had to resort to clearing these mines on foot, often at night and sometimes under fire. Hence the slow progress to date.",
+    "id": 612,
+    "label": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 632,
+    "created_at": "2023-10-17T11:35:17.502745Z",
+    "updated_at": "2023-10-17T11:35:17.502760Z",
+    "lead_time": 10.521
+  },
+  {
+    "text": "Ukraine's tanks and armoured vehicles are vulnerable to Russia's mines, drones and anti-tank missiles - like in this video analysed by BBC Verify which shows a British-supplied Challenger 2 tank that got hit near Robotyne.",
+    "id": 613,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "tanks",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 37,
+        "text": "armoured vehicles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 70,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 83,
+        "end": 101,
+        "text": "anti-tank missiles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 135,
+        "end": 138,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 160,
+        "end": 176,
+        "text": "British-supplied",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 177,
+        "end": 194,
+        "text": "Challenger 2 tank",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 213,
+        "end": 221,
+        "text": "Robotyne",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 633,
+    "created_at": "2023-10-17T11:35:54.918544Z",
+    "updated_at": "2023-10-17T11:35:54.918560Z",
+    "lead_time": 37.294
+  },
+  {
+    "text": "These will only be able to push forward in numbers once a sufficiently wide path has been cleared through the minefields and when Russian artillery there has been subdued.",
+    "id": 615,
+    "label": [
+      {
+        "start": 110,
+        "end": 120,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 137,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 147,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 635,
+    "created_at": "2023-10-17T11:36:11.940840Z",
+    "updated_at": "2023-10-17T11:36:11.940854Z",
+    "lead_time": 14.547
+  },
+  {
+    "text": "What next for Ukraine's counter-offensive?",
+    "id": 616,
+    "label": [
+      {
+        "start": 14,
+        "end": 23,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 636,
+    "created_at": "2023-10-17T11:36:17.558983Z",
+    "updated_at": "2023-10-17T11:36:17.559000Z",
+    "lead_time": 5.5
+  },
+  {
+    "text": "\"The problem that the Ukrainians have now\", says Dr Marina Miron at King's College London War Studies Department, \"is to get an opening big enough to get more troops in\".",
+    "id": 617,
+    "label": [
+      {
+        "start": 49,
+        "end": 64,
+        "text": "Dr Marina Miron",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 68,
+        "end": 112,
+        "text": "King's College London War Studies Department",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 637,
+    "created_at": "2023-10-17T11:36:27.596537Z",
+    "updated_at": "2023-10-17T11:36:27.596558Z",
+    "lead_time": 9.913
+  },
+  {
+    "text": "Meanwhile Russia has been moving in reinforcements, and this battlefront is dynamic, it's moving, and Russia could still reverse Ukraine's gains.",
+    "id": 618,
+    "label": [
+      {
+        "start": 10,
+        "end": 16,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 36,
+        "end": 50,
+        "text": "reinforcements",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 72,
+        "text": "battlefront",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 108,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 129,
+        "end": 138,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 638,
+    "created_at": "2023-10-17T11:36:44.428995Z",
+    "updated_at": "2023-10-17T11:36:44.429008Z",
+    "lead_time": 16.711
+  },
+  {
+    "text": "We've geolocated a Russian drone video which backs up reports that its elite airborne forces, the VDV, have deployed close to the town of Verbove - a move aimed at plugging any gaps created by Ukraine's counter-offensive. \"Ukrainian forces continue to face resistance from Russian forces on the battlefield,\" says Kateryna Stepanenko, Russia analyst at the US-based think tank, Institute for the Study of War. \"Alongside artillery fire, drone strikes and Russian defensive structures - Russian forces are also extensively using electronic warfare measures that aim to impede Ukrainian signals and drone usage.",
+    "id": 619,
+    "label": [
+      {
+        "start": 19,
+        "end": 26,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 98,
+        "end": 101,
+        "text": "VDV",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 145,
+        "text": "Verbove",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 193,
+        "end": 202,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 223,
+        "end": 239,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 273,
+        "end": 280,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 314,
+        "end": 333,
+        "text": "Kateryna Stepanenko",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 335,
+        "end": 341,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 357,
+        "end": 365,
+        "text": "US-based",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 378,
+        "end": 408,
+        "text": "Institute for the Study of War",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 437,
+        "end": 442,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 455,
+        "end": 462,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 486,
+        "end": 493,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 597,
+        "end": 602,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 639,
+    "created_at": "2023-10-17T11:37:57.669368Z",
+    "updated_at": "2023-10-17T11:37:57.669389Z",
+    "lead_time": 73.118
+  },
+  {
+    "text": "\"Ukraine has barely progressed more than 10% of the way to the coast, but the reality is much more nuanced than that.",
+    "id": 620,
+    "label": [
+      {
+        "start": 1,
+        "end": 8,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 640,
+    "created_at": "2023-10-17T11:38:02.292263Z",
+    "updated_at": "2023-10-17T11:38:02.292285Z",
+    "lead_time": 4.499
+  },
+  {
+    "text": "Ukrainian troops near the village of Robotyne on the southern frontline Russia's forces are exhausted and possibly demoralised after sustaining three months of intensive attacks, including long-range strikes that are targeting their supply lines.",
+    "id": 621,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Ukrainian troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 45,
+        "text": "the village of Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 71,
+        "text": "southern frontline",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 87,
+        "text": "Russia's forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 641,
+    "created_at": "2023-10-17T11:38:25.946951Z",
+    "updated_at": "2023-10-17T11:38:25.946985Z",
+    "lead_time": 23.538
+  },
+  {
+    "text": "If Ukraine can break through the remaining Russian defences and reach as far as the town of Tokmak then this would bring Russia's rail and road supply routes for Crimea within range of its artillery.",
+    "id": 622,
+    "label": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "text": "Tokmak",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 121,
+        "end": 129,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 162,
+        "end": 168,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 198,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 642,
+    "created_at": "2023-10-17T11:38:38.840167Z",
+    "updated_at": "2023-10-17T11:38:38.840182Z",
+    "lead_time": 12.772
+  },
+  {
+    "text": "If they can do that, then this counter offensive can be judged a qualified success.",
+    "id": 623,
+    "annotator": 1,
+    "annotation_id": 643,
+    "created_at": "2023-10-17T11:38:44.356473Z",
+    "updated_at": "2023-10-17T11:38:44.356492Z",
+    "lead_time": 5.397
+  },
+  {
+    "text": "It may not end the war, which is likely to drag on well into 2024 and perhaps longer - but it would seriously undermine Moscow's war effort and put Ukraine in a strong position for when peace talks eventually begin. But for Kyiv, the clock is ticking. The rainy season will arrive within weeks, turning the roads to mud and hindering further advances. Beyond that lies the uncertainty of the US presidential elections, where a Republican victory could see US military support for Ukraine dramatically slashed. President Putin knows he needs to tough it out until then. The Ukrainians know they have got to make this counter-offensive succeed.",
+    "id": 624,
+    "label": [
+      {
+        "start": 61,
+        "end": 65,
+        "text": "2024",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 120,
+        "end": 128,
+        "text": "Moscow's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 148,
+        "end": 155,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 224,
+        "end": 228,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 427,
+        "end": 437,
+        "text": "Republican",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 456,
+        "end": 467,
+        "text": "US military",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 480,
+        "end": 487,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 510,
+        "end": 525,
+        "text": "President Putin",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 644,
+    "created_at": "2023-10-17T11:39:41.398881Z",
+    "updated_at": "2023-10-17T11:39:41.398896Z",
+    "lead_time": 56.917
+  },
+  {
+    "text": "Ukraine cyber-operators are being deployed on the front lines of the war, duelling close-up with their Russian counterparts in a new kind of high-tech battle.\"We have people who are directly involved in combat,\" says Illia Vitiuk, the head of the Ukrainian Security Service's (SBU) cyber department.",
+    "id": 625,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 217,
+        "end": 229,
+        "text": "Illia Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 243,
+        "end": 298,
+        "text": "the Ukrainian Security Service's (SBU) cyber department",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 645,
+    "created_at": "2023-10-17T11:40:08.948528Z",
+    "updated_at": "2023-10-17T11:40:08.948546Z",
+    "lead_time": 27.426
+  },
+  {
+    "text": "Speaking inside the heavily protected SBU headquarters, he explains how his teams mix the skills of hackers and special forces - getting inside Russian systems, working alongside snipers and deploying the latest technologies",
+    "id": 626,
+    "label": [
+      {
+        "start": 38,
+        "end": 54,
+        "text": "SBU headquarters",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 646,
+    "created_at": "2023-10-17T11:40:24.949358Z",
+    "updated_at": "2023-10-17T11:40:24.949372Z",
+    "lead_time": 15.881
+  },
+  {
+    "text": "The department uses Artificial Intelligence (AI) visual recognition systems to analyse information gathered from aerial drones (alongside intelligence from human sources, satellites and other technical sources) to provide targets for the military. \"We understand which type of military weapons they are about to use and on what direction,\" Mr Vitiuk says.",
+    "id": 627,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "The department",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 113,
+        "end": 126,
+        "text": "aerial drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 234,
+        "end": 246,
+        "text": "the military",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 340,
+        "end": 349,
+        "text": "Mr Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 647,
+    "created_at": "2023-10-17T11:40:55.650451Z",
+    "updated_at": "2023-10-17T11:40:55.650466Z",
+    "lead_time": 30.573
+  },
+  {
+    "text": "His teams will also hack into surveillance cameras on occupied territory to watch Russian troop movements. And they direct kamikaze drones to take out Russian cameras spying on Ukrainian movements. Doing this often requires teams working undercover, close to the target.",
+    "id": 628,
+    "label": [
+      {
+        "start": 82,
+        "end": 95,
+        "text": "Russian troop",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 138,
+        "text": "kamikaze drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 648,
+    "created_at": "2023-10-17T11:41:25.293264Z",
+    "updated_at": "2023-10-17T11:41:25.293280Z",
+    "lead_time": 29.524
+  },
+  {
+    "text": "Drones - sometimes used for surveillance and sometimes to act as weapons - have been at the leading edge of innovation in this conflict.",
+    "id": 629,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 649,
+    "created_at": "2023-10-17T11:41:32.083785Z",
+    "updated_at": "2023-10-17T11:41:32.083800Z",
+    "lead_time": 6.673
+  },
+  {
+    "text": "We understand which type of military weapons [Russian forces] are about to use. Head of Ukraine's cyber security department",
+    "id": 630,
+    "label": [
+      {
+        "start": 46,
+        "end": 60,
+        "text": "Russian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 123,
+        "text": "Ukraine's cyber security department",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 650,
+    "created_at": "2023-10-17T11:41:42.849643Z",
+    "updated_at": "2023-10-17T11:41:50.164827Z",
+    "lead_time": 16.133
+  },
+  {
+    "text": "The SBU cyber-team flies its own drones and plays a cat and mouse game to disrupt those belonging to Russia. It deploys sensors to detect drones so operators cannot just jam them but try to take control, sending commands to make them land. All of this frequently needs to be done at close quarters. This, in turn, carries risk to the team members. \"You need to protect them there. So you also need to have security around them,\" explains Mr Vitiuk",
+    "id": 631,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "The SBU",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 107,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 144,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 275,
+        "end": 279,
+        "text": "done",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 438,
+        "end": 447,
+        "text": "Mr Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 651,
+    "created_at": "2023-10-17T11:42:39.815504Z",
+    "updated_at": "2023-10-17T11:42:39.815520Z",
+    "lead_time": 47.588
+  },
+  {
+    "text": "Just outside the capital, military operators are being trained on drones.",
+    "id": 632,
+    "label": [
+      {
+        "start": 66,
+        "end": 72,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 24,
+        "text": "the capital",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 652,
+    "created_at": "2023-10-17T11:42:48.274499Z",
+    "updated_at": "2023-10-17T11:42:48.274515Z",
+    "lead_time": 8.333
+  },
+  {
+    "text": "Anton, who learnt to fly them in a previous life as a high-end travel guide, says the most important lesson is not teaching operators how to fly drones but how to stay alive themselves by avoiding being detected. In the early stages of the war, small drones were flown up to 10km (six miles) from the front. But now Ukrainian operators need to be much closer, to overcome Russian jamming signals. \"The distance to the front line is getting shorter right now,\" Anton explains, while watching a drone flying overhead. \"Our connection has to be stronger than the jamming",
+    "id": 633,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Anton",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 145,
+        "end": 151,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 251,
+        "end": 257,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 460,
+        "end": 465,
+        "text": "Anton",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 653,
+    "created_at": "2023-10-17T11:43:25.446384Z",
+    "updated_at": "2023-10-17T11:43:25.446422Z",
+    "lead_time": 37.046
+  },
+  {
+    "text": "\"Image caption, Anton (R) used to be a drone operator for a travel company - now he teaches soldiers how to fly drones and avoid being caughtRussian intelligence services have also moved some of their cyber-teams close to the front lines, according to Mr Vitiuk. This is to communicate faster with the military and to quickly provide direct access to captured Ukrainian devices or nearby communications. A captured device can then be used to gather more tactical intelligence before people realise it is in Russian hands",
+    "id": 634,
+    "label": [
+      {
+        "start": 16,
+        "end": 21,
+        "text": "Anton",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 118,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 252,
+        "end": 261,
+        "text": "Mr Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 298,
+        "end": 310,
+        "text": "the military",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 654,
+    "created_at": "2023-10-17T11:44:22.674059Z",
+    "updated_at": "2023-10-17T11:44:22.674073Z",
+    "lead_time": 57.11
+  },
+  {
+    "text": "The cyber-conflict was tightly bound with military operations even before the full-scale invasion of February 2022. A month earlier Russia tried to cause public panic by taking public websites offline",
+    "id": 635,
+    "label": [
+      {
+        "start": 101,
+        "end": 114,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 132,
+        "end": 138,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 655,
+    "created_at": "2023-10-17T11:44:35.487115Z",
+    "updated_at": "2023-10-17T11:44:35.487131Z",
+    "lead_time": 12.698
+  },
+  {
+    "text": "\"It was definitely a psychological operation,\" says Mr Vitiuk. Ukraine was able to recover most of the systems but hours before the invasion a new wave of cyber-attacks began. The most effective took down a US satellite provider used by Ukraine's military for communications for a few hours.",
+    "id": 636,
+    "label": [
+      {
+        "start": 52,
+        "end": 61,
+        "text": "Mr Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 237,
+        "end": 255,
+        "text": "Ukraine's military",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 656,
+    "created_at": "2023-10-17T11:44:58.212026Z",
+    "updated_at": "2023-10-17T11:44:58.212043Z",
+    "lead_time": 22.597
+  },
+  {
+    "text": "As Russia's plans for a quick victory were dashed and reports of atrocities emerged, the importance of controlling the information flow increased. That was highlighted on 1 March 2022 when a combined cyber and missile strike targeted a TV tower in Kyiv",
+    "id": 637,
+    "label": [
+      {
+        "start": 3,
+        "end": 11,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 171,
+        "end": 183,
+        "text": "1 March 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 248,
+        "end": 252,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 657,
+    "created_at": "2023-10-17T11:45:22.826307Z",
+    "updated_at": "2023-10-17T11:45:22.826322Z",
+    "lead_time": 24.491
+  },
+  {
+    "text": "\"They were trying to deprive Ukrainians of access to truthful information,\" Yurii Shchyhol, head of the state service that protects communications, explains, standing in front of the tower where black scars from the missile strike are still evident. Engineers scoured the city for replacement equipment and within hours, TV broadcasting was restored. Image caption, Kyiv's main TV tower was targeted in a missile strike early on in the warMissiles also struck a data centre at the same location - but vital data had been moved on to remote servers earlier in the year, with help from Western technology companies.",
+    "id": 638,
+    "label": [
+      {
+        "start": 76,
+        "end": 90,
+        "text": "Yurii Shchyhol",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 366,
+        "end": 372,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 658,
+    "created_at": "2023-10-17T11:46:06.636727Z",
+    "updated_at": "2023-10-17T11:46:06.636741Z",
+    "lead_time": 43.696
+  },
+  {
+    "text": "\"The fact that Ukraine managed to withstand this war is the achievement of both our specialists who built the system and thanks to the help from our partners,\" says Mr Shchyhol.",
+    "id": 639,
+    "label": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 165,
+        "end": 176,
+        "text": "Mr Shchyhol",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 659,
+    "created_at": "2023-10-17T11:46:18.010094Z",
+    "updated_at": "2023-10-17T11:46:18.010108Z",
+    "lead_time": 11.25
+  },
+  {
+    "text": "Ukraine's own tech workers have also aided the war effort. In a cramped Kyiv office, young volunteers explain how they built a system called Griselda that scrapes data from social media and other sources to provide up-to-date situational intelligence. This helps the military and government answer questions on everything from where mines might be laid to what infrastructure requires repairing.",
+    "id": 640,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 83,
+        "text": "Kyiv office",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 333,
+        "end": 338,
+        "text": "mines",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 660,
+    "created_at": "2023-10-17T11:46:55.703939Z",
+    "updated_at": "2023-10-17T11:46:55.703954Z",
+    "lead_time": 37.574
+  },
+  {
+    "text": "The missiles that hit the TV tower and data centre were also accompanied by cyber-attacks. And since then, cyber and missile attacks have often been used in tandem. The cyber-onslaught remains relentless, explains Victor Zhora, who oversees the country's cyber-defence, as he gives a tour of Ukraine's incident response facility which runs 24\/7. \"This is where the heart of Ukrainian cyber-protection beats,\" he says. \"It is always busy.\" A screen on the wall shows peaks and troughs since the start of the war. The government is the top target. While we are at the office, young staffers are dealing with an attack on the National Office of Statistics which delays the release of inflation figures. BBCThis is where the heart of Ukrainian cyber protection beats. We don't have days offVictor ZhoraOversees Ukraine's cyber-defenceAt the Security Service, Illia Vitiuk's cyber-team works to counter the elite hackers from Russia's spy services by getting his hackers to penetrate their computer systems and listen to their phone calls.",
+    "id": 641,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "The missiles",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 132,
+        "text": "missile attacks",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 214,
+        "end": 226,
+        "text": "Victor Zhora",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 292,
+        "end": 301,
+        "text": "Ukraine's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 619,
+        "end": 652,
+        "text": "the National Office of Statistics",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 921,
+        "end": 929,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 661,
+    "created_at": "2023-10-17T11:48:20.855405Z",
+    "updated_at": "2023-10-17T11:48:20.855423Z",
+    "lead_time": 85.019
+  },
+  {
+    "text": "\"I always say that Ukraine has debunked the myth about mighty Russian hackers,\" he says, comparing the struggle to two closely matched fighters who know each other well, slugging it out in a ring. It has not been easy, he adds, and there have been close calls. But Ukraine, he argues, is digesting Russian cyber-attacks by working them through its system.",
+    "id": 642,
+    "label": [
+      {
+        "start": 19,
+        "end": 26,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 265,
+        "end": 272,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 662,
+    "created_at": "2023-10-17T11:48:40.275082Z",
+    "updated_at": "2023-10-17T11:48:40.275096Z",
+    "lead_time": 19.301
+  },
+  {
+    "text": "Moscow is throwing almost all of its cyber-expertise against Ukraine and that leaves it with little capacity to attack Western targets. If Ukraine falls, Mr Vitiuk warns, then those attacks will be directed elsewhere.",
+    "id": 643,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Moscow",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 119,
+        "end": 126,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "text": "Ukraine",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 163,
+        "text": "Mr Vitiuk",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 663,
+    "created_at": "2023-10-17T11:49:58.656531Z",
+    "updated_at": "2023-10-17T11:49:58.656546Z",
+    "lead_time": 78.236
+  },
+  {
+    "text": "But in battling their Russian adversary, Ukraine and other allies are also learning new ways in which technology can be integrated into the modern battlefield.",
+    "id": 644,
+    "label": [
+      {
+        "start": 41,
+        "end": 48,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 664,
+    "created_at": "2023-10-17T11:50:15.026719Z",
+    "updated_at": "2023-10-17T11:50:15.026734Z",
+    "lead_time": 16.254
+  },
+  {
+    "text": "Ukrainian generals claim they have breached Russia's formidable first line of defences in the south, as the counter-offensive launched earlier this summer may be poised to gather pace.",
+    "id": 645,
+    "label": [
+      {
+        "start": 44,
+        "end": 52,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 665,
+    "created_at": "2023-10-17T11:50:23.772284Z",
+    "updated_at": "2023-10-17T11:50:23.772767Z",
+    "lead_time": 8.626
+  },
+  {
+    "text": "Since June, Kyiv's territorial gains have been very small - but is Ukraine finally at a turning point?",
+    "id": 646,
+    "label": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 666,
+    "created_at": "2023-10-17T11:50:31.982928Z",
+    "updated_at": "2023-10-17T11:50:31.982945Z",
+    "lead_time": 8.086
+  },
+  {
+    "text": "\"Yes, it's true,\" says Yuriy Sak, an advisor to Ukraine's defence minister, when asked if the breach had happened. \"Little by little, I think we're gaining momentum,\" he said",
+    "id": 647,
+    "label": [
+      {
+        "start": 23,
+        "end": 32,
+        "text": "Yuriy Sak",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 48,
+        "end": 74,
+        "text": "Ukraine's defence minister",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 667,
+    "created_at": "2023-10-17T11:50:43.924061Z",
+    "updated_at": "2023-10-17T11:50:43.924094Z",
+    "lead_time": 11.825
+  },
+  {
+    "text": "\"We are now between the first and second defensive lines,\" one of Ukraine's top generals in the south, Brig Gen Oleksandr Tarnavskiy told Britain's Observer newspaper. His words echoed those of the White House spokesman John Kirby, who on Friday told reporters in Washington that Ukrainian forces had \"achieved some success against that second line.\" The focus of Ukraine's counter-offensive effort in recent weeks has been an expanding bridgehead around the tiny village of Robotyne, some 56km (35 miles) south-east of the city of Zaporizhzhia.",
+    "id": 648,
+    "label": [
+      {
+        "start": 103,
+        "end": 132,
+        "text": "Brig Gen Oleksandr Tarnavskiy",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 138,
+        "end": 166,
+        "text": "Britain's Observer newspaper",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 194,
+        "end": 209,
+        "text": "the White House",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 230,
+        "text": "John Kirby",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 264,
+        "end": 274,
+        "text": "Washington",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 280,
+        "end": 296,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 464,
+        "end": 483,
+        "text": "village of Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 506,
+        "end": 544,
+        "text": "south-east of the city of Zaporizhzhia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 668,
+    "created_at": "2023-10-17T11:52:14.594569Z",
+    "updated_at": "2023-10-17T11:52:14.594587Z",
+    "lead_time": 90.534
+  },
+  {
+    "text": "Ukrainian forces raised the country's blue and yellow flag over the village more than a week ago, and are now trying to widen the gap to allow larger infantry and armoured units to pass through without coming under Russian fire.",
+    "id": 649,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 669,
+    "created_at": "2023-10-17T11:52:26.376028Z",
+    "updated_at": "2023-10-17T11:52:26.376063Z",
+    "lead_time": 11.666
+  },
+  {
+    "text": "A glance at the map shows a mass of overlapping, complex Russian defensive lines, complete with minefields, tank traps and trenches. Some of them converge at Verbove.",
+    "id": 651,
+    "label": [
+      {
+        "start": 96,
+        "end": 106,
+        "text": "minefields",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 108,
+        "end": 118,
+        "text": "tank traps",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 123,
+        "end": 131,
+        "text": "trenches",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 165,
+        "text": "Verbove",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 671,
+    "created_at": "2023-10-17T11:53:26.475428Z",
+    "updated_at": "2023-10-17T11:53:26.475462Z",
+    "lead_time": 15.642
+  },
+  {
+    "text": "Without air cover and in the face of sometimes withering Russian artillery fire, small Ukrainian units have been clearing a way through these hazards, preparing the ground for a larger assault. \"When these openings appear, of course, it makes it easier for our forces to advance,\" Mr Sak said",
+    "id": 652,
+    "label": [
+      {
+        "start": 57,
+        "end": 79,
+        "text": "Russian artillery fire",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 102,
+        "text": "Ukrainian units",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 281,
+        "end": 287,
+        "text": "Mr Sak",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 672,
+    "created_at": "2023-10-17T11:53:45.878184Z",
+    "updated_at": "2023-10-17T11:53:45.878199Z",
+    "lead_time": 19.277
+  },
+  {
+    "text": "The fog of warIt is hard to assess the significance of the latest claims. Ukrainian officials are extremely tight-lipped when asked for precise details, preferring to allow the fog of war to shroud Kyiv's intentions and extremely reluctant to avoid releasing sensitive information. It does not help that the forces closest to the fight sometimes give very different accounts of what is happening at the front. Approached by the BBC on Saturday, Ukraine's 46th Air Assault Brigade said fighting was continuing near Russia's first line of defence, but that \"no one has yet managed to go beyond the first line.\" This may be less surprising than it sounds. A plethora of units are operating up and down the front, each concentrating on their own narrow section and specific tasks. They do not necessarily know what is going on elsewhere. Image source, ReutersImage caption, A Ukrainian serviceman looks at a destroyed Ukrainian tank near the village of RobotyneOne of those units, a volunteer battalion known by its commander's call sign \"Skala\", told Reuters news agency that its men had broken through Russia's first line on 26 August",
+    "id": 653,
+    "label": [
+      {
+        "start": 198,
+        "end": 204,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 428,
+        "end": 431,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 445,
+        "end": 479,
+        "text": "Ukraine's 46th Air Assault Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 514,
+        "end": 522,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 902,
+        "end": 928,
+        "text": "a destroyed Ukrainian tank",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1048,
+        "end": 1067,
+        "text": "Reuters news agency",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1100,
+        "end": 1108,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1123,
+        "end": 1132,
+        "text": "26 August",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 1035,
+        "end": 1040,
+        "text": "Skala",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 673,
+    "created_at": "2023-10-17T11:57:56.068656Z",
+    "updated_at": "2023-10-17T11:58:09.131410Z",
+    "lead_time": 252.491
+  },
+  {
+    "text": "On Sunday, Skala told us his men were still pushing forward.",
+    "id": 654,
+    "label": [
+      {
+        "start": 11,
+        "end": 16,
+        "text": "Skala",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 674,
+    "created_at": "2023-10-17T11:58:05.266263Z",
+    "updated_at": "2023-10-17T11:58:05.266281Z",
+    "lead_time": 9.073
+  },
+  {
+    "text": "\"Literally, we are moving along the Zaporizhzhia region to the sea,\" he said in a voice message, without giving further details.",
+    "id": 655,
+    "label": [
+      {
+        "start": 36,
+        "end": 55,
+        "text": "Zaporizhzhia region",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 59,
+        "end": 66,
+        "text": "the sea",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 675,
+    "created_at": "2023-10-17T11:58:21.682916Z",
+    "updated_at": "2023-10-17T11:58:21.682931Z",
+    "lead_time": 9.943
+  },
+  {
+    "text": "\"I don't want to rush ahead, but both we and the General Staff are doing everything for the fastest victory.",
+    "id": 656,
+    "annotator": 1,
+    "annotation_id": 676,
+    "created_at": "2023-10-17T11:58:29.062966Z",
+    "updated_at": "2023-10-17T11:58:29.062983Z",
+    "lead_time": 7.262
+  },
+  {
+    "text": "\"Hard as it is to gauge the precise nature and direction of Ukraine's recent gains, it is clear that the Kremlin is alarmed.",
+    "id": 657,
+    "label": [
+      {
+        "start": 60,
+        "end": 69,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 677,
+    "created_at": "2023-10-17T11:58:41.598146Z",
+    "updated_at": "2023-10-17T11:58:41.598161Z",
+    "lead_time": 12.414
+  },
+  {
+    "text": "It has recently sent elite troops from other parts of the long front line to bolster defences between Robotyne and the key road and railway hub of Tokmak, 21km to the south.",
+    "id": 658,
+    "label": [
+      {
+        "start": 21,
+        "end": 33,
+        "text": "elite troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 102,
+        "end": 110,
+        "text": "Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 147,
+        "end": 153,
+        "text": "Tokmak",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 678,
+    "created_at": "2023-10-17T11:58:54.666571Z",
+    "updated_at": "2023-10-17T11:58:54.666585Z",
+    "lead_time": 12.942
+  },
+  {
+    "text": "According to the Washington-based Institute for the Study of War (ISW), this is the third time since June.",
+    "id": 659,
+    "label": [
+      {
+        "start": 34,
+        "end": 71,
+        "text": "Institute for the Study of War (ISW),",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 33,
+        "text": "the Washington-based",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 679,
+    "created_at": "2023-10-17T11:59:16.526950Z",
+    "updated_at": "2023-10-17T11:59:16.526964Z",
+    "lead_time": 21.737
+  },
+  {
+    "text": "\"The second lateral deployment in the span of a few weeks suggests an increasing Russian concern about the stability of Russian defences,\" the ISW reported in its assessment on 1 September",
+    "id": 660,
+    "label": [
+      {
+        "start": 81,
+        "end": 88,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 120,
+        "end": 127,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 146,
+        "text": "ISW",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 177,
+        "end": 188,
+        "text": "1 September",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 680,
+    "created_at": "2023-10-17T11:59:30.718942Z",
+    "updated_at": "2023-10-17T11:59:30.718989Z",
+    "lead_time": 14.069
+  },
+  {
+    "text": "This, Ukrainian experts claim, is part of Kyiv's plan: forcing Moscow to move front line units from one place to another in an effort to wear them down.",
+    "id": 661,
+    "label": [
+      {
+        "start": 42,
+        "end": 48,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "text": "Moscow",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 681,
+    "created_at": "2023-10-17T11:59:40.028066Z",
+    "updated_at": "2023-10-17T11:59:40.028083Z",
+    "lead_time": 9.184
+  },
+  {
+    "text": "\"We're trying to involve their reserves and exhaust them,\" says Serhiy Kuzan, of the Ukrainian Security and Cooperation Centre, a Kyiv think tank with close ties to the military.",
+    "id": 662,
+    "label": [
+      {
+        "start": 64,
+        "end": 76,
+        "text": "Serhiy Kuzan",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 81,
+        "end": 126,
+        "text": "the Ukrainian Security and Cooperation Centre",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 145,
+        "text": "Kyiv think tank",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 165,
+        "end": 177,
+        "text": "the military",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 682,
+    "created_at": "2023-10-17T12:00:03.409091Z",
+    "updated_at": "2023-10-17T12:00:03.409128Z",
+    "lead_time": 23.257
+  },
+  {
+    "text": "The next job, he says, is to exploit any sign of Russian weakness.",
+    "id": 663,
+    "annotator": 1,
+    "annotation_id": 683,
+    "created_at": "2023-10-17T12:00:09.491512Z",
+    "updated_at": "2023-10-17T12:00:09.491550Z",
+    "lead_time": 5.96
+  },
+  {
+    "text": "\"The main thing is to widen this bridgehead,\" he says. \"There won't be any orders to go deeper until we do that.",
+    "id": 664,
+    "annotator": 1,
+    "annotation_id": 684,
+    "created_at": "2023-10-17T12:32:59.298253Z",
+    "updated_at": "2023-10-17T12:32:59.298268Z",
+    "lead_time": 1969.679
+  },
+  {
+    "text": "\"Despite the apparently glacial progress of the offensive since June, Mr Kuzan says the fundamental objective has not changed: control of the south.",
+    "id": 665,
+    "label": [
+      {
+        "start": 64,
+        "end": 68,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 78,
+        "text": "Mr Kuzan",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 685,
+    "created_at": "2023-10-17T12:33:07.192832Z",
+    "updated_at": "2023-10-17T12:33:07.192847Z",
+    "lead_time": 7.771
+  },
+  {
+    "text": "What that looks like by the time winter arrives is an open question.",
+    "id": 666,
+    "annotator": 1,
+    "annotation_id": 686,
+    "created_at": "2023-10-17T12:33:08.823149Z",
+    "updated_at": "2023-10-17T12:33:08.823166Z",
+    "lead_time": 1.508
+  },
+  {
+    "text": "Ideally, Kyiv would like its forces to have reached the Sea of Azov, cutting through Moscow's \"land bridge\" to the Crimean Peninsula.",
+    "id": 667,
+    "label": [
+      {
+        "start": 9,
+        "end": 13,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "text": "the Sea of Azov",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 85,
+        "end": 93,
+        "text": "Moscow's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 132,
+        "text": "the Crimean Peninsula",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 687,
+    "created_at": "2023-10-17T12:33:23.917368Z",
+    "updated_at": "2023-10-17T12:33:23.917382Z",
+    "lead_time": 14.979
+  },
+  {
+    "text": "But even if this does not happen, Ukraine is determined to cut the supply lines that allow Russian forces to maintain a presence in the southern part of the Kherson region, between the Dnipro river and Crimea",
+    "id": 668,
+    "label": [
+      {
+        "start": 34,
+        "end": 41,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 153,
+        "end": 171,
+        "text": "the Kherson region",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 185,
+        "end": 197,
+        "text": "Dnipro river",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 202,
+        "end": 208,
+        "text": "Crimea",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 688,
+    "created_at": "2023-10-17T12:37:55.862219Z",
+    "updated_at": "2023-10-17T12:37:55.862232Z",
+    "lead_time": 271.822
+  },
+  {
+    "text": "Some of those links, including the railway that passes through Tokmak, are already highly vulnerable to Ukrainian long range weapons, such as the Himars multiple rocket launcher.",
+    "id": 669,
+    "label": [
+      {
+        "start": 63,
+        "end": 69,
+        "text": "Tokmak",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 114,
+        "end": 132,
+        "text": "long range weapons",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 142,
+        "end": 177,
+        "text": "the Himars multiple rocket launcher",
+        "labels": [
+          "Weapon"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 689,
+    "created_at": "2023-10-17T12:38:14.322589Z",
+    "updated_at": "2023-10-17T12:38:14.322605Z",
+    "lead_time": 18.336
+  },
+  {
+    "text": "With the other key rail link - the one across the Kerch Bridge - the target of repeated Ukrainian attacks since last October, Mr Kuzan says Russia is transporting 70% of its supplies along the M-14 highway, which runs closer to the coast.",
+    "id": 670,
+    "label": [
+      {
+        "start": 46,
+        "end": 62,
+        "text": "the Kerch Bridge",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 124,
+        "text": "October",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 126,
+        "end": 134,
+        "text": "Mr Kuzan",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 146,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 189,
+        "end": 205,
+        "text": "the M-14 highway",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 690,
+    "created_at": "2023-10-17T12:38:33.681529Z",
+    "updated_at": "2023-10-17T12:38:33.681545Z",
+    "lead_time": 19.235
+  },
+  {
+    "text": "\"We have to get the land route… under fire control,\" he says, meaning that Ukrainian guns need to be close enough to be able to target the road.",
+    "id": 671,
+    "annotator": 1,
+    "annotation_id": 691,
+    "created_at": "2023-10-17T12:38:39.760471Z",
+    "updated_at": "2023-10-17T12:38:39.760486Z",
+    "lead_time": 5.962
+  },
+  {
+    "text": "That's still a distant goal. The M-14 is still more than 80km away. There are multiple Russian lines of defence, and Ukrainian forces will be attacked from the ground and air every step of the way.",
+    "id": 672,
+    "label": [
+      {
+        "start": 29,
+        "end": 37,
+        "text": "The M-14",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 117,
+        "end": 133,
+        "text": "Ukrainian forces",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 692,
+    "created_at": "2023-10-17T12:38:56.360397Z",
+    "updated_at": "2023-10-17T12:38:56.360429Z",
+    "lead_time": 16.48
+  },
+  {
+    "text": "Another glance at the map shows that Ukraine's territorial gains, since June, have been tiny.",
+    "id": 673,
+    "label": [
+      {
+        "start": 37,
+        "end": 46,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "text": "June",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 693,
+    "created_at": "2023-10-17T12:39:04.038727Z",
+    "updated_at": "2023-10-17T12:39:04.038743Z",
+    "lead_time": 7.55
+  },
+  {
+    "text": "Kyiv's first encounter with Russia's well-entrenched defences was always going to be among the hardest phases. It may be some time before we know if the breach at Robotyne represents a turning point. \"Tough battles are to be expected,\" Mr Kuzan adds.",
+    "id": 674,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Kyiv's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 163,
+        "end": 171,
+        "text": "Robotyne",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 236,
+        "end": 244,
+        "text": "Mr Kuzan",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 694,
+    "created_at": "2023-10-17T12:39:23.247626Z",
+    "updated_at": "2023-10-17T12:39:23.247642Z",
+    "lead_time": 19.083
+  },
+  {
+    "text": "Ukraine is fighting Russia on many fronts. And just as progress on the battlefield is hard won, so too these days are its diplomatic gains. Since Russia's invasion last year, Western support for Kyiv has remained largely strong. But cracks are beginning to form in the pro-Ukraine alliance. The United States is Ukraine's greatest supporter by a long way, allocating more than $110bn (£90bn) in military and economic support. Yet over the weekend, Congress ditched plans to give Ukraine another $6bn in a bitter internal battle over how to fund the federal government. Some Republicans think support for Ukraine should be curbed, others think it should be provided only if President Biden spends more on US border security. Mr Biden has promised Ukraine another $24bn soon, but that may now be vulnerable to internal US politics. On the other side of the Atlantic, Ukraine may be about to lose another ally.",
+    "id": 675,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 146,
+        "end": 154,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 175,
+        "end": 182,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 195,
+        "end": 199,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 265,
+        "end": 289,
+        "text": "the pro-Ukraine alliance",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 291,
+        "end": 308,
+        "text": "The United States",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 312,
+        "end": 321,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 377,
+        "end": 383,
+        "text": "$110bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 385,
+        "end": 390,
+        "text": "£90bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 479,
+        "end": 486,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 495,
+        "end": 499,
+        "text": "$6bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 574,
+        "end": 585,
+        "text": "Republicans",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 604,
+        "end": 611,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 673,
+        "end": 688,
+        "text": "President Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 724,
+        "end": 732,
+        "text": "Mr Biden",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 746,
+        "end": 753,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 762,
+        "end": 767,
+        "text": "$24bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 851,
+        "end": 863,
+        "text": "the Atlantic",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 865,
+        "end": 872,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 695,
+    "created_at": "2023-10-17T12:40:40.078763Z",
+    "updated_at": "2023-10-17T12:40:40.078778Z",
+    "lead_time": 76.704
+  },
+  {
+    "text": "In Slovakia, elections saw Robert Fico's Smer party win most seats, although he still needs to form a coalition. The populist former prime minister is widely seen as pro-Moscow and anti-Kyiv, having campaigned on a promise to end military support for Ukraine. \"People in Slovakia have bigger problems than Ukraine,\" he said. That means - alongside Viktor Orban's Hungary - there are now two European Union countries ready to veto further collective EU action to support Ukraine",
+    "id": 676,
+    "label": [
+      {
+        "start": 3,
+        "end": 11,
+        "text": "Slovakia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "text": "Robert Fico's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 251,
+        "end": 258,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 271,
+        "end": 279,
+        "text": "Slovakia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 306,
+        "end": 313,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 348,
+        "end": 362,
+        "text": "Viktor Orban's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 363,
+        "end": 370,
+        "text": "Hungary",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 391,
+        "end": 405,
+        "text": "European Union",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 449,
+        "end": 451,
+        "text": "EU",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 470,
+        "end": 477,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 696,
+    "created_at": "2023-10-17T12:41:33.494372Z",
+    "updated_at": "2023-10-17T12:41:33.494386Z",
+    "lead_time": 53.286
+  },
+  {
+    "text": "Neighbouring Poland is also holding elections soon - and there too, doubts about supporting Ukraine have been aired. The ruling Law and Justice Party has promised to halt the import of cheap Ukrainian grain that Polish farmers oppose. The President, Andrzej Duda, has described Ukraine as a drowning man dragging down his rescuers. Prime Minister Mateusz Morawiecki said Poland was \"no longer transferring any weapons to Ukraine\", although this was later reversed. So electoral politics are beginning to bite into Ukraine's support. So too are other issues, whether the global cost-of-living crisis or the climate emergency. At the United Nations General Assembly recently, it was noticeable how Ukraine was no longer automatically at the top of the agenda. President Volodymyr Zelensky's first in-person speeches to the UN assembly and the Security Council did not command the same attention as before. Diplomats noticed the sheen had come off the Ukrainian delegation as leaders from the Global South pressed their own agendas. All of this is what strategists in the Kremlin have been long been hoping for. Diplomats believe Vladimir Putin wants to wait out the West, keeping the fighting going until Ukraine begins to lose international support and seeks a political settlement. Western leaders insist they have the stamina to stay the course and show more strategic patience than Russia expects.",
+    "id": 677,
+    "label": [
+      {
+        "start": 13,
+        "end": 19,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 92,
+        "end": 99,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 212,
+        "end": 218,
+        "text": "Polish",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 235,
+        "end": 262,
+        "text": "The President, Andrzej Duda",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 278,
+        "end": 285,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 332,
+        "end": 365,
+        "text": "Prime Minister Mateusz Morawiecki",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 371,
+        "end": 377,
+        "text": "Poland",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 421,
+        "end": 428,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 514,
+        "end": 523,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 628,
+        "end": 663,
+        "text": "the United Nations General Assembly",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 696,
+        "end": 703,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 758,
+        "end": 788,
+        "text": "President Volodymyr Zelensky's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 821,
+        "end": 823,
+        "text": "UN",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 837,
+        "end": 857,
+        "text": "the Security Council",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 986,
+        "end": 1002,
+        "text": "the Global South",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1069,
+        "end": 1076,
+        "text": "Kremlin",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1127,
+        "end": 1141,
+        "text": "Vladimir Putin",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 1160,
+        "end": 1168,
+        "text": "the West",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1203,
+        "end": 1210,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1282,
+        "end": 1289,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 1384,
+        "end": 1390,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 697,
+    "created_at": "2023-10-17T12:42:49.994780Z",
+    "updated_at": "2023-10-17T12:42:53.749994Z",
+    "lead_time": 77.91199999999999
+  },
+  {
+    "text": "Not for nothing did the UK Foreign Secretary, James Cleverly, tell the House Magazine this weekend that international fatigue with the war was a \"big thing\" and \"something we have got to deal with\", acknowledging it was \"putting pressure on countries all over the world\". His counter-argument was that if Western support for Ukraine diminished, then those pressures - whether economic or political - would only get worse: \"This is tough and this is painful. But it will only be more tough and more painful if we falter.\" To counter that impression, EU foreign ministers visited Kyiv on Monday, meeting there collectively for the first time in a demonstration of support. Josep Borrell, the EU's foreign policy chief, told the BBC that the EU would maintain its military backing, so far worth more than €5bn (£4.3bn).",
+    "id": 678,
+    "label": [
+      {
+        "start": 24,
+        "end": 60,
+        "text": "UK Foreign Secretary, James Cleverly",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 67,
+        "end": 85,
+        "text": "the House Magazine",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 305,
+        "end": 312,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 325,
+        "end": 332,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 549,
+        "end": 569,
+        "text": "EU foreign ministers",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 578,
+        "end": 582,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 671,
+        "end": 684,
+        "text": "Josep Borrell",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 690,
+        "end": 694,
+        "text": "EU's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 726,
+        "end": 729,
+        "text": "BBC",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 739,
+        "end": 741,
+        "text": "EU",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 802,
+        "end": 806,
+        "text": "€5bn",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 808,
+        "end": 814,
+        "text": "£4.3bn",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 698,
+    "created_at": "2023-10-17T12:43:49.019035Z",
+    "updated_at": "2023-10-17T12:43:49.019057Z",
+    "lead_time": 53.007
+  },
+  {
+    "text": "\"One thing is clear: for us Europeans, the war of Russia against Ukraine is an existential threat and we have to react according to that,\" he said. But he admitted he was \"worried\" about Congress's decision to block further aid.",
+    "id": 679,
+    "label": [
+      {
+        "start": 50,
+        "end": 56,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 65,
+        "end": 72,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 699,
+    "created_at": "2023-10-17T12:44:00.361216Z",
+    "updated_at": "2023-10-17T12:44:00.361230Z",
+    "lead_time": 11.221
+  },
+  {
+    "text": "The counter-argument diplomats are making is that more than the fate of Ukraine hangs in the balance on the battlefield. They say countries in Africa, Asia and Latin America are beginning to warm to this argument. Before, some of those countries dismissed the fighting as a European regional war that had little to do with them. But Russia's withdrawal from the Black Sea grain initiative and its attacks on Ukrainian grain silos have made it easier for Ukraine and the West to argue that the Global South has a stake in the fight. Ukraine's Foreign Minister, Dmytro Kuleba, told reporters: \"What is at stake in Ukraine is much bigger than just Ukraine. It's about the stability and predictability of the world.",
+    "id": 680,
+    "label": [
+      {
+        "start": 72,
+        "end": 79,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 143,
+        "end": 149,
+        "text": "Africa",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 151,
+        "end": 155,
+        "text": "Asia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 160,
+        "end": 173,
+        "text": "Latin America",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 333,
+        "end": 341,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 454,
+        "end": 461,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 466,
+        "end": 474,
+        "text": "the West",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 489,
+        "end": 505,
+        "text": "the Global South",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 532,
+        "end": 541,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 542,
+        "end": 573,
+        "text": "Foreign Minister, Dmytro Kuleba",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 612,
+        "end": 619,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 645,
+        "end": 652,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 700,
+    "created_at": "2023-10-17T12:44:57.240499Z",
+    "updated_at": "2023-10-17T12:44:57.240514Z",
+    "lead_time": 56.756
+  },
+  {
+    "text": "\"So Ukraine is playing a long game. Key figures within the government have long anticipated that Western support might soften over time. They have been ready for the vagaries of transatlantic electoral cycles. And they know the real test of Western unity may come later at two key moments. First, if Donald Trump is re-elected President next year and curbs US support, then Ukraine will face a big decision about how long it can continue fighting. And second, if there is some kind of end to the conflict, then allies may find it hard to unite around the compromises that might be needed to reach a political settlement",
+    "id": 681,
+    "label": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 97,
+        "end": 104,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 241,
+        "end": 248,
+        "text": "Western",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 300,
+        "end": 312,
+        "text": "Donald Trump",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 374,
+        "end": 381,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 701,
+    "created_at": "2023-10-17T12:45:34.104236Z",
+    "updated_at": "2023-10-17T12:45:34.104251Z",
+    "lead_time": 36.733
+  },
+  {
+    "text": "Ukraine's first underground school will be built in the north-eastern city of Kharkiv, Mayor Ihor Terekhov has said. \"Such a shelter will allow thousands of children to continue their in-person education safely even during missile threats,\" he said.",
+    "id": 682,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 85,
+        "text": "the north-eastern city of Kharkiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 87,
+        "end": 106,
+        "text": "Mayor Ihor Terekhov",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 702,
+    "created_at": "2023-10-17T12:45:49.277697Z",
+    "updated_at": "2023-10-17T12:45:49.277713Z",
+    "lead_time": 15.048
+  },
+  {
+    "text": "Rocket attacks hit the Kharkiv region again on Monday - a regular occurrence.",
+    "id": 683,
+    "label": [
+      {
+        "start": 23,
+        "end": 30,
+        "text": "Kharkiv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 703,
+    "created_at": "2023-10-17T12:45:56.335186Z",
+    "updated_at": "2023-10-17T12:45:56.335205Z",
+    "lead_time": 6.934
+  },
+  {
+    "text": "Ukraine says more than 360 educational facilities have been destroyed and over 3,000 damaged since the start of Russia's full-scale invasion in 2022.",
+    "id": 684,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 120,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 144,
+        "end": 148,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 704,
+    "created_at": "2023-10-17T12:46:04.366357Z",
+    "updated_at": "2023-10-17T12:46:04.366372Z",
+    "lead_time": 7.906
+  },
+  {
+    "text": "Many of those pupils have been forced to attend classes in underground metro stations and other makeshift shelters - often without proper heating.",
+    "id": 686,
+    "annotator": 1,
+    "annotation_id": 706,
+    "created_at": "2023-10-17T12:46:24.167304Z",
+    "updated_at": "2023-10-17T12:46:24.167321Z",
+    "lead_time": 5.249
+  },
+  {
+    "text": "Last week, the EU's Fundamental Rights Agency said many schools in the 27-member bloc were struggling to integrate children who have fled the war in Ukraine. It said there were currently about 1.3 million Ukrainian children in the EU.",
+    "id": 687,
+    "label": [
+      {
+        "start": 15,
+        "end": 45,
+        "text": "EU's Fundamental Rights Agency",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 149,
+        "end": 156,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 231,
+        "end": 233,
+        "text": "EU",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 707,
+    "created_at": "2023-10-17T12:46:38.257981Z",
+    "updated_at": "2023-10-17T12:46:42.216543Z",
+    "lead_time": 15.333
+  },
+  {
+    "text": "In Sunday's post on social media, the Kharkiv mayor announced that \"it is here that we plan to build the first underground school in Ukraine\".",
+    "id": 688,
+    "label": [
+      {
+        "start": 3,
+        "end": 11,
+        "text": "Sunday's",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 51,
+        "text": "the Kharkiv mayor",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 133,
+        "end": 140,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 708,
+    "created_at": "2023-10-17T12:47:02.905370Z",
+    "updated_at": "2023-10-17T12:47:02.905384Z",
+    "lead_time": 19.124
+  },
+  {
+    "text": "Mr Terekhov said the school \"will meet the most modern requirements for defensive buildings\".",
+    "id": 689,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Mr Terekhov",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 709,
+    "created_at": "2023-10-17T12:47:06.545975Z",
+    "updated_at": "2023-10-17T12:47:06.545996Z",
+    "lead_time": 3.517
+  },
+  {
+    "text": "And he stressed that the city authorities \"will not reduce educational expenditure by a single hryvnia [Ukraine's currency] this year or next year, despite the lack of budget funds\".",
+    "id": 690,
+    "label": [
+      {
+        "start": 104,
+        "end": 113,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 88,
+        "end": 102,
+        "text": "single hryvnia",
+        "labels": [
+          "Money"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 710,
+    "created_at": "2023-10-17T12:47:13.167222Z",
+    "updated_at": "2023-10-17T12:47:38.101947Z",
+    "lead_time": 10.864
+  },
+  {
+    "text": "The mayor gave no details on when the underground school would open, and how many pupils would be able to study there.",
+    "id": 691,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "The mayor",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 711,
+    "created_at": "2023-10-17T12:47:18.409133Z",
+    "updated_at": "2023-10-17T12:47:18.409148Z",
+    "lead_time": 5.119
+  },
+  {
+    "text": "Last month, more than 1,000 Kharkiv pupils started their new school year at five underground stations that were turned into the so-called \"metro-schools\".",
+    "id": 692,
+    "annotator": 1,
+    "annotation_id": 712,
+    "created_at": "2023-10-17T12:47:31.091688Z",
+    "updated_at": "2023-10-17T12:47:31.091713Z",
+    "lead_time": 12.56
+  },
+  {
+    "text": "The students are ferried by buses, and study in two shifts: the early one starts at 09:00 local time, followed by the late one at 13:00. Police and rescuers are on duty at each underground station.",
+    "id": 693,
+    "label": [
+      {
+        "start": 84,
+        "end": 100,
+        "text": "09:00 local time",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 130,
+        "end": 135,
+        "text": "13:00",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 713,
+    "created_at": "2023-10-17T12:47:51.400843Z",
+    "updated_at": "2023-10-17T12:47:51.400861Z",
+    "lead_time": 11.323
+  },
+  {
+    "text": "\"Lessons in the metro. Could you ever imagine that Ukrainian children will study in the underground? This is our reality now,\" Ukrainian Interior Minister Ihor Klymenko said at the time.",
+    "id": 694,
+    "label": [
+      {
+        "start": 127,
+        "end": 168,
+        "text": "Ukrainian Interior Minister Ihor Klymenko",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 714,
+    "created_at": "2023-10-17T12:48:05.886825Z",
+    "updated_at": "2023-10-17T12:48:05.886842Z",
+    "lead_time": 14.359
+  },
+  {
+    "text": "Kharkiv - Ukraine's second-largest city located only 30km (19 miles) from the Russian border - was heavily bombed during the first weeks of Russian President Vladimir Putin's invasion launched in February 2022.",
+    "id": 695,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Kharkiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 19,
+        "text": "Ukraine's",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 78,
+        "end": 85,
+        "text": "Russian",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 140,
+        "end": 174,
+        "text": "Russian President Vladimir Putin's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 196,
+        "end": 209,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 715,
+    "created_at": "2023-10-17T12:48:20.006823Z",
+    "updated_at": "2023-10-17T12:48:20.006837Z",
+    "lead_time": 13.993
+  },
+  {
+    "text": "Local residents even witnessed fierce street fighting in the city - when Russian troops attempted to capture Kharkiv.",
+    "id": 696,
+    "label": [
+      {
+        "start": 73,
+        "end": 87,
+        "text": "Russian troops",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 109,
+        "end": 116,
+        "text": "Kharkiv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 716,
+    "created_at": "2023-10-17T12:48:30.755328Z",
+    "updated_at": "2023-10-17T12:48:30.755341Z",
+    "lead_time": 10.621
+  },
+  {
+    "text": "They were eventually pushed back during a lightning Ukrainian counter-offensive last autumn.",
+    "id": 697,
+    "annotator": 1,
+    "annotation_id": 717,
+    "created_at": "2023-10-17T12:48:33.321357Z",
+    "updated_at": "2023-10-17T12:48:33.321374Z",
+    "lead_time": 2.44
+  },
+  {
+    "text": "Open-ended service, just 10 days' leave a year and a high casualty rate - for Ukrainian soldiers in one unit, life on the front line is far from easy, as BBC Newsnight witnessed up close.",
+    "id": 698,
+    "label": [
+      {
+        "start": 78,
+        "end": 96,
+        "text": "Ukrainian soldiers",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 154,
+        "end": 167,
+        "text": "BBC Newsnight",
+        "labels": [
+          "Organisation"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 718,
+    "created_at": "2023-10-17T12:48:43.345217Z",
+    "updated_at": "2023-10-17T12:48:43.345232Z",
+    "lead_time": 9.898
+  },
+  {
+    "text": "Standing among some flattened buildings, \"Jimmy\", a Ukrainian officer who's been on active service for years, reflected on his survival: \"I'm a lucky man… as I see it, war can either love people or not",
+    "id": 699,
+    "label": [
+      {
+        "start": 42,
+        "end": 47,
+        "text": "Jimmy",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 719,
+    "created_at": "2023-10-17T12:48:51.788229Z",
+    "updated_at": "2023-10-17T12:48:51.788243Z",
+    "lead_time": 8.328
+  },
+  {
+    "text": "\"His soldiers think the fact Jimmy's still with them, despite multiple wounds, means he lives a charmed life. His unit, the 24th Mechanised Brigade, has a long history, and is part of the old regular Ukrainian army, fighting the Russians from 2014. But since the invasion of February 2022, the army has more than trebled in size, the nation mobilised and Jimmy's unit changed out of all recognition. We spent two weeks in August with the 24th, which now serves in the Donbas, that old centre of smokestack industries in the east, occupying a section of the front between Bakhmut and Horlivka. And we went to the home community in western Ukraine where the brigade was garrisoned before the war, and where many of its families still live. Jimmy - the Ukrainian army asks that we use soldiers' nicknames rather than their real ones - commands a company (usually about 120 troops), a post he stepped into last year. One officer told me that none of the 15 company commanders in post at the start of the war are still in place, all having been promoted or become casualties. In the run-up to war, the 24th Brigade was just over 2,000 strong, rotating its three battalions to the front line in eastern Ukraine for occasional tours of duty. Although the Ukrainian army rarely discusses numbers, sources told me it has now swelled to more than 7,000, with a total of five infantry battalions, four of artillery, a tank battalion and numerous other supporting elements",
+    "id": 700,
+    "label": [
+      {
+        "start": 29,
+        "end": 36,
+        "text": "Jimmy's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 120,
+        "end": 147,
+        "text": "the 24th Mechanised Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 200,
+        "end": 214,
+        "text": "Ukrainian army",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 229,
+        "end": 237,
+        "text": "Russians",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 243,
+        "end": 247,
+        "text": "2014",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 275,
+        "end": 288,
+        "text": "February 2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 355,
+        "end": 362,
+        "text": "Jimmy's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 422,
+        "end": 428,
+        "text": "August",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 434,
+        "end": 442,
+        "text": "the 24th",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 468,
+        "end": 474,
+        "text": "Donbas",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 571,
+        "end": 578,
+        "text": "Bakhmut",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 583,
+        "end": 591,
+        "text": "Horlivka",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 630,
+        "end": 645,
+        "text": "western Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 656,
+        "end": 663,
+        "text": "brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 668,
+        "end": 678,
+        "text": "garrisoned",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 738,
+        "end": 743,
+        "text": "Jimmy",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 750,
+        "end": 764,
+        "text": "Ukrainian army",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1093,
+        "end": 1109,
+        "text": "the 24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1189,
+        "end": 1204,
+        "text": "eastern Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 1244,
+        "end": 1262,
+        "text": "the Ukrainian army",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1365,
+        "end": 1384,
+        "text": "infantry battalions",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1394,
+        "end": 1403,
+        "text": "artillery",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 1407,
+        "end": 1421,
+        "text": "tank battalion",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 720,
+    "created_at": "2023-10-17T12:50:35.403366Z",
+    "updated_at": "2023-10-17T12:50:35.403383Z",
+    "lead_time": 103.484
+  },
+  {
+    "text": "As that mobilisation happened, the old regular soldiers were joined by thousands of volunteers and conscripts. \"Yurii,\" a twenty-something venture capitalist from Kyiv, is one of the talented incomers. Initially given a rifle and sent to the infantry, a few months later, Yurii was transferred into a military \"start-up\", the 24th Brigade's strike drone company. Sitting at a table in a children's playground near the front, he showed us new drones, and the packages of explosive they carry, allowing him and others to fly them into vehicles, buildings, or bunkers where the Russians are taking cover.",
+    "id": 701,
+    "label": [
+      {
+        "start": 163,
+        "end": 167,
+        "text": "Kyiv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 112,
+        "end": 117,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 220,
+        "end": 225,
+        "text": "rifle",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 238,
+        "end": 250,
+        "text": "the infantry",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 272,
+        "end": 277,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 322,
+        "end": 340,
+        "text": "the 24th Brigade's",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 348,
+        "end": 353,
+        "text": "drone",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 721,
+    "created_at": "2023-10-17T12:51:20.215913Z",
+    "updated_at": "2023-10-17T12:51:20.215927Z",
+    "lead_time": 44.683
+  },
+  {
+    "text": "Yurii explained how his mother was initially sceptical about him joining up, but once he started guiding drones into Russian trenches, \"then she changed her mind\", and became proud of him.",
+    "id": 702,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 722,
+    "created_at": "2023-10-17T12:51:25.960357Z",
+    "updated_at": "2023-10-17T12:51:25.960374Z",
+    "lead_time": 5.615
+  },
+  {
+    "text": "Under the terms of their contracts, volunteers - in common with conscripts - can't walk away and are obliged to serve until the war ends. In the meantime, they are entitled to only 10 days' leave each year. Yurii is unusual among the 24th's men in that the £2,600 ($3,195) he earns monthly (80% of which is combat pay) is less than his earnings in civilian life. Bearded, and with a banker's flair for selling a business plan, Yurii told me how the company has to be more ingenious than the Russians because the enemy have so many more drones. One of the officers revealed that although Yurii ranks as a simple private soldier, he basically runs this unit. That rethinking of the usual hierarchy is one of the differences between the pre-2022 army set-up and the force that now fights the Russians. Another is their willingness to overlook age and other factors that might have counted against volunteers before 2022. We met a sergeant nicknamed \"Hryb\" (it means mushroom) who had been put in charge of a self-propelled artillery gun",
+    "id": 703,
+    "label": [
+      {
+        "start": 207,
+        "end": 212,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 234,
+        "end": 240,
+        "text": "24th's",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 257,
+        "end": 263,
+        "text": "£2,600",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 265,
+        "end": 271,
+        "text": "$3,195",
+        "labels": [
+          "Money"
+        ]
+      },
+      {
+        "start": 427,
+        "end": 432,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 536,
+        "end": 542,
+        "text": "drones",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 587,
+        "end": 592,
+        "text": "Yurii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 912,
+        "end": 916,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 734,
+        "end": 742,
+        "text": "pre-2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 947,
+        "end": 951,
+        "text": "Hryb",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 723,
+    "created_at": "2023-10-17T12:52:55.666896Z",
+    "updated_at": "2023-10-17T12:52:55.666908Z",
+    "lead_time": 89.583
+  },
+  {
+    "text": "He's an older man, 52 to be exact, who did his army service more than 30 years ago. What could he know about modern warfare?",
+    "id": 704,
+    "annotator": 1,
+    "annotation_id": 724,
+    "created_at": "2023-10-17T12:53:08.861512Z",
+    "updated_at": "2023-10-17T12:53:08.861526Z",
+    "lead_time": 7.951
+  },
+  {
+    "text": "As it happens, the 24th Brigade's 152mm Akatsiya (or Acacia) howitzers are so ancient that they're the same kind as the one Hryb commanded while serving with the Soviet Army in East Germany in the early 1990s.",
+    "id": 705,
+    "label": [
+      {
+        "start": 15,
+        "end": 33,
+        "text": "the 24th Brigade's",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "text": "152mm Akatsiya",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "text": "Acacia",
+        "labels": [
+          "Weapon"
+        ]
+      },
+      {
+        "start": 158,
+        "end": 173,
+        "text": "the Soviet Army",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 182,
+        "end": 189,
+        "text": "Germany",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 203,
+        "end": 208,
+        "text": "1990s",
+        "labels": [
+          "Temporal"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 725,
+    "created_at": "2023-10-17T12:53:41.597422Z",
+    "updated_at": "2023-10-17T12:53:41.597436Z",
+    "lead_time": 32.61
+  },
+  {
+    "text": "The shells we watched them firing were manufactured 40 years ago, and the crew have nicknamed the howitzer Babushka or Grandma. Who better to know her old quirks than Grandpa Hryb? His decision to volunteer did not sit easily with his family. \"They cried silently,\" Hryb explained. \"They said they would wait for me, that they loved me.",
+    "id": 706,
+    "label": [
+      {
+        "start": 94,
+        "end": 115,
+        "text": "the howitzer Babushka",
+        "labels": [
+          "Weapon"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 726,
+    "created_at": "2023-10-17T12:54:01.883084Z",
+    "updated_at": "2023-10-17T12:54:01.883115Z",
+    "lead_time": 20.163
+  },
+  {
+    "text": "\"Behind the summit declarations, of \"as long as it takes\", are hundreds of thousands of Ukrainian families struggling along, managing their hopes and fears as the war passed its 18-month point without any end apparently in sight. At a rehabilitation centre in Lviv for soldiers with life-changing injuries, I discussed the difficult exchanges when some of the less badly wounded tell their wives they want to return to the front. Image caption, One injured serviceman warns that Ukraine has not reckoned with the number of people damaged by war\"Many boys, well those who remained alive but lost a limb, also lost their family,\" Pavlo, one of the patients, told me.",
+    "id": 707,
+    "label": [
+      {
+        "start": 260,
+        "end": 264,
+        "text": "Lviv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 479,
+        "end": 486,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 628,
+        "end": 633,
+        "text": "Pavlo",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 727,
+    "created_at": "2023-10-17T12:54:36.953593Z",
+    "updated_at": "2023-10-17T12:54:36.953606Z",
+    "lead_time": 34.935
+  },
+  {
+    "text": "That conversation has been taking place within his marriage too, he says ruefully: \"She thinks I have already done my duty.\" Another man, wounded in a minefield during the recent counter-offensive, tells me that Ukrainian society has not yet woken up to how many damaged people there are now. The record of death, maiming, and capture may well be affecting people's willingness to serve. Recruitment is another topic on which Ukraine does not publish official figures.",
+    "id": 708,
+    "label": [
+      {
+        "start": 426,
+        "end": 433,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 728,
+    "created_at": "2023-10-17T12:54:59.353997Z",
+    "updated_at": "2023-10-17T12:54:59.354035Z",
+    "lead_time": 22.273
+  },
+  {
+    "text": "However, among the men that we filmed being trained at Yavoriv and another range closer to the front, many were in their 40s, and quite a few in their 50s. Officers told us about the intense competition for younger recruits among various brigades",
+    "id": 709,
+    "label": [
+      {
+        "start": 55,
+        "end": 62,
+        "text": "Yavoriv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 729,
+    "created_at": "2023-10-17T12:55:09.245062Z",
+    "updated_at": "2023-10-17T12:55:09.245076Z",
+    "lead_time": 9.761
+  },
+  {
+    "text": "It also emerged in August, following the sacking of officers supervising the call-up, that thousands of men were bribing their way out of it or being smuggled out of the country to avoid service. Among those who volunteer willingly to go to the front are many who have lost their jobs in the economic crisis that's accompanied the war and are attracted by the high pay that comes with being on the front line. As for attempts to turn the tables on Russia this summer, in order to liberate occupied lands, the expectations of what the Ukrainian military could achieve were perhaps higher in the Pentagon than among the veterans of the 24th Brigade. \"An easy breakthrough is simply impossible,\" Jimmy told us. \"We are getting ready for a long-term war.\"",
+    "id": 710,
+    "label": [
+      {
+        "start": 19,
+        "end": 25,
+        "text": "August",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 634,
+        "end": 646,
+        "text": "24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 448,
+        "end": 454,
+        "text": "Russia",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 530,
+        "end": 552,
+        "text": "the Ukrainian military",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 590,
+        "end": 602,
+        "text": "the Pentagon",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 693,
+        "end": 698,
+        "text": "Jimmy",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 730,
+    "created_at": "2023-10-17T12:56:44.208974Z",
+    "updated_at": "2023-10-17T12:56:44.209003Z",
+    "lead_time": 94.833
+  },
+  {
+    "text": "Another of the brigade's officers, the commander of one of its battalions, compared the conflict to Vietnam, implying it could last many years.",
+    "id": 711,
+    "label": [
+      {
+        "start": 100,
+        "end": 107,
+        "text": "Vietnam",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "text": "brigade's",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 63,
+        "end": 73,
+        "text": "battalions",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 731,
+    "created_at": "2023-10-17T12:57:05.825963Z",
+    "updated_at": "2023-10-17T12:57:05.825977Z",
+    "lead_time": 21.495
+  },
+  {
+    "text": "And as the fight goes on, so does the loss. Casualties are a matter of great sensitivity in Ukraine, it being against the law to publish figures. But the Pentagon estimated recently that 70,000 Ukrainians had been killed in the war, the great majority of them in the military. From our analysis of social media and archive news reports, our conservative estimate would be that the 24th Brigade has lost something like 400 personnel in total. About 120 of these died during the fighting from 2014 to the start of 2022, the remainder since the Russian invasion. It has also had scores or even hundreds of men captured, another difficult topic for the authorities, since prisoner swaps have been very limited in scale so far. The wife of one prisoner of war told us that just 22 men from the 24th Brigade had returned so far and that all of the government departments she's written to had given her the same message: \"You should wait.",
+    "id": 712,
+    "label": [
+      {
+        "start": 92,
+        "end": 99,
+        "text": "Ukraine",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 150,
+        "end": 162,
+        "text": "the Pentagon",
+        "labels": [
+          "Organisation"
+        ]
+      },
+      {
+        "start": 377,
+        "end": 393,
+        "text": "the 24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 491,
+        "end": 495,
+        "text": "2014",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 512,
+        "end": 516,
+        "text": "2022",
+        "labels": [
+          "Temporal"
+        ]
+      },
+      {
+        "start": 785,
+        "end": 801,
+        "text": "the 24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 732,
+    "created_at": "2023-10-17T12:58:01.548516Z",
+    "updated_at": "2023-10-17T12:58:01.548530Z",
+    "lead_time": 55.593
+  },
+  {
+    "text": "\"The repatriation of prisoners of war is just one of many issues that will have to be negotiated once the guns fall silent. But the loss and public outrage at Russia's actions have made it so much harder for Ukrainian politicians to agree to an armistice or peace deal that looks like a messy compromise.",
+    "id": 713,
+    "label": [
+      {
+        "start": 159,
+        "end": 167,
+        "text": "Russia's",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 733,
+    "created_at": "2023-10-17T12:58:09.312864Z",
+    "updated_at": "2023-10-17T12:58:09.312904Z",
+    "lead_time": 7.631
+  },
+  {
+    "text": "At a cemetery on the outskirts of Lviv, we followed Natalia Nezhura as she placed fresh flowers on her brother Andrii's grave. \"I tried everything to stop him going to the front line,\" she explained. Image caption, Natalia attempted to hide her brother's call-up papers to stop him being sent to the frontShe breaks down as she tells me of her feelings of failure that she had not managed to do this. She had hidden Andrii's call-up papers, then, when that was not successful, used a connection to get him a firearms instructor's job at the Yavoriv training ground, \"but in the end most of the boys were sent to the front line\".",
+    "id": 714,
+    "label": [
+      {
+        "start": 34,
+        "end": 38,
+        "text": "Lviv",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 52,
+        "end": 67,
+        "text": "Natalia Nezhura",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "Andrii's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 215,
+        "end": 222,
+        "text": "Natalia",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 416,
+        "end": 424,
+        "text": "Andrii's",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 537,
+        "end": 564,
+        "text": "the Yavoriv training ground",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 734,
+    "created_at": "2023-10-17T12:58:46.202442Z",
+    "updated_at": "2023-10-17T12:58:46.202456Z",
+    "lead_time": 36.761
+  },
+  {
+    "text": "Andrii was killed earlier this year, when the 24th Brigade had units engaged in the battle for Bakhmut. Our conversation took place among the fluttering flags of many units that adorn the military plot in Lviv, a place where we counted more than 2,000 graves.",
+    "id": 715,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Andrii",
+        "labels": [
+          "Person"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 58,
+        "text": "the 24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      },
+      {
+        "start": 95,
+        "end": 102,
+        "text": "Bakhmut",
+        "labels": [
+          "Location"
+        ]
+      },
+      {
+        "start": 205,
+        "end": 209,
+        "text": "Lviv",
+        "labels": [
+          "Location"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 735,
+    "created_at": "2023-10-17T12:59:23.214905Z",
+    "updated_at": "2023-10-17T12:59:23.214922Z",
+    "lead_time": 19.984
+  },
+  {
+    "text": "Those who imagine this loss and pain might engender a yearning for peace would be in for a rude shock. When I asked her how the war should end, Natalia replied: \"I just want all Russians dead, I hate them with all my heart and soul,\" adding, \"how can you talk about peace when they killed so many of our people?\"",
+    "id": 716,
+    "label": [
+      {
+        "start": 144,
+        "end": 151,
+        "text": "Natalia",
+        "labels": [
+          "Person"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 736,
+    "created_at": "2023-10-17T12:59:44.656250Z",
+    "updated_at": "2023-10-17T12:59:44.656265Z",
+    "lead_time": 13.124
+  },
+  {
+    "text": "For years, the old professional army managed an uneasy peace and occasional flare-ups along the line of contact with the Russians. But now everybody feels a stake in the conflict, and the attitudes we encountered among the soldiers and families of the 24th Brigade underlined the degree to which society as a whole has been mobilised and only a clear-cut victory is now acceptable to Ukrainians.",
+    "id": 717,
+    "label": [
+      {
+        "start": 248,
+        "end": 264,
+        "text": "the 24th Brigade",
+        "labels": [
+          "MilitaryPlatform"
+        ]
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 737,
+    "created_at": "2023-10-17T12:59:55.833045Z",
+    "updated_at": "2023-10-17T12:59:55.833123Z",
+    "lead_time": 11.07
+  }
+]
