@@ -1,0 +1,10 @@
+{
+    "model-1": {
+        "name": "Distilbert base version",
+        "info": "This is a pre-trained model availabe from huggingface. URL to the model details: [distilbert](https://huggingface.co/docs/transformers/model_doc/distilbert)"
+    },
+    "model-2": {
+        "name": "Distilbert fine-tuned version",
+        "info": "This model is the final iteration trained with the data provided by Defence Science and Technology Laboratory (Dstl) and selflabeled data."
+    }
+}

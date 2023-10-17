@@ -1,4 +1,4 @@
-{"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Organisation", "value": "The United States", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 0.98}
+{"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Location", "value": "The United States", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 0.98}
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-70-74-Location", "begin": 70, "end": 74, "type": "Location", "value": "Iraq", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 1}
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-75-80-Temporal", "begin": 75, "end": 80, "type": "Temporal", "value": "today", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 1}
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-0-99-106-Location", "begin": 99, "end": 106, "type": "Location", "value": "Baghdad", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 1}
@@ -13,7 +13,7 @@
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-3-67-88-Organisation", "begin": 472, "end": 493, "type": "Organisation", "value": "Iraqi security forces", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 1}
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-3-92-102-Location", "begin": 497, "end": 507, "type": "Location", "value": "their camp", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 0}
 {"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-3-117-137-Organisation", "begin": 522, "end": 542, "type": "Organisation", "value": "this terrorist group", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 1}
-{"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-4-0-17-Organisation", "begin": 544, "end": 561, "type": "Organisation", "value": "The United States", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 0.61}
+{"_id": "108A8CFC05CC3139A6E65B7A4239F5C6-4-0-17-Organisation", "begin": 544, "end": 561, "type": "Location", "value": "The United States", "documentId": "108A8CFC05CC3139A6E65B7A4239F5C6", "confidence": 0.61}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-0-13-28-Person", "begin": 13, "end": 28, "type": "Person", "value": "President Obama", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-0-33-52-Organisation", "begin": 33, "end": 52, "type": "Organisation", "value": "the American people", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-0-54-55-Person", "begin": 54, "end": 55, "type": "Person", "value": "I", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
@@ -21,16 +21,16 @@
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-0-111-115-Quantity", "begin": 111, "end": 115, "type": "Quantity", "value": "93rd", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-0-164-174-Temporal", "begin": 164, "end": 174, "type": "Temporal", "value": "October 29", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-1-15-19-Person", "begin": 192, "end": 196, "type": "Person", "value": "Ally", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0}
-{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-1-21-38-Organisation", "begin": 198, "end": 215, "type": "Organisation", "value": "the United States", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0.99}
+{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-1-21-38-Organisation", "begin": 198, "end": 215, "type": "Location", "value": "the United States", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0.99}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-1-71-113-Organisation", "begin": 248, "end": 290, "type": "Organisation", "value": "Turkey\u2019s democratically elected government", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-1-157-178-DocumentReference", "begin": 334, "end": 355, "type": "DocumentReference", "value": "Turkey\u2019s constitution", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-2-4-6-Organisation", "begin": 361, "end": 363, "type": "Organisation", "value": "we", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-2-129-138-Temporal", "begin": 486, "end": 495, "type": "Temporal", "value": "last July", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-3-0-17-Organisation", "begin": 498, "end": 515, "type": "Organisation", "value": "Our two countries", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
-{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-3-95-101-Nationality", "begin": 593, "end": 599, "type": "Nationality", "value": "Syrian", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
+{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-3-95-101-Nationality", "begin": 593, "end": 599, "type": "Location", "value": "Syrian", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-3-197-221-Organisation", "begin": 695, "end": 719, "type": "Organisation", "value": "violent extremist groups", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-4-58-64-Location", "begin": 779, "end": 785, "type": "Location", "value": "Turkey", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
-{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-4-66-83-Organisation", "begin": 787, "end": 804, "type": "Organisation", "value": "the United States", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0.82}
+{"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-4-66-83-Organisation", "begin": 787, "end": 804, "type": "Location", "value": "the United States", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0.82}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-4-170-189-Organisation", "begin": 891, "end": 910, "type": "Organisation", "value": "the world community", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-5-0-19-Organisation", "begin": 965, "end": 984, "type": "Organisation", "value": "The American people", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 0.98}
 {"_id": "1E4938BF59D806C4E3AC9DDF2CC3E87F-5-42-47-Organisation", "begin": 1007, "end": 1012, "type": "Organisation", "value": "their", "documentId": "1E4938BF59D806C4E3AC9DDF2CC3E87F", "confidence": 1}
@@ -87,7 +87,7 @@
 {"_id": "2C271BB862754AECF35665280FE7B93C-0-63-87-Location", "begin": 63, "end": 87, "type": "Location", "value": "the Syrian town of Dabiq", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C271BB862754AECF35665280FE7B93C-0-93-97-Organisation", "begin": 93, "end": 97, "type": "Organisation", "value": "ISIL", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C271BB862754AECF35665280FE7B93C-0-140-144-Person", "begin": 140, "end": 144, "type": "Person", "value": "ally", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 0}
-{"_id": "2C271BB862754AECF35665280FE7B93C-0-145-151-Organisation", "begin": 145, "end": 151, "type": "Organisation", "value": "Turkey", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 0.98}
+{"_id": "2C271BB862754AECF35665280FE7B93C-0-145-151-Organisation", "begin": 145, "end": 151, "type": "Location", "value": "Turkey", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 0.98}
 {"_id": "2C271BB862754AECF35665280FE7B93C-0-156-183-Organisation", "begin": 156, "end": 183, "type": "Organisation", "value": "our international coalition", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C271BB862754AECF35665280FE7B93C-1-58-77-Organisation", "begin": 243, "end": 262, "type": "Organisation", "value": "this barbaric group", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C271BB862754AECF35665280FE7B93C-2-0-5-Location", "begin": 264, "end": 269, "type": "Location", "value": "Dabiq", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
@@ -104,7 +104,7 @@
 {"_id": "2C271BB862754AECF35665280FE7B93C-5-29-40-Organisation", "begin": 618, "end": 629, "type": "Organisation", "value": "the Syrians", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C271BB862754AECF35665280FE7B93C-5-60-65-Location", "begin": 649, "end": 654, "type": "Location", "value": "Dabiq", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 0.99}
 {"_id": "2C271BB862754AECF35665280FE7B93C-5-80-84-Person", "begin": 669, "end": 673, "type": "Person", "value": "ally", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 0}
-{"_id": "2C271BB862754AECF35665280FE7B93C-5-85-91-Organisation", "begin": 674, "end": 680, "type": "Organisation", "value": "Turkey", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
+{"_id": "2C271BB862754AECF35665280FE7B93C-5-85-91-Organisation", "begin": 674, "end": 680, "type": "Location", "value": "Turkey", "documentId": "2C271BB862754AECF35665280FE7B93C", "confidence": 1}
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-0-0-80-Person", "begin": 0, "end": 80, "type": "Person", "value": "Special Presidential Envoy for the Global Coalition to Counter ISIL Brett McGurk", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-0-91-116-Organisation", "begin": 91, "end": 116, "type": "Organisation", "value": "an interagency delegation", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-0-120-135-Location", "begin": 120, "end": 135, "type": "Location", "value": "Berlin, Germany", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
@@ -126,7 +126,7 @@
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-4-20-35-Organisation", "begin": 856, "end": 871, "type": "Organisation", "value": "the Small Group", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-4-50-66-Location", "begin": 886, "end": 902, "type": "Location", "value": "Washington, D.C.", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
 {"_id": "2C6CB502FAD51B6B4CA765E57E221BEA-4-70-83-Temporal", "begin": 906, "end": 919, "type": "Temporal", "value": "July 21, 2016", "documentId": "2C6CB502FAD51B6B4CA765E57E221BEA", "confidence": 1}
-{"_id": "2E857EFC55A390B6382FDE5C87F06D67-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Organisation", "value": "The United States", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
+{"_id": "2E857EFC55A390B6382FDE5C87F06D67-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Location", "value": "The United States", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-0-79-84-Location", "begin": 79, "end": 84, "type": "Location", "value": "Jabla", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-0-88-121-Location", "begin": 88, "end": 121, "type": "Location", "value": "the northwest province of Latakia", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-0-127-150-Location", "begin": 127, "end": 150, "type": "Location", "value": "the port city of Tartus", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
@@ -154,7 +154,7 @@
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-5-191-209-Organisation", "begin": 1265, "end": 1283, "type": "Organisation", "value": "innocent civilians", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-5-213-219-Location", "begin": 1287, "end": 1293, "type": "Location", "value": "Aleppo", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-5-228-244-Location", "begin": 1302, "end": 1318, "type": "Location", "value": "Damascus suburbs", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
-{"_id": "2E857EFC55A390B6382FDE5C87F06D67-6-0-6-Organisation", "begin": 1320, "end": 1326, "type": "Organisation", "value": "Russia", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 0.94}
+{"_id": "2E857EFC55A390B6382FDE5C87F06D67-6-0-6-Organisation", "begin": 1320, "end": 1326, "type": "Location", "value": "Russia", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 0.94}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-6-60-70-Organisation", "begin": 1380, "end": 1390, "type": "Organisation", "value": "the regime", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-6-192-198-Organisation", "begin": 1512, "end": 1518, "type": "Organisation", "value": "the UN", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
 {"_id": "2E857EFC55A390B6382FDE5C87F06D67-7-27-38-Organisation", "begin": 1706, "end": 1717, "type": "Organisation", "value": "all parties", "documentId": "2E857EFC55A390B6382FDE5C87F06D67", "confidence": 1}
@@ -165,9 +165,9 @@
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-0-92-97-Nationality", "begin": 92, "end": 97, "type": "Nationality", "value": "Iraqi", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 0}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-0-120-125-Location", "begin": 120, "end": 125, "type": "Location", "value": "Mosul", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-1-3-5-Organisation", "begin": 130, "end": 132, "type": "Organisation", "value": "we", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 0.98}
-{"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-1-34-51-Organisation", "begin": 161, "end": 178, "type": "Organisation", "value": "the United States", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 0.99}
+{"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-1-34-51-Organisation", "begin": 161, "end": 178, "type": "Location", "value": "the United States", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 0.99}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-1-61-66-Nationality", "begin": 188, "end": 193, "type": "Nationality", "value": "Iraqi", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
-{"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-2-13-15-Organisation", "begin": 230, "end": 232, "type": "Organisation", "value": "we", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
+{"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-2-13-15-Organisation", "begin": 230, "end": 232, "type": "Location", "value": "we", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-2-24-48-Organisation", "begin": 241, "end": 265, "type": "Organisation", "value": "all international forces", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-2-52-56-Location", "begin": 269, "end": 273, "type": "Location", "value": "Iraq", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 1}
 {"_id": "31E63458C6BF8F6F1D50D7041E5B89C9-2-119-141-Organisation", "begin": 336, "end": 358, "type": "Organisation", "value": "the Government of Iraq", "documentId": "31E63458C6BF8F6F1D50D7041E5B89C9", "confidence": 0.99}
@@ -181,16 +181,16 @@
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-0-89-94-Location", "begin": 89, "end": 94, "type": "Location", "value": "Syria", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-0-2-Person", "begin": 96, "end": 98, "type": "Person", "value": "He", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-26-28-Person", "begin": 122, "end": 124, "type": "Person", "value": "he", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
-{"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-70-87-Organisation", "begin": 166, "end": 183, "type": "Organisation", "value": "the United States", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
+{"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-70-87-Organisation", "begin": 166, "end": 183, "type": "Location", "value": "the United States", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-100-119-Organisation", "begin": 196, "end": 215, "type": "Organisation", "value": "the people of Syria", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 0.99}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-1-221-227-Nationality", "begin": 317, "end": 323, "type": "Nationality", "value": "Syrian", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 0}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-0-2-Organisation", "begin": 405, "end": 407, "type": "Organisation", "value": "We", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-11-14-Person", "begin": 416, "end": 419, "type": "Person", "value": "his", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-27-38-Location", "begin": 432, "end": 443, "type": "Location", "value": "the country", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 1}
-{"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-97-114-Organisation", "begin": 502, "end": 519, "type": "Organisation", "value": "the United States", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 0.92}
+{"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-97-114-Organisation", "begin": 502, "end": 519, "type": "Location", "value": "the United States", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 0.92}
 {"_id": "340238F0CEF0581CBBA9106FFB2EA97C-2-127-146-Organisation", "begin": 532, "end": 551, "type": "Organisation", "value": "the people of Syria", "documentId": "340238F0CEF0581CBBA9106FFB2EA97C", "confidence": 0.96}
 {"_id": "4174EF50EF8D9024BCC261D602202738-0-34-57-Person", "begin": 34, "end": 57, "type": "Person", "value": "Spokesperson John Kirby", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
-{"_id": "4174EF50EF8D9024BCC261D602202738-1-15-32-Organisation", "begin": 75, "end": 92, "type": "Organisation", "value": "the United States", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
+{"_id": "4174EF50EF8D9024BCC261D602202738-1-15-32-Organisation", "begin": 75, "end": 92, "type": "Location", "value": "the United States", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
 {"_id": "4174EF50EF8D9024BCC261D602202738-1-52-57-Location", "begin": 112, "end": 117, "type": "Location", "value": "Paris", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
 {"_id": "4174EF50EF8D9024BCC261D602202738-1-69-74-Location", "begin": 129, "end": 134, "type": "Location", "value": "Syria", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
 {"_id": "4174EF50EF8D9024BCC261D602202738-1-78-88-Temporal", "begin": 138, "end": 148, "type": "Temporal", "value": "October 27", "documentId": "4174EF50EF8D9024BCC261D602202738", "confidence": 1}
@@ -215,7 +215,7 @@
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-3-67-71-Organisation", "begin": 499, "end": 503, "type": "Organisation", "value": "ISIL", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-3-93-101-Location", "begin": 525, "end": 533, "type": "Location", "value": "its camp", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 0}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-3-137-153-Organisation", "begin": 569, "end": 585, "type": "Organisation", "value": "the Iraqi people", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
-{"_id": "487C0B93A959D64A34CA2F40EE82C18B-4-0-17-Organisation", "begin": 587, "end": 604, "type": "Organisation", "value": "The United States", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 0.28}
+{"_id": "487C0B93A959D64A34CA2F40EE82C18B-4-0-17-Organisation", "begin": 587, "end": 604, "type": "Location", "value": "The United States", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 0.28}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-4-63-79-Organisation", "begin": 650, "end": 666, "type": "Organisation", "value": "the Iraqi people", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-4-97-101-Organisation", "begin": 684, "end": 688, "type": "Organisation", "value": "ISIL", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-5-0-2-Organisation", "begin": 721, "end": 723, "type": "Organisation", "value": "We", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 0.98}
@@ -226,7 +226,7 @@
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-5-147-169-Organisation", "begin": 868, "end": 890, "type": "Organisation", "value": "the Government of Iraq", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-5-183-187-Organisation", "begin": 904, "end": 908, "type": "Organisation", "value": "ISIL", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
 {"_id": "487C0B93A959D64A34CA2F40EE82C18B-5-200-227-Organisation", "begin": 921, "end": 948, "type": "Organisation", "value": "this terrorist organization", "documentId": "487C0B93A959D64A34CA2F40EE82C18B", "confidence": 1}
-{"_id": "6413ED35E27EFB504C689047F2F17B0F-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Organisation", "value": "The United States", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.98}
+{"_id": "6413ED35E27EFB504C689047F2F17B0F-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Location", "value": "The United States", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.98}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-0-82-94-Location", "begin": 82, "end": 94, "type": "Location", "value": "Camp Hurriya", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-0-119-133-Organisation", "begin": 119, "end": 133, "type": "Organisation", "value": "camp residents", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-1-26-38-Organisation", "begin": 161, "end": 173, "type": "Organisation", "value": "the families", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
@@ -248,7 +248,7 @@
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-4-0-2-Organisation", "begin": 661, "end": 663, "type": "Organisation", "value": "We", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.94}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-4-23-45-Organisation", "begin": 684, "end": 706, "type": "Organisation", "value": "the Government of Iraq", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-5-43-45-Organisation", "begin": 807, "end": 809, "type": "Organisation", "value": "we", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
-{"_id": "6413ED35E27EFB504C689047F2F17B0F-5-63-80-Organisation", "begin": 827, "end": 844, "type": "Organisation", "value": "the United States", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.96}
+{"_id": "6413ED35E27EFB504C689047F2F17B0F-5-63-80-Organisation", "begin": 827, "end": 844, "type": "Location", "value": "the United States", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.96}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-5-112-149-Person", "begin": 876, "end": 913, "type": "Person", "value": "the UN High Commissioner for Refugees", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-5-175-197-Organisation", "begin": 939, "end": 961, "type": "Organisation", "value": "Camp Hurriya residents", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-5-201-230-Location", "begin": 965, "end": 994, "type": "Location", "value": "a permanent and safe location", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 0.99}
@@ -262,7 +262,7 @@
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-7-24-63-Person", "begin": 1264, "end": 1303, "type": "Person", "value": "its Senior Advisor for MEK Resettlement", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-7-134-163-Organisation", "begin": 1374, "end": 1403, "type": "Organisation", "value": "the residents of Camp Hurriya", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
 {"_id": "6413ED35E27EFB504C689047F2F17B0F-7-167-192-Location", "begin": 1407, "end": 1432, "type": "Location", "value": "safe, permanent locations", "documentId": "6413ED35E27EFB504C689047F2F17B0F", "confidence": 1}
-{"_id": "6E62DC65EFDFB1B357175EB255F25C36-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Organisation", "value": "The United States", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 0.99}
+{"_id": "6E62DC65EFDFB1B357175EB255F25C36-0-0-17-Organisation", "begin": 0, "end": 17, "type": "Location", "value": "The United States", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 0.99}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-0-36-40-Organisation", "begin": 36, "end": 40, "type": "Organisation", "value": "ISIL", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-0-52-67-Weapon", "begin": 52, "end": 67, "type": "Weapon", "value": "suicide attacks", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 0.97}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-0-71-92-Location", "begin": 71, "end": 92, "type": "Location", "value": "the town of Tel Tamer", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
@@ -278,7 +278,7 @@
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-2-142-147-Location", "begin": 451, "end": 456, "type": "Location", "value": "Syria", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-2-152-156-Location", "begin": 461, "end": 465, "type": "Location", "value": "Iraq", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-2-247-251-Organisation", "begin": 556, "end": 560, "type": "Organisation", "value": "ISIL", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
-{"_id": "6E62DC65EFDFB1B357175EB255F25C36-3-0-17-Organisation", "begin": 563, "end": 580, "type": "Organisation", "value": "The United States", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 0.88}
+{"_id": "6E62DC65EFDFB1B357175EB255F25C36-3-0-17-Organisation", "begin": 563, "end": 580, "type": "Location", "value": "The United States", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 0.88}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-3-52-64-Organisation", "begin": 615, "end": 627, "type": "Organisation", "value": "our partners", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-3-68-73-Location", "begin": 631, "end": 636, "type": "Location", "value": "Syria", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
 {"_id": "6E62DC65EFDFB1B357175EB255F25C36-3-75-79-Location", "begin": 638, "end": 642, "type": "Location", "value": "Iraq", "documentId": "6E62DC65EFDFB1B357175EB255F25C36", "confidence": 1}
@@ -288,7 +288,7 @@
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-3-43-Person", "begin": 3, "end": 43, "type": "Person", "value": "Deputy Secretary of State Antony Blinken", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 1}
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-54-59-Temporal", "begin": 54, "end": 59, "type": "Temporal", "value": "today", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 1}
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-63-82-Organisation", "begin": 63, "end": 82, "type": "Organisation", "value": "the Manama Dialogue", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 0.83}
-{"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-84-101-Organisation", "begin": 84, "end": 101, "type": "Organisation", "value": "the United States", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 0.23}
+{"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-84-101-Organisation", "begin": 84, "end": 101, "type": "Location", "value": "the United States", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 0.23}
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-122-134-Money", "begin": 122, "end": 134, "type": "Money", "value": "$100 million", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 1}
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-156-177-Organisation", "begin": 156, "end": 177, "type": "Organisation", "value": "the Syrian opposition", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 1}
 {"_id": "8EC0382F2D0E4360EC7A85FA8FEA02D8-0-245-266-Organisation", "begin": 245, "end": 266, "type": "Organisation", "value": "the Syrian opposition", "documentId": "8EC0382F2D0E4360EC7A85FA8FEA02D8", "confidence": 1}
@@ -368,7 +368,7 @@
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-4-82-91-Organisation", "begin": 560, "end": 569, "type": "Organisation", "value": "coalition", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-4-111-117-Organisation", "begin": 589, "end": 595, "type": "Organisation", "value": "Da\u2019esh", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-4-146-166-Organisation", "begin": 624, "end": 644, "type": "Organisation", "value": "this terrorist group", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
-{"_id": "9DFBD0B607245D1B56B90FD64E9AB952-5-0-8-Organisation", "begin": 652, "end": 660, "type": "Organisation", "value": "The U.S.", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
+{"_id": "9DFBD0B607245D1B56B90FD64E9AB952-5-0-8-Organisation", "begin": 652, "end": 660, "type": "Location", "value": "The U.S.", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-5-45-59-Organisation", "begin": 697, "end": 711, "type": "Organisation", "value": "the government", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-5-64-78-Organisation", "begin": 716, "end": 730, "type": "Organisation", "value": "people of Iraq", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
 {"_id": "9DFBD0B607245D1B56B90FD64E9AB952-5-144-160-Organisation", "begin": 796, "end": 812, "type": "Organisation", "value": "Global Coalition", "documentId": "9DFBD0B607245D1B56B90FD64E9AB952", "confidence": 1}
@@ -416,9 +416,9 @@
 {"_id": "C02FDFE461425ED8B64B982D05BD2D62-6-193-211-Organisation", "begin": 859, "end": 877, "type": "Organisation", "value": "repressive regimes", "documentId": "C02FDFE461425ED8B64B982D05BD2D62", "confidence": 0.91}
 {"_id": "C02FDFE461425ED8B64B982D05BD2D62-6-228-240-Organisation", "begin": 894, "end": 906, "type": "Organisation", "value": "their people", "documentId": "C02FDFE461425ED8B64B982D05BD2D62", "confidence": 1}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-0-5-Temporal", "begin": 0, "end": 5, "type": "Temporal", "value": "Today", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-7-24-Organisation", "begin": 7, "end": 24, "type": "Organisation", "value": "the United States", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.85}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-29-33-Organisation", "begin": 29, "end": 33, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.6}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-111-115-Organisation", "begin": 111, "end": 115, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-7-24-Organisation", "begin": 7, "end": 24, "type": "Location", "value": "the United States", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.85}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-29-33-Organisation", "begin": 29, "end": 33, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.6}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-111-115-Organisation", "begin": 111, "end": 115, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-0-132-142-Money", "begin": 132, "end": 142, "type": "Money", "value": "$1 billion", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-45-60-Person", "begin": 247, "end": 262, "type": "Person", "value": "President Obama", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-73-79-Organisation", "begin": 275, "end": 281, "type": "Organisation", "value": "the G7", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
@@ -426,19 +426,19 @@
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-90-96-Location", "begin": 292, "end": 298, "type": "Location", "value": "Summit", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-100-108-Temporal", "begin": 302, "end": 310, "type": "Temporal", "value": "May 2016", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-138-142-Organisation", "begin": 340, "end": 344, "type": "Organisation", "value": "U.S.", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-165-169-Organisation", "begin": 367, "end": 371, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-165-169-Organisation", "begin": 367, "end": 371, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-1-229-234-Organisation", "begin": 431, "end": 436, "type": "Organisation", "value": "Daesh", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-2-61-65-Organisation", "begin": 499, "end": 503, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-3-36-40-Organisation", "begin": 720, "end": 724, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.81}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-2-61-65-Organisation", "begin": 499, "end": 503, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-3-36-40-Organisation", "begin": 720, "end": 724, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.81}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-3-53-67-Organisation", "begin": 737, "end": 751, "type": "Organisation", "value": "other partners", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-3-79-110-Organisation", "begin": 763, "end": 794, "type": "Organisation", "value": "the International Monetary Fund", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.96}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-4-55-59-Organisation", "begin": 892, "end": 896, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-5-81-85-Organisation", "begin": 1037, "end": 1041, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.97}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-5-120-124-Organisation", "begin": 1076, "end": 1080, "type": "Organisation", "value": "U.S.", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.94}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-6-45-49-Organisation", "begin": 1153, "end": 1157, "type": "Organisation", "value": "U.S.", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-4-55-59-Organisation", "begin": 892, "end": 896, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-5-81-85-Organisation", "begin": 1037, "end": 1041, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.97}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-5-120-124-Organisation", "begin": 1076, "end": 1080, "type": "Location", "value": "U.S.", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.94}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-6-45-49-Organisation", "begin": 1153, "end": 1157, "type": "Location", "value": "U.S.", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-6-73-91-Organisation", "begin": 1181, "end": 1199, "type": "Organisation", "value": "the people of Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-6-258-275-Organisation", "begin": 1366, "end": 1383, "type": "Organisation", "value": "the United States", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
-{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-7-3-7-Organisation", "begin": 1402, "end": 1406, "type": "Organisation", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.54}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-6-258-275-Organisation", "begin": 1366, "end": 1383, "type": "Location", "value": "the United States", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
+{"_id": "CFEF9B4E83786F435E8483A03DB20D8E-7-3-7-Organisation", "begin": 1402, "end": 1406, "type": "Location", "value": "Iraq", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.54}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-7-106-116-Organisation", "begin": 1505, "end": 1515, "type": "Organisation", "value": "all Iraqis", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.99}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-7-118-120-Organisation", "begin": 1517, "end": 1519, "type": "Organisation", "value": "it", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 0.96}
 {"_id": "CFEF9B4E83786F435E8483A03DB20D8E-7-147-190-Organisation", "begin": 1546, "end": 1589, "type": "Organisation", "value": "its partners in the international community", "documentId": "CFEF9B4E83786F435E8483A03DB20D8E", "confidence": 1}
@@ -464,14 +464,14 @@
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-1-141-149-Organisation", "begin": 542, "end": 550, "type": "Organisation", "value": "the SBAH", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-1-172-202-Organisation", "begin": 573, "end": 603, "type": "Organisation", "value": "international heritage experts", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-1-208-211-Organisation", "begin": 609, "end": 612, "type": "Organisation", "value": "WMF", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
-{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-2-62-79-Organisation", "begin": 676, "end": 693, "type": "Organisation", "value": "the United States", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0.31}
-{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-2-84-88-Organisation", "begin": 698, "end": 702, "type": "Organisation", "value": "Iraq", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0.23}
+{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-2-62-79-Organisation", "begin": 676, "end": 693, "type": "Location", "value": "the United States", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0.31}
+{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-2-84-88-Organisation", "begin": 698, "end": 702, "type": "Location", "value": "Iraq", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0.23}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-2-112-116-Location", "begin": 726, "end": 730, "type": "Location", "value": "Iraq", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-22-37-Location", "begin": 785, "end": 800, "type": "Location", "value": "the Ishtar Gate", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-80-109-Organisation", "begin": 843, "end": 872, "type": "Organisation", "value": "the Future of Babylon project", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0.51}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-131-135-Temporal", "begin": 894, "end": 898, "type": "Temporal", "value": "2009", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 0}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-144-167-Organisation", "begin": 907, "end": 930, "type": "Organisation", "value": "the Governments of Iraq", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
-{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-172-189-Organisation", "begin": 935, "end": 952, "type": "Organisation", "value": "the United States", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
+{"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-172-189-Organisation", "begin": 935, "end": 952, "type": "Location", "value": "the United States", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-194-197-Organisation", "begin": 957, "end": 960, "type": "Organisation", "value": "WMF", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-209-214-Nationality", "begin": 972, "end": 977, "type": "Nationality", "value": "Iraqi", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
 {"_id": "E1526BBD89FAB8E7914B3CF5867666CC-3-257-273-Location", "begin": 1020, "end": 1036, "type": "Location", "value": "the ancient city", "documentId": "E1526BBD89FAB8E7914B3CF5867666CC", "confidence": 1}
