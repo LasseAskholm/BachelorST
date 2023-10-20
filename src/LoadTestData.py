@@ -138,6 +138,62 @@ def map_all_entities(dict,dirPath):
     return (df_word_weights, train_dataset, test_dataset)
 
 ## Add per label method
+def generate_single_label_df_from_additional_data(reduced_labels):
+
+    labels = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
+
+    data_set = []
+    path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
+    file = open (path)
+    obj = json.load(file)
+    print(len(obj))
+    for single_label in labels:
+        for i in range (len(obj)):
+            labels_present = True
+            data_point = {}
+            response = []
+            contexts = []
+            json_obj = obj[i]
+
+            if json_obj.get("label") == None:
+                labels_present = False
+        
+            contexts.append(json_obj["text"])
+            
+            if labels_present:
+                
+                label_map = json_obj["label"]
+                for label in label_map:
+                    type = label["labels"][0]
+                    
+                    if not reduced_labels:
+                        response.append(label["text"]+ " - " + label["labels"][0])
+                    else:
+                        if type in skippedLabelsList:
+                            continue
+                        elif type == 'Vehicle':
+                            if single_label == "MillitaryPlatform":
+                                response.append(label["text"]+ " - " + "MilitaryPlatform")
+                        else:
+                            if single_label == label:
+                                response.append(label["text"]+ " - " + label["labels"][0])
+            data_point["context"] = contexts
+            data_point["answers"] = response
+            data_point["label"] = label
+            data_set.append(data_point)
+            print(data_point)
+            exit()
+        
+    return pd.DataFrame(data_set, columns=['context','answers'])
+
 def generate_df_from_additional_data(reduced_labels):
     data_set = []
     path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
@@ -174,7 +230,6 @@ def generate_df_from_additional_data(reduced_labels):
         data_set.append(data_point)
     
     return pd.DataFrame(data_set, columns=['context','answers'])
-
 
 def generate_prompt_data(entities_dict, dirPath):
     # Initialize lists to store the promts
@@ -308,11 +363,10 @@ def generate_single_label_prompt_data_sentence(entities_dict, dirPath):
                     data_point["answers"] = response
                     data_point["label"] = label
                     prompt_data_set.append(data_point)
-                print(prompt_data_set)
-                exit()
+                
 
     df = pd.DataFrame(prompt_data_set, columns=['context','answers','label'])
-    df_self_labeled_data = generate_df_from_additional_data(True)
+    df_self_labeled_data = generate_single_label_df_from_additional_data(True)
     df_merged = pd.concat([df, df_self_labeled_data], ignore_index=True, sort=False)
     return df_merged
     
