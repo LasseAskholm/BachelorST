@@ -137,6 +137,7 @@ def map_all_entities(dict,dirPath):
 
     return (df_word_weights, train_dataset, test_dataset)
 
+## Add per label method
 def generate_df_from_additional_data(reduced_labels):
     data_set = []
     path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
@@ -289,15 +290,17 @@ def generate_single_label_prompt_data_sentence(entities_dict, dirPath):
                 if(sentence == ""):
                     continue
 
-                data_point = {}
-                response = []
-                contexts = []
-                contexts.append(sentence)
 
                 for label in labels:
+                    data_point = {}
+                    response = []
+                    contexts = []
+                    contexts.append(sentence)
+                    text_idx = 0
                     #Find entities in current sentence:
                     for entity_id, entity_info in entities_data.items():
                         if(entity_info['begin']>= text_idx and entity_info['end']<= text_idx+len(sentence)+1):
+                            print(label, entity_info['type'])
                             if label == entity_info['type']:
                                 response.append(entity_info['value'] + " - " + entity_info['type'])
                     text_idx += len(sentence)+1
@@ -305,8 +308,10 @@ def generate_single_label_prompt_data_sentence(entities_dict, dirPath):
                     data_point["answers"] = response
                     data_point["label"] = label
                     prompt_data_set.append(data_point)
+                print(prompt_data_set)
+                exit()
 
-    df = pd.DataFrame(prompt_data_set, columns=['context','answers'])
+    df = pd.DataFrame(prompt_data_set, columns=['context','answers','label'])
     df_self_labeled_data = generate_df_from_additional_data(True)
     df_merged = pd.concat([df, df_self_labeled_data], ignore_index=True, sort=False)
     return df_merged
