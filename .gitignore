@@ -189,3 +189,4 @@ offload/model.layers.31.self_attn.o_proj.weight.dat
 offload/model.layers.31.self_attn.q_proj.weight.dat
 offload/model.layers.31.self_attn.v_proj.weight.dat
 offload/model.norm.weight.dat
+*.pyc
