@@ -164,6 +164,8 @@ def main ():
     model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased", 
                                                             num_labels = len(labels), 
                                                             token=access_token,
+                                                            id2label = id2label,
+                                                            label2id = label2id,
             )
 
 
@@ -173,10 +175,10 @@ def main ():
     training_args = TrainingArguments(
         output_dir="../models",
         evaluation_strategy = "epoch",
-        learning_rate = 2e-5,
+        learning_rate = 4e-5,
         per_device_train_batch_size = 16,
         per_device_eval_batch_size = 16,
-        num_train_epochs = 10,
+        num_train_epochs = 5,
         weight_decay = 1e-5,
         logging_dir = "../logging",
         logging_steps = 10

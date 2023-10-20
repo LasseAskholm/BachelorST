@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import re
 import json 
 import glob
@@ -130,6 +131,9 @@ def construct_global_docMap(dirPath):
 
 def map_all_entities(dict,dirPath):
     df_word_weights, df, _ = map_entities(dict,dirPath, True)
+
+    df.reindex(np.random.permutation(df.index))
+
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train']
@@ -262,8 +266,6 @@ def get_tokens_and_ner_tags(filename):
         entities = [[x.split('\t')[1][:-1] for x in y] for y in split_list]
 
     df = pd.DataFrame({'text': tokens, 'ner_tags': entities})
-    print (df)
-    exit()
     return df
 
 if __name__ == '__main__':
