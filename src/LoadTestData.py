@@ -250,6 +250,66 @@ def generate_prompt_data_sentence(entities_dict, dirPath):
     df_self_labeled_data = generate_df_from_additional_data(True)
     df_merged = pd.concat([df, df_self_labeled_data], ignore_index=True, sort=False)
     return df_merged
+
+
+def generate_single_label_prompt_data_sentence(entities_dict, dirPath):
+    
+    labels = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
+    
+    # Initialize list to store the promts
+    prompt_data_set = []
+
+    pattern = "(?<=[.!?])\s+(?![A-Z][a-z]+\.\s+[A-Z]|[a-z]|[1-9])"
+
+    for document_path in glob.glob(dirPath):
+        # Read the document JSON
+        with open(document_path, 'r', encoding = "utf-8") as doc_file:
+            document_data = [json.loads(line) for line in doc_file]
+
+        # Iterate through the document data
+        for doc_entry in document_data:
+            text_idx = 0
+            doc_text = doc_entry['text']
+            
+            # Get the entities for this sentence entry from the provided dictionary
+            if doc_entry['_id'] in entities_dict:
+                entities_data = entities_dict[doc_entry['_id']]
+            else:
+                continue
+            
+            for sentence in re.split(pattern, doc_text):
+                if(sentence == ""):
+                    continue
+
+                data_point = {}
+                response = []
+                contexts = []
+                contexts.append(sentence)
+
+                for label in labels:
+                    #Find entities in current sentence:
+                    for entity_id, entity_info in entities_data.items():
+                        if(entity_info['begin']>= text_idx and entity_info['end']<= text_idx+len(sentence)+1):
+                            if label == entity_info['type']:
+                                response.append(entity_info['value'] + " - " + entity_info['type'])
+                    text_idx += len(sentence)+1
+                    data_point["context"] = contexts
+                    data_point["answers"] = response
+                    data_point["label"] = label
+                    prompt_data_set.append(data_point)
+
+    df = pd.DataFrame(prompt_data_set, columns=['context','answers'])
+    df_self_labeled_data = generate_df_from_additional_data(True)
+    df_merged = pd.concat([df, df_self_labeled_data], ignore_index=True, sort=False)
+    return df_merged
     
 def get_tokens_and_ner_tags(filename):
     '''
