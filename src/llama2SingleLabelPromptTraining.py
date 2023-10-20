@@ -81,7 +81,7 @@ def tokenize(prompt, add_eos_token = True):
             prompt,
             truncation=True,
             max_length=512,
-            padding=False,
+            padding=True,
             return_tensors=None)
     if (
         result["input_ids"][-1] != tokenizer.eos_token_id
@@ -91,6 +91,7 @@ def tokenize(prompt, add_eos_token = True):
         result["input_ids"].append(tokenizer.eos_token_id)
         result["attention_mask"].append(1)
 
+    # https://discuss.huggingface.co/t/valueerror-unable-to-create-tensor-you-should-probably-activate-truncation-and-or-padding-with-padding-true-truncation-true-to-have-batched-tensors-with-the-same-length/23962
     result["labels"] = result["input_ids"].copy()
     return result
 
@@ -136,5 +137,3 @@ def main ():
 if __name__ == '__main__':
     main()
 
-
-#akjen

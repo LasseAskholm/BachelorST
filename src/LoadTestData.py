@@ -140,7 +140,7 @@ def map_all_entities(dict,dirPath):
 ## Add per label method
 def generate_single_label_df_from_additional_data(reduced_labels):
 
-    labels = [
+    tags = [
         "Organisation",
         "Person",
         "Location",
@@ -154,8 +154,7 @@ def generate_single_label_df_from_additional_data(reduced_labels):
     path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
     file = open (path)
     obj = json.load(file)
-    print(len(obj))
-    for single_label in labels:
+    for single_label in tags:
         for i in range (len(obj)):
             labels_present = True
             data_point = {}
@@ -173,6 +172,8 @@ def generate_single_label_df_from_additional_data(reduced_labels):
                 label_map = json_obj["label"]
                 for label in label_map:
                     type = label["labels"][0]
+
+
                     
                     if not reduced_labels:
                         response.append(label["text"]+ " - " + label["labels"][0])
@@ -183,16 +184,15 @@ def generate_single_label_df_from_additional_data(reduced_labels):
                             if single_label == "MillitaryPlatform":
                                 response.append(label["text"]+ " - " + "MilitaryPlatform")
                         else:
-                            if single_label == label:
+                            if single_label == type:
                                 response.append(label["text"]+ " - " + label["labels"][0])
             data_point["context"] = contexts
             data_point["answers"] = response
-            data_point["label"] = label
+            data_point["label"] = single_label
             data_set.append(data_point)
-            print(data_point)
-            exit()
+            
         
-    return pd.DataFrame(data_set, columns=['context','answers'])
+    return pd.DataFrame(data_set, columns=['context','answers', 'label'])
 
 def generate_df_from_additional_data(reduced_labels):
     data_set = []
@@ -355,7 +355,6 @@ def generate_single_label_prompt_data_sentence(entities_dict, dirPath):
                     #Find entities in current sentence:
                     for entity_id, entity_info in entities_data.items():
                         if(entity_info['begin']>= text_idx and entity_info['end']<= text_idx+len(sentence)+1):
-                            print(label, entity_info['type'])
                             if label == entity_info['type']:
                                 response.append(entity_info['value'] + " - " + entity_info['type'])
                     text_idx += len(sentence)+1
@@ -381,11 +380,12 @@ def get_tokens_and_ner_tags(filename):
         entities = [[x.split('\t')[1][:-1] for x in y] for y in split_list]
 
     df = pd.DataFrame({'text': tokens, 'ner_tags': entities})
-    print (df)
     exit()
     return df
 
 if __name__ == '__main__':
     dict = construct_global_docMap("../data/re3d-master/*/entities.json")
-    train,test = map_all_entities(dict, "../data/re3d-master/*/documents.json")
+    # train,test = map_all_entities(dict, "../data/re3d-master/*/documents.json")
+    print(generate_single_label_df_from_additional_data(True))
+    # print(generate_df_from_additional_data(True))
    
