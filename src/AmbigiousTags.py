@@ -1,5 +1,6 @@
 import itertools
 import json
+import pandas as pd
 
 # Run from /data/
 
@@ -40,7 +41,8 @@ def create_map():
                             if label['text'] in o_tag_duplicates.keys():
                                 o_tag_duplicates[label['text']].append(tup[1])
                             else:
-                                o_tag_duplicates[label['text']] = [tup[1]]
+                                o_tag_duplicates[label['text']] = label['labels']
+                                o_tag_duplicates[label['text']].append(tup[1])
         
         
         for i in range (len(obj)):
@@ -60,11 +62,18 @@ def create_map():
                             duplicate_map[label['text']].append(json_obj['id'])
 
 
-    with open('OtagAndLabel.json', 'w') as fp:
-        json.dump(o_tag_duplicates, fp, indent=4)
+    # with open('OtagAndLabelTuple.json', 'w') as fp:
+    #     json.dump(o_tag_duplicates, fp, indent=4)
 
-    with open('multipleTags.json', 'w') as fp:
-        json.dump(duplicate_map, fp, indent=4)
+    # with open('multipleTags.json', 'w') as fp:
+    #     json.dump(duplicate_map, fp, indent=4)
+
+    df_otags = pd.DataFrame.from_dict(o_tag_duplicates, orient='index')
+    df_multitags = pd.DataFrame.from_dict(duplicate_map, orient='index')
+
+    df_otags.to_csv('OtagAndLabel.csv', encoding='utf-8')
+    df_multitags.to_csv('multipleTags.csv', encoding='utf-8')
+
 
     return duplicate_map
 
