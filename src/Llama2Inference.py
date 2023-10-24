@@ -8,42 +8,39 @@ from transformers import AutoTokenizer
 from transformers import AutoModelForCausalLM, TrainingArguments, Trainer
 from transformers import DataCollatorForTokenClassification
 from huggingface_hub import login
-import torch
 from ner_training import load_labels
+
+import torch
+from peft import PeftModel
+import transformers
 import textwrap
+from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
+from transformers.generation.utils import GreedySearchDecoderOnlyOutput
+ 
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+DEVICE
 
 access_token = "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"
 _, label_list = load_labels("../resources/labels.txt")
 
 login(token = access_token)
 
-torch.device("cpu")
-
-tokenizer = AutoTokenizer.from_pretrained('LazzeKappa/llama2', token=access_token)
-
-model = AutoModelForCausalLM.from_pretrained('LazzeKappa/llama2', 
-                                             device_map='auto',
-                                             torch_dtype=torch.float16,
-                                             token=access_token)
-
-B_INST, E_INST = "[INST]", "[/INST]"
-B_SYS, E_SYS = "<<SYS>>\n", "\n<</SYS>>\n\n"
-DEFAULT_SYSTEM_PROMPT = """\
-Your task is to harness the capabilities of a robust entity extraction model. 
-Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
-Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside their respective labels. 
-The entity types at your disposal include:
-
+PROMT_TEMPLATE = f""" Your task is to harness the capabilities of a robust entity extraction model. Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside their respective labels. The entity types at your disposal include:
 Organisation,
 Person,
 Location,
 Money,
 Temporal,
 Weapon,
-MilitaryPlatform"""
-SYSTEM_PROMPT = B_SYS + DEFAULT_SYSTEM_PROMPT + E_SYS
+MilitaryPlatform
 
-prompt = '''Extract all entities in the following context along with their label from the entities at your disposal: 
+### Instruction:
+[INSTRUCTION]
+
+### Response:
+"""
+
+question = '''Extract all entities in the following context along with their label from the entities at your disposal: 
 Military personnel from the United States and the Kingdom of Bahrain began a 10-day naval exercise Jan. 15 in and off the coast of Bahrain.
 
 Exercise Neon Defender is an annual bilateral training event that enhances collaboration and interoperability among the Bahrain Defence Force, Ministry of Interior and U.S. Naval Forces Central Command (NAVCENT). NAVCENT is headquartered in Manama, Bahrain.
@@ -60,54 +57,53 @@ Approximately 200 personnel from the U.S. Navy, Marine Corps and Coast Guard are
 
 NAVCENT includes maritime forces stationed in Bahrain and operating in the Arabian Gulf, Gulf of Oman, Red Sea, parts of the Indian Ocean and three critical choke points at the Strait of Hormuz, Suez Canal and Bab al-Mandeb.'''
 
+tokenizer = AutoTokenizer.from_pretrained('LazzeKappa/llama2', token=access_token)
 
-def run_validation():
-    tokens = tokenizer(paragraph)
-    torch.tensor(tokens['input_ids']).unsqueeze(0).size()
+model = AutoModelForCausalLM.from_pretrained('LazzeKappa/llama2', 
+                                            device_map='auto',
+                                            token=access_token)
 
-    predictions = model.forward(input_ids=torch.tensor(tokens['input_ids']).unsqueeze(0), attention_mask=torch.tensor(tokens['attention_mask']).unsqueeze(0))
-    predictions = torch.argmax(predictions.logits.squeeze(), axis=1)
+model = PeftModel.from_pretrained(model, "LazzeKappa/llama2", torch_dtype=torch.float16, offload_dir="../inferenceLlama2")
+
+model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+model.config.bos_token_id = 1
+model.config.eos_token_id = 2
+
+model = model.eval()
+model = torch.compile(model)
+
+def create_prompt(instruction: str) -> str:
+    return PROMT_TEMPLATE.replace("[INSTRUCTION]", instruction)
+
+
+def generate_response(prompt: str, model: PeftModel) -> GreedySearchDecoderOnlyOutput:
+    encoding = tokenizer(prompt, return_tensors="pt")
+    input_ids = encoding["input_ids"].to(DEVICE)
+ 
+    generation_config = GenerationConfig(
+        temperature=0.1,
+        top_p=0.75,
+        repetition_penalty=1.1,
+    )
+    with torch.inference_mode():
+        return model.generate(
+            input_ids=input_ids,
+            generation_config=generation_config,
+            return_dict_in_generate=True,
+            output_scores=True,
+            max_new_tokens=256,
+        )
     
-    words = tokenizer.batch_decode(tokens['input_ids'])
-    print(pd.DataFrame({'ner': predictions, 'words': words}))
+def format_response(response: GreedySearchDecoderOnlyOutput) -> str:
+    decoded_output = tokenizer.decode(response.sequences[0])
+    response = decoded_output.split("### Response:")[1].strip()
+    return "\n".join(textwrap.wrap(response))
 
-def get_prompt(instruction):
-    prompt_template =  B_INST + SYSTEM_PROMPT + instruction + E_INST
-    return prompt_template
-
-def cut_off_text(text, prompt):
-    cutoff_phrase = prompt
-    index = text.find(cutoff_phrase)
-    if index != -1:
-        return text[:index]
-    else:
-        return text
-
-def remove_substring(string, substring):
-    return string.replace(substring, "")
-
-
-
-def generate(text):
-    prompt = get_prompt(text)
-    with torch.autocast('cuda', dtype=torch.bfloat16):
-        inputs = tokenizer(prompt, return_tensors="pt").to('cuda')
-        outputs = model.generate(**inputs,
-                                 max_new_tokens=512,
-                                 eos_token_id=tokenizer.eos_token_id,
-                                 pad_token_id=tokenizer.eos_token_id,
-                                 )
-        final_outputs = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
-        final_outputs = cut_off_text(final_outputs, '</s>')
-        final_outputs = remove_substring(final_outputs, prompt)
-
-    return final_outputs#, outputs
-
-def parse_text(text):
-        wrapped_text = textwrap.fill(text, width=100)
-        print(wrapped_text +'\n\n')
-        # return assistant_text
+def ask_alpaca(prompt: str, model: PeftModel = model) -> str:
+    prompt = create_prompt(prompt)
+    response = generate_response(prompt, model)
+    print(format_response(response))
+    
 
 if __name__ == '__main__':
-    generated_text = generate(prompt)
-    parse_text(generated_text)
+    ask_alpaca(question)
