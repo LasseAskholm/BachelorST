@@ -9,7 +9,6 @@ atomicwrites==1.4.0
 attrs==23.1.0
 backports.weakref==1.0.post1
 bitsandbytes==0.41.1
-brotlipy==0.7.0
 certifi==2023.7.22
 cffi==1.16.0
 charset-normalizer==3.3.0
