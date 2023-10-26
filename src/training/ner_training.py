@@ -6,52 +6,34 @@ import numpy as np
 from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer, AutoModelForTokenClassification
 from transformers import DataCollatorForTokenClassification
-from LoadTestData import construct_global_docMap, map_all_entities
+from utils.BERTDataLoader import fetch_train_test_data
+from utils.CommonDataLoader import construct_global_docMap
 import torch
 from huggingface_hub import login
 from loguru import logger
 import evaluate
+from utils.CommonVariables import (
+    COMMON_HUGGINGFACE_ACCESS_TOKEN, 
+    COMMON_HUGGINGFACE_WRITE_TOKEN, 
+    COMMON_DSTL_DOCUMENTS, 
+    COMMON_BERT_OUTPUT_DIR,
+    COMMON_BERT_LABELS, 
+    COMMON_DSTL_ENTITIES,
+    COMMON_BERT_MODEL_NAME,
+    COMMON_BERT_LABEL2ID,
+    COMMON_BERT_ID2LABEL,
+    COMMON_BERT_LEARNING_RATE,
+    COMMON_BERT_TRAIN_BATCH_SIZE,
+    COMMON_BERT_EVAL_BATCH_SIZE,
+    COMMON_BERT_EPOCHS,
+    COMMON_BERT_WEIGHT_DECAY,
+    COMMON_BERT_LOGGING_DIR,
+    COMMON_BERT_LOGGING_STEPS
+    )
 
-access_token = "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"
-write_token = "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"
 seqeval = evaluate.load("seqeval")
 
-entities_file_ptah = "../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json"
-documens_file_path = "../data/re3d-master/*/documents.json"
-label_file_path = '../resources/labelsReduced.txt'
-
-model_name = "distilbert-base-multilingual-cased"
-
-label2id = {"O": 0, 
-            "B-Organisation": 1, 
-            "I-Organisation": 2, 
-            "B-Person": 3,
-            "I-Person": 4, 
-            "B-Location": 5,
-            "I-Location": 6,
-            "B-Money": 7,
-            "I-Money": 8,
-            "B-Temporal": 9,
-            "I-Temporal": 10,
-            "B-Weapon": 11,
-            "I-Weapon": 12,
-            "B-MilitaryPlatform": 13,
-            "I-MilitaryPlatform": 14}
-id2label = {0 : "O", 
-            1 : "B-Organisation", 
-            2 : "I-Organisation", 
-            3 : "B-Person",
-            4 : "I-Person", 
-            5 : "B-Location",
-            6 : "I-Location",
-            7 : "B-Money",
-            8 : "I-Money",
-            9 : "B-Temporal",
-            10 : "I-Temporal",
-            11 : "B-Weapon",
-            12 : "I-Weapon",
-            13 : "B-MilitaryPlatform",
-            14 : "I-MilitaryPlatform"}
+reduceLabels = True
 
 def load_labels(labels_path):
     '''
@@ -73,10 +55,11 @@ def load_data_sets():
     '''
     Function to load the test data and adjust importance for each label.
     '''
-    entities = construct_global_docMap(entities_file_ptah)
+    entities = construct_global_docMap(COMMON_DSTL_ENTITIES)
     
-    df_word_weights, train_data, test_data = map_all_entities(entities,
-                                                              documens_file_path)
+    df_word_weights, train_data, test_data = fetch_train_test_data(entities,
+                                                              COMMON_DSTL_DOCUMENTS, 
+                                                              reduceLabels)
     
     class_weights = (1 - (df_word_weights["ner_tags"].value_counts().sort_index() / len(df_word_weights))).values
     class_weights = torch.from_numpy(class_weights).float().to("cuda")
@@ -117,7 +100,7 @@ def compute_metrics(p):
     '''
     predictions, labels = p    
     predictions = np.argmax(predictions, axis=2)
-    _ , label_list = load_labels(label_file_path)
+    _ , label_list = load_labels(COMMON_BERT_LABELS)
 
     true_predictions = [[label_list[p] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
     true_labels = [[label_list[l] for (p, l) in zip(prediction, label) if l != -100] for prediction, label in zip(predictions, labels)]
@@ -132,7 +115,7 @@ def compute_metrics(p):
     }
                                                                    
 def main ():
-    login(token = write_token)
+    login(token = COMMON_HUGGINGFACE_WRITE_TOKEN)
     logger.info("Prepping Data")
 
     #Loading and tokenizing datasets
@@ -141,8 +124,8 @@ def main ():
     
     #tokenizer
     logger.info("Loading Tokenizer")
-    tokenizer = AutoTokenizer.from_pretrained(model_name, 
-                                              token=access_token)
+    tokenizer = AutoTokenizer.from_pretrained(COMMON_BERT_MODEL_NAME, 
+                                              token=COMMON_HUGGINGFACE_ACCESS_TOKEN)
     tokenizer.pad_token_id = 0
 
     logger.info("Creating tokenized dataset")
@@ -161,11 +144,11 @@ def main ():
 
     #model
     logger.info("Loading model")
-    model = AutoModelForTokenClassification.from_pretrained("distilbert-base-multilingual-cased", 
+    model = AutoModelForTokenClassification.from_pretrained(COMMON_BERT_MODEL_NAME, 
                                                             num_labels = len(labels), 
-                                                            token=access_token,
-                                                            id2label = id2label,
-                                                            label2id = label2id,
+                                                            token=COMMON_HUGGINGFACE_ACCESS_TOKEN,
+                                                            id2label = COMMON_BERT_ID2LABEL,
+                                                            label2id = COMMON_BERT_LABEL2ID,
             )
 
 
@@ -173,15 +156,15 @@ def main ():
     # Leaning rates from bert documentation = (among 5e-5, 4e-5, 3e-5, and 2e-5)
     logger.info("Setting training args")
     training_args = TrainingArguments(
-        output_dir="../models",
+        output_dir=COMMON_BERT_OUTPUT_DIR,
         evaluation_strategy = "epoch",
-        learning_rate = 4e-5,
-        per_device_train_batch_size = 16,
-        per_device_eval_batch_size = 16,
-        num_train_epochs = 5,
-        weight_decay = 1e-5,
-        logging_dir = "../logging",
-        logging_steps = 10
+        learning_rate = COMMON_BERT_LEARNING_RATE,
+        per_device_train_batch_size = COMMON_BERT_TRAIN_BATCH_SIZE,
+        per_device_eval_batch_size = COMMON_BERT_EVAL_BATCH_SIZE,
+        num_train_epochs = COMMON_BERT_EPOCHS,
+        weight_decay = COMMON_BERT_WEIGHT_DECAY,
+        logging_dir = COMMON_BERT_LOGGING_DIR,
+        logging_steps = COMMON_BERT_LOGGING_STEPS
         
     )
     

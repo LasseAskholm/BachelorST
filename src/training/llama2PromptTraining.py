@@ -7,11 +7,12 @@ from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer, AutoModelForCausalLM
 from transformers import DataCollatorForTokenClassification
 from transformers import BitsAndBytesConfig
-from LoadTestData import generate_prompt_data, construct_global_docMap, generate_prompt_data_sentence, generate_df_from_additional_data
+from utils.Llama2DataLoader import generate_prompt_data_entire_text, generate_prompt_data_sentence
+from utils.CommonDataLoader import construct_global_docMap
 import torch
 from huggingface_hub import login
 from loguru import logger
-from prompt import generate_prompt_ner
+from utils.prompt import generate_prompt_ner
 from peft import (
         LoraConfig,
         get_peft_model,
@@ -19,23 +20,39 @@ from peft import (
         prepare_model_for_int8_training,
         set_peft_model_state_dict,
     )
+from utils.CommonVariables import (
+    COMMON_HUGGINGFACE_ACCESS_TOKEN, 
+    COMMON_HUGGINGFACE_WRITE_TOKEN, 
+    COMMON_DSTL_DOCUMENTS, 
+    COMMON_DSTL_ENTITIES,
+    COMMON_LLAMA2_MODEL_NAME,
+    COMMON_LLAMA2_SELF_LABELED_DATA,
+    COMMON_LLAMA2_OUTPUT_DIR,
+    COMMON_LLAMA2_LEARNING_RATE,
+    COMMON_LLAMA2_TRAIN_BATCH_SIZE,
+    COMMON_LLAMA2_EVAL_BATCH_SIZE,
+    COMMON_LLAMA2_EPOCHS,
+    COMMON_LLAMA2_WEIGHT_DECAY,
+    COMMON_LLAMA2_LOGGING_DIR,
+    COMMON_LLAMA2_LOGGING_STEPS
+    )
 
+#Reduced labeles
+reducedLabeles = True
 
-
-access_token = "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"
-write_token = "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"
 #tokenizer
 logger.info("Loading Tokenizer...")
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token=access_token, add_eos_token= True)
+tokenizer = AutoTokenizer.from_pretrained(COMMON_LLAMA2_MODEL_NAME, token=COMMON_HUGGINGFACE_ACCESS_TOKEN, add_eos_token= True)
 tokenizer.pad_token_id = 0
 tokenizer.padding_side = "left"
+
 #data collator
 data_collator = DataCollatorForTokenClassification(tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding= True)
 
 #model
 logger.info("Loading model....")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", 
-                                             token=access_token,
+model = AutoModelForCausalLM.from_pretrained(COMMON_LLAMA2_MODEL_NAME, 
+                                             token=COMMON_HUGGINGFACE_ACCESS_TOKEN,
                                              load_in_8bit= True,
                                              torch_dtype = torch.float16,
                                              device_map ="auto")
@@ -60,8 +77,8 @@ model = get_peft_model(model, config)
 
 def load_data_sets():
    
-    entities = construct_global_docMap("../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json")
-    df = generate_prompt_data_sentence(entities, "../data/re3d-master/*/documents.json")
+    entities = construct_global_docMap(COMMON_DSTL_ENTITIES)
+    df = generate_prompt_data_sentence(entities, COMMON_DSTL_DOCUMENTS, COMMON_LLAMA2_SELF_LABELED_DATA, reducedLabeles)
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train'].map(tokenize_and_generate_prompt)
@@ -93,7 +110,7 @@ def tokenize(prompt, add_eos_token = True):
     return result
 
 def main ():
-    login(token = write_token)
+    login(token = COMMON_HUGGINGFACE_WRITE_TOKEN)
     logger.info("Prepping Data")
     #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
@@ -104,15 +121,15 @@ def main ():
     ### Leaning rates from bert documentation = (among 5e-5, 4e-5, 3e-5, and 2e-5)
     logger.info("Setting training args....")
     training_args = TrainingArguments(
-        output_dir="../llama2",
+        output_dir=COMMON_LLAMA2_OUTPUT_DIR,
         evaluation_strategy = "epoch",
-        learning_rate = 3e-4,
-        per_device_train_batch_size = 16,
-        per_device_eval_batch_size = 16,
-        num_train_epochs = 10,
-        weight_decay = 1e-5,
-        logging_dir = "../logging",
-        logging_steps = 10,
+        learning_rate = COMMON_LLAMA2_LEARNING_RATE,
+        per_device_train_batch_size = COMMON_LLAMA2_TRAIN_BATCH_SIZE,
+        per_device_eval_batch_size = COMMON_LLAMA2_EVAL_BATCH_SIZE,
+        num_train_epochs = COMMON_LLAMA2_EPOCHS,
+        weight_decay = COMMON_LLAMA2_WEIGHT_DECAY,
+        logging_dir = COMMON_LLAMA2_LOGGING_DIR,
+        logging_steps = COMMON_LLAMA2_LOGGING_STEPS,
         fp16= True,
         optim = "adamw_torch"
     )
