@@ -1,0 +1,14 @@
+Organisation 
+Nationality
+Person
+DocumentReference
+Location
+Money
+Vehicle
+Temporal
+Weapon
+Quantity
+CommsIdentifier
+MilitaryPlatform
+Coordinate 
+Frequency 
