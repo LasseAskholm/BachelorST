@@ -4,7 +4,7 @@ import json
 import glob
 import itertools
 from datasets import Dataset
-from CommonVariables import COMMON_SKIPPED_LABELES, CONMON_BERT_SELF_LABELED_DATA
+from utils.CommonVariables import COMMON_SKIPPED_LABELES, COMMON_BERT_SELF_LABELED_DATA, COMMON_BERT_ENABLE_ADDITIONAL_DATA
 
 def fetch_train_test_data(dict, dirPath, reduceLabels):
     df_word_weights, df = map_entities(dict, dirPath, reduceLabels)
@@ -40,11 +40,15 @@ def map_entities(entities_dict, dirPath, reducedLabels):
     df_word = pd.DataFrame({"text": words, "ner_tags": labels})
 
     df_sentence = construct_sentence_from_words_dict(words, labels)
-    df_self_labeled_data = load_data_from_conll(CONMON_BERT_SELF_LABELED_DATA)
-
-    df_sentence_merged = pd.concat([df_sentence, df_self_labeled_data], ignore_index=True, sort=False)
-    
-    return df_word, df_sentence_merged
+    if COMMON_BERT_ENABLE_ADDITIONAL_DATA:
+        df_word_self_labeled_data, df_sentence_self_labeled_data = load_data_from_conll(COMMON_BERT_SELF_LABELED_DATA)
+        
+        df_word_merged = pd.concat([df_word, df_word_self_labeled_data], ignore_index=True, sort=False)
+        df_sentence_merged = pd.concat([df_sentence, df_sentence_self_labeled_data], ignore_index=True, sort=False)
+        
+        return df_word_merged, df_sentence_merged
+    else:
+        return df_word, df_sentence
 
 def construct_ner_tags_from_document(document_data, entities_dict, reducedLabels):
     '''
@@ -65,7 +69,7 @@ def construct_ner_tags_from_document(document_data, entities_dict, reducedLabels
             continue
 
         current_char_index = 0  # Track the current character index
-        for entity_id, entity_info in entities_data.items():
+        for _, entity_info in entities_data.items():
             begin = entity_info['begin']
             end = entity_info['end']
             entity_type = entity_info['type']
@@ -153,11 +157,23 @@ def load_data_from_conll(filename):
     '''
     Function for loading tokens and ner tags from a conll file.
     '''
+    word_list = []
+    ner_tags_list = []
     with open(filename, 'r', encoding="utf8") as f:
         lines = f.readlines()
         split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
         tokens = [[x.split('\t')[0] for x in y] for y in split_list]
         entities = [[x.split('\t')[1][:-1] for x in y] for y in split_list]
+    
+    for words_entry in tokens:
+        for word in words_entry:
+            word_list.append(word)
+    
+    for ner_tags in entities:
+        for ner_tag in ner_tags:
+            ner_tags_list.append(ner_tag)
+    
+    df_word = pd.DataFrame({"text": word_list, "ner_tags": ner_tags_list})
+    df_sentence = pd.DataFrame({'text': tokens, 'ner_tags': entities})
+    return df_word, df_sentence
 
-    df = pd.DataFrame({'text': tokens, 'ner_tags': entities})
-    return df

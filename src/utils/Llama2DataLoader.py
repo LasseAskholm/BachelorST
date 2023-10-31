@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import json 
 import glob
-from CommonVariables import COMMON_SKIPPED_LABELES
+from utils.CommonVariables import COMMON_SKIPPED_LABELES
 
 def generate_prompt_data_entire_text(entities_dict, dirPath):
     # Initialize lists to store the promts

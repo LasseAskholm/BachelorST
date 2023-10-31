@@ -1,4 +1,4 @@
-from CommonVariables import COMMON_LLAMA2_PROMT_INPUT, COMMON_LLAMA2_PROMT_LABELES
+from utils.CommonVariables import COMMON_LLAMA2_PROMT_INPUT, COMMON_LLAMA2_PROMT_LABELES
 
 def generate_prompt_ner(context, output=""):
      input = COMMON_LLAMA2_PROMT_INPUT

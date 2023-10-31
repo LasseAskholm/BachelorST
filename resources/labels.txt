@@ -1,5 +1,5 @@
 O
-B-Organisation 
+B-Organisation
 I-Organisation
 B-Nationality
 I-Nationality
@@ -25,4 +25,4 @@ I-MilitaryPlatform
 B-Coordinate
 I-Coordinate 
 B-Frequency
-I-Frequency 
+I-Frequency

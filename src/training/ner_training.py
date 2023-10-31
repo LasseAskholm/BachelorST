@@ -22,6 +22,7 @@ from utils.CommonVariables import (
     COMMON_BERT_MODEL_NAME,
     COMMON_BERT_LABEL2ID,
     COMMON_BERT_ID2LABEL,
+    COMMON_BERT_REDUCE_LABELS,
     COMMON_BERT_LEARNING_RATE,
     COMMON_BERT_TRAIN_BATCH_SIZE,
     COMMON_BERT_EVAL_BATCH_SIZE,
@@ -32,8 +33,6 @@ from utils.CommonVariables import (
     )
 
 seqeval = evaluate.load("seqeval")
-
-reduceLabels = True
 
 def load_labels(labels_path):
     '''
@@ -59,7 +58,7 @@ def load_data_sets():
     
     df_word_weights, train_data, test_data = fetch_train_test_data(entities,
                                                               COMMON_DSTL_DOCUMENTS, 
-                                                              reduceLabels)
+                                                              COMMON_BERT_REDUCE_LABELS)
     
     class_weights = (1 - (df_word_weights["ner_tags"].value_counts().sort_index() / len(df_word_weights))).values
     class_weights = torch.from_numpy(class_weights).float().to("cuda")
@@ -71,11 +70,10 @@ def tokenize_and_align_labels(examples, tokenizer, mapped_labels):
     Function To realing labels after subtokenization.
     '''
     tokenized_inputs = tokenizer(list(examples["text"]), truncation = True, is_split_into_words = True, max_length = 512)
-
     label_all_tokens = False
     labels = []
+    
     for i, label in enumerate(examples["ner_tags"]):
-        
         word_ids = tokenized_inputs.word_ids(batch_index=i)
         previous_word_idx = None
         label_ids = []
@@ -120,7 +118,7 @@ def main ():
 
     #Loading and tokenizing datasets
     train_data, test_data = load_data_sets()
-    mapped_labels, labels = load_labels("../resources/labelsReduced.txt")
+    mapped_labels, labels = load_labels(COMMON_BERT_LABELS)
     
     #tokenizer
     logger.info("Loading Tokenizer")
