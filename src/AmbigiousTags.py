@@ -10,7 +10,7 @@ def create_map():
     o_tags_list = O_tags()
     o_tag_duplicates = {}
 
-    path = "../data/selv-labeled-data/selfLabeledDataJSONFiltered.json"
+    path = "../data/selv-labeled-data/fixed_v5/v5.json"
     file = open(path)
     obj = json.load(file)
     for i in range (len(obj)):
@@ -71,8 +71,8 @@ def create_map():
     df_otags = pd.DataFrame.from_dict(o_tag_duplicates, orient='index')
     df_multitags = pd.DataFrame.from_dict(duplicate_map, orient='index')
 
-    df_otags.to_csv('OtagAndLabel.csv', encoding='utf-8')
-    df_multitags.to_csv('multipleTags.csv', encoding='utf-8')
+    df_otags.to_csv('OtagAndLabel_fix5.csv', encoding='utf-8')
+    df_multitags.to_csv('multipleTags_fix5.csv', encoding='utf-8')
 
 
     return duplicate_map
@@ -81,7 +81,7 @@ def create_map():
 def O_tags():
 
     O_tags_list = []
-    filename = "../data/selv-labeled-data/selfLabeledDataFiltered.conll"
+    filename = "../data/selv-labeled-data/fixed_v5/v5.conll"
     with open(filename, 'r', encoding="utf8") as f:
         lines = f.readlines()
         counter = -1
