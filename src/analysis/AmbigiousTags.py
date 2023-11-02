@@ -28,7 +28,7 @@ def create_map():
                     # label['labels'] length > 1?
                     if label['labels'][0] not in tag_map[label['text']]:
                         tag_map[label['text']].append(label['labels'][0])
-                        
+
                         if label['text'] not in duplicate_map.keys():
                             duplicate_map[label['text']] = []
                         # else:
@@ -43,8 +43,8 @@ def create_map():
                             else:
                                 o_tag_duplicates[label['text']] = label['labels']
                                 o_tag_duplicates[label['text']].append(tup[1])
-        
-        
+
+
         for i in range (len(obj)):
 
             json_obj = obj[i]
@@ -74,7 +74,6 @@ def create_map():
     df_otags.to_csv('OtagAndLabel_fix5.csv', encoding='utf-8')
     df_multitags.to_csv('multipleTags_fix5.csv', encoding='utf-8')
 
-
     return duplicate_map
 
 
@@ -97,6 +96,43 @@ def O_tags():
 
     return O_tags_list
 
+def count_tags():
 
-create_map()
+    tags_map = {}
+    filename = "../data/selv-labeled-data/fixed_v5/v5.conll"
+    with open(filename, 'r', encoding="utf8") as f:
+        lines = f.readlines()
+        counter = -1
+        split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
+        for y in split_list:
+            counter += 1
+            for x in y:
+                counter += 1
+                text, label = x.split('\t')
+                label = label.strip('\n')
+
+                if label != "O":
+                    label = label[2:]
+
+                if text not in tags_map.keys():
+                    tags_map[text] = {}
+
+                if label in tags_map[text].keys():
+                    tags_map[text][label] += 1
+                else:
+                    tags_map[text][label] = 1
+
+
+        # with open('tag_count.json', 'w') as fp:
+        #     json.dump(tags_map, fp, indent=4)
+
+        df_counttags = pd.DataFrame.from_dict(tags_map, orient='index')
+        df_counttags.to_csv('count_tags.csv', encoding='utf-8')
+        
+
+    return tags_map
+
+# create_map()
 #O_tags()
+
+print(count_tags())
