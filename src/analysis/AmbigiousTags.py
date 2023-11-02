@@ -112,3 +112,45 @@ def create_correct_labels_map():
                     tag_map[text]= label
                 continue
     return tag_map
+
+
+def count_tags():
+
+    tags_map = {}
+    filename = "../data/selv-labeled-data/fixed_v5/v5.conll"
+    with open(filename, 'r', encoding="utf8") as f:
+        lines = f.readlines()
+        counter = -1
+        split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
+        for y in split_list:
+            counter += 1
+            for x in y:
+                counter += 1
+                text, label = x.split('\t')
+                label = label.strip('\n')
+
+                if label != "O":
+                    label = label[2:]
+
+                if text not in tags_map.keys():
+                    tags_map[text] = {}
+
+                if label in tags_map[text].keys():
+                    tags_map[text][label] += 1
+                else:
+                    tags_map[text][label] = 1
+
+
+        # with open('tag_count.json', 'w') as fp:
+        #     json.dump(tags_map, fp, indent=4)
+
+        # df_counttags = pd.DataFrame.from_dict(tags_map, orient='index')
+        # df_counttags.to_csv('count_tags.csv', encoding='utf-8')
+        
+
+    return tags_map
+
+# create_map()
+#O_tags()
+
+print(count_tags())
