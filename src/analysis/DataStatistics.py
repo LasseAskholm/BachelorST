@@ -10,12 +10,32 @@ def create_correct_labels_map():
         lines = f.readlines()
         split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
         for y in split_list:
+            temp = ""
             for x in y:
-                text , label = x.split('\t')
-                label = label.strip('\n')
-                if text not in tag_map.keys():
-                    tag_map[text]= label
-                continue
+              text , label = x.split('\t')
+              label = label.strip('\n')
+              if "B-" in label:
+                temp += text + " "
+                tempLabel = label[2:]
+              elif "I-" in label:
+                temp += text + " "
+              else:
+
+                if temp != "":
+                  temp = temp[:-1]
+                  if temp not in tag_map.keys():
+                    tag_map[temp] = tempLabel
+                    temp = ""
+                    continue
+                  tag_map[temp] = tempLabel
+                  temp = ""
+
+                else:
+                  if text not in tag_map.keys():
+                    if label != "O":
+                      label = label[2:]
+                    tag_map[text] = label
+                  continue
     return tag_map
 
 def create_stats_map(path):
@@ -25,23 +45,45 @@ def create_stats_map(path):
       lines = f.readlines()
       split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
       for y in split_list:
+          temp = ""
           for x in y:
               text , label = x.split('\t')
               label = label.strip('\n')
-              if text not in tag_map.keys():
-                tag_map[text] = []
-                tag_map[text].append(label)
-                continue
-              tag_map[text].append(label)
+              if "B-" in label:
+                temp
+                temp += text + " "
+                tempLabel = label[2:]
+              elif "I-" in label:
+                temp += text + " "
+              else:
+                if temp != "":
+                  temp = temp[:-1]
+                  if temp not in tag_map.keys():
+                    tag_map[temp] = []
+                    tag_map[temp].append(tempLabel)
+                    temp = ""
+                    continue
+                  tag_map[temp].append(tempLabel)
+                  temp = ""
+                  
+                else:
+                  if text not in tag_map.keys():
+                    tag_map[text] = []
+                    tag_map[text].append(label)
+                    continue
+                  tag_map[text].append(label)
+
     return tag_map                  
                     
+
+
 def stats ():
   correctLabels = create_correct_labels_map()
   conll_path = "../../data/selv-labeled-data/fixed_v5/v5.conll"
   actualLabelsV0 = create_stats_map(conll_path)
   scores = calculatePureness(data_map=actualLabelsV0, correct_map=correctLabels)
   df_scores = pd.DataFrame.from_dict(scores, orient='index')
-  df_scores.to_csv('correctnessv5.csv', encoding='utf-8')
+  df_scores.to_csv('correctnessv5_2.csv', encoding='utf-8')
   
 def calculatePureness(data_map, correct_map):
   scores = {}
@@ -63,6 +105,7 @@ def calculatePureness(data_map, correct_map):
     scores[word]['Correct'] = correctPercent
     scores[word]['Incorrect'] = incorrectPercent
     scores[word]['Count'] = total_num_labels
+    scores[word]['Label'] = correct_label
     
   return scores
 
