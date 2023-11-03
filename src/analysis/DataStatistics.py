@@ -1,6 +1,7 @@
 import itertools
 import json
 import pandas as pd
+import numpy as np
 
 def create_correct_labels_map():
     tag_map = {}
@@ -74,8 +75,16 @@ def create_stats_map(path):
                   tag_map[text].append(label)
 
     return tag_map                  
-                    
 
+def most_frequent(List, word):
+    unique, counts = np.unique(List, return_counts=True)
+    if word == "military":
+      print(word)
+      print(unique)
+      print(counts)
+      print(List)
+    index = np.argmax(counts)
+    return unique[index] 
 
 def stats ():
   correctLabels = create_correct_labels_map()
@@ -83,7 +92,7 @@ def stats ():
   actualLabelsV0 = create_stats_map(conll_path)
   scores = calculatePureness(data_map=actualLabelsV0, correct_map=correctLabels)
   df_scores = pd.DataFrame.from_dict(scores, orient='index')
-  df_scores.to_csv('correctnessv5_2.csv', encoding='utf-8')
+  df_scores.to_csv('correctnessv5_3.csv', encoding='utf-8')
   
 def calculatePureness(data_map, correct_map):
   scores = {}
@@ -92,7 +101,8 @@ def calculatePureness(data_map, correct_map):
     incorrectCount = 0
     if word == "-DOCSTART-":
       continue
-    correct_label = correct_map[word]
+    correct_label = most_frequent(correct_map[word], word)
+    
     for label in data_map[word]:
       if label == correct_label:
         correctCount += 1
