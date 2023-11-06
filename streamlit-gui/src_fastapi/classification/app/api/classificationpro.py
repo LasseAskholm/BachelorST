@@ -1,32 +1,32 @@
 import torch
-from transformers import AutoTokenizer
+from transformers import DistilBertTokenizerFast
 import json
-from app.api.llama2.network import Llama2Class
+from app.api.distilbert.network import DistillBERTClass
 
 device = torch.device("cpu")
 
 
 class ClassProcessor:
-    def __init__(self, model: str = None, service: str = "promting"):
+    def __init__(self, model: str = None, service: str = "classification"):
         """
-        Constructor to the class that does the Promting in the back end
-        :param model: Transfomer model that will be used for Promting Task
-        :param service: string to represent the service, this will be defaulted to promting
+        Constructor to the class that does the Classification in the back end
+        :param model: Transfomer model that will be used for Classification Task
+        :param service: string to represent the service, this will be defaulted to classification
         """
         if model is None:
-            model = "llama2"
+            model = "distilbert"
         # path to all the files that will be used for inference
         self.path = f"./app/api/{model}/"
         # json file for mapping of network output to the correct category
         self.mapping = self.path + "mapping.json"
         self.model_path = self.path + "model.bin"
         # Selecting the correct model based on the passed madel input. Default distilbert
-        if model == "llama2":
-            self.model = Llama2Class()
-            self.tokenizer = AutoTokenizer.from_pretrained(self.path)
+        if model == "distilbert":
+            self.model = DistillBERTClass()
+            self.tokenizer = DistilBertTokenizerFast.from_pretrained(self.path)
         else:
-            self.model = Llama2Class()
-            self.tokenizer = AutoTokenizer.from_pretrained(self.path)
+            self.model = DistillBERTClass()
+            self.tokenizer = DistilBertTokenizerFast.from_pretrained(self.path)
 
         self.model.eval()
         self.model.load_state_dict(torch.load(self.model_path, map_location=device))
