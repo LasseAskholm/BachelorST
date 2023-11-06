@@ -11,7 +11,7 @@ def llama2():
     if request.method == "GET":
         return "<p>Llama2</p>"
     else:
-        data = request.json()
+        data = request.json
         print(data)
         return request.form
 

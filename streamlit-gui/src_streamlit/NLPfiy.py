@@ -42,6 +42,11 @@ class MakeCalls:
         :param query: Input query for Information extraction use case.
         :return: results from the inference done by the model.
         """
+
+        ## Post call to endpoints
+        ## Might need modification where this is called
+
+
         inference_enpoint = self.url + f"api/v1/{service}/predict"
 
         payload = {"model": model.lower(), "text": text, "query": query.lower()}
