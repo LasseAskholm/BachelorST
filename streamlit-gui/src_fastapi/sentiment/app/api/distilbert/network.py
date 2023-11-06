@@ -1,17 +1,17 @@
 import torch.nn
-from transformers import AutoModelForCausalLM
+from transformers import DistilBertModel
 
 
-class Llama2Class(torch.nn.Module):
+class DistilBertClass(torch.nn.Module):
     def __init__(self):
-        super(Llama2Class, self).__init__()
-        self.l1 = AutoModelForCausalLM.from_pretrained("LazzeKappa/llama2", token="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")
+        super(DistilBertClass, self).__init__()
+        self.model_layer = DistilBertModel.from_pretrained("distilbert-base-uncased")
         self.pre_classifier = torch.nn.Linear(768, 768)
         self.dropout = torch.nn.Dropout(0.3)
-        self.classifier = torch.nn.Linear(768, 4)
+        self.classifier = torch.nn.Linear(768, 2)
 
     def forward(self, input_ids, attention_mask):
-        output_1 = self.l1(input_ids=input_ids, attention_mask=attention_mask)
+        output_1 = self.model_layer(input_ids=input_ids, attention_mask=attention_mask)
         hidden_state = output_1[0]
         pooler = hidden_state[:, 0]
         pooler = self.pre_classifier(pooler)

@@ -5,7 +5,7 @@ from fastapi import APIRouter, HTTPException
 from app.api.model import Input, ClassResponse
 from app.api.classificationpro import ClassProcessor
 
-promting = APIRouter()
+classification = APIRouter()
 
 
 # Path to provide details of the services loaded in the backend. Details are obtained from the config json file
