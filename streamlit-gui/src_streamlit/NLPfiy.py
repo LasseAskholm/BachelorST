@@ -59,12 +59,14 @@ class MakeCalls:
         if "bert" in model:
             #BERT call
             payload = {
-                "inputs": "My name is Sarah Jessica Parker but you can call me Jessica",
+                "inputs": text,
             }
 
             result = Client.inference_bert(payload)
 
             return result
+            # return json.dumps(result.text)
+        
         
 
         elif "llama2" in model:
