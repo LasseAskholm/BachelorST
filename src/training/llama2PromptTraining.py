@@ -2,22 +2,23 @@ import os
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = str(0) #Limits to use only one GPU
 
+import numpy as np
 from datasets import Dataset
 from transformers import AutoTokenizer
 from transformers import TrainingArguments, Trainer, AutoModelForCausalLM
 from transformers import DataCollatorForTokenClassification
 from transformers import BitsAndBytesConfig
-from utils.Llama2DataLoader import generate_prompt_data_entire_text, generate_prompt_data_sentence
+from utils.Llama2DataLoader import generate_prompt_data_entire_text, generate_prompt_data_sentence, generate_single_label_data_sentence
 from utils.CommonDataLoader import construct_global_docMap
 import torch
 from huggingface_hub import login
 from loguru import logger
-from utils.prompt import generate_prompt_ner
+from utils.prompt import generate_prompt_ner, generate_single_label_prompt_ner
 from peft import (
         LoraConfig,
         get_peft_model,
         get_peft_model_state_dict,
-        prepare_model_for_int8_training,
+        prepare_model_for_kbit_training,
         set_peft_model_state_dict,
     )
 from utils.CommonVariables import (
@@ -34,11 +35,12 @@ from utils.CommonVariables import (
     COMMON_LLAMA2_EPOCHS,
     COMMON_LLAMA2_WEIGHT_DECAY,
     COMMON_LLAMA2_LOGGING_DIR,
-    COMMON_LLAMA2_LOGGING_STEPS
+    COMMON_LLAMA2_LOGGING_STEPS,
+    COMMON_LLAMA2_RUN_WITH_SENTENCE_SETTING,
+    COMMON_LLAMA2_RUN_WITH_DOCUMENT_SETTING,
+    COMMON_LLAMA2_REDUCED_LABELS,
+    COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL
     )
-
-#Reduced labeles
-reducedLabeles = True
 
 #tokenizer
 logger.info("Loading Tokenizer...")
@@ -57,7 +59,7 @@ model = AutoModelForCausalLM.from_pretrained(COMMON_LLAMA2_MODEL_NAME,
                                              torch_dtype = torch.float16,
                                              device_map ="auto")
 
-model = prepare_model_for_int8_training(model)
+model = prepare_model_for_kbit_training(model)
 
 config = LoraConfig(
     r=16,
@@ -78,16 +80,33 @@ model = get_peft_model(model, config)
 def load_data_sets():
    
     entities = construct_global_docMap(COMMON_DSTL_ENTITIES)
-    df = generate_prompt_data_sentence(entities, COMMON_DSTL_DOCUMENTS, COMMON_LLAMA2_SELF_LABELED_DATA, reducedLabeles)
+
+    if COMMON_LLAMA2_RUN_WITH_SENTENCE_SETTING:
+        df = generate_prompt_data_sentence(entities, COMMON_DSTL_DOCUMENTS, COMMON_LLAMA2_SELF_LABELED_DATA, COMMON_LLAMA2_REDUCED_LABELS)
+
+    if COMMON_LLAMA2_RUN_WITH_DOCUMENT_SETTING:
+        df = generate_prompt_data_entire_text(entities, COMMON_DSTL_DOCUMENTS)
+
+    if COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL:
+        df = generate_single_label_data_sentence(entities, COMMON_DSTL_DOCUMENTS, COMMON_LLAMA2_SELF_LABELED_DATA, COMMON_LLAMA2_REDUCED_LABELS)
+
     dataset = Dataset.from_pandas(df)
     dataset = dataset.train_test_split(test_size=0.2)
     train_dataset = dataset['train'].map(tokenize_and_generate_prompt)
     test_dataset = dataset['test'].map(tokenize_and_generate_prompt)
-
+    
+    if COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL:
+        train_dataset = train_dataset.remove_columns("label")
+        test_dataset = test_dataset.remove_columns("label")
     return (train_dataset, test_dataset)
 
 def tokenize_and_generate_prompt(data_point):
-    full_prompt = generate_prompt_ner(context =data_point['context'], output= data_point['answers'])
+    if not COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL:
+        full_prompt = generate_prompt_ner(context =data_point['context'], output= data_point['answers'])
+
+    elif COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL:
+        full_prompt = generate_single_label_prompt_ner(label =data_point['label'], context =data_point['context'], output= data_point['answers'])
+
     tokenized_full_prompt = tokenize(full_prompt)
     return tokenized_full_prompt
 

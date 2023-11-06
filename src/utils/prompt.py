@@ -22,6 +22,24 @@ def generate_prompt_ner(context, output=""):
      {output}"""
 
 
+def generate_single_label_prompt_ner(label, context, output=""):
+     input = COMMON_LLAMA2_PROMT_INPUT
+     return f""""
+     Your task is to harness the capabilities of a robust entity extraction model. 
+     Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
+     Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside the specified label. 
+
+     Your output should reflect the discovered entities in the given text, that match this label: {label}
+
+     ### Input:
+     {input}
+
+     ### Context:
+     {context}
+
+     ### Response:
+     {output}"""
+
 
 ###Input
 #Extract all entities in the following context along with their label from the provided label list:
