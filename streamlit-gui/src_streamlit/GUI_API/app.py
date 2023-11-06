@@ -12,8 +12,10 @@ def llama2():
         return "<p>Llama2</p>"
     else:
         data = request.json
-        print(data)
-        return request.form
+
+        # Call Llama 2 inference
+        # Return inference results
+        return data
 
 if __name__ == '__main__':  
    app.run()

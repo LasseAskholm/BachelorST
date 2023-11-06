@@ -4,6 +4,8 @@ from streamlit_lottie import st_lottie
 import requests
 import json
 
+import GUI_API.Client as Client
+
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -47,13 +49,33 @@ class MakeCalls:
         ## Might need modification where this is called
 
 
-        inference_enpoint = self.url + f"api/v1/{service}/predict"
+        # inference_enpoint = self.url + f"api/v1/{service}/predict"
 
-        payload = {"model": model.lower(), "text": text, "query": query.lower()}
-        result = requests.post(
-            url=inference_enpoint, headers=self.headers, data=json.dumps(payload)
-        )
-        return json.loads(result.text)
+        # payload = {"model": model.lower(), "text": text, "query": query.lower()}
+        # result = requests.post(
+        #     url=inference_enpoint, headers=self.headers, data=json.dumps(payload)
+        # )
+
+        if "bert" in model:
+            #BERT call
+            payload = {
+                "inputs": "My name is Sarah Jessica Parker but you can call me Jessica",
+            }
+
+            result = Client.inference_bert(payload)
+
+            return result
+        
+
+        elif "llama2" in model:
+            ##Llama2 call
+
+            payload = {"model": model.lower(), "text": text, "query": query.lower()}
+
+            result = Client.inference_llama2_test(payload)
+
+            print(result)
+            return result['text']
 
 
 class Display:
@@ -64,14 +86,12 @@ class Display:
             label="",
             options=[
                 "Homepage",
-                "BERT",
-                "Llama2",
+                "Named Entity Recognition",
             ],
         )
         self.service = {
             "Homepage": "about",
-            "BERT": "ner",
-            "Llama2": "promting",
+            "Named Entity Recognition": "ner",
         }
 
     def static_elements(self):

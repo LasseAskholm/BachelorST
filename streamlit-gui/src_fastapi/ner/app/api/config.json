@@ -2,5 +2,25 @@
     "model-1": {
         "name": "spaCy",
         "info": "This is a pre-trained model availabe from spaCy python library. URL to the model details: [spaCy](https://spacy.io/models/en)"
+    },
+    "model-2": {
+        "name": "Llama2_v1",
+        "info": "Llama2 endpoint"
+    },
+    "model-3": {
+        "name": "Llama2_v2",
+        "info": "Llama2 endpoint"
+    },
+    "model-4": {
+        "name": "BERT_v1",
+        "info": "BERT endpoint"
+    },
+    "model-5": {
+        "name": "BERT_v2",
+        "info": "BERT endpoint"
+    },
+    "model-6": {
+        "name": "BERT_v1",
+        "info": "BERT endpoint"
     }
 }
