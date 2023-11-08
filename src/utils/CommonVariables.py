@@ -69,7 +69,7 @@ COMMON_BERT_ID2LABEL = {0 : "O",
 '''
 COMMON VARIABLES FOR Llama2
 '''
-COMMON_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L08/selfLabeledDataJSONL08.json"
+COMMON_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L06/selfLabeledDataJSONL06.json"
 COMMON_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with their label from the entities at your disposal:"
 COMMON_LLAMA2_PROMT_LABELES = "Organisation, Person, Location, Money, Temporal, Weapon, MilitaryPlatform"
 COMMON_LLAMA2_SENTENCE_LABELS = [
@@ -82,7 +82,7 @@ COMMON_LLAMA2_SENTENCE_LABELS = [
         "MilitaryPlatform"
     ]
 COMMON_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
-COMMON_LLAMA2_OUTPUT_DIR = "../../L08"
+COMMON_LLAMA2_OUTPUT_DIR = "../../L06"
 COMMON_LLAMA2_LEARNING_RATE = 3e-4
 COMMON_LLAMA2_TRAIN_BATCH_SIZE = 16
 COMMON_LLAMA2_EVAL_BATCH_SIZE = 16

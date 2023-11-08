@@ -62,7 +62,7 @@ model = AutoModelForCausalLM.from_pretrained(COMMON_LLAMA2_MODEL_NAME,
 model = prepare_model_for_kbit_training(model)
 
 config = LoraConfig(
-    r=16,
+    r=64,
     lora_alpha=16,
     target_modules=[
         "q_proj",
@@ -150,6 +150,7 @@ def main ():
         logging_dir = COMMON_LLAMA2_LOGGING_DIR,
         logging_steps = COMMON_LLAMA2_LOGGING_STEPS,
         fp16= True,
+        warmup_ratio = 0.03,
         optim = "adamw_torch"
     )
     ### define trainer here
