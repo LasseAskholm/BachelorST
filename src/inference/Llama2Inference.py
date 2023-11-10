@@ -25,55 +25,114 @@ from utils.prompt import generate_prompt_ner_inference, generate_single_label_pr
 logging.set_verbosity(logging.CRITICAL)
 
 # The model to load from Huggingface
-model_name = "LazzeKappa/L06"
+model_name6 = "LazzeKappa/L06"   #alle
+# model_name7 = "LazzeKappa/L07"   #single
+model_name8 = "LazzeKappa/L08"   #alle
+model_name9 = "LazzeKappa/L09"   #single
 
 
 # Reload model in FP16 and merge it with LoRA weights
-model = AutoModelForCausalLM.from_pretrained(
-    model_name,
+model6 = AutoModelForCausalLM.from_pretrained(
+    model_name6,
+    token=COMMON_HUGGINGFACE_ACCESS_TOKEN,
+    load_in_8bit= True,
+    torch_dtype=torch.float16,
+    device_map="auto",
+)
+model8 = AutoModelForCausalLM.from_pretrained(
+    model_name8,
+    token=COMMON_HUGGINGFACE_ACCESS_TOKEN,
+    load_in_8bit= True,
+    torch_dtype=torch.float16,
+    device_map="auto",
+)
+model9 = AutoModelForCausalLM.from_pretrained(
+    model_name9,
     token=COMMON_HUGGINGFACE_ACCESS_TOKEN,
     load_in_8bit= True,
     torch_dtype=torch.float16,
     device_map="auto",
 )
 
-
 # Reload tokenizer to save it
-tokenizer = AutoTokenizer.from_pretrained(model_name, token=COMMON_HUGGINGFACE_ACCESS_TOKEN, add_eos_token= True)
-tokenizer.pad_token_id = 0
-tokenizer.padding_side = "left"
+tokenizer6 = AutoTokenizer.from_pretrained(model_name6, token=COMMON_HUGGINGFACE_ACCESS_TOKEN, add_eos_token= True)
+tokenizer6.pad_token_id = 0
+tokenizer6.padding_side = "left"
 
-def ask_alpacha(context: str):
-    prompt = generate_prompt_ner_inference(context)
+tokenizer8 = AutoTokenizer.from_pretrained(model_name8, token=COMMON_HUGGINGFACE_ACCESS_TOKEN, add_eos_token= True)
+tokenizer8.pad_token_id = 0
+tokenizer8.padding_side = "left"
 
-    pipe = pipeline(
-    task="text-generation", 
-    model=model, 
-    tokenizer=tokenizer, 
-    return_full_text=False,
-    max_length=1024
-    )
+tokenizer9 = AutoTokenizer.from_pretrained(model_name9, token=COMMON_HUGGINGFACE_ACCESS_TOKEN, add_eos_token= True)
+tokenizer9.pad_token_id = 0
+tokenizer9.padding_side = "left"
+
+
+def get_prompt(context, model):
+    match model:
+        case "Llama2_v6":
+            return generate_prompt_ner_inference(context)
+        case "Llama2_v7":
+            return generate_prompt_ner_inference(context)
+        case "Llama2_v9":
+            return generate_single_label_prompt_ner_inference(context)
+
+
+def get_pipeline(model_name):
+    match model_name:
+        case "Llama2_v6":
+            return pipeline(
+                task="text-generation", 
+                model=model6, 
+                tokenizer=tokenizer6, 
+                return_full_text=False,
+                max_length=1024
+                )
+        case "Llama2_v8":
+            return pipeline(
+                task="text-generation", 
+                model=model8, 
+                tokenizer=tokenizer8, 
+                return_full_text=False,
+                max_length=1024
+                )
+        case "Llama2_v9":
+            return pipeline(
+                task="text-generation", 
+                model=model9, 
+                tokenizer=tokenizer9, 
+                return_full_text=False,
+                max_length=1024
+                )
+
+def ask_alpacha(context: str, model_name):
+
+    prompt = get_prompt(context, model_name)
+
+    pipe = get_pipeline(model_name)
 
     result = pipe(prompt) 
 
     print(result[0]['generated_text'])
 
-def ask_alpacha_single_label(context: str, label: str):
-    #TODO: Create validation of chosen label. 
+    return(result[0]['generated_text'])
 
-    prompt = generate_single_label_prompt_ner_inference(label, context)
+# def ask_alpacha_single_label(context: str, label: str):
+#     #TODO: Create validation of chosen label. 
 
-    pipe = pipeline(
-    task="text-generation", 
-    model=model, 
-    tokenizer=tokenizer, 
-    return_full_text=False,
-    max_length=1024
-    )
+#     prompt = generate_single_label_prompt_ner_inference(label, context)
 
-    result = pipe(prompt) 
+#     pipe = pipeline(
+#     task="text-generation", 
+#     model=model, 
+#     tokenizer=tokenizer, 
+#     return_full_text=False,
+#     max_length=1024
+#     )
 
-    print(result[0]['generated_text'])
+#     result = pipe(prompt) 
+
+#     print(result[0]['generated_text'])
 
 
 

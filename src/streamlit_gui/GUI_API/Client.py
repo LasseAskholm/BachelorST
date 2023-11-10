@@ -1,6 +1,9 @@
 import requests
 
-API_TOKEN = "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"
+from utils.CommonVariables import COMMON_HUGGINGFACE_ACCESS_TOKEN
+
+
+API_TOKEN = COMMON_HUGGINGFACE_ACCESS_TOKEN
 API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
@@ -23,9 +26,8 @@ def print_output(response):
 
 
 def inference_llama2_test(payload, URL):
-	url = "http://127.0.0.1:5000/llama2"
 	# url = "http://dc1-proj287:5000/llama2"
-	res = requests.post(url, json=payload)
+	res = requests.post(URL, json=payload)
 	return res.json()
 
 # output2 = inference_llama2_test({

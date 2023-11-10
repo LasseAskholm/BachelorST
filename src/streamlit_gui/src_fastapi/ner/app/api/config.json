@@ -1,14 +1,21 @@
 {
-    "model-2": {
-        "name": "Llama2_v1",
+    "L6": {
+        "name": "Llama2_v6",
         "info": "Llama2 endpoint",
-        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B0LL2"
+        "URL": "http://127.0.0.1:5000/api/llama2"
+
 
     },
-    "model-3": {
-        "name": "Llama2_v2",
+    "L8": {
+        "name": "Llama2_v8",
         "info": "Llama2 endpoint",
-        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B0LL3"
+        "URL": "http://127.0.0.1:5000/api/llama2"
+
+    },
+    "L9": {
+        "name": "Llama2_v9",
+        "info": "Llama2 endpoint",
+        "URL": "http://127.0.0.1:5000/api/llama2"
 
     },
     "B1": {

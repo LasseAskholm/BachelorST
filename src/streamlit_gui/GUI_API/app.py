@@ -1,7 +1,8 @@
 from flask import Flask, request
 
-# from inference.Llama2Inference import *
+#TODO remove comment line 5 and 20. Comment line 21
 
+#from inference.Llama2Inference import *
 
 app = Flask(__name__)
 
@@ -10,18 +11,15 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 #dc1-proj287:5000/llama2
-@app.route("/llama2", methods=["POST", "GET"])
+@app.route("/api/llama2", methods=["POST", "GET"])
 def llama2():
     if request.method == "GET":
         return "<p>Llama2</p>"
-    else:
-        data = request.json
-
-        # Call Llama 2 inference
-        # Return inference results
-
-        
-        return data
+    elif request.method == "POST":
+        payload = request.json
+        # payload['text'] = ask_alpacha(text, payload['model'])
+        payload['text'] = "manually"
+        return payload
 
 if __name__ == '__main__':  
    app.run(host="0.0.0.0")
