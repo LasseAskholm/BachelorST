@@ -4,7 +4,8 @@ from streamlit_lottie import st_lottie
 import requests
 import json
 
-import GUI_API.Client as Client
+from streamlit_gui.GUI_API.Client import *
+
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -60,7 +61,7 @@ class MakeCalls:
             #BERT call
             payload = text
 
-            result = Client.inference_bert(payload, URL)
+            result = inference_bert(payload, URL)
             # result = Client.inference_bert(payload, URL)
 
 
@@ -75,7 +76,7 @@ class MakeCalls:
 
             payload = {"model": model.lower(), "text": text, "query": query.lower()}
 
-            result = Client.inference_llama2_test(payload, URL)
+            result = inference_llama2_test(payload, URL)
 
             print(result)
             return result['text']

@@ -24,9 +24,10 @@ def print_output(response):
 
 def inference_llama2_test(payload, URL):
 	url = "http://127.0.0.1:5000/llama2"
+	# url = "http://dc1-proj287:5000/llama2"
 	res = requests.post(url, json=payload)
 	return res.json()
 
-output2 = inference_llama2_test({
-	"inputs": "My name is Sarah Jessica Parker but you can call me Jessica",
-})
+# output2 = inference_llama2_test({
+# 	"inputs": "My name is Sarah Jessica Parker but you can call me Jessica",
+# })
