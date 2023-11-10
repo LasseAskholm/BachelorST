@@ -3,10 +3,10 @@ import json
 import pandas as pd
 import numpy as np
 
-def create_correct_labels_map():
+def create_correct_labels_map(path):
     tag_map = {}
 
-    data_path ="../../data/selv-labeled-data/fixed_v5/v5.conll"
+    data_path = path
     with open(data_path,'r',encoding="utf-8") as f:
         lines = f.readlines()
         split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
@@ -21,7 +21,6 @@ def create_correct_labels_map():
               elif "I-" in label:
                 temp += text + " "
               else:
-
                 if temp != "":
                   temp = temp[:-1]
                   if temp not in tag_map.keys():
@@ -118,6 +117,8 @@ def calculatePureness(data_map, correct_map):
     scores[word]['Label'] = correct_label
     
   return scores
+
+
 
 def main():
   stats()
