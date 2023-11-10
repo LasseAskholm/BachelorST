@@ -17,8 +17,7 @@ def llama2():
         return "<p>Llama2</p>"
     elif request.method == "POST":
         payload = request.json
-        text = payload['text']
-        # payload['text'] = ask_alpacha(text, payload['model'])
+        # payload['text'] = ask_alpacha(payload['text'], payload['model'])
         payload['text'] = "manually"
         return payload
 
