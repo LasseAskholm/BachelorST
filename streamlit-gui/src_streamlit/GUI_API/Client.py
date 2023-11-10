@@ -5,7 +5,7 @@ API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 def inference_bert(payload):
-	response = requests.post(API_URL, headers=headers, json=payload)
+	response = requests.post(API_URL, headers=headers, json={"inputs": payload, "options":{"wait_for_model":True}})
 	return response.json()
 	
 output = inference_bert({
@@ -22,7 +22,6 @@ def print_output(response):
 		print(i['word'] + ": " + i['entity_group'] + "  => Score: " + str(i['score']))
 
 
-print_output(output)
 
 
 def inference_llama2_test(payload):
@@ -33,5 +32,3 @@ def inference_llama2_test(payload):
 output2 = inference_llama2_test({
 	"inputs": "My name is Sarah Jessica Parker but you can call me Jessica",
 })
-
-print(output2)
