@@ -16,7 +16,7 @@ COMMON_HUGGINGFACE_WRITE_TOKEN = "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"
 COMMON_SKIPPED_LABELES = ["DocumentReference", "Nationality", "Quantity", "CommsIdentifier", "Coordinate", "Frequency"]
 COMMON_DSTL_ENTITIES = "../../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json"
 COMMON_DSTL_DOCUMENTS = "../../data/re3d-master/*/documents.json"
-COMMON_RUN_WITH_DSTL = True
+COMMON_RUN_WITH_DSTL = False
 
 '''
 COMMON VARIABLES FOR BERT
@@ -69,9 +69,11 @@ COMMON_BERT_ID2LABEL = {0 : "O",
 '''
 COMMON VARIABLES FOR Llama2
 '''
-COMMON_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L06/selfLabeledDataJSONL06.json"
-COMMON_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with their label from the entities at your disposal:"
+COMMON_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L09/selfLabeledDataJSONL09.json"
+COMMON_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with the label associated that was defined above:"
 COMMON_LLAMA2_PROMT_LABELES = "Organisation, Person, Location, Money, Temporal, Weapon, MilitaryPlatform"
+COMMON_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
+COMMON_LLAMA2_OUTPUT_DIR = "../../L09"
 COMMON_LLAMA2_SENTENCE_LABELS = [
         "Organisation",
         "Person",
@@ -81,8 +83,6 @@ COMMON_LLAMA2_SENTENCE_LABELS = [
         "Weapon",
         "MilitaryPlatform"
     ]
-COMMON_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
-COMMON_LLAMA2_OUTPUT_DIR = "../../L06"
 COMMON_LLAMA2_LEARNING_RATE = 3e-4
 COMMON_LLAMA2_TRAIN_BATCH_SIZE = 16
 COMMON_LLAMA2_EVAL_BATCH_SIZE = 16
@@ -90,10 +90,10 @@ COMMON_LLAMA2_EPOCHS = 4
 COMMON_LLAMA2_WEIGHT_DECAY = 1e-5
 COMMON_LLAMA2_LOGGING_DIR = COMMON_LLAMA2_OUTPUT_DIR + "/logging"
 COMMON_LLAMA2_LOGGING_STEPS = 10
-COMMON_LLAMA2_RUN_WITH_SENTENCE_SETTING = True
+COMMON_LLAMA2_RUN_WITH_SENTENCE_SETTING = False
 COMMON_LLAMA2_RUN_WITH_DOCUMENT_SETTING = False
-COMMON_LLAMA2_REDUCED_LABELS = True,
-COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL = False
+COMMON_LLAMA2_REDUCED_LABELS = False
+COMMON_LLAMA2_RUN_WITH_SINGLE_LABEL = True
 
 
 '''
@@ -480,6 +480,15 @@ L02_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along wi
 L02_LLAMA2_PROMT_LABELES = "Organisation, Nationality, DocumentReference, Person, Location, Money, Vehicle, Temporal, Weapon, Quantity, CommsIdentifier, MilitaryPlatform, Coordinate, Frequency"
 L02_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
 L02_LLAMA2_OUTPUT_DIR = "../../L02"
+L02_LLAMA2_SENTENCE_LABELS = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
 L02_LLAMA2_LEARNING_RATE = 3e-4
 L02_LLAMA2_TRAIN_BATCH_SIZE = 16
 L02_LLAMA2_EVAL_BATCH_SIZE = 16
@@ -503,6 +512,15 @@ L03_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along wi
 L03_LLAMA2_PROMT_LABELES = "Organisation, Nationality, DocumentReference, Person, Location, Money, Vehicle, Temporal, Weapon, Quantity, CommsIdentifier, MilitaryPlatform, Coordinate, Frequency"
 L03_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
 L03_LLAMA2_OUTPUT_DIR = "../../L03"
+L03_LLAMA2_SENTENCE_LABELS = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
 L03_LLAMA2_LEARNING_RATE = 3e-4
 L03_LLAMA2_TRAIN_BATCH_SIZE = 16
 L03_LLAMA2_EVAL_BATCH_SIZE = 16
@@ -526,7 +544,16 @@ L04_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L04/selfLabeledData
 L04_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with their label from the entities at your disposal:"
 L04_LLAMA2_PROMT_LABELES = "Organisation, Nationality, DocumentReference, Person, Location, Money, Vehicle, Temporal, Weapon, Quantity, CommsIdentifier, MilitaryPlatform, Coordinate, Frequency"
 L04_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
-L04_LLAMA2_OUTPUT_DIR = "../../L05"
+L04_LLAMA2_OUTPUT_DIR = "../../L04"
+L04_LLAMA2_SENTENCE_LABELS = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
 L04_LLAMA2_LEARNING_RATE = 3e-4
 L04_LLAMA2_TRAIN_BATCH_SIZE = 16
 L04_LLAMA2_EVAL_BATCH_SIZE = 16
@@ -551,6 +578,15 @@ L05_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along wi
 L05_LLAMA2_PROMT_LABELES = "Organisation, Person, Location, Money, Temporal, Weapon, MilitaryPlatform"
 L05_LLAMA2_MODEL_NAME = "meta-llama/Llama-2-7b-hf"
 L05_LLAMA2_OUTPUT_DIR = "../../L05"
+L05_LLAMA2_SENTENCE_LABELS = [
+        "Organisation",
+        "Person",
+        "Location",
+        "Money",
+        "Temporal",
+        "Weapon",
+        "MilitaryPlatform"
+    ]
 L05_LLAMA2_LEARNING_RATE = 3e-4
 L05_LLAMA2_TRAIN_BATCH_SIZE = 16
 L05_LLAMA2_EVAL_BATCH_SIZE = 16
@@ -603,7 +639,7 @@ EXPIREMENT SEVEN Llama2
 TIME: around 10 hours
 '''
 L07_LLAMA2_SELF_LABELED_DATA = "../../data/selv-labeled-data/L07/selfLabeledDataJSONL07.json"
-L07_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with their label from the entities at your disposal:"
+L07_LLAMA2_PROMT_INPUT = "Extract all entities in the following context along with the label associated that was defined above:"
 L07_LLAMA2_PROMT_LABELES = "Organisation, Person, Location, Money, Temporal, Weapon, MilitaryPlatform"
 L07_LLAMA2_SENTENCE_LABELS = [
         "Organisation",

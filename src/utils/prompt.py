@@ -7,7 +7,10 @@ def generate_prompt_ner(context, output=""):
 
      formated_output = ""
      for entry in output: 
-          formated_output += ", " + entry
+          if formated_output == "":
+               formated_output = entry
+          else:
+               formated_output += ", " + entry
      
      prompt = textwrap.dedent(f""""<s> [INST] <<SYS>>
      Your task is to harness the capabilities of a robust entity extraction model. 
@@ -29,9 +32,39 @@ def generate_prompt_ner(context, output=""):
      
      return prompt
 
-def generate_prompt_ner_inference(context, output=""):
+
+def generate_single_label_prompt_ner(label, context, output=""):
+     input = COMMON_LLAMA2_PROMT_INPUT
+     formated_output = ""
+     
+     for entry in output: 
+          if formated_output == "":
+               formated_output = entry
+          else:
+               formated_output += ", " + entry
+
+     prompt = textwrap.dedent(f"""<s> [INST] <<SYS>>
+     Your task is to harness the capabilities of a robust entity extraction model. 
+     Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
+     Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside the specified label. 
+
+     Your output should reflect the discovered entities in the given text, that matches this label: {label} <</SYS>>
+
+     ### Input:
+     {input}
+
+     ### Context:
+     {context[0]} [/INST]
+
+     ### Response:
+     {output} </s>""")
+
+     return prompt
+
+def generate_prompt_ner_inference(context):
      input = COMMON_LLAMA2_PROMT_INPUT
      labels = COMMON_LLAMA2_PROMT_LABELES
+     
      prompt = textwrap.dedent(f"""<s> [INST] <<SYS>>
      Your task is to harness the capabilities of a robust entity extraction model. 
      Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
@@ -49,32 +82,23 @@ def generate_prompt_ner_inference(context, output=""):
      
      return prompt
 
-
-def generate_single_label_prompt_ner(label, context, output=""):
+def generate_single_label_prompt_ner_inference(label, context):
      input = COMMON_LLAMA2_PROMT_INPUT
-     formated_output = ""
-     
-     for entry in output: 
-          formated_output += ", " + entry
 
-     prompt = textwrap.dedent(f""""
+     prompt = textwrap.dedent(f"""<s> [INST] <<SYS>>
      Your task is to harness the capabilities of a robust entity extraction model. 
      Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
      Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside the specified label. 
 
-     Your output should reflect the discovered entities in the given text, that match this label: {label}
+     Your output should reflect the discovered entities in the given text, that matches this label: {label} <</SYS>>
 
      ### Input:
      {input}
 
      ### Context:
-     {context[0]}
-
-     ### Response:
-     {output}""")
+     {context[0]} [/INST] """)
 
      return prompt
-
 
 ###Input
 #Extract all entities in the following context along with their label from the provided label list:

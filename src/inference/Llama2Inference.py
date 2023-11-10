@@ -19,7 +19,7 @@ from utils.CommonVariables import (
     COMMON_HUGGINGFACE_ACCESS_TOKEN
 )
 
-from utils.prompt import generate_prompt_ner_inference
+from utils.prompt import generate_prompt_ner_inference, generate_single_label_prompt_ner_inference
 
 # Ignore warnings
 logging.set_verbosity(logging.CRITICAL)
@@ -50,7 +50,25 @@ def ask_alpacha(context: str):
     task="text-generation", 
     model=model, 
     tokenizer=tokenizer, 
-    max_length=800
+    return_full_text=False,
+    max_length=1024
+    )
+
+    result = pipe(prompt) 
+
+    print(result[0]['generated_text'])
+
+def ask_alpacha_single_label(context: str, label: str):
+    #TODO: Create validation of chosen label. 
+
+    prompt = generate_single_label_prompt_ner_inference(label, context)
+
+    pipe = pipeline(
+    task="text-generation", 
+    model=model, 
+    tokenizer=tokenizer, 
+    return_full_text=False,
+    max_length=1024
     )
 
     result = pipe(prompt) 
@@ -60,7 +78,8 @@ def ask_alpacha(context: str):
 
 
 if __name__ == '__main__':
-    path = "../../data/self-labeled-data/ValData/ValGEN.txt"
+    path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
     with open (path, "r", encoding="utf-8") as file:
-        context = file.read().replace('\n', '')
-    ask_alpacha(context)
+        for line in file:
+            ask_alpacha(line)
+            print("--------")
