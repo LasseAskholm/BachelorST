@@ -78,7 +78,6 @@ class MakeCalls:
 
             result = inference_llama2_test(payload, URL)
 
-            print(result)
             return result['text']
 
 

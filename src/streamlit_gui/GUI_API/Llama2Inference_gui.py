@@ -15,11 +15,11 @@ from transformers import (
 from peft import LoraConfig, PeftModel
 
 from huggingface_hub import login
-from utils.CommonVariables import (
+from utils_gui.CommonVariables import (
     COMMON_HUGGINGFACE_ACCESS_TOKEN
 )
 
-from utils.prompt import generate_prompt_ner_inference, generate_single_label_prompt_ner_inference
+from utils_gui.prompt import generate_prompt_ner_inference, generate_single_label_prompt_ner_inference
 
 # Ignore warnings
 logging.set_verbosity(logging.CRITICAL)
@@ -69,41 +69,40 @@ tokenizer9.padding_side = "left"
 
 
 def get_prompt(context, model):
-    match model:
-        case "Llama2_v6":
-            return generate_prompt_ner_inference(context)
-        case "Llama2_v7":
-            return generate_prompt_ner_inference(context)
-        case "Llama2_v9":
-            return generate_single_label_prompt_ner_inference(context)
+    if model == "Llama2_v6":
+        return generate_prompt_ner_inference(context)
+    elif model == "Llama2_v7":
+        return generate_prompt_ner_inference(context)
+    elif model == "Llama2_v9":
+        return generate_single_label_prompt_ner_inference(context)
 
 
 def get_pipeline(model_name):
-    match model_name:
-        case "Llama2_v6":
-            return pipeline(
-                task="text-generation", 
-                model=model6, 
-                tokenizer=tokenizer6, 
-                return_full_text=False,
-                max_length=1024
-                )
-        case "Llama2_v8":
-            return pipeline(
-                task="text-generation", 
-                model=model8, 
-                tokenizer=tokenizer8, 
-                return_full_text=False,
-                max_length=1024
-                )
-        case "Llama2_v9":
-            return pipeline(
-                task="text-generation", 
-                model=model9, 
-                tokenizer=tokenizer9, 
-                return_full_text=False,
-                max_length=1024
-                )
+   
+    if model_name == "Llama2_v6":
+        return pipeline(
+            task="text-generation", 
+            model=model6, 
+            tokenizer=tokenizer6, 
+            return_full_text=False,
+            max_length=1024
+            )
+    elif model_name == "Llama2_v8":
+        return pipeline(
+            task="text-generation", 
+            model=model8, 
+            tokenizer=tokenizer8, 
+            return_full_text=False,
+            max_length=1024
+            )
+    elif model_name == "Llama2_v9":
+        return pipeline(
+            task="text-generation", 
+            model=model9, 
+            tokenizer=tokenizer9, 
+            return_full_text=False,
+            max_length=1024
+            )
 
 def ask_alpacha(context: str, model_name):
 
@@ -136,9 +135,9 @@ def ask_alpacha(context: str, model_name):
 
 
 
-if __name__ == '__main__':
-    path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
-    with open (path, "r", encoding="utf-8") as file:
-        for line in file:
-            ask_alpacha(line)
-            print("--------")
+# if __name__ == '__main__':
+#     path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
+#     with open (path, "r", encoding="utf-8") as file:
+#         for line in file:
+#             ask_alpacha(line)
+#             print("--------")
