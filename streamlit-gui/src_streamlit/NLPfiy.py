@@ -71,10 +71,11 @@ class MakeCalls:
 
         elif "llama2" in model:
             ##Llama2 call
+            
 
             payload = {"model": model.lower(), "text": text, "query": query.lower()}
 
-            result = Client.inference_llama2_test(payload)
+            result = Client.inference_llama2_test(payload, URL)
 
             print(result)
             return result['text']

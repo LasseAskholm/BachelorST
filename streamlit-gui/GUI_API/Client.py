@@ -22,7 +22,7 @@ def print_output(response):
 		print(i['word'] + ": " + i['entity_group'] + "  => Score: " + str(i['score']))
 
 
-def inference_llama2_test(payload):
+def inference_llama2_test(payload, URL):
 	url = "http://127.0.0.1:5000/llama2"
 	res = requests.post(url, json=payload)
 	return res.json()
