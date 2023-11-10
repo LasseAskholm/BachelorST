@@ -34,7 +34,7 @@ class MakeCalls:
         return json.loads(models.text)
 
     def run_inference(
-        self, service: str, model: str, text: str, query: str = None
+        self, service: str, model: str, URL: str, text: str, query: str = None,
     ) -> json:
         """
         This function is used to send the api request for the actual service for the specifed model to the
@@ -60,7 +60,7 @@ class MakeCalls:
             #BERT call
             payload = text
 
-            result = Client.inference_bert(payload)
+            result = Client.inference_bert(payload, URL)
             # result = Client.inference_bert(payload, URL)
 
 
@@ -88,12 +88,12 @@ class Display:
             label="",
             options=[
                 "Homepage",
-                "Named Entity Recognition",
+                "Named Entity Recognition"
             ],
         )
         self.service = {
             "Homepage": "about",
-            "Named Entity Recognition": "ner",
+            "Named Entity Recognition": "ner"
         }
 
     def static_elements(self):
@@ -109,21 +109,25 @@ class Display:
         st.header(self.service_options)
         model_name = list()
         model_info = list()
+        model_url = list()
         for i in models_dict.keys():
             model_name.append(models_dict[i]["name"])
             model_info.append(models_dict[i]["info"])
+            model_url.append(models_dict[i]["URL"])
         st.sidebar.header("Model Information")
         for i in range(len(model_name)):
             st.sidebar.subheader(model_name[i])
             st.sidebar.info(model_info[i])
+            # st.sidebar.info(model_url[i])
         model: str = st.selectbox("Select the Trained Model", model_name)
         input_text: str = st.text_area("Enter Text here")
+        model_URL = model_url[model_name.index(model)]
         if self.service == "qna":
             query: str = st.text_input("Enter query here.")
         else:
             query: str = "None"
         run_button: bool = st.button("Run")
-        return model, input_text, query, run_button
+        return model, input_text, query, run_button, model_URL
 
 
 def main():
@@ -149,14 +153,15 @@ def main():
                 st_lottie(lottie_coding, height=300, key="coding")
     else:
         model_details = apicall.model_list(service=service)
-        model, input_text, query, run_button = page.dynamic_element(model_details)
+        model, input_text, query, run_button, model_URL = page.dynamic_element(model_details)
         if run_button:
             with st.spinner(text="Getting Results.."):
                 result = apicall.run_inference(
                     service=service,
                     model=model.lower(),
+                    URL = model_URL,
                     text=input_text,
-                    query=query.lower(),
+                    query=query.lower()
                 )
             st.write(result)
 

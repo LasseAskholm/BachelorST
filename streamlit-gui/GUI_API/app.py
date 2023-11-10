@@ -6,6 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
+#dc1-proj287:5000/llama2
 @app.route("/llama2", methods=["POST", "GET"])
 def llama2():
     if request.method == "GET":
@@ -20,4 +21,5 @@ def llama2():
         return data
 
 if __name__ == '__main__':  
-   app.run()
+   app.run(host="0.0.0.0")
+   

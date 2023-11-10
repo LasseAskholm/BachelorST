@@ -1,10 +1,4 @@
 {
-    "model-1": {
-        "name": "spaCy",
-        "info": "This is a pre-trained model availabe from spaCy python library. URL to the model details: [spaCy](https://spacy.io/models/en)",
-        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B0LL"
-
-    },
     "model-2": {
         "name": "Llama2_v1",
         "info": "Llama2 endpoint",
@@ -17,26 +11,47 @@
         "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B0LL3"
 
     },
-    "model-4": {
+    "B1": {
         "name": "BERT_v1",
         "info": "BERT endpoint",
         "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B01"
 
     },
-    "model-5": {
+    "B2": {
         "name": "BERT_v2",
         "info": "BERT endpoint",
         "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B02"
 
     },
-    "model-6": {
+    "B3": {
         "name": "BERT_v3",
         "info": "BERT endpoint",
         "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B03"
     },
-    "model-7": {
+    "B4": {
+        "name": "BERT_v4",
+        "info": "BERT endpoint",
+        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B04"
+    },
+    "B5": {
+        "name": "BERT_v5",
+        "info": "BERT endpoint",
+        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B05"
+
+    },
+    "B6": {
+        "name": "BERT_v6",
+        "info": "BERT endpoint",
+        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B06"
+    },
+    "B7": {
         "name": "BERT_v7",
         "info": "BERT endpoint",
         "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
+    },
+    "B8": {
+        "name": "BERT_v8",
+        "info": "BERT endpoint",
+        "URL": "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B08"
     }
 }
