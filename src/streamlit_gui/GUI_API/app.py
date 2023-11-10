@@ -2,7 +2,7 @@ from flask import Flask, request
 
 #TODO remove comment line 5 and 20. Comment line 21
 
-#from inference.Llama2Inference import *
+from Llama2Inference_gui import *
 
 app = Flask(__name__)
 
@@ -17,8 +17,8 @@ def llama2():
         return "<p>Llama2</p>"
     elif request.method == "POST":
         payload = request.json
-        # payload['text'] = ask_alpacha(payload['text'], payload['model'])
-        payload['text'] = "manually"
+        payload['text'] = ask_alpacha(payload['text'], payload['model'])
+        #payload['text'] = "manually"
         return payload
 
 if __name__ == '__main__':  
