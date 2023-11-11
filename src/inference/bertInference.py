@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B08"
+API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
 headers = {"Authorization": "Bearer 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"}
 
 def query(payload):
@@ -18,8 +18,17 @@ def getValData():
 def jsonDump_pred(path):
     with open (path,'w') as f:
         json.dump(output, f, indent=4)
+        
+        
+def checkForDumbWords(word):
+    dumb_things = ["“",".",","," "]
+    for dumb_thing in dumb_things:
+        if word == dumb_thing:
+            return True
+    return False
     
 def getPredictions(data):
+    dumb_things = ["“",".",","," ",""]
     words = []
     labels = []
     predictions = {}
@@ -32,11 +41,12 @@ def getPredictions(data):
     print("LENGTH:"+ str(len(rawPreds)))
     while i < len(data):
         
-        
         if entityidx == len(rawPreds):
             remaining = data[i:]
+            print (remaining)
             for word in remaining.split(" "):
-                predictions[word] = "O"
+                words.append(word)
+                labels.append("O")
             break
             
         elif entityidx < len(rawPreds):            
@@ -61,7 +71,7 @@ def getPredictions(data):
             continue
         #Else all the words in the next paragraph leading up to the next entity gets O tagged
         for word in next_paragraph.split(" "):
-            if word == "":
+            if word in dumb_things:
                 continue
             words.append(word)
             labels.append("O")
