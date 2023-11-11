@@ -69,17 +69,19 @@ tokenizer9.padding_side = "left"
 
 
 def get_prompt(context, model):
-    if model == "Llama2_v6":
+    if model == "llama2_v6":
         return generate_prompt_ner_inference(context)
-    elif model == "Llama2_v7":
+    elif model == "llama2_v7":
         return generate_prompt_ner_inference(context)
-    elif model == "Llama2_v9":
-        return generate_single_label_prompt_ner_inference(context)
+    elif model == "llama2_v9":
+        return generate_prompt_ner_inference(context)
+
+        # return generate_single_label_prompt_ner_inference("Location", context)
 
 
 def get_pipeline(model_name):
    
-    if model_name == "Llama2_v6":
+    if model_name == "llama2_v6":
         return pipeline(
             task="text-generation", 
             model=model6, 
@@ -87,7 +89,7 @@ def get_pipeline(model_name):
             return_full_text=False,
             max_length=1024
             )
-    elif model_name == "Llama2_v8":
+    elif model_name == "llama2_v8":
         return pipeline(
             task="text-generation", 
             model=model8, 
@@ -95,7 +97,7 @@ def get_pipeline(model_name):
             return_full_text=False,
             max_length=1024
             )
-    elif model_name == "Llama2_v9":
+    elif model_name == "llama2_v9":
         return pipeline(
             task="text-generation", 
             model=model9, 
@@ -106,6 +108,7 @@ def get_pipeline(model_name):
 
 def ask_alpacha(context: str, model_name):
 
+    #return context + model_name
     prompt = get_prompt(context, model_name)
 
     pipe = get_pipeline(model_name)
@@ -136,8 +139,11 @@ def ask_alpacha(context: str, model_name):
 
 
 # if __name__ == '__main__':
-#     path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
-#     with open (path, "r", encoding="utf-8") as file:
-#         for line in file:
-#             ask_alpacha(line)
-#             print("--------")
+#     # path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
+#     # with open (path, "r", encoding="utf-8") as file:
+#     #     for line in file:
+#     #         ask_alpacha(line)
+#     #         print("--------")
+
+
+#     ask_alpacha("This is a test", "llama2_v6")
