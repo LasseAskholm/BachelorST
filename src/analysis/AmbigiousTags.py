@@ -97,22 +97,6 @@ def O_tags(path):
 
     return O_tags_list
 
-def create_correct_labels_map():
-    tag_map = {}
-
-    data_path ="../../data/selv-labeled-data/fixed_v5/v5.conll"
-    with open(data_path,'r',encoding="utf-8") as f:
-        lines = f.readlines()
-        split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
-        for y in split_list:
-            for x in y:
-                text , label = x.split('\t')
-                label = label.strip('\n')
-                if text not in tag_map.keys():
-                    tag_map[text]= label
-                continue
-    return tag_map
-
 
 def count_tags():
 
@@ -122,8 +106,6 @@ def count_tags():
         lines = f.readlines()
         counter = -1
         split_list = [list(y) for x, y in itertools.groupby(lines, lambda z: z == '\n') if not x]
-        temp = ""
-        tempLabel = ""
         for y in split_list:
             counter += 1
             for x in y:
@@ -141,30 +123,6 @@ def count_tags():
                     tags_map[text][label] += 1
                 else:
                     tags_map[text][label] = 1
-
-                
-                if "B-" in label:
-                    temp += text + " "
-                    tempLabel = label[2:]
-                elif "I-" in label:
-                    temp += text + " "
-                else:
-
-                    if temp != "":
-                    temp = temp[:-1]
-                    if temp not in tags_maps.keys():
-                        tags_map[temp] = tempLabel
-                        temp = ""
-                        continue
-                    tags_map[temp] = tempLabel
-                    temp = ""
-
-                    else:
-                    if text not in tags_maps.keys():
-                        if label != "O":
-                        label = label[2:]
-                        tags_maps[text] = label
-                    continue
 
 
         # with open('tag_count.json', 'w') as fp:
