@@ -11,6 +11,12 @@
         "URL": "http://172.20.33.20:5000/api/llama2"
 
     },
+    "L7": {
+        "name": "Llama2_v7",
+        "info": "Llama2 endpoint",
+        "URL": "http://172.20.33.20:5000/api/llama2"
+
+    },
     "L8": {
         "name": "Llama2_v8",
         "info": "Llama2 endpoint",

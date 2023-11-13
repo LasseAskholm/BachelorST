@@ -27,7 +27,7 @@ logging.set_verbosity(logging.CRITICAL)
 
 # The model to load from Huggingface
 model_name6 = "LazzeKappa/L06"   #alle
-# model_name7 = "LazzeKappa/L07"   #single
+model_name7 = "LazzeKappa/L07"   #single
 model_name8 = "LazzeKappa/L08"   #alle
 model_name9 = "LazzeKappa/L09"   #single
 model_name_base = COMMON_LLAMA2_MODEL_NAME
@@ -36,6 +36,7 @@ model_name_base = COMMON_LLAMA2_MODEL_NAME
 # Value: Huggingface name of model
 models = {}
 models['llama2_v6'] = model_name6
+models['llama2_v7'] = model_name7
 models['llama2_v8'] = model_name8
 models['llama2_v9'] = model_name9
 models['llama2_base'] = model_name_base
@@ -115,6 +116,8 @@ def get_prompt(context, model, label):
     elif model == "llama2_v8":
         return generate_prompt_ner_inference(context)
     elif model == "llama2_v9":
+        return generate_single_label_prompt_ner_inference(label, context)
+    elif model == "llama2_v7":
         return generate_single_label_prompt_ner_inference(label, context)
     elif model == "llama2_base":
         return generate_prompt_ner_inference(context)
