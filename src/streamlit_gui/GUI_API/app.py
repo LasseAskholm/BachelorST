@@ -19,7 +19,7 @@ def llama2():
     elif request.method == "POST":
         start = time.time()
         payload = request.json
-        payload['response'] = ask_alpacha(payload['text'], payload['model'])
+        payload['response'] = ask_alpacha(payload['text'], payload['model'], payload['label'])
         #payload['text'] = "manually"
         end = time.time()
         payload['time'] = end-start

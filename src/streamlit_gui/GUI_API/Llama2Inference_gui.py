@@ -109,13 +109,13 @@ def initialize_tokenizer(model_name):
 # tokenizer_base.padding_side = "left"
 
 
-def get_prompt(context, model):
+def get_prompt(context, model, label):
     if model == "llama2_v6":
         return generate_prompt_ner_inference(context)
     elif model == "llama2_v8":
         return generate_prompt_ner_inference(context)
     elif model == "llama2_v9":
-        return generate_prompt_ner_inference(context)
+        return generate_single_label_prompt_ner_inference(label, context)
     elif model == "llama2_base":
         return generate_prompt_ner_inference(context)
 
@@ -168,9 +168,9 @@ def get_pipeline(model_name):
     #         max_length=1024
     #         )
 
-def ask_alpacha(context: str, model_name):
+def ask_alpacha(context: str, model_name, label):
 
-    prompt = get_prompt(context, model_name)
+    prompt = get_prompt(context, model_name, label)
     pipe = get_pipeline(model_name)
 
     if pipe == None or prompt == None:

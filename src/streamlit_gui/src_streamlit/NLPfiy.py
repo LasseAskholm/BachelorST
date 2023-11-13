@@ -35,7 +35,7 @@ class MakeCalls:
         return json.loads(models.text)
 
     def run_inference(
-        self, service: str, model: str, URL: str, text: str, query: str = None,
+        self, service: str, model: str, URL: str, label: str, text: str, query: str = None,
     ) -> json:
         """
         This function is used to send the api request for the actual service for the specifed model to the
@@ -74,7 +74,7 @@ class MakeCalls:
             ##Llama2 call
             
 
-            payload = {"model": model.lower(), "text": text, "query": query.lower()}
+            payload = {"model": model.lower(), "text": text, "query": query.lower(), "label": label}
 
             result = inference_llama2_test(payload, URL)
 
@@ -111,7 +111,6 @@ class Display:
         model_name = list()
         model_info = list()
         model_url = list()
-        label_in = ['Location', 'Organisation', 'TEST']
         for i in models_dict.keys():
             model_name.append(models_dict[i]["name"])
             model_info.append(models_dict[i]["info"])
@@ -124,18 +123,19 @@ class Display:
         model: str = st.selectbox("Select the Trained Model", model_name)
         input_text: str = st.text_area("Enter Text here")
         model_URL = model_url[model_name.index(model)]
+
+        label_s = ""
+        if 'v9' in model:
+            label_in = ['Location', 'Organisation', 'Person', 'Money', 'Temporal', 'Weapon', 'MilitaryPlatform']
+            label_s: str = st.selectbox("Label to search", label_in)
+
         if self.service == "qna":
             query: str = st.text_input("Enter query here.")
-            label: str = st.selectbox("Label to search", label_in, 
-                options=[
-                "Homepage",
-                "Named Entity Recognition"
-            ],)
-
+            
         else:
             query: str = "None"
         run_button: bool = st.button("Run")
-        return model, input_text, query, run_button, model_URL
+        return model, input_text, query, run_button, model_URL, label_s
 
 
 def main():
@@ -161,13 +161,14 @@ def main():
                 st_lottie(lottie_coding, height=300, key="coding")
     else:
         model_details = apicall.model_list(service=service)
-        model, input_text, query, run_button, model_URL = page.dynamic_element(model_details)
+        model, input_text, query, run_button, model_URL, label = page.dynamic_element(model_details)
         if run_button:
             with st.spinner(text="Getting Results.."):
                 result = apicall.run_inference(
                     service=service,
                     model=model.lower(),
                     URL = model_URL,
+                    label = label,
                     text=input_text,
                     query=query.lower()
                 )
