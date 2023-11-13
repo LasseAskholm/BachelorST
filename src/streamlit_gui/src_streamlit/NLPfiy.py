@@ -111,6 +111,7 @@ class Display:
         model_name = list()
         model_info = list()
         model_url = list()
+        label_in = ['Location', 'Organisation', 'TEST']
         for i in models_dict.keys():
             model_name.append(models_dict[i]["name"])
             model_info.append(models_dict[i]["info"])
@@ -125,6 +126,12 @@ class Display:
         model_URL = model_url[model_name.index(model)]
         if self.service == "qna":
             query: str = st.text_input("Enter query here.")
+            label: str = st.selectbox("Label to search", label_in, 
+                options=[
+                "Homepage",
+                "Named Entity Recognition"
+            ],)
+
         else:
             query: str = "None"
         run_button: bool = st.button("Run")
