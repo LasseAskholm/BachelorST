@@ -1,4 +1,5 @@
 from flask import Flask, request
+import time
 
 #TODO remove comment line 5 and 20. Comment line 21
 
@@ -16,9 +17,12 @@ def llama2():
     if request.method == "GET":
         return "<p>Llama2</p>"
     elif request.method == "POST":
+        start = time.time()
         payload = request.json
-        payload['text'] = ask_alpacha(payload['text'], payload['model'])
+        payload['response'] = ask_alpacha(payload['text'], payload['model'])
         #payload['text'] = "manually"
+        end = time.time()
+        payload['time'] = end-start
         return payload
 
 if __name__ == '__main__':  

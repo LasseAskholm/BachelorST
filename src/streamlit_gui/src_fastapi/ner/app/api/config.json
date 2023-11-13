@@ -1,21 +1,26 @@
 {
+    "Base": {
+        "name": "Llama2_Base",
+        "info": "Llama2 endpoint",
+        "URL": "http://172.20.33.20:5000/api/llama2"
+
+    },
     "L6": {
         "name": "Llama2_v6",
         "info": "Llama2 endpoint",
-        "URL": " http://172.20.33.20:5000/api/llama2"
-
+        "URL": "http://172.20.33.20:5000/api/llama2"
 
     },
     "L8": {
         "name": "Llama2_v8",
         "info": "Llama2 endpoint",
-        "URL": " http://172.20.33.20:5000/api/llama2"
+        "URL": "http://172.20.33.20:5000/api/llama2"
 
     },
     "L9": {
         "name": "Llama2_v9",
         "info": "Llama2 endpoint",
-        "URL": " http://172.20.33.20:5000/api/llama2"
+        "URL": "http://172.20.33.20:5000/api/llama2"
 
     },
     "B1": {
