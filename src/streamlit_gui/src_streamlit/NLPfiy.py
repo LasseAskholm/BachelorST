@@ -125,7 +125,7 @@ class Display:
         model_URL = model_url[model_name.index(model)]
 
         label_s = ""
-        if 'v9' in model:
+        if 'v9' in model or 'v7' in model:
             label_in = ['Location', 'Organisation', 'Person', 'Money', 'Temporal', 'Weapon', 'MilitaryPlatform']
             label_s: str = st.selectbox("Label to search", label_in)
 
