@@ -96,7 +96,7 @@ def generate_single_label_prompt_ner_inference(label, context):
      {input}
 
      ### Context:
-     {context[0]} [/INST] """)
+     {context} [/INST] """)
 
      return prompt
 
