@@ -10,7 +10,7 @@ def query(payload):
 	return response.json()
 
 def getValData():
-    path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
+    path = "../../data/selv-labeled-data/ValData/ukraine_val_text.txt"
     with open (path, "r", encoding='utf-8') as f:
          input = f.read().replace('\n', '')
     return input
@@ -85,7 +85,7 @@ def getPredictions(preds):
 def main():
     data = getValData()
     predictions = query(data)
-    jsonDump_pred("./bertPredictions07",predictions)
+    jsonDump_pred("./bertPredictionsUV",predictions)
     
 if __name__ == '__main__':
     main()

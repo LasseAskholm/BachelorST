@@ -1,0 +1,429 @@
+[
+    {
+        "entity_group": "Location",
+        "score": 0.9702847003936768,
+        "word": "Ukraine",
+        "start": 1,
+        "end": 8
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.6109001636505127,
+        "word": "occupied Crimea",
+        "start": 53,
+        "end": 68
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.43419259786605835,
+        "word": "drones",
+        "start": 78,
+        "end": 84
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9725789427757263,
+        "word": "Russia",
+        "start": 195,
+        "end": 201
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.8460211753845215,
+        "word": "2014",
+        "start": 205,
+        "end": 209
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6453080177307129,
+        "word": "assault boats",
+        "start": 223,
+        "end": 236
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5622125864028931,
+        "word": "sea drones",
+        "start": 266,
+        "end": 276
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8549445271492004,
+        "word": "Chernomorske,",
+        "start": 282,
+        "end": 295
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9527806639671326,
+        "word": "Crimea",
+        "start": 296,
+        "end": 302
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.8920683264732361,
+        "word": "Andriy Yusov",
+        "start": 305,
+        "end": 317
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.909818708896637,
+        "word": "Defense Intelligence of Ukraine",
+        "start": 339,
+        "end": 370
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9048573970794678,
+        "word": "GUR",
+        "start": 372,
+        "end": 375
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9176473617553711,
+        "word": "CNN",
+        "start": 383,
+        "end": 386
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.6999176740646362,
+        "word": "GUR",
+        "start": 387,
+        "end": 390
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8593848943710327,
+        "word": "CNN",
+        "start": 460,
+        "end": 463
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.471267968416214,
+        "word": "sea drones",
+        "start": 550,
+        "end": 560
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5761139392852783,
+        "word": "drones",
+        "start": 635,
+        "end": 641
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5392261743545532,
+        "word": "drones",
+        "start": 715,
+        "end": 721
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.6138129830360413,
+        "word": "GUR",
+        "start": 858,
+        "end": 861
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9713547825813293,
+        "word": "Russia",
+        "start": 894,
+        "end": 900
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.7741163969039917,
+        "word": "Kyiv",
+        "start": 946,
+        "end": 950
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.6732685565948486,
+        "word": "Crimea",
+        "start": 986,
+        "end": 992
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8867900371551514,
+        "word": "Russian forces",
+        "start": 1038,
+        "end": 1052
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.8390039205551147,
+        "word": "September",
+        "start": 1057,
+        "end": 1066
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.7489308714866638,
+        "word": "the Ukrainian military",
+        "start": 1068,
+        "end": 1090
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8380727767944336,
+        "word": "naval base",
+        "start": 1130,
+        "end": 1140
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9377683401107788,
+        "word": "Sevastopol",
+        "start": 1144,
+        "end": 1154
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.629237949848175,
+        "word": "the",
+        "start": 1214,
+        "end": 1217
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.5940953493118286,
+        "word": "Kremlin",
+        "start": 1218,
+        "end": 1225
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.907642126083374,
+        "word": "February 2022",
+        "start": 1262,
+        "end": 1275
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.3581558167934418,
+        "word": "The",
+        "start": 1276,
+        "end": 1279
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.6739945411682129,
+        "word": "Russian",
+        "start": 1280,
+        "end": 1287
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5541623830795288,
+        "word": "military",
+        "start": 1288,
+        "end": 1296
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.844500720500946,
+        "word": "Rybar",
+        "start": 1305,
+        "end": 1310
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6292487978935242,
+        "word": "sea drones",
+        "start": 1421,
+        "end": 1431
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8318398594856262,
+        "word": "the Black Sea Fleet",
+        "start": 1472,
+        "end": 1491
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9338359832763672,
+        "word": "the Federal Security Service",
+        "start": 1496,
+        "end": 1524
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9276324510574341,
+        "word": "Chernomorske",
+        "start": 1528,
+        "end": 1540
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.35024285316467285,
+        "word": "Neptune",
+        "start": 1591,
+        "end": 1598
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.46243005990982056,
+        "word": "anti - ship missile",
+        "start": 1599,
+        "end": 1616
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.35438272356987,
+        "word": "missile",
+        "start": 1626,
+        "end": 1633
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9516705274581909,
+        "word": "Uzkaya Bay",
+        "start": 1693,
+        "end": 1703
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.6748045086860657,
+        "word": "Black Sea Fleet",
+        "start": 1719,
+        "end": 1734
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.8791459202766418,
+        "word": "Rybar",
+        "start": 1759,
+        "end": 1764
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8769122958183289,
+        "word": "The Russian Defense Ministry",
+        "start": 1770,
+        "end": 1798
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.38930976390838623,
+        "word": "forces",
+        "start": 1808,
+        "end": 1814
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5233922600746155,
+        "word": "drones",
+        "start": 1843,
+        "end": 1849
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9860753417015076,
+        "word": "Crimea",
+        "start": 1855,
+        "end": 1861
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.6447353959083557,
+        "word": "Friday",
+        "start": 1884,
+        "end": 1890
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.66989666223526,
+        "word": "GUR",
+        "start": 1920,
+        "end": 1923
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9574426412582397,
+        "word": "Russia",
+        "start": 1932,
+        "end": 1938
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.6019868850708008,
+        "word": "Thursday",
+        "start": 1988,
+        "end": 1996
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9266856908798218,
+        "word": "Zmiinyi Island",
+        "start": 2018,
+        "end": 2032
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8617603182792664,
+        "word": "the Black Sea",
+        "start": 2060,
+        "end": 2073
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9842573404312134,
+        "word": "Ukraine",
+        "start": 2082,
+        "end": 2089
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.6319652199745178,
+        "word": "occupied",
+        "start": 2094,
+        "end": 2102
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.5492545962333679,
+        "word": "Crimea",
+        "start": 2103,
+        "end": 2109
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9881709814071655,
+        "word": "Ukraine",
+        "start": 2161,
+        "end": 2168
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8629820942878723,
+        "word": "the Black Sea",
+        "start": 2194,
+        "end": 2207
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6232069730758667,
+        "word": "naval air defense",
+        "start": 2217,
+        "end": 2234
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6333485841751099,
+        "word": "air defense",
+        "start": 2339,
+        "end": 2350
+    }
+]
