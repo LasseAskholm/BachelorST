@@ -28,7 +28,7 @@ def checkForDumbWords(word):
     return False
     
 def getPredictions(preds):
-    dumb_things = ["“",".",","," ",""]
+    dumb_things = ["“",".",","," ","","”","(",")",":"]
     words = []
     labels = []
     predictions = {}
