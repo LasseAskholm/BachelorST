@@ -138,12 +138,13 @@ by	O
 million	I-Money
 dkk	I-Money
 .	O
-
+Representative	B-Person
+B.S	I-Person
+Christiansen	I-Person
+from	O
+the	O
 Jaeger	B-Organisation
 Corps	I-Organisation
-representative	O
-B.S	B-Person
-Christiansen	I-Person
 said	O
 this	O
 about	O
@@ -338,7 +339,7 @@ ready	O
 and	O
 willing	O
 to	O
-send	O
+deploy	O
 Speztnaz	B-Organisation
 to	O
 assist	O

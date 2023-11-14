@@ -15,7 +15,7 @@ def getValData():
          input = f.read().replace('\n', '')
     return input
     
-def jsonDump_pred(path):
+def jsonDump_pred(path, output):
     with open (path,'w') as f:
         json.dump(output, f, indent=4)
         
@@ -27,24 +27,26 @@ def checkForDumbWords(word):
             return True
     return False
     
-def getPredictions(data):
+def getPredictions(preds):
     dumb_things = ["“",".",","," ",""]
     words = []
     labels = []
     predictions = {}
-    rawPreds = query(data)
+    data = getValData()
+    with open (preds, 'r', encoding = "utf-8") as f : 
+        rawPreds = json.load(f)
+        
     entityidx = 0
-    entityOidx = 0
     i = 0
     text_idx = 0
-    o_tag_end = 0
-    print("LENGTH:"+ str(len(rawPreds)))
+    
     while i < len(data):
         
         if entityidx == len(rawPreds):
             remaining = data[i:]
-            print (remaining)
             for word in remaining.split(" "):
+                if word in dumb_things:
+                    continue
                 words.append(word)
                 labels.append("O")
             break
@@ -62,10 +64,10 @@ def getPredictions(data):
             for j, word in enumerate(entity_text):
                 if j == 0:
                     words.append(word)
-                    labels.append("B-"+str(entity['entity_group']))
+                    labels.append(entity['entity_group'])
                 else:
                     words.append(word)
-                    labels.append("I-"+str(entity['entity_group']))
+                    labels.append(entity['entity_group'])
             i = entity['end']
             entityidx+=1 
             continue
@@ -77,9 +79,14 @@ def getPredictions(data):
             labels.append("O")
         text_idx = entity['end']+1
         i = entity['start']
-        entityOidx += 1
          
     return pd.DataFrame({"words": words, "ner_tags": labels})    
 
+def main():
+    data = getValData()
+    predictions = query(data)
+    jsonDump_pred("./bertPredictions07",predictions)
     
+if __name__ == '__main__':
+    main()
 

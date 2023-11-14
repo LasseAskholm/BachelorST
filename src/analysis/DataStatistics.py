@@ -13,7 +13,9 @@ def get_truth(path):
     for entry in y:
       text,label = entry.split('\t')
       label = label.strip('\n')
-      if(text == "." or text == ","):
+      label = label.strip("B-")
+      label = label.strip("I-")
+      if(text == "." or text == "," or text ==":"):
         continue
       words.append(text)
       labels.append(label)

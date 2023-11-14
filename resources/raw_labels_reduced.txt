@@ -1,0 +1,7 @@
+Organisation 
+Person
+Location
+Money
+Temporal
+Weapon
+MilitaryPlatform

@@ -24,6 +24,7 @@ COMMON VARIABLES FOR BERT
 COMMON_BERT_SELF_LABELED_DATA = "../../data/selv-labeled-data/B07/SelfLabeledDataB07.conll"
 COMMON_BERT_MODEL_NAME = "distilbert-base-multilingual-cased"
 COMMON_BERT_LABELS = "../../resources/labelsReduced.txt"
+COMMON_BERT_RAW_LABELS= "../../resources/raw_labels_reduced.txt"
 COMMON_BERT_OUTPUT_DIR = "../../BERT_B09"
 COMMON_BERT_REDUCE_LABELS = True
 COMMON_BERT_ENABLE_ADDITIONAL_DATA = True
