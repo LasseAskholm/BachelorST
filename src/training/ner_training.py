@@ -162,9 +162,7 @@ def main ():
         num_train_epochs = COMMON_BERT_EPOCHS,
         weight_decay = COMMON_BERT_WEIGHT_DECAY,
         logging_dir = COMMON_BERT_LOGGING_DIR,
-        logging_steps = COMMON_BERT_LOGGING_STEPS,
-        label_smoothing_factor = 0.3
-        
+        logging_steps = COMMON_BERT_LOGGING_STEPS,        
     )
     
     ### define trainer here

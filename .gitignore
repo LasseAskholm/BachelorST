@@ -191,3 +191,5 @@ offload/model.layers.31.self_attn.v_proj.weight.dat
 offload/model.norm.weight.dat
 *.venv
 *__pycache__/
+*.bin
+*.pyc
