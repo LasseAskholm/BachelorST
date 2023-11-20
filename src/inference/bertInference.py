@@ -9,8 +9,7 @@ def query(payload):
 	response = requests.post(API_URL, headers=headers, json={"inputs": payload, "options":{"wait_for_model":True}})
 	return response.json()
 
-def getValData():
-    path = "../../data/selv-labeled-data/ValData/ukraine_val_text.txt"
+def getValData(path):
     with open (path, "r", encoding='utf-8') as f:
          input = f.read().replace('\n', '')
     return input
@@ -27,17 +26,16 @@ def checkForDumbWords(word):
             return True
     return False
     
-def getPredictions(preds):
+def getPredictions(preds,data):
     dumb_things = ["“",".",","," ","","”","(",")",":"]
     words = []
     labels = []
     predictions = {}
-    data = getValData()
     with open (preds, 'r', encoding = "utf-8") as f : 
         rawPreds = json.load(f)
         
     entityidx = 0
-    i = 0
+    i = 1
     text_idx = 0
     
     while i < len(data):
@@ -54,22 +52,19 @@ def getPredictions(preds):
         elif entityidx < len(rawPreds):            
             entity = rawPreds[entityidx]
             
-        #print(entity['word'])
-        next_paragraph = data [text_idx:entity['start']]
+        next_paragraph = data[text_idx:entity['start']]
         
         #if we are in an entity we get the predicted label
         if i<=entity['end'] and i>= entity['start']:
             entity_text = entity['word'].split(" ")
             #print(entity['word'])
-            for j, word in enumerate(entity_text):
-                if j == 0:
-                    words.append(word)
-                    labels.append(entity['entity_group'])
-                else:
-                    words.append(word)
-                    labels.append(entity['entity_group'])
+            for word in (entity_text):
+                words.append(word)
+                labels.append(entity['entity_group'])
             i = entity['end']
-            entityidx+=1 
+            entityidx+=1
+            if(text_idx == 0):
+                text_idx = entity['end']+1
             continue
         #Else all the words in the next paragraph leading up to the next entity gets O tagged
         for word in next_paragraph.split(" "):
@@ -77,6 +72,7 @@ def getPredictions(preds):
                 continue
             words.append(word)
             labels.append("O")
+            
         text_idx = entity['end']+1
         i = entity['start']
          

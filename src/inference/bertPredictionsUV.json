@@ -114,9 +114,9 @@
     {
         "entity_group": "MilitaryPlatform",
         "score": 0.5761139392852783,
-        "word": "drones",
+        "word": "drone",
         "start": 638,
-        "end": 644
+        "end": 643
     },
     {
         "entity_group": "MilitaryPlatform",
@@ -275,7 +275,7 @@
     {
         "entity_group": "MilitaryPlatform",
         "score": 0.46243005990982056,
-        "word": "anti - ship missile",
+        "word": "anti-ship missile",
         "start": 1607,
         "end": 1624
     },
