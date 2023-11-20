@@ -8,12 +8,14 @@ def get_truth(path):
   words = []
   labels = []
   conll_lines = open_conll(path)
-  
+  dumb_things = ["“",".",","," ","","”","(",")",":"]
   for y in conll_lines:
     for entry in y:
       text,label = entry.split('\t')
       label = label.strip('\n')
-      if(text == "." or text == ","):
+      label = label.strip("B-")
+      label = label.strip("I-")
+      if(text in dumb_things):
         continue
       words.append(text)
       labels.append(label)
