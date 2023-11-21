@@ -79,9 +79,10 @@ def getPredictions(preds,data):
     return pd.DataFrame({"words": words, "ner_tags": labels})    
 
 def main():
-    data = getValData()
+    path = "../../data/selv-labeled-data/ValData/ukraine_val_text2.txt"
+    data = getValData(path)
     predictions = query(data)
-    jsonDump_pred("./bertPredictionsUV",predictions)
+    jsonDump_pred("./bertPredictionsUV2.json",predictions)
     
 if __name__ == '__main__':
     main()

@@ -98,6 +98,36 @@ def most_frequent(List, word):
     index = np.argmax(counts)
     return unique[index] 
 
+
+def calc_metrics(matrix, total):
+  TP = 0
+  TN = 0
+  FP = 0
+  FN = 0
+  total = total
+
+  end_idx = len(matrix) - 1
+  
+  for i in range (end_idx):
+    TP += matrix[i][i]  
+    
+  TN = matrix[end_idx][end_idx]
+  
+  for i in range(end_idx):
+    FN += matrix[i][end_idx]
+    
+  FP = total - TP - TN - FN
+  
+  arr = np.array([[TP,TN],[FP,FN]],
+                 dtype=np.int64)
+  return arr
+  
+  
+  
+  
+  
+  
+
 def stats ():
   correctLabels = create_correct_labels_map()
   conll_path = "../../data/selv-labeled-data/fixed_v5/v5.conll"
