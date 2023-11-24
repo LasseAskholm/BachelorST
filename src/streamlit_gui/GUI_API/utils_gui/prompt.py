@@ -87,10 +87,10 @@ def generate_single_label_prompt_ner_inference(label, context):
 
      prompt = textwrap.dedent(f"""<s> [INST] <<SYS>>
      Your task is to harness the capabilities of a robust entity extraction model. 
-     Equipped with the knowledge of various entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify entities within it. 
-     Your goal is to generate a comprehensive, comma-separated list that presents the identified entities alongside the specified label. 
+     Equipped with the knowledge of multple entity types, your mission is to analyze a provided text from the military context, which includes both a question and context, and identify all words associated with the single requested label. 
+     Your response must be a comprehensive, comma-separated list that presents all words associated with the single requested label.
 
-     Your output should reflect the discovered entities in the given text, that matches this label: {label} <</SYS>>
+     The requested label for the following context that you are to extrat from is: {label} <</SYS>>
 
      ### Input:
      {input}
