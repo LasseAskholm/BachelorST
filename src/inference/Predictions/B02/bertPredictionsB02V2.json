@@ -1,0 +1,191 @@
+[
+    {
+        "entity_group": "Location",
+        "score": 0.847266435623169,
+        "word": "Ukraine",
+        "start": 6,
+        "end": 13
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9245874881744385,
+        "word": "the Black Sea",
+        "start": 39,
+        "end": 52
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.6086370348930359,
+        "word": "Russian",
+        "start": 54,
+        "end": 61
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.21077099442481995,
+        "word": "naval",
+        "start": 62,
+        "end": 67
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.35463935136795044,
+        "word": "landing",
+        "start": 121,
+        "end": 128
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.2165868580341339,
+        "word": "craft",
+        "start": 129,
+        "end": 134
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.37830930948257446,
+        "word": "air",
+        "start": 184,
+        "end": 187
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.63237464427948,
+        "word": "GUR",
+        "start": 218,
+        "end": 221
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.2662561535835266,
+        "word": "air",
+        "start": 270,
+        "end": 273
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9778488874435425,
+        "word": "the Security and Defense Forces of Ukraine",
+        "start": 319,
+        "end": 361
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.27709609270095825,
+        "word": "boats",
+        "start": 368,
+        "end": 373
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.3812180757522583,
+        "word": "air",
+        "start": 379,
+        "end": 382
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.21443140506744385,
+        "word": "defense",
+        "start": 383,
+        "end": 390
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.5108585357666016,
+        "word": "Black Sea",
+        "start": 455,
+        "end": 464
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5523567199707031,
+        "word": "GUR",
+        "start": 479,
+        "end": 482
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5558888912200928,
+        "word": "Kyiv’s",
+        "start": 492,
+        "end": 499
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9662771821022034,
+        "word": "Crimea",
+        "start": 510,
+        "end": 516
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.946172833442688,
+        "word": "the peninsula",
+        "start": 543,
+        "end": 556
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.7524229884147644,
+        "word": "Russia",
+        "start": 580,
+        "end": 586
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9351837635040283,
+        "word": "the Ukrainian mainland",
+        "start": 622,
+        "end": 644
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.7248947620391846,
+        "word": "Ukrainian",
+        "start": 648,
+        "end": 657
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.7543658018112183,
+        "word": "CNN",
+        "start": 708,
+        "end": 711
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9749482274055481,
+        "word": "The Ukrainian military",
+        "start": 713,
+        "end": 735
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9708818197250366,
+        "word": "Crimea",
+        "start": 766,
+        "end": 772
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9366951584815979,
+        "word": "Moscow",
+        "start": 779,
+        "end": 785
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9479409456253052,
+        "word": "Ukrainian ports",
+        "start": 807,
+        "end": 822
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.8455865383148193,
+        "word": "July",
+        "start": 883,
+        "end": 887
+    }
+]

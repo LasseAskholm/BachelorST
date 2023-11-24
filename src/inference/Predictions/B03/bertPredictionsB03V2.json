@@ -1,0 +1,184 @@
+[
+    {
+        "entity_group": "Location",
+        "score": 0.6100098490715027,
+        "word": "Ukraine",
+        "start": 6,
+        "end": 13
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.95733243227005,
+        "word": "the Black Sea",
+        "start": 39,
+        "end": 52
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5240033864974976,
+        "word": "Russian naval air defense capabilities",
+        "start": 54,
+        "end": 92
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.3764338195323944,
+        "word": "landing craft",
+        "start": 121,
+        "end": 134
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.35782304406166077,
+        "word": "air",
+        "start": 184,
+        "end": 187
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.3857579827308655,
+        "word": "defense systems",
+        "start": 188,
+        "end": 203
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.26873016357421875,
+        "word": "GUR",
+        "start": 218,
+        "end": 221
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.3763100206851959,
+        "word": "shipboard air defense systems",
+        "start": 260,
+        "end": 289
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9621178507804871,
+        "word": "the Security and Defense Forces of Ukraine",
+        "start": 319,
+        "end": 361
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.2596476376056671,
+        "word": "air",
+        "start": 379,
+        "end": 382
+    },
+    {
+        "entity_group": "Weapon",
+        "score": 0.33219921588897705,
+        "word": "defense systems",
+        "start": 383,
+        "end": 398
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.6184635162353516,
+        "word": "Black Sea Fleet",
+        "start": 455,
+        "end": 470
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.49583202600479126,
+        "word": "GUR",
+        "start": 479,
+        "end": 482
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.5032808184623718,
+        "word": "Kyiv’s",
+        "start": 492,
+        "end": 499
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9328917264938354,
+        "word": "Crimea",
+        "start": 510,
+        "end": 516
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9541620016098022,
+        "word": "the peninsula",
+        "start": 543,
+        "end": 556
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.5777238607406616,
+        "word": "Russia",
+        "start": 580,
+        "end": 586
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.959273636341095,
+        "word": "the Ukrainian mainland",
+        "start": 622,
+        "end": 644
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.4679904580116272,
+        "word": "Ukrainian",
+        "start": 648,
+        "end": 657
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8752194046974182,
+        "word": "CNN",
+        "start": 708,
+        "end": 711
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9630128741264343,
+        "word": "The Ukrainian military",
+        "start": 713,
+        "end": 735
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9300453066825867,
+        "word": "Crimea",
+        "start": 766,
+        "end": 772
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.7976187467575073,
+        "word": "Moscow",
+        "start": 779,
+        "end": 785
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9331777691841125,
+        "word": "Ukrainian ports",
+        "start": 807,
+        "end": 822
+    },
+    {
+        "entity_group": "DocumentReference",
+        "score": 0.5979160666465759,
+        "word": "Black Sea Grain Initiative",
+        "start": 853,
+        "end": 879
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.8908478021621704,
+        "word": "July",
+        "start": 883,
+        "end": 887
+    }
+]

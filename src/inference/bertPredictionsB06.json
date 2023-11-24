@@ -1,343 +1,329 @@
 [
     {
         "entity_group": "Temporal",
-        "score": 0.7273396849632263,
+        "score": 0.6914077997207642,
         "word": "6th of November 2023",
         "start": 7,
         "end": 27
     },
     {
         "entity_group": "Organisation",
-        "score": 0.7450013160705566,
+        "score": 0.7389137744903564,
         "word": "the Danish military",
         "start": 54,
         "end": 73
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.6970676183700562,
+        "score": 0.6613782644271851,
         "word": "special forces",
         "start": 98,
         "end": 112
     },
     {
         "entity_group": "Location",
-        "score": 0.9604900479316711,
+        "score": 0.9594250321388245,
         "word": "Cameroon",
         "start": 147,
         "end": 155
     },
     {
         "entity_group": "Organisation",
-        "score": 0.6165964007377625,
-        "word": "government",
-        "start": 212,
+        "score": 0.9124259948730469,
+        "word": "the government",
+        "start": 208,
         "end": 222
     },
     {
-        "entity_group": "Money",
-        "score": 0.5265080332756042,
-        "word": "million",
-        "start": 257,
-        "end": 264
-    },
-    {
         "entity_group": "MilitaryPlatform",
-        "score": 0.44627442955970764,
+        "score": 0.4712200164794922,
         "word": "weapons",
         "start": 331,
         "end": 338
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.8468863368034363,
+        "score": 0.7175585627555847,
         "word": "soldiers",
         "start": 364,
         "end": 372
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.43234673142433167,
-        "word": "snipers",
-        "start": 401,
-        "end": 407
+        "score": 0.32486581802368164,
+        "word": "weapons",
+        "start": 378,
+        "end": 385
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.5097325444221497,
-        "word": "Saur SIG516 rifle",
+        "score": 0.3592399060726166,
+        "word": "snipers",
+        "start": 401,
+        "end": 408
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5525298714637756,
+        "word": "Saur SIG516 rifles",
         "start": 413,
-        "end": 430
+        "end": 431
     },
     {
         "entity_group": "Location",
-        "score": 0.8447100520133972,
+        "score": 0.8082541227340698,
         "word": "the Adamawa region In",
         "start": 473,
         "end": 494
     },
     {
         "entity_group": "Location",
-        "score": 0.8392691016197205,
+        "score": 0.7252219319343567,
         "word": "Cameroon",
         "start": 495,
         "end": 503
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.5980263948440552,
+        "score": 0.5602604150772095,
         "word": "military forces",
         "start": 543,
         "end": 558
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.7299334406852722,
+        "score": 0.7918841242790222,
         "word": "forces",
         "start": 566,
         "end": 572
     },
     {
+        "entity_group": "Organisation",
+        "score": 0.6779640913009644,
+        "word": "military",
+        "start": 609,
+        "end": 617
+    },
+    {
         "entity_group": "Location",
-        "score": 0.9755929708480835,
+        "score": 0.981264591217041,
         "word": "Cameroon",
         "start": 621,
         "end": 629
     },
     {
         "entity_group": "Location",
-        "score": 0.9751562476158142,
+        "score": 0.8779881596565247,
         "word": "Denmark",
         "start": 668,
         "end": 675
     },
     {
         "entity_group": "Location",
-        "score": 0.9798749089241028,
+        "score": 0.9838877320289612,
         "word": "Cameroon",
         "start": 680,
         "end": 688
     },
     {
         "entity_group": "Location",
-        "score": 0.9852309226989746,
+        "score": 0.9898701310157776,
         "word": "Cameroon",
         "start": 776,
         "end": 784
     },
     {
-        "entity_group": "Money",
-        "score": 0.5915758609771729,
-        "word": "6.5 million",
-        "start": 805,
-        "end": 816
-    },
-    {
         "entity_group": "Person",
-        "score": 0.9705431461334229,
+        "score": 0.9662086963653564,
         "word": "Representative B.S Christiansen",
         "start": 822,
         "end": 853
     },
     {
         "entity_group": "Organisation",
-        "score": 0.710435152053833,
+        "score": 0.7559385299682617,
         "word": "the Jaeger Corps",
         "start": 859,
         "end": 875
     },
     {
         "entity_group": "Location",
-        "score": 0.9266019463539124,
+        "score": 0.9663695693016052,
         "word": "Africa",
         "start": 979,
         "end": 985
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.6035098433494568,
+        "score": 0.6039848327636719,
         "word": "special forces",
         "start": 1074,
         "end": 1088
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.7296848297119141,
-        "word": "forces",
-        "start": 1108,
-        "end": 1114
-    },
-    {
-        "entity_group": "MilitaryPlatform",
-        "score": 0.5626307725906372,
+        "score": 0.5580836534500122,
         "word": "Danish troops",
         "start": 1129,
         "end": 1142
     },
     {
         "entity_group": "Location",
-        "score": 0.8676421046257019,
-        "word": "the Littoral region of Cameroon",
+        "score": 0.9428451061248779,
+        "word": "the",
         "start": 1164,
+        "end": 1167
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.788240909576416,
+        "word": "Littoral region of Cameroon",
+        "start": 1168,
         "end": 1195
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.41036996245384216,
+        "score": 0.4050579071044922,
         "word": "grenades",
         "start": 1242,
         "end": 1250
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.4554186165332794,
+        "score": 0.5629828572273254,
         "word": "rocket launchers",
         "start": 1252,
         "end": 1268
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.5417519807815552,
+        "score": 0.6531771421432495,
         "word": "heavy artillery",
         "start": 1273,
         "end": 1288
     },
     {
-        "entity_group": "Temporal",
-        "score": 0.6118175387382507,
-        "word": "3rd of",
-        "start": 1305,
-        "end": 1311
+        "entity_group": "Organisation",
+        "score": 0.5272964239120483,
+        "word": "ETA",
+        "start": 1294,
+        "end": 1297
     },
     {
         "entity_group": "Temporal",
-        "score": 0.7469095587730408,
-        "word": "December 2023",
-        "start": 1312,
+        "score": 0.6301518678665161,
+        "word": "of December 2023",
+        "start": 1309,
         "end": 1325
     },
     {
         "entity_group": "Organisation",
-        "score": 0.5254477858543396,
+        "score": 0.6933515071868896,
         "word": "The rouge military forces",
         "start": 1377,
         "end": 1402
     },
     {
         "entity_group": "Location",
-        "score": 0.965658962726593,
+        "score": 0.9525726437568665,
         "word": "Cameroon",
         "start": 1406,
         "end": 1414
     },
     {
         "entity_group": "Organisation",
-        "score": 0.7648481130599976,
+        "score": 0.6688522100448608,
         "word": "Red Ribbon Army",
         "start": 1494,
         "end": 1509
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.42725202441215515,
+        "score": 0.3985767364501953,
         "word": "weapons",
         "start": 1539,
         "end": 1546
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.8922238349914551,
+        "score": 0.8728997111320496,
         "word": "soldiers",
         "start": 1567,
         "end": 1575
     },
     {
         "entity_group": "MilitaryPlatform",
-        "score": 0.8663015961647034,
+        "score": 0.8309163451194763,
         "word": "troops",
         "start": 1580,
         "end": 1586
     },
     {
         "entity_group": "Organisation",
-        "score": 0.5610578060150146,
+        "score": 0.6583222150802612,
         "word": "The Danish special forces",
         "start": 1588,
         "end": 1613
     },
     {
         "entity_group": "Organisation",
-        "score": 0.6117956638336182,
-        "word": "the",
+        "score": 0.8210923075675964,
+        "word": "the Danish military",
         "start": 1700,
-        "end": 1703
-    },
-    {
-        "entity_group": "Organisation",
-        "score": 0.6901174783706665,
-        "word": "Danish military",
-        "start": 1704,
         "end": 1719
     },
     {
-        "entity_group": "Organisation",
-        "score": 0.5264630913734436,
-        "word": "party",
-        "start": 1788,
-        "end": 1793
-    },
-    {
         "entity_group": "Location",
-        "score": 0.9439804553985596,
+        "score": 0.9836947917938232,
         "word": "Cameroon",
         "start": 1797,
         "end": 1805
     },
     {
         "entity_group": "Location",
-        "score": 0.9780117273330688,
+        "score": 0.9790270328521729,
         "word": "Denmark",
         "start": 1819,
         "end": 1826
     },
     {
-        "entity_group": "Organisation",
-        "score": 0.5256100296974182,
+        "entity_group": "Person",
+        "score": 0.7598778605461121,
         "word": "Spetznaz",
         "start": 1959,
         "end": 1967
     },
     {
         "entity_group": "Location",
-        "score": 0.9486053586006165,
+        "score": 0.9748873114585876,
         "word": "Denmark",
         "start": 1978,
         "end": 1985
     },
     {
         "entity_group": "Location",
-        "score": 0.9731948971748352,
+        "score": 0.9592090249061584,
         "word": "Cameroon",
         "start": 2045,
         "end": 2053
     },
     {
         "entity_group": "Money",
-        "score": 0.567581295967102,
+        "score": 0.6479465961456299,
         "word": "million USD",
         "start": 2098,
         "end": 2109
     },
     {
         "entity_group": "Location",
-        "score": 0.9761168956756592,
+        "score": 0.9552072286605835,
         "word": "Cameroon",
         "start": 2111,
         "end": 2119
     },
     {
         "entity_group": "Organisation",
-        "score": 0.9555414915084839,
+        "score": 0.9443375468254089,
         "word": "NATO",
         "start": 2130,
         "end": 2134

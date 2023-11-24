@@ -1,0 +1,135 @@
+[
+    {
+        "entity_group": "Location",
+        "score": 0.9174834489822388,
+        "word": "Ukraine",
+        "start": 6,
+        "end": 13
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.829481840133667,
+        "word": "the Black Sea",
+        "start": 39,
+        "end": 52
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.48453909158706665,
+        "word": "Russian naval air defense",
+        "start": 54,
+        "end": 79
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.49981921911239624,
+        "word": "craft",
+        "start": 129,
+        "end": 134
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.7278494238853455,
+        "word": "GUR",
+        "start": 218,
+        "end": 221
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9714416861534119,
+        "word": "the Security and Defense Forces of Ukraine",
+        "start": 319,
+        "end": 361
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.49881529808044434,
+        "word": "air",
+        "start": 379,
+        "end": 382
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.6685979962348938,
+        "word": "Black Sea Fleet",
+        "start": 455,
+        "end": 470
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5819643139839172,
+        "word": "GUR",
+        "start": 479,
+        "end": 482
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9181033372879028,
+        "word": "Kyiv’s",
+        "start": 492,
+        "end": 499
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9857058525085449,
+        "word": "Crimea",
+        "start": 510,
+        "end": 516
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8201979994773865,
+        "word": "Russia",
+        "start": 580,
+        "end": 586
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8688908219337463,
+        "word": "the Ukrainian mainland",
+        "start": 622,
+        "end": 644
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9413875937461853,
+        "word": "CNN",
+        "start": 708,
+        "end": 711
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.9121894240379333,
+        "word": "The Ukrainian military",
+        "start": 713,
+        "end": 735
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9813525080680847,
+        "word": "Crimea",
+        "start": 766,
+        "end": 772
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.958943784236908,
+        "word": "Moscow",
+        "start": 779,
+        "end": 785
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.79428631067276,
+        "word": "Ukrainian ports",
+        "start": 807,
+        "end": 822
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.9038494825363159,
+        "word": "July",
+        "start": 883,
+        "end": 887
+    }
+]

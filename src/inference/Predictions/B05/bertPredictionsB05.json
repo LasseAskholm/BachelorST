@@ -1,0 +1,254 @@
+[
+    {
+        "entity_group": "Temporal",
+        "score": 0.902232825756073,
+        "word": "the 6th of November 2023",
+        "start": 3,
+        "end": 27
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5903139710426331,
+        "word": "the Danish military",
+        "start": 54,
+        "end": 73
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9555423855781555,
+        "word": "Cameroon",
+        "start": 147,
+        "end": 155
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5832052230834961,
+        "word": "the snipers",
+        "start": 397,
+        "end": 408
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6382288932800293,
+        "word": "Saur SIG516 rifles",
+        "start": 413,
+        "end": 431
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.8448846340179443,
+        "word": "the Adamawa region In Cameroon",
+        "start": 473,
+        "end": 503
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.982977032661438,
+        "word": "Cameroon",
+        "start": 621,
+        "end": 629
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9291237592697144,
+        "word": "Denmark",
+        "start": 668,
+        "end": 675
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9765649437904358,
+        "word": "Cameroon",
+        "start": 680,
+        "end": 688
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9720314145088196,
+        "word": "Cameroon",
+        "start": 776,
+        "end": 784
+    },
+    {
+        "entity_group": "Money",
+        "score": 0.5544114708900452,
+        "word": "6.5 million dkk",
+        "start": 805,
+        "end": 821
+    },
+    {
+        "entity_group": "Person",
+        "score": 0.9674420952796936,
+        "word": "Representative B.S Christiansen",
+        "start": 822,
+        "end": 853
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.8265499472618103,
+        "word": "the Jaeger Corps",
+        "start": 859,
+        "end": 875
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9629638195037842,
+        "word": "Africa",
+        "start": 979,
+        "end": 985
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5562037229537964,
+        "word": "forces",
+        "start": 1082,
+        "end": 1088
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6514239311218262,
+        "word": "The Danish troops",
+        "start": 1125,
+        "end": 1142
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.952928900718689,
+        "word": "the Littoral region of Cameroon",
+        "start": 1164,
+        "end": 1195
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5205184817314148,
+        "word": "grenades",
+        "start": 1242,
+        "end": 1250
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.6012346148490906,
+        "word": "rocket launchers",
+        "start": 1252,
+        "end": 1268
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5575441122055054,
+        "word": "heavy artillery",
+        "start": 1273,
+        "end": 1288
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.4313710033893585,
+        "word": "ETA",
+        "start": 1294,
+        "end": 1297
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.5641489028930664,
+        "word": "of",
+        "start": 1309,
+        "end": 1311
+    },
+    {
+        "entity_group": "Temporal",
+        "score": 0.824313223361969,
+        "word": "December 2023",
+        "start": 1312,
+        "end": 1325
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.5976418852806091,
+        "word": "The rouge military forces",
+        "start": 1377,
+        "end": 1402
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.985468327999115,
+        "word": "Cameroon",
+        "start": 1406,
+        "end": 1414
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.7145100831985474,
+        "word": "Red Ribbon Army",
+        "start": 1494,
+        "end": 1509
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.4704691469669342,
+        "word": "The",
+        "start": 1588,
+        "end": 1591
+    },
+    {
+        "entity_group": "MilitaryPlatform",
+        "score": 0.7443161010742188,
+        "word": "Danish special forces",
+        "start": 1592,
+        "end": 1613
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.5919069647789001,
+        "word": "the Danish military",
+        "start": 1700,
+        "end": 1719
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.7205628156661987,
+        "word": "The democratic party of Cameroon",
+        "start": 1773,
+        "end": 1805
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9210534691810608,
+        "word": "Denmark",
+        "start": 1819,
+        "end": 1826
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.37212812900543213,
+        "word": "Spetnaz",
+        "start": 1959,
+        "end": 1967
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.938086748123169,
+        "word": "Denmark",
+        "start": 1978,
+        "end": 1985
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9868396520614624,
+        "word": "Cameroon",
+        "start": 2045,
+        "end": 2053
+    },
+    {
+        "entity_group": "Location",
+        "score": 0.9283480644226074,
+        "word": "Cameroon",
+        "start": 2111,
+        "end": 2119
+    },
+    {
+        "entity_group": "Organisation",
+        "score": 0.6937798261642456,
+        "word": "NATO",
+        "start": 2130,
+        "end": 2134
+    }
+]

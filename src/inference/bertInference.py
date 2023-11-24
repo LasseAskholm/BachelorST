@@ -2,12 +2,13 @@ import requests
 import json
 import pandas as pd
 
-API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
+API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B06"
 headers = {"Authorization": "Bearer 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"}
 
 def query(payload):
-	response = requests.post(API_URL, headers=headers, json={"inputs": payload, "options":{"wait_for_model":True}})
-	return response.json()
+    print(headers)
+    response = requests.post(API_URL, headers=headers, json={"inputs": payload, "options":{"wait_for_model":True}})
+    return response.json()
 
 def getValData(path):
     with open (path, "r", encoding='utf-8') as f:
@@ -82,7 +83,7 @@ def main():
     path = "../../data/selv-labeled-data/ValData/ukraine_val_text2.txt"
     data = getValData(path)
     predictions = query(data)
-    jsonDump_pred("./bertPredictionsUV2.json",predictions)
+    jsonDump_pred("./bertPredictionsB06V2.json",predictions)
     
 if __name__ == '__main__':
     main()

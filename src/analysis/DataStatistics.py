@@ -121,12 +121,7 @@ def calc_metrics(matrix, total):
   arr = np.array([[TP,TN],[FP,FN]],
                  dtype=np.int64)
   return arr
-  
-  
-  
-  
-  
-  
+
 
 def stats ():
   correctLabels = create_correct_labels_map()
