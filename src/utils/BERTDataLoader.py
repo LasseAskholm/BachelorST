@@ -51,6 +51,40 @@ def map_entities(entities_dict, dirPath, reducedLabels):
         return df_word_merged, df_sentence_merged
     else:
         return df_word, df_sentence
+    
+def map_entities_seperate(entities_dict, dirPath, reducedLabels):
+    '''
+    Function to generate a word/label dataframe and sentence/label dataframe. 
+    Includes both json and conll data. 
+    '''
+    # Initialize lists to store words and labels
+    words = []
+    labels = []
+    
+    for document_path in glob.glob(dirPath):
+        # Read the document JSON
+        with open(document_path, 'r', encoding = "utf-8") as doc_file:
+            document_data = [json.loads(line) for line in doc_file]
+
+        words_temp, labels_temp = construct_ner_tags_from_document(document_data, entities_dict, reducedLabels)    
+        # Appends the temp dicts to the final dicts
+        words += words_temp
+        labels += labels_temp
+
+    df_word = pd.DataFrame({"text": words, "ner_tags": labels})
+
+    df_sentence = construct_sentence_from_words_dict(words, labels)
+    if COMMON_BERT_ENABLE_ADDITIONAL_DATA:
+        df_word_self_labeled_data, df_sentence_self_labeled_data = load_data_from_conll(COMMON_BERT_SELF_LABELED_DATA)
+        if not COMMON_RUN_WITH_DSTL:
+            return df_word_self_labeled_data, df_sentence_self_labeled_data
+        
+        df_word_merged = pd.concat([df_word, df_word_self_labeled_data], ignore_index=True, sort=False)
+        df_sentence_merged = pd.concat([df_sentence, df_sentence_self_labeled_data], ignore_index=True, sort=False)
+
+        return df_word, df_word_self_labeled_data
+    else:
+        return df_word, df_sentence
 
 def construct_ner_tags_from_document(document_data, entities_dict, reducedLabels):
     '''
