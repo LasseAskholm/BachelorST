@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 
-API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B06"
+API_URL = "https://api-inference.huggingface.co/models/LazzeKappa/BERT_B07"
 headers = {"Authorization": "Bearer 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"}
 
 def query(payload):
@@ -80,10 +80,10 @@ def getPredictions(preds,data):
     return pd.DataFrame({"words": words, "ner_tags": labels})    
 
 def main():
-    path = "../../data/selv-labeled-data/ValData/ukraine_val_text2.txt"
+    path = "../../data/selv-labeled-data/ValData/ValGEN.txt"
     data = getValData(path)
     predictions = query(data)
-    jsonDump_pred("./bertPredictionsB06V2.json",predictions)
+    jsonDump_pred("./bertPredictionsB07.json",predictions)
     
 if __name__ == '__main__':
     main()
