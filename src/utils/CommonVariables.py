@@ -14,14 +14,14 @@ COMMON VARIABLES
 COMMON_HUGGINGFACE_ACCESS_TOKEN = "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"
 COMMON_HUGGINGFACE_WRITE_TOKEN = "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"
 COMMON_SKIPPED_LABELES = ["DocumentReference", "Nationality", "Quantity", "CommsIdentifier", "Coordinate", "Frequency"]
-COMMON_DSTL_ENTITIES = "../../data/re3d-master/*/entities_cleaned_sorted_and_filtered.json"
-COMMON_DSTL_DOCUMENTS = "../../data/re3d-master/*/documents.json"
-COMMON_RUN_WITH_DSTL = False
+COMMON_DSTL_ENTITIES = "../data/re3d-master/*/entities_cleaned_sorted.json"
+COMMON_DSTL_DOCUMENTS = "../data/re3d-master/*/documents.json"
+COMMON_RUN_WITH_DSTL = True
 
 '''
 COMMON VARIABLES FOR BERT
 '''
-COMMON_BERT_SELF_LABELED_DATA = "../../data/selv-labeled-data/B07/SelfLabeledDataB07.conll"
+COMMON_BERT_SELF_LABELED_DATA = "../data/selv-labeled-data/B04/selfLabeledDataFilteredB04.conll"
 COMMON_BERT_MODEL_NAME = "distilbert-base-multilingual-cased"
 COMMON_BERT_LABELS = "../../resources/labelsReduced.txt"
 COMMON_BERT_RAW_LABELS= "../../resources/raw_labels_reduced.txt"
