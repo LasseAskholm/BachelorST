@@ -118,7 +118,7 @@ def calc_metrics(matrix, total):
     
   FP = total - TP - TN - FN
   
-  arr = np.array([[TP,TN],[FP,FN]],
+  arr = np.array([[TP,FP],[FN,TN]],
                  dtype=np.int64)
   return arr
 
